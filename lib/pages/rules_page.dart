@@ -92,6 +92,7 @@ class RulesPageState extends State<RulesPage> {
                   'Rearrange',
                   'Transliterate',
                   'Truncate',
+                  'AI Rename',
                 ],
                 tToStr: (obj) => {
                   'Replace': L10n.current.replace,
@@ -101,6 +102,7 @@ class RulesPageState extends State<RulesPage> {
                   'Rearrange': L10n.current.rearrange,
                   'Transliterate': L10n.current.transliterate,
                   'Truncate': L10n.current.truncate,
+                  'AI Rename': 'AI Rename',
                 }[obj]!,
                 semanticsAppendix: L10n.current.semanticsRuleDropdownButton,
               ),

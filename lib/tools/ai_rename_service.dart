@@ -7,7 +7,7 @@ class AiRenameService {
   // OpenAI 配置（硬编码）
   static const String _apiKey =
       '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';
-  static const String _model = 'openai/gpt-4o-mini';
+  static const String _model = 'google/gemini-2.5-flash';
   static const String _baseUrl = 'https://openrouter.ai/api/v1';
 
   /// 调用 AI 进行批量重命名
