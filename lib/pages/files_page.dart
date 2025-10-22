@@ -42,6 +42,8 @@ final List<FileSystemEntity> _files = [];
 
 class FilesPageState extends State<FilesPage> {
   bool _dragging = false;
+
+  List<FileSystemEntity> get files => _files;
   String _filter = '';
 
   Future<void> addFileFromPicker() async {

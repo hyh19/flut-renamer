@@ -12,6 +12,7 @@ import '../entity/sharedpref.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
 import '../tools/file_metadata.dart';
+import '../tools/ex_file.dart';
 import '../tools/responsive.dart';
 import '../widget/custom_dialog.dart';
 import 'rules_page.dart';
@@ -49,6 +50,14 @@ class HomePage extends StatelessWidget {
       key: rulesKey,
       onRuleChanged: () {
         filesKey.currentState?.update();
+      },
+      getSelectedFiles: () {
+        // 获取当前选中的文件列表
+        final files = filesKey.currentState?.files ?? [];
+        return files
+            .where((file) => file.selected)
+            .map((file) => file.name)
+            .toList();
       },
     );
 
