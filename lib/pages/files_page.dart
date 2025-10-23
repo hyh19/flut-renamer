@@ -187,15 +187,18 @@ class FilesPageState extends State<FilesPage> {
   }
 
   Widget getRowText(String text, String? error) {
-    final textWidget = Text(
-      text,
-      semanticsLabel: text.toFilenameSemanticLabel(),
-      style: TextStyle(
-        fontSize: Platform.isAndroid ? 12 : 16,
-        color: error != null ? Colors.red : null,
+    final textWidget = Padding(
+      padding: const EdgeInsets.only(left: 16),
+      child: Text(
+        text,
+        semanticsLabel: text.toFilenameSemanticLabel(),
+        style: TextStyle(
+          fontSize: Platform.isAndroid ? 12 : 16,
+          color: error != null ? Colors.red : null,
+        ),
+        maxLines: 3,
+        overflow: TextOverflow.ellipsis,
       ),
-      maxLines: 3,
-      overflow: TextOverflow.ellipsis,
     );
 
     if (error == null) {
@@ -277,12 +280,14 @@ class FilesPageState extends State<FilesPage> {
             //   ),
             // ),
             TableCell(
-              child: Center(
+              child: Padding(
+                padding: const EdgeInsets.only(left: 16),
                 child: Text(L10n.current.currentName),
               ),
             ),
             TableCell(
-              child: Center(
+              child: Padding(
+                padding: const EdgeInsets.only(left: 16),
                 child: Text(L10n.current.newName),
               ),
             ),
@@ -305,10 +310,13 @@ class FilesPageState extends State<FilesPage> {
 
   Widget _table(List<TableRow> children) => Table(
         columnWidths: const <int, TableColumnWidth>{
-          0: IntrinsicColumnWidth(),
-          1: FlexColumnWidth(1.2),
-          2: FlexColumnWidth(1.5),
-          3: IntrinsicColumnWidth(),
+          // 0: IntrinsicColumnWidth(),
+          // 1: FlexColumnWidth(1.2),
+          // 2: FlexColumnWidth(1.5),
+          // 3: IntrinsicColumnWidth(),
+          0: FlexColumnWidth(1),
+          1: FlexColumnWidth(1),
+          2: IntrinsicColumnWidth(),
         },
         defaultVerticalAlignment: TableCellVerticalAlignment.middle,
         border: TableBorder.all(width: 24, color: Colors.transparent),
@@ -318,10 +326,9 @@ class FilesPageState extends State<FilesPage> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.all(16),
           child: Row(
             children: <Widget>[
               // CustomDrop<String>(
@@ -356,7 +363,7 @@ class FilesPageState extends State<FilesPage> {
                 onPressed: addFileFromPicker,
                 child: Text(L10n.current.addFile),
               ),
-              const SizedBox(width: 8),
+              const SizedBox(width: 16),
               ElevatedButton(
                 onPressed: renameFiles,
                 child: Text(L10n.current.rename),
@@ -364,7 +371,6 @@ class FilesPageState extends State<FilesPage> {
             ],
           ),
         ),
-        const SizedBox(height: 16),
         _table(_headerRow()),
         Expanded(
           child: DropTarget(

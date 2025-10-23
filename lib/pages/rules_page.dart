@@ -127,9 +127,8 @@ class RulesPageState extends State<RulesPage> {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               CustomDrop<String>(
                 value: currentRuleName,
@@ -150,10 +149,12 @@ class RulesPageState extends State<RulesPage> {
                 }[obj]!,
                 semanticsAppendix: L10n.current.semanticsRuleDropdownButton,
               ),
+              const SizedBox(width: 16),
               ElevatedButton(
                 onPressed: showRuleDialog,
                 child: Text(L10n.current.addRule),
               ),
+              const SizedBox(width: 16),
               ElevatedButton(
                 onPressed: () {
                   setState(() {
@@ -166,7 +167,6 @@ class RulesPageState extends State<RulesPage> {
             ],
           ),
         ),
-        const SizedBox(height: 16),
         if (_rules.isEmpty)
           Expanded(
             child: Center(
@@ -266,13 +266,12 @@ class _AiRenameContentState extends State<AiRenameContent> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.all(16),
           child: Text(
             'AI 重命名',
             style: Theme.of(context).textTheme.headlineSmall,
           ),
         ),
-        const SizedBox(height: 16),
         Expanded(
           child: SingleChildScrollView(
             padding: const EdgeInsets.symmetric(horizontal: 16),
