@@ -218,18 +218,18 @@ class FilesPageState extends State<FilesPage> {
           color: index % 2 == 0 ? fileListColors.primaryColor : fileListColors.secondaryColor,
         ),
         children: [
-          TableCell(
-            child: Checkbox(
-              value: filteredList[index].selected,
-              onChanged: (val) {
-                if (val != null) {
-                  setState(() {
-                    filteredList[index].selected = val;
-                  });
-                }
-              },
-            ),
-          ),
+          // TableCell(
+          //   child: Checkbox(
+          //     value: filteredList[index].selected,
+          //     onChanged: (val) {
+          //       if (val != null) {
+          //         setState(() {
+          //           filteredList[index].selected = val;
+          //         });
+          //       }
+          //     },
+          //   ),
+          // ),
           _rowTextCell(filteredList[index]),
           _rowTextCell(filteredList[index], isNew: true),
           TableCell(
@@ -255,27 +255,27 @@ class FilesPageState extends State<FilesPage> {
             color: Theme.of(context).scaffoldBackgroundColor,
           ),
           children: [
-            TableCell(
-              child: Tooltip(
-                message: _files.isNotEmpty && _files.every((element) => element.selected)
-                    ? L10n.current.cancelAll
-                    : L10n.current.selectAll,
-                child: Checkbox(
-                  value: _files.isNotEmpty && _files.every((element) => element.selected),
-                  onChanged: (_) {
-                    setState(() {
-                      if (_files.every((element) => element.selected)) {
-                        ExFile.clearSelections();
-                      } else {
-                        for (var element in _files) {
-                          element.selected = true;
-                        }
-                      }
-                    });
-                  },
-                ),
-              ),
-            ),
+            // TableCell(
+            //   child: Tooltip(
+            //     message: _files.isNotEmpty && _files.every((element) => element.selected)
+            //         ? L10n.current.cancelAll
+            //         : L10n.current.selectAll,
+            //     child: Checkbox(
+            //       value: _files.isNotEmpty && _files.every((element) => element.selected),
+            //       onChanged: (_) {
+            //         setState(() {
+            //           if (_files.every((element) => element.selected)) {
+            //             ExFile.clearSelections();
+            //           } else {
+            //             for (var element in _files) {
+            //               element.selected = true;
+            //             }
+            //           }
+            //         });
+            //       },
+            //     ),
+            //   ),
+            // ),
             TableCell(
               child: Center(
                 child: Text(L10n.current.currentName),
@@ -324,34 +324,34 @@ class FilesPageState extends State<FilesPage> {
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Row(
             children: <Widget>[
-              CustomDrop<String>(
-                value: Shared.fileOrDir,
-                onChanged: (String? newValue) {
-                  setState(() {
-                    Shared.fileOrDir = newValue!;
-                  });
-                },
-                items: const <String>['Files', 'Directories', 'Files & Dirs'],
-                tToStr: (obj) => {
-                  'Files': L10n.current.files,
-                  'Directories': L10n.current.directories,
-                  'Files & Dirs': L10n.current.filesDirs,
-                }[obj]!,
-                semanticsAppendix: L10n.current.semanticsFilesDropdownButton,
-              ),
-              Expanded(
-                child: TextField(
-                  decoration: InputDecoration(
-                    hintText: L10n.current.filter,
-                  ),
-                  onChanged: (val) {
-                    setState(() {
-                      _filter = val;
-                    });
-                  },
-                ),
-              ),
-              box,
+              // CustomDrop<String>(
+              //   value: Shared.fileOrDir,
+              //   onChanged: (String? newValue) {
+              //     setState(() {
+              //       Shared.fileOrDir = newValue!;
+              //     });
+              //   },
+              //   items: const <String>['Files', 'Directories', 'Files & Dirs'],
+              //   tToStr: (obj) => {
+              //     'Files': L10n.current.files,
+              //     'Directories': L10n.current.directories,
+              //     'Files & Dirs': L10n.current.filesDirs,
+              //   }[obj]!,
+              //   semanticsAppendix: L10n.current.semanticsFilesDropdownButton,
+              // ),
+              // Expanded(
+              //   child: TextField(
+              //     decoration: InputDecoration(
+              //       hintText: L10n.current.filter,
+              //     ),
+              //     onChanged: (val) {
+              //       setState(() {
+              //         _filter = val;
+              //       });
+              //     },
+              //   ),
+              // ),
+              // box,
               ElevatedButton(
                 onPressed: addFileFromPicker,
                 child: Text(L10n.current.addFile),
