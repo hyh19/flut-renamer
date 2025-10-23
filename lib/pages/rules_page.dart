@@ -49,8 +49,6 @@ class RulesPageState extends State<RulesPage> {
 
   void showRuleDialog() {
     switch (Shared.ruleName) {
-      case 'AI Rename':
-        showAiRenameDialog(context, addRule, widget.getSelectedFiles());
       case 'Replace':
         showReplaceDialog(context, addRule);
       case 'Remove':
@@ -59,17 +57,38 @@ class RulesPageState extends State<RulesPage> {
         showInsertDialog(context, addRule);
       case 'Increment':
         showIncrementDialog(context, addRule);
-      case 'Rearrange':
-        showRearrangeDialog(context, addRule);
-      case 'Transliterate':
-        showTransliterateDialog(context, addRule);
+      // case 'Rearrange':
+      //   showRearrangeDialog(context, addRule);
+      // case 'Transliterate':
+      //   showTransliterateDialog(context, addRule);
       case 'Truncate':
         showTruncateDialog(context, addRule);
+      case 'AI Rename':
+        showAiRenameDialog(context, addRule, widget.getSelectedFiles());
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    // 定义可用的规则名称列表
+    const List<String> availableRuleNames = [
+      'Replace',
+      'Remove',
+      'Insert',
+      'Increment',
+      // 'Rearrange',
+      // 'Transliterate',
+      'Truncate',
+      'AI Rename',
+    ];
+
+    // 确保 Shared.ruleName 在可用列表中，如果不在则使用第一个值
+    String currentRuleName = Shared.ruleName;
+    if (!availableRuleNames.contains(currentRuleName)) {
+      currentRuleName = availableRuleNames.first;
+      Shared.ruleName = currentRuleName;
+    }
+
     return Column(
       children: [
         Padding(
@@ -78,29 +97,20 @@ class RulesPageState extends State<RulesPage> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               CustomDrop<String>(
-                value: Shared.ruleName,
+                value: currentRuleName,
                 onChanged: (String? newValue) {
                   setState(() {
                     Shared.ruleName = newValue!;
                   });
                 },
-                items: const <String>[
-                  'Replace',
-                  'Remove',
-                  'Insert',
-                  'Increment',
-                  'Rearrange',
-                  'Transliterate',
-                  'Truncate',
-                  'AI Rename',
-                ],
+                items: availableRuleNames,
                 tToStr: (obj) => {
                   'Replace': L10n.current.replace,
                   'Remove': L10n.current.remove,
                   'Insert': L10n.current.insert,
                   'Increment': L10n.current.increment,
-                  'Rearrange': L10n.current.rearrange,
-                  'Transliterate': L10n.current.transliterate,
+                  // 'Rearrange': L10n.current.rearrange,
+                  // 'Transliterate': L10n.current.transliterate,
                   'Truncate': L10n.current.truncate,
                   'AI Rename': 'AI Rename',
                 }[obj]!,
