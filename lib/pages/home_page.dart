@@ -62,14 +62,14 @@ class HomePage extends StatelessWidget {
     );
 
     return Scaffold(
-      bottomNavigationBar: HomeToolBar(
-        onlySelectedCallback: (value) => Shared.onlySelected = value,
-        onlySelectedValue: () => Shared.onlySelected,
-        removeRenamedCallback: (value) => Shared.removeRenamed = value,
-        removeRenamedValue: () => Shared.removeRenamed,
-        removeRulesCallback: (value) => Shared.removeRules = value,
-        removeRulesValue: () => Shared.removeRules,
-      ),
+      // bottomNavigationBar: HomeToolBar(
+      //   onlySelectedCallback: (value) => Shared.onlySelected = value,
+      //   onlySelectedValue: () => Shared.onlySelected,
+      //   removeRenamedCallback: (value) => Shared.removeRenamed = value,
+      //   removeRenamedValue: () => Shared.removeRenamed,
+      //   removeRulesCallback: (value) => Shared.removeRules = value,
+      //   removeRulesValue: () => Shared.removeRules,
+      // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           filesKey.currentState?.renameFiles(
