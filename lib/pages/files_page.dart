@@ -440,7 +440,7 @@ class FilesPageState extends State<FilesPage> {
   }
 
   Future<void> renameFiles({
-    bool remove = true,
+    bool remove = false,
     bool onlySelected = false,
   }) async {
     final List<Future> futures = [];
