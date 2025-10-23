@@ -5,7 +5,6 @@ import '../dialogs/truncate_dialog.dart';
 import '../dialogs/remove_dialog.dart';
 import '../dialogs/replace_dialog.dart';
 import '../dialogs/insert_dialog.dart';
-import '../entity/constants.dart';
 import '../entity/sharedpref.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
@@ -288,18 +287,19 @@ class _AiRenameContentState extends State<AiRenameContent> {
                   '• "按拍摄时间重新编号"',
                   style: const TextStyle(fontSize: 13),
                 ),
-                box,
+                const SizedBox(height: 20),
                 TextFormField(
                   controller: requirementsController,
-                  maxLines: 4,
+                  maxLines: 6,
                   decoration: const InputDecoration(
                     labelText: '重命名需求描述',
                     hintText: '请详细描述您希望如何重命名这些文件...',
                     border: OutlineInputBorder(),
+                    alignLabelWithHint: true,
                   ),
                 ),
                 if (isLoading) ...[
-                  box,
+                  const SizedBox(height: 24),
                   const Center(
                     child: Column(
                       children: [
@@ -317,10 +317,10 @@ class _AiRenameContentState extends State<AiRenameContent> {
         Padding(
           padding: const EdgeInsets.all(16),
           child: Align(
-            alignment: Alignment.centerRight,
+            alignment: Alignment.center,
             child: ElevatedButton(
               onPressed: isLoading ? null : handleConfirm,
-              child: Text(L10n.current.save),
+              child: Text('提交'),
             ),
           ),
         ),

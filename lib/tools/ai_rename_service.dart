@@ -6,7 +6,7 @@ import 'package:yaml/yaml.dart';
 class AiRenameService {
   // OpenAI 配置（硬编码）
   static const String _apiKey =
-      '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';
+      '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';
   static const String _model = 'google/gemini-2.5-flash';
   static const String _baseUrl = 'https://openrouter.ai/api/v1';
 

@@ -34,7 +34,7 @@ extension ExFile on FileSystemEntity {
   String get directory => p.dirname(path);
 
   static final ExtFieldHandler<bool> _selectionHandler = ExtFieldHandler();
-  bool get selected => _selectionHandler.getValue(path) ?? false;
+  bool get selected => true; // _selectionHandler.getValue(path) ?? false;
   set selected(bool? val) => _selectionHandler.setValue(path, val);
   static void clearSelections() => _selectionHandler.clearValues();
 
