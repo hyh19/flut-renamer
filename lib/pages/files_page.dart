@@ -356,6 +356,11 @@ class FilesPageState extends State<FilesPage> {
                 onPressed: addFileFromPicker,
                 child: Text(L10n.current.addFile),
               ),
+              const SizedBox(width: 8),
+              ElevatedButton(
+                onPressed: renameFiles,
+                child: Text(L10n.current.rename),
+              ),
             ],
           ),
         ),
