@@ -91,59 +91,20 @@ class RulesPageState extends State<RulesPage> {
     }
   }
 
-  Widget _buildAiRenameView() {
-    return Column(
-      children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: Row(
-            children: [
-              ElevatedButton(
-                onPressed: () {
-                  setState(() {
-                    _isAiRenameMode = false;
-                  });
-                },
-                child: const Text('返回'),
-              ),
-              const SizedBox(width: 16),
-              Text(
-                'AI 重命名',
-                style: Theme.of(context).textTheme.headlineSmall,
-              ),
-            ],
-          ),
-        ),
-        const SizedBox(height: 16),
-        Expanded(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: AiRenameContent(
-              onSave: (rule) {
-                setState(() {
-                  _aiRule = rule;
-                });
-                widget.onRuleChanged.call();
-              },
-              fileList: widget.getSelectedFiles(),
-              rule: _aiRule as RuleAiRename?,
-              onCancel: () {
-                setState(() {
-                  _isAiRenameMode = false;
-                });
-              },
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     // 如果处于 AI 重命名模式，返回 AI 重命名界面
     if (_isAiRenameMode) {
-      return _buildAiRenameView();
+      return AiRenameContent(
+        onSave: (rule) {
+          setState(() {
+            _aiRule = rule;
+          });
+          widget.onRuleChanged.call();
+        },
+        fileList: widget.getSelectedFiles(),
+        rule: _aiRule as RuleAiRename?,
+      );
     }
 
     // 定义可用的规则名称列表
@@ -278,13 +239,11 @@ class AiRenameContent extends StatefulWidget {
     required this.onSave,
     required this.fileList,
     this.rule,
-    this.onCancel,
   });
 
   final Function(Rule) onSave;
   final List<String> fileList;
   final RuleAiRename? rule;
-  final VoidCallback? onCancel;
 
   @override
   State<AiRenameContent> createState() => _AiRenameContentState();
@@ -304,42 +263,68 @@ class _AiRenameContentState extends State<AiRenameContent> {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Text(
-            '请描述您希望如何重命名这些文件。例如：\n'
-            '• "将所有文件重命名为 vacation_beach_1, vacation_beach_2..."\n'
-            '• "添加日期前缀 2024-01-15_"\n'
-            '• "将 IMG 替换为 Photo"\n'
-            '• "按拍摄时间重新编号"',
-            style: const TextStyle(fontSize: 13),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Text(
+            'AI 重命名',
+            style: Theme.of(context).textTheme.headlineSmall,
           ),
-          box,
-          TextFormField(
-            controller: requirementsController,
-            maxLines: 4,
-            decoration: const InputDecoration(
-              labelText: '重命名需求描述',
-              hintText: '请详细描述您希望如何重命名这些文件...',
-              border: OutlineInputBorder(),
-            ),
-          ),
-          if (isLoading) ...[
-            box,
-            const Center(
-              child: Column(
-                children: [
-                  CircularProgressIndicator(),
-                  SizedBox(height: 8),
-                  Text('AI 正在分析您的需求，请稍候...'),
+        ),
+        const SizedBox(height: 16),
+        Expanded(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  '请描述您希望如何重命名这些文件。例如：\n'
+                  '• "将所有文件重命名为 vacation_beach_1, vacation_beach_2..."\n'
+                  '• "添加日期前缀 2024-01-15_"\n'
+                  '• "将 IMG 替换为 Photo"\n'
+                  '• "按拍摄时间重新编号"',
+                  style: const TextStyle(fontSize: 13),
+                ),
+                box,
+                TextFormField(
+                  controller: requirementsController,
+                  maxLines: 4,
+                  decoration: const InputDecoration(
+                    labelText: '重命名需求描述',
+                    hintText: '请详细描述您希望如何重命名这些文件...',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                if (isLoading) ...[
+                  box,
+                  const Center(
+                    child: Column(
+                      children: [
+                        CircularProgressIndicator(),
+                        SizedBox(height: 8),
+                        Text('AI 正在分析您的需求，请稍候...'),
+                      ],
+                    ),
+                  ),
                 ],
-              ),
+              ],
             ),
-          ],
-        ],
-      ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(16),
+          child: Align(
+            alignment: Alignment.centerRight,
+            child: ElevatedButton(
+              onPressed: isLoading ? null : handleConfirm,
+              child: Text(L10n.current.save),
+            ),
+          ),
+        ),
+      ],
     );
   }
 
@@ -398,12 +383,6 @@ class _AiRenameContentState extends State<AiRenameContent> {
       setState(() {
         isLoading = false;
       });
-    }
-  }
-
-  void handleCancel() {
-    if (widget.onCancel != null) {
-      widget.onCancel!();
     }
   }
 }
