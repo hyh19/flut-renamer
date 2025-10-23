@@ -155,6 +155,7 @@ class FilesPageState extends State<FilesPage> {
   }
 
   List<FileSystemEntity> _filteredList() {
+    _files.sort((a, b) => a.name.compareTo(b.name));
     return _files
         .where(
           (element) =>
