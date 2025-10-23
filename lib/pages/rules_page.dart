@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
-import '../dialogs/ai_rename_dialog.dart';
-import '../dialogs/transliterate_dialog.dart';
 import '../dialogs/increment_dialog.dart';
 import '../dialogs/truncate_dialog.dart';
-import '../dialogs/rearrange_dialog.dart';
 import '../dialogs/remove_dialog.dart';
 import '../dialogs/replace_dialog.dart';
 import '../dialogs/insert_dialog.dart';
+import '../entity/constants.dart';
 import '../entity/sharedpref.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
+import '../tools/ai_rename_service.dart';
 import '../widget/custom_drop.dart';
 
 class RulesPage extends StatefulWidget {
@@ -18,10 +17,12 @@ class RulesPage extends StatefulWidget {
     super.key,
     required this.onRuleChanged,
     required this.getSelectedFiles,
+    required this.isAiMode,
   });
 
   final VoidCallback onRuleChanged;
   final List<String> Function() getSelectedFiles;
+  final bool isAiMode;
 
   @override
   State<RulesPage> createState() => RulesPageState();
@@ -30,7 +31,31 @@ class RulesPage extends StatefulWidget {
 final List<Rule> _rules = [];
 
 class RulesPageState extends State<RulesPage> {
-  List<Rule> get rules => _rules;
+  bool _isAiRenameMode = false;
+  Rule? _aiRule;
+
+  @override
+  void initState() {
+    super.initState();
+    _isAiRenameMode = widget.isAiMode;
+  }
+
+  @override
+  void didUpdateWidget(RulesPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.isAiMode != widget.isAiMode) {
+      setState(() {
+        _isAiRenameMode = widget.isAiMode;
+      });
+    }
+  }
+
+  List<Rule> get rules {
+    if (_isAiRenameMode && _aiRule != null) {
+      return [_aiRule!];
+    }
+    return _rules;
+  }
 
   void clearRule() {
     if (Shared.removeRules) {
@@ -63,13 +88,64 @@ class RulesPageState extends State<RulesPage> {
       //   showTransliterateDialog(context, addRule);
       case 'Truncate':
         showTruncateDialog(context, addRule);
-      case 'AI Rename':
-        showAiRenameDialog(context, addRule, widget.getSelectedFiles());
     }
+  }
+
+  Widget _buildAiRenameView() {
+    return Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Row(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  setState(() {
+                    _isAiRenameMode = false;
+                  });
+                },
+                child: const Text('返回'),
+              ),
+              const SizedBox(width: 16),
+              Text(
+                'AI 重命名',
+                style: Theme.of(context).textTheme.headlineSmall,
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 16),
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: AiRenameContent(
+              onSave: (rule) {
+                setState(() {
+                  _aiRule = rule;
+                });
+                widget.onRuleChanged.call();
+              },
+              fileList: widget.getSelectedFiles(),
+              rule: _aiRule as RuleAiRename?,
+              onCancel: () {
+                setState(() {
+                  _isAiRenameMode = false;
+                });
+              },
+            ),
+          ),
+        ),
+      ],
+    );
   }
 
   @override
   Widget build(BuildContext context) {
+    // 如果处于 AI 重命名模式，返回 AI 重命名界面
+    if (_isAiRenameMode) {
+      return _buildAiRenameView();
+    }
+
     // 定义可用的规则名称列表
     const List<String> availableRuleNames = [
       'Replace',
@@ -79,7 +155,6 @@ class RulesPageState extends State<RulesPage> {
       // 'Rearrange',
       // 'Transliterate',
       'Truncate',
-      'AI Rename',
     ];
 
     // 确保 Shared.ruleName 在可用列表中，如果不在则使用第一个值
@@ -112,7 +187,6 @@ class RulesPageState extends State<RulesPage> {
                   // 'Rearrange': L10n.current.rearrange,
                   // 'Transliterate': L10n.current.transliterate,
                   'Truncate': L10n.current.truncate,
-                  'AI Rename': 'AI Rename',
                 }[obj]!,
                 semanticsAppendix: L10n.current.semanticsRuleDropdownButton,
               ),
@@ -195,5 +269,141 @@ class RulesPageState extends State<RulesPage> {
           ),
       ],
     );
+  }
+}
+
+class AiRenameContent extends StatefulWidget {
+  const AiRenameContent({
+    super.key,
+    required this.onSave,
+    required this.fileList,
+    this.rule,
+    this.onCancel,
+  });
+
+  final Function(Rule) onSave;
+  final List<String> fileList;
+  final RuleAiRename? rule;
+  final VoidCallback? onCancel;
+
+  @override
+  State<AiRenameContent> createState() => _AiRenameContentState();
+}
+
+class _AiRenameContentState extends State<AiRenameContent> {
+  TextEditingController requirementsController = TextEditingController();
+  bool isLoading = false;
+
+  @override
+  void initState() {
+    if (widget.rule != null) {
+      requirementsController.text = widget.rule!.userRequirements;
+    }
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            '请描述您希望如何重命名这些文件。例如：\n'
+            '• "将所有文件重命名为 vacation_beach_1, vacation_beach_2..."\n'
+            '• "添加日期前缀 2024-01-15_"\n'
+            '• "将 IMG 替换为 Photo"\n'
+            '• "按拍摄时间重新编号"',
+            style: const TextStyle(fontSize: 13),
+          ),
+          box,
+          TextFormField(
+            controller: requirementsController,
+            maxLines: 4,
+            decoration: const InputDecoration(
+              labelText: '重命名需求描述',
+              hintText: '请详细描述您希望如何重命名这些文件...',
+              border: OutlineInputBorder(),
+            ),
+          ),
+          if (isLoading) ...[
+            box,
+            const Center(
+              child: Column(
+                children: [
+                  CircularProgressIndicator(),
+                  SizedBox(height: 8),
+                  Text('AI 正在分析您的需求，请稍候...'),
+                ],
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Future<void> handleConfirm() async {
+    final requirements = requirementsController.text.trim();
+    if (requirements.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('请输入重命名需求描述')),
+      );
+      return;
+    }
+
+    if (widget.fileList.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('没有选中的文件')),
+      );
+      return;
+    }
+
+    setState(() {
+      isLoading = true;
+    });
+
+    try {
+      // 调用 AI 重命名服务
+      final renameMap = await AiRenameService.callAiRename(
+        widget.fileList,
+        requirements,
+      );
+
+      // 创建 AI 重命名规则
+      final rule = RuleAiRename(requirements, renameMap);
+
+      // 保存规则
+      widget.onSave.call(rule);
+
+      // 显示成功提示
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('AI 重命名规则已创建，将重命名 ${renameMap.length} 个文件'),
+          ),
+        );
+      }
+    } catch (e) {
+      // 显示错误提示
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('AI 重命名失败: $e'),
+            backgroundColor: Colors.red,
+          ),
+        );
+      }
+    } finally {
+      setState(() {
+        isLoading = false;
+      });
+    }
+  }
+
+  void handleCancel() {
+    if (widget.onCancel != null) {
+      widget.onCancel!();
+    }
   }
 }

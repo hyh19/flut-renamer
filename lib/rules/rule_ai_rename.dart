@@ -26,9 +26,5 @@ class RuleAiRename implements Rule {
   }
 
   @override
-  void openDialog(BuildContext context, Function(Rule rule) onSave) {
-    // 对于编辑现有规则，我们需要传递当前的文件列表
-    // 这里暂时使用空列表，因为编辑时通常不需要重新调用 AI
-    showAiRenameDialog(context, onSave, [], this);
-  }
+  void openDialog(BuildContext context, Function(Rule rule) onSave) {}
 }
