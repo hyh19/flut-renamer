@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../dialogs/ai_rename_dialog.dart';
 import '../dialogs/transliterate_dialog.dart';
 import '../dialogs/increment_dialog.dart';
 import '../dialogs/truncate_dialog.dart';
@@ -13,9 +14,14 @@ import '../rules/rule.dart';
 import '../widget/custom_drop.dart';
 
 class RulesPage extends StatefulWidget {
-  const RulesPage({super.key, required this.onRuleChanged});
+  const RulesPage({
+    super.key,
+    required this.onRuleChanged,
+    required this.getSelectedFiles,
+  });
 
   final VoidCallback onRuleChanged;
+  final List<String> Function() getSelectedFiles;
 
   @override
   State<RulesPage> createState() => RulesPageState();
@@ -43,6 +49,8 @@ class RulesPageState extends State<RulesPage> {
 
   void showRuleDialog() {
     switch (Shared.ruleName) {
+      case 'AI Rename':
+        showAiRenameDialog(context, addRule, widget.getSelectedFiles());
       case 'Replace':
         showReplaceDialog(context, addRule);
       case 'Remove':
@@ -84,6 +92,7 @@ class RulesPageState extends State<RulesPage> {
                   'Rearrange',
                   'Transliterate',
                   'Truncate',
+                  'AI Rename',
                 ],
                 tToStr: (obj) => {
                   'Replace': L10n.current.replace,
@@ -93,6 +102,7 @@ class RulesPageState extends State<RulesPage> {
                   'Rearrange': L10n.current.rearrange,
                   'Transliterate': L10n.current.transliterate,
                   'Truncate': L10n.current.truncate,
+                  'AI Rename': 'AI Rename',
                 }[obj]!,
                 semanticsAppendix: L10n.current.semanticsRuleDropdownButton,
               ),

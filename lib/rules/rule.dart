@@ -4,6 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:pinyin/pinyin.dart';
 import 'package:cyrtranslit/cyrtranslit.dart' as cyrtranslit;
 
+import '../dialogs/ai_rename_dialog.dart';
 import '../dialogs/increment_dialog.dart';
 import '../dialogs/insert_dialog.dart';
 import '../dialogs/rearrange_dialog.dart';
@@ -18,6 +19,7 @@ import '../tools/ex_string.dart';
 
 part 'base_rule.dart';
 
+part 'rule_ai_rename.dart';
 part 'rule_increment.dart';
 part 'rule_insert.dart';
 part 'rule_rearrange.dart';

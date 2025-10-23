@@ -3,6 +3,9 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:langchain/langchain.dart';
+import 'package:langchain_openai/langchain_openai.dart';
+import 'package:yaml/yaml.dart';
 
 import '../entity/constants.dart';
 import '../entity/sharedpref.dart';
@@ -11,6 +14,7 @@ import '../rules/rule.dart';
 import '../tools/file_metadata.dart';
 import '../tools/responsive.dart';
 import '../widget/custom_dialog.dart';
+import '../tools/ex_file.dart';
 import 'rules_page.dart';
 import 'files_page.dart';
 
@@ -47,17 +51,25 @@ class HomePage extends StatelessWidget {
       onRuleChanged: () {
         filesKey.currentState?.update();
       },
+      getSelectedFiles: () {
+        // 获取当前选中的文件列表
+        final files = filesKey.currentState?.files ?? [];
+        return files
+            .where((file) => file.selected)
+            .map((file) => file.name)
+            .toList();
+      },
     );
 
     return Scaffold(
-      bottomNavigationBar: HomeToolBar(
-        onlySelectedCallback: (value) => Shared.onlySelected = value,
-        onlySelectedValue: () => Shared.onlySelected,
-        removeRenamedCallback: (value) => Shared.removeRenamed = value,
-        removeRenamedValue: () => Shared.removeRenamed,
-        removeRulesCallback: (value) => Shared.removeRules = value,
-        removeRulesValue: () => Shared.removeRules,
-      ),
+      // bottomNavigationBar: HomeToolBar(
+      //   onlySelectedCallback: (value) => Shared.onlySelected = value,
+      //   onlySelectedValue: () => Shared.onlySelected,
+      //   removeRenamedCallback: (value) => Shared.removeRenamed = value,
+      //   removeRenamedValue: () => Shared.removeRenamed,
+      //   removeRulesCallback: (value) => Shared.removeRules = value,
+      //   removeRulesValue: () => Shared.removeRules,
+      // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           filesKey.currentState?.renameFiles(
@@ -269,5 +281,126 @@ class _HomeToolBarState extends State<HomeToolBar> {
       url,
       mode: LaunchMode.externalApplication,
     );
+  }
+}
+
+/// AI 批量重命名测试函数
+Future<void> testAiBatchRename() async {
+  try {
+    // 假数据准备
+    final fileList = [
+      'IMG_1234.jpg',
+      'IMG_1235.jpg',
+      'IMG_1236.jpg',
+      'IMG_1237.jpg',
+      'IMG_1238.jpg',
+      'IMG_1239.jpg',
+      'IMG_1240.jpg',
+      'IMG_1241.jpg',
+      'IMG_1242.jpg',
+      'IMG_1243.jpg',
+      'IMG_1244.jpg',
+      'IMG_1245.jpg',
+      'IMG_1246.jpg',
+      'IMG_1247.jpg',
+      'IMG_1248.jpg'
+    ];
+
+    final userRequirements =
+        'Rename all files with prefix "vacation_beach" followed by sequential numbers starting from 1';
+
+    // OpenAI 配置（硬编码）
+    const apiKey =
+        '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';
+    const model = 'openai/gpt-4o-mini';
+    const baseUrl = 'https://openrouter.ai/api/v1';
+
+    // 创建 ChatOpenAI 实例
+    final chatModel = ChatOpenAI(
+      apiKey: apiKey,
+      baseUrl: baseUrl,
+      defaultOptions: ChatOpenAIOptions(
+        model: model,
+        temperature: 0.7,
+        maxTokens: 2000,
+      ),
+    );
+
+    // 构建提示词模板
+    final promptTemplate = ChatPromptTemplate.fromTemplates(const [
+      (
+        ChatMessageType.system,
+        '''You are a file renaming assistant. Given a list of file names and user requirements, you must generate a YAML mapping of old names to new names.
+
+Output Requirements:
+1. Format: YAML code block (wrapped in ```yaml and ```)
+2. Structure: Flat key-value pairs where keys are original filenames and values are new filenames
+3. Rules: Keep file extensions unchanged
+4. Output: ONLY the YAML code block, no explanations before or after
+
+Example Output Format:
+```yaml
+original_file1.jpg: new_name1.jpg
+original_file2.jpg: new_name2.jpg
+original_file3.jpg: new_name3.jpg
+```''',
+      ),
+      (
+        ChatMessageType.human,
+        'Files to rename: {file_list}\nRequirements: {user_requirements}'
+      ),
+    ]);
+
+    // 构建链式调用
+    final chain =
+        promptTemplate.pipe(chatModel).pipe(const StringOutputParser());
+
+    // 准备输入数据
+    final input = {
+      'file_list': fileList.join(', '),
+      'user_requirements': userRequirements,
+    };
+
+    print('开始调用 AI 进行批量重命名...');
+    print('文件列表: $fileList');
+    print('用户需求: $userRequirements');
+    print('---');
+
+    // 调用 AI
+    final response = await chain.invoke(input);
+
+    print('AI 原始响应:');
+    print(response);
+    print('---');
+
+    // 提取 YAML 内容（去除代码块标记）
+    String yamlContent = response.toString();
+    if (yamlContent.contains('```yaml')) {
+      final startIndex = yamlContent.indexOf('```yaml') + 7;
+      final endIndex = yamlContent.lastIndexOf('```');
+      if (endIndex > startIndex) {
+        yamlContent = yamlContent.substring(startIndex, endIndex).trim();
+      }
+    }
+
+    print('提取的 YAML 内容:');
+    print(yamlContent);
+    print('---');
+
+    // 解析 YAML 为 Map
+    final yamlMap = loadYaml(yamlContent) as Map<dynamic, dynamic>;
+
+    // 转换为 String 到 String 的 Map
+    final renameMap = <String, String>{};
+    yamlMap.forEach((key, value) {
+      renameMap[key.toString()] = value.toString();
+    });
+
+    print('解析后的重命名映射:');
+    renameMap.forEach((oldName, newName) {
+      print('$oldName -> $newName');
+    });
+  } catch (e) {
+    print('AI 批量重命名测试失败: $e');
   }
 }
