@@ -18,11 +18,23 @@ import '../tools/ex_file.dart';
 import 'rules_page.dart';
 import 'files_page.dart';
 
-class HomePage extends StatelessWidget {
-  HomePage({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
   final GlobalKey<FilesPageState> filesKey = GlobalKey<FilesPageState>();
   final GlobalKey<RulesPageState> rulesKey = GlobalKey<RulesPageState>();
+  bool _isAiMode = false;
+
+  void _toggleMode() {
+    setState(() {
+      _isAiMode = !_isAiMode;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -59,6 +71,7 @@ class HomePage extends StatelessWidget {
             .map((file) => file.name)
             .toList();
       },
+      isAiMode: _isAiMode,
     );
 
     return Scaffold(
@@ -71,14 +84,9 @@ class HomePage extends StatelessWidget {
       //   removeRulesValue: () => Shared.removeRules,
       // ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          filesKey.currentState?.renameFiles(
-            remove: Shared.removeRenamed,
-            onlySelected: Shared.onlySelected,
-          );
-        },
-        tooltip: L10n.current.rename,
-        child: const Icon(Icons.play_arrow_rounded),
+        onPressed: _toggleMode,
+        tooltip: _isAiMode ? '切换到普通模式' : '切换到 AI 模式',
+        child: Icon(_isAiMode ? Icons.auto_awesome : Icons.rule),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       body: SafeArea(
