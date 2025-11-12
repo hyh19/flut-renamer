@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:collection/collection.dart';
 import 'package:desktop_drop/desktop_drop.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
@@ -155,7 +156,13 @@ class FilesPageState extends State<FilesPage> {
   }
 
   List<FileSystemEntity> _filteredList() {
-    _files.sort((a, b) => a.name.compareTo(b.name));
+    _files.sort((a, b) {
+      final nameCompare = compareNatural(a.name.toLowerCase(), b.name.toLowerCase());
+      if (nameCompare != 0) {
+        return nameCompare;
+      }
+      return compareNatural(a.path.toLowerCase(), b.path.toLowerCase());
+    });
     return _files
         .where(
           (element) =>
