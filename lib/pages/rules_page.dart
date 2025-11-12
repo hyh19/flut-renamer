@@ -273,19 +273,22 @@ class _AiRenameContentState extends State<AiRenameContent> {
           ),
         ),
         Expanded(
-          child: SingleChildScrollView(
+          child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
-              mainAxisSize: MainAxisSize.min,
               children: [
-                TextFormField(
-                  controller: requirementsController,
-                  maxLines: 6,
-                  decoration: InputDecoration(
-                    labelText: L10n.current.aiRenameRequirementsLabel,
-                    hintText: L10n.current.aiRenameRequirementsHint,
-                    border: const OutlineInputBorder(),
-                    alignLabelWithHint: true,
+                Expanded(
+                  child: TextFormField(
+                    controller: requirementsController,
+                    maxLines: null,
+                    expands: true,
+                    textAlignVertical: TextAlignVertical.top,
+                    decoration: InputDecoration(
+                      labelText: L10n.current.aiRenameRequirementsLabel,
+                      hintText: L10n.current.aiRenameRequirementsHint,
+                      border: const OutlineInputBorder(),
+                      alignLabelWithHint: true,
+                    ),
                   ),
                 ),
                 if (isLoading) ...[
