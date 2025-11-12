@@ -81,14 +81,11 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "addRule": MessageLookupByLibrary.simpleMessage("Kural Ekle"),
     "aiRenameError": m0,
-    "aiRenameInstruction": MessageLookupByLibrary.simpleMessage(
-      "Bu dosyaları nasıl yeniden adlandırmak istediğinizi açıklayın. Örneğin:\n• \"Tüm dosyaları vacation_beach_1, vacation_beach_2... olarak yeniden adlandır\"\n• \"2024-01-15_ tarih ön ekini ekle\"\n• \"IMG ifadesini Photo ile değiştir\"\n• \"Çekim zamanına göre yeniden numaralandır\"",
-    ),
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "Yapay zekâ isteğinizi analiz ediyor, lütfen bekleyin...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "Bu dosyaları nasıl yeniden adlandırmak istediğinizi ayrıntılı olarak açıklayın...",
+      "Bu dosyaları nasıl yeniden adlandırmak istediğinizi açıklayın. Örneğin:\n• \"Tüm dosyaları vacation_beach_1, vacation_beach_2... olarak yeniden adlandır\"\n• \"2024-01-15_ tarih ön ekini ekle\"\n• \"IMG ifadesini Photo ile değiştir\"\n• \"Çekim zamanına göre yeniden numaralandır\"",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "Yeniden adlandırma talimatları",

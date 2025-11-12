@@ -76,14 +76,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFiles": MessageLookupByLibrary.simpleMessage("파일을 추가하세요."),
     "addRule": MessageLookupByLibrary.simpleMessage("규칙 추가"),
     "aiRenameError": m0,
-    "aiRenameInstruction": MessageLookupByLibrary.simpleMessage(
-      "이 파일들을 어떻게 이름 변경하고 싶은지 설명하세요. 예:\n• \"모든 파일 이름을 vacation_beach_1, vacation_beach_2... 로 변경\"\n• \"날짜 접두사 2024-01-15_ 추가\"\n• \"IMG를 Photo로 바꾸기\"\n• \"촬영 시간 순서로 다시 번호 매기기\"",
-    ),
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "AI가 요청을 분석 중입니다. 잠시만 기다려 주세요...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "이 파일들을 어떻게 이름 변경하고 싶은지 자세히 설명하세요...",
+      "이 파일들을 어떻게 이름 변경하고 싶은지 설명하세요. 예:\n• \"모든 파일 이름을 vacation_beach_1, vacation_beach_2... 로 변경\"\n• \"날짜 접두사 2024-01-15_ 추가\"\n• \"IMG를 Photo로 바꾸기\"\n• \"촬영 시간 순서로 다시 번호 매기기\"",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "이름 변경 지침",

@@ -58,9 +58,8 @@
   "fileAlreadyExists": "Filename already used by another file",
   "renameFailed": "Rename failed",
   "aiRenameTitle": "AI Rename",
-  "aiRenameInstruction": "Describe how you want to rename these files. For example:\n• \"Rename all files to vacation_beach_1, vacation_beach_2...\"\n• \"Add the date prefix 2024-01-15_\"\n• \"Replace IMG with Photo\"\n• \"Renumber by shooting time\"",
   "aiRenameRequirementsLabel": "Rename instructions",
-  "aiRenameRequirementsHint": "Describe in detail how you want to rename these files...",
+  "aiRenameRequirementsHint": "Describe how you want to rename these files. For example:\n• \"Rename all files to vacation_beach_1, vacation_beach_2...\"\n• \"Add the date prefix 2024-01-15_\"\n• \"Replace IMG with Photo\"\n• \"Renumber by shooting time\"",
   "aiRenameSubmit": "Submit",
   "aiRenameSnackbarEmptyRequirements": "Enter rename instructions",
   "aiRenameSnackbarNoSelection": "No files selected",
@@ -129,7 +128,7 @@
   "photoCopyright": "Copyright holder name from exif",
   "musicAlbumName": "Name of the album",
   "musicAlbumArtist": "Name of the album artist",
-  "musicAlbumLength":  "Number of tracks in the album",
+  "musicAlbumLength": "Number of tracks in the album",
   "musicYear": "Publishing year of the track",
   "musicTrackDuration": "Duration of the track",
   "musicTrackName": "Name of the track",
@@ -241,18 +240,19 @@
   "truncateToString": "Truncate: {keepType, select, true{keep only} false{remove} other{}} characters between the {iOne}{iTwoOrdinal, select, o1{st} o2{nd} o3{rd} other{th}}{iOneToEnd, select, true{-to-end} false{} other{}} character and the {iTwo}{iOneOrdinal, select, o1{st} o2{nd} o3{rd} other{th}}{iTwoToEnd, select, true{-to-end} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
-      "iOneToEnd":{
+      "iOneToEnd": {
         "type": "String"
       },
       "iOneOrdinal": {
         "type": "String"
       },
-      "iTwoToEnd":{
+      "iTwoToEnd": {
         "type": "String"
       },
       "iTwoOrdinal": {
         "type": "String"
-      },"keepType": {
+      },
+      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -284,21 +284,21 @@
   "fileManagerBackButton": "Back",
   "showHiddenFiles": "Show hidden files",
   "hideHiddenFiles": "Hide hidden files",
-  "semanticsFileManagerTitle":  "{selectStatus, select, true{Selected} false{Unselected} other{}} {entityType, select, File{File} Directory{Folder} Link{Link} other{File system entity}}, filename is {filename}, ",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Selected} false{Unselected} other{}} {entityType, select, File{File} Directory{Folder} Link{Link} other{File system entity}}, filename is {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType":{
+      "entityType": {
         "type": "String"
       },
       "selectStatus": {
         "type": "String"
       },
-      "filename":{
+      "filename": {
         "type": "String"
       }
     }
   },
-  "semanticsFileManagerSubtitle":  "last modified at {last}, sized {size}.",
+  "semanticsFileManagerSubtitle": "last modified at {last}, sized {size}.",
   "@semanticsFileManagerSubtitle": {
     "placeholders": {
       "last": {
@@ -309,7 +309,7 @@
       }
     }
   },
-  "semanticsFileManagerDirSubtitle":  "last modified at {last}.",
+  "semanticsFileManagerDirSubtitle": "last modified at {last}.",
   "@semanticsFileManagerDirSubtitle": {
     "placeholders": {
       "last": {
@@ -334,7 +334,7 @@
   "semanticSwitchNumberToStartAndToEnd": "Switching counting direction between from the beginning and from the end, currently counting from {toEnd, select, true{the end} false{the beginning} other{}}",
   "@semanticSwitchNumberToStartAndToEnd": {
     "placeholders": {
-      "toEnd":{
+      "toEnd": {
         "type": "String"
       }
     }

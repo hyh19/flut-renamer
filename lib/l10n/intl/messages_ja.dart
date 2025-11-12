@@ -76,14 +76,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFiles": MessageLookupByLibrary.simpleMessage("ファイルを追加してください。"),
     "addRule": MessageLookupByLibrary.simpleMessage("ルールを追加"),
     "aiRenameError": m0,
-    "aiRenameInstruction": MessageLookupByLibrary.simpleMessage(
-      "これらのファイルをどのようにリネームしたいか説明してください。例：\n• 「すべてのファイル名を vacation_beach_1、vacation_beach_2... にする」\n• 「日付プレフィックス 2024-01-15_ を追加する」\n• 「IMG を Photo に置き換える」\n• 「撮影時間順に再番号を振る」",
-    ),
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "AI がリクエストを分析しています。しばらくお待ちください...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "これらのファイルをどのようにリネームしたいか詳しく説明してください...",
+      "これらのファイルをどのようにリネームしたいか説明してください。例：\n• 「すべてのファイル名を vacation_beach_1、vacation_beach_2... にする」\n• 「日付プレフィックス 2024-01-15_ を追加する」\n• 「IMG を Photo に置き換える」\n• 「撮影時間順に再番号を振る」",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage("リネーム手順"),
     "aiRenameRulePreview": m1,

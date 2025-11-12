@@ -79,14 +79,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFiles": MessageLookupByLibrary.simpleMessage("الرجاء إضافة ملفات."),
     "addRule": MessageLookupByLibrary.simpleMessage("إضافة قاعدة"),
     "aiRenameError": m0,
-    "aiRenameInstruction": MessageLookupByLibrary.simpleMessage(
-      "صف كيف تريد إعادة تسمية هذه الملفات. على سبيل المثال:\n• \"أعد تسمية جميع الملفات إلى vacation_beach_1 و vacation_beach_2...\"\n• \"أضف بادئة التاريخ 2024-01-15_\"\n• \"استبدل IMG بـ Photo\"\n• \"أعد الترقيم حسب وقت الالتقاط\"",
-    ),
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "يقوم الذكاء الاصطناعي بتحليل طلبك، يرجى الانتظار...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "صف بالتفصيل كيف تريد إعادة تسمية هذه الملفات...",
+      "صف كيف تريد إعادة تسمية هذه الملفات. على سبيل المثال:\n• \"أعد تسمية جميع الملفات إلى vacation_beach_1 و vacation_beach_2...\"\n• \"أضف بادئة التاريخ 2024-01-15_\"\n• \"استبدل IMG بـ Photo\"\n• \"أعد الترقيم حسب وقت الالتقاط\"",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "تعليمات إعادة التسمية",

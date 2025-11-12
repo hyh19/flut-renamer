@@ -58,9 +58,8 @@
   "fileAlreadyExists": "ファイル名がすでに存在します",
   "renameFailed": "リネームに失敗しました",
   "aiRenameTitle": "AI リネーム",
-  "aiRenameInstruction": "これらのファイルをどのようにリネームしたいか説明してください。例：\n• 「すべてのファイル名を vacation_beach_1、vacation_beach_2... にする」\n• 「日付プレフィックス 2024-01-15_ を追加する」\n• 「IMG を Photo に置き換える」\n• 「撮影時間順に再番号を振る」",
   "aiRenameRequirementsLabel": "リネーム手順",
-  "aiRenameRequirementsHint": "これらのファイルをどのようにリネームしたいか詳しく説明してください...",
+  "aiRenameRequirementsHint": "これらのファイルをどのようにリネームしたいか説明してください。例：\n• 「すべてのファイル名を vacation_beach_1、vacation_beach_2... にする」\n• 「日付プレフィックス 2024-01-15_ を追加する」\n• 「IMG を Photo に置き換える」\n• 「撮影時間順に再番号を振る」",
   "aiRenameSubmit": "送信",
   "aiRenameSnackbarEmptyRequirements": "リネーム手順を入力してください",
   "aiRenameSnackbarNoSelection": "ファイルが選択されていません",
@@ -173,9 +172,9 @@
   "fileManagerBackButton": "戻る",
   "showHiddenFiles": "隠しファイルを表示する",
   "hideHiddenFiles": "隠しファイルを隠す",
-  "semanticsFileManagerTitle":  "{selectStatus, select, true{選択中の} false{選択されていない} other{}}{entityType, select, File{ファイル} Directory{ディレクトリ} Link{リンク} other{ファイルシステムオブジェクト}}、ファイル名は{filename}、",
-  "semanticsFileManagerSubtitle":  "最終更新日は{last}、ファイルサイズは{size}です。",
-  "semanticsFileManagerDirSubtitle":  "最終更新日は{last}です。",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{選択中の} false{選択されていない} other{}}{entityType, select, File{ファイル} Directory{ディレクトリ} Link{リンク} other{ファイルシステムオブジェクト}}、ファイル名は{filename}、",
+  "semanticsFileManagerSubtitle": "最終更新日は{last}、ファイルサイズは{size}です。",
+  "semanticsFileManagerDirSubtitle": "最終更新日は{last}です。",
   "semanticsDropdownButton": "これはドロップダウンボタンです。現在選択されているのは「{value}」です。ダブルクリックしてドロップダウンボタンを開き、別の値を選択します。",
   "semanticsRuleDropdownButton": "。この項目を選択し、「ルールを追加」ボタンをクリックしてルールを追加します。",
   "semanticsFilesDropdownButton": "。この項目を選択して、リネーム対象をこの範囲に制限します。",
@@ -184,4 +183,3 @@
   "semanticsMultipleActionsHint": "上下にスワイプして他の操作に移動します。",
   "semanticSwitchNumberToStartAndToEnd": "開始から終わりまでの数え方を切り替え、現在は{toEnd, select, true{終わり} false{始まり} other{}}から数えています"
 }
-

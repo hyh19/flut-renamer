@@ -75,14 +75,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFiles": MessageLookupByLibrary.simpleMessage("请添加文件。"),
     "addRule": MessageLookupByLibrary.simpleMessage("添加规则"),
     "aiRenameError": m0,
-    "aiRenameInstruction": MessageLookupByLibrary.simpleMessage(
-      "请描述您希望如何重命名这些文件。例如：\n• \"将所有文件重命名为 vacation_beach_1, vacation_beach_2...\"\n• \"添加日期前缀 2024-01-15_\"\n• \"将 IMG 替换为 Photo\"\n• \"按拍摄时间重新编号\"",
-    ),
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "AI 正在分析您的需求，请稍候...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "请详细描述您希望如何重命名这些文件...",
+      "请描述您希望如何重命名这些文件。例如：\n• \"将所有文件重命名为 vacation_beach_1, vacation_beach_2...\"\n• \"添加日期前缀 2024-01-15_\"\n• \"将 IMG 替换为 Photo\"\n• \"按拍摄时间重新编号\"",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "重命名需求描述",

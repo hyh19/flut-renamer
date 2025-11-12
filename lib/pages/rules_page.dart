@@ -278,11 +278,6 @@ class _AiRenameContentState extends State<AiRenameContent> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text(
-                  L10n.current.aiRenameInstruction,
-                  style: const TextStyle(fontSize: 13),
-                ),
-                const SizedBox(height: 20),
                 TextFormField(
                   controller: requirementsController,
                   maxLines: 6,
