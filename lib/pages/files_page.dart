@@ -448,7 +448,7 @@ class FilesPageState extends State<FilesPage> {
     bool noError = true;
     _files.asMap().forEach((index, file) {
       // if file is selected or onlySelected = false (all files should be renamed)
-      if (file.selected || !onlySelected) {
+      if (true /* file.selected || !onlySelected */) {
         futures.add(
           rename(
             file,
