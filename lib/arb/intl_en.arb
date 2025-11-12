@@ -57,6 +57,38 @@
   "dragNotSupported": "Due to system security restriction, drag-drop files from this app is not supported.",
   "fileAlreadyExists": "Filename already used by another file",
   "renameFailed": "Rename failed",
+  "aiRenameTitle": "AI Rename",
+  "aiRenameInstruction": "Describe how you want to rename these files. For example:\n• \"Rename all files to vacation_beach_1, vacation_beach_2...\"\n• \"Add the date prefix 2024-01-15_\"\n• \"Replace IMG with Photo\"\n• \"Renumber by shooting time\"",
+  "aiRenameRequirementsLabel": "Rename instructions",
+  "aiRenameRequirementsHint": "Describe in detail how you want to rename these files...",
+  "aiRenameSubmit": "Submit",
+  "aiRenameSnackbarEmptyRequirements": "Enter rename instructions",
+  "aiRenameSnackbarNoSelection": "No files selected",
+  "aiRenameLoading": "AI is analyzing your request, please wait...",
+  "aiRenameSuccess": "AI rename rule created. {count} files will be renamed.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI rename failed: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI rename: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
   "rulesSequentially": "Rules are executed sequentially. Click a rule to edit it. Hold the '=' button on the left and drag it to sort rules.",
   "noSysDir": "Do not rename a system reserved directory.",
   "fileSortName": "Name",

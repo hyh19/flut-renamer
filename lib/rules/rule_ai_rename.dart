@@ -22,7 +22,7 @@ class RuleAiRename implements Rule {
     final truncated = userRequirements.length > 50
         ? '${userRequirements.substring(0, 50)}...'
         : userRequirements;
-    return 'AI 重命名: $truncated';
+    return L10n.current.aiRenameRulePreview(truncated);
   }
 
   @override

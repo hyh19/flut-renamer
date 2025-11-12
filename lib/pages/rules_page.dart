@@ -268,7 +268,7 @@ class _AiRenameContentState extends State<AiRenameContent> {
         Padding(
           padding: const EdgeInsets.all(16),
           child: Text(
-            'AI 重命名',
+            L10n.current.aiRenameTitle,
             style: Theme.of(context).textTheme.headlineSmall,
           ),
         ),
@@ -279,32 +279,28 @@ class _AiRenameContentState extends State<AiRenameContent> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  '请描述您希望如何重命名这些文件。例如：\n'
-                  '• "将所有文件重命名为 vacation_beach_1, vacation_beach_2..."\n'
-                  '• "添加日期前缀 2024-01-15_"\n'
-                  '• "将 IMG 替换为 Photo"\n'
-                  '• "按拍摄时间重新编号"',
+                  L10n.current.aiRenameInstruction,
                   style: const TextStyle(fontSize: 13),
                 ),
                 const SizedBox(height: 20),
                 TextFormField(
                   controller: requirementsController,
                   maxLines: 6,
-                  decoration: const InputDecoration(
-                    labelText: '重命名需求描述',
-                    hintText: '请详细描述您希望如何重命名这些文件...',
-                    border: OutlineInputBorder(),
+                  decoration: InputDecoration(
+                    labelText: L10n.current.aiRenameRequirementsLabel,
+                    hintText: L10n.current.aiRenameRequirementsHint,
+                    border: const OutlineInputBorder(),
                     alignLabelWithHint: true,
                   ),
                 ),
                 if (isLoading) ...[
                   const SizedBox(height: 24),
-                  const Center(
+                  Center(
                     child: Column(
                       children: [
-                        CircularProgressIndicator(),
-                        SizedBox(height: 8),
-                        Text('AI 正在分析您的需求，请稍候...'),
+                        const CircularProgressIndicator(),
+                        const SizedBox(height: 8),
+                        Text(L10n.current.aiRenameLoading),
                       ],
                     ),
                   ),
@@ -319,7 +315,7 @@ class _AiRenameContentState extends State<AiRenameContent> {
             alignment: Alignment.center,
             child: ElevatedButton(
               onPressed: isLoading ? null : handleConfirm,
-              child: Text('提交'),
+              child: Text(L10n.current.aiRenameSubmit),
             ),
           ),
         ),
@@ -331,14 +327,18 @@ class _AiRenameContentState extends State<AiRenameContent> {
     final requirements = requirementsController.text.trim();
     if (requirements.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('请输入重命名需求描述')),
+        SnackBar(
+          content: Text(L10n.current.aiRenameSnackbarEmptyRequirements),
+        ),
       );
       return;
     }
 
     if (widget.fileList.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('没有选中的文件')),
+        SnackBar(
+          content: Text(L10n.current.aiRenameSnackbarNoSelection),
+        ),
       );
       return;
     }
@@ -364,7 +364,9 @@ class _AiRenameContentState extends State<AiRenameContent> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('AI 重命名规则已创建，将重命名 ${renameMap.length} 个文件'),
+            content: Text(
+              L10n.current.aiRenameSuccess(renameMap.length),
+            ),
           ),
         );
       }
@@ -373,7 +375,9 @@ class _AiRenameContentState extends State<AiRenameContent> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('AI 重命名失败: $e'),
+            content: Text(
+              L10n.current.aiRenameError('$e'),
+            ),
             backgroundColor: Colors.red,
           ),
         );
