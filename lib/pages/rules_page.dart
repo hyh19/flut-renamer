@@ -128,43 +128,47 @@ class RulesPageState extends State<RulesPage> {
       children: [
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-          child: Row(
-            children: [
-              CustomDrop<String>(
-                value: currentRuleName,
-                onChanged: (String? newValue) {
-                  setState(() {
-                    Shared.ruleName = newValue!;
-                  });
-                },
-                items: availableRuleNames,
-                tToStr: (obj) => {
-                  'Replace': L10n.current.replace,
-                  'Remove': L10n.current.remove,
-                  'Insert': L10n.current.insert,
-                  'Increment': L10n.current.increment,
-                  // 'Rearrange': L10n.current.rearrange,
-                  // 'Transliterate': L10n.current.transliterate,
-                  'Truncate': L10n.current.truncate,
-                }[obj]!,
-                semanticsAppendix: L10n.current.semanticsRuleDropdownButton,
-              ),
-              const SizedBox(width: 16),
-              ElevatedButton(
-                onPressed: showRuleDialog,
-                child: Text(L10n.current.addRule),
-              ),
-              const SizedBox(width: 16),
-              ElevatedButton(
-                onPressed: () {
-                  setState(() {
-                    _rules.clear();
-                  });
-                  widget.onRuleChanged.call();
-                },
-                child: Text(L10n.current.removeAll),
-              ),
-            ],
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                CustomDrop<String>(
+                  value: currentRuleName,
+                  onChanged: (String? newValue) {
+                    setState(() {
+                      Shared.ruleName = newValue!;
+                    });
+                  },
+                  items: availableRuleNames,
+                  tToStr: (obj) => {
+                    'Replace': L10n.current.replace,
+                    'Remove': L10n.current.remove,
+                    'Insert': L10n.current.insert,
+                    'Increment': L10n.current.increment,
+                    // 'Rearrange': L10n.current.rearrange,
+                    // 'Transliterate': L10n.current.transliterate,
+                    'Truncate': L10n.current.truncate,
+                  }[obj]!,
+                  semanticsAppendix: L10n.current.semanticsRuleDropdownButton,
+                ),
+                const SizedBox(width: 16),
+                ElevatedButton(
+                  onPressed: showRuleDialog,
+                  child: Text(L10n.current.addRule),
+                ),
+                const SizedBox(width: 16),
+                ElevatedButton(
+                  onPressed: () {
+                    setState(() {
+                      _rules.clear();
+                    });
+                    widget.onRuleChanged.call();
+                  },
+                  child: Text(L10n.current.removeAll),
+                ),
+              ],
+            ),
           ),
         ),
         if (_rules.isEmpty)
