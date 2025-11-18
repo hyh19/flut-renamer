@@ -266,62 +266,68 @@ class _AiRenameContentState extends State<AiRenameContent> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(16),
-          child: Text(
-            L10n.current.aiRenameTitle,
-            style: Theme.of(context).textTheme.headlineSmall,
+    return GestureDetector(
+      onTap: () {
+        FocusScope.of(context).unfocus();
+      },
+      behavior: HitTestBehavior.opaque,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: Text(
+              L10n.current.aiRenameTitle,
+              style: Theme.of(context).textTheme.headlineSmall,
+            ),
           ),
-        ),
-        Expanded(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Column(
-              children: [
-                Expanded(
-                  child: TextFormField(
-                    controller: requirementsController,
-                    maxLines: null,
-                    expands: true,
-                    textAlignVertical: TextAlignVertical.top,
-                    decoration: InputDecoration(
-                      labelText: L10n.current.aiRenameRequirementsLabel,
-                      hintText: L10n.current.aiRenameRequirementsHint,
-                      border: const OutlineInputBorder(),
-                      alignLabelWithHint: true,
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: TextFormField(
+                      controller: requirementsController,
+                      maxLines: null,
+                      expands: true,
+                      textAlignVertical: TextAlignVertical.top,
+                      decoration: InputDecoration(
+                        labelText: L10n.current.aiRenameRequirementsLabel,
+                        hintText: L10n.current.aiRenameRequirementsHint,
+                        border: const OutlineInputBorder(),
+                        alignLabelWithHint: true,
+                      ),
                     ),
                   ),
-                ),
-                if (isLoading) ...[
-                  const SizedBox(height: 24),
-                  Center(
-                    child: Column(
-                      children: [
-                        const CircularProgressIndicator(),
-                        const SizedBox(height: 8),
-                        Text(L10n.current.aiRenameLoading),
-                      ],
+                  if (isLoading) ...[
+                    const SizedBox(height: 24),
+                    Center(
+                      child: Column(
+                        children: [
+                          const CircularProgressIndicator(),
+                          const SizedBox(height: 8),
+                          Text(L10n.current.aiRenameLoading),
+                        ],
+                      ),
                     ),
-                  ),
+                  ],
                 ],
-              ],
+              ),
             ),
           ),
-        ),
-        Padding(
-          padding: const EdgeInsets.all(16),
-          child: Align(
-            alignment: Alignment.center,
-            child: ElevatedButton(
-              onPressed: isLoading ? null : handleConfirm,
-              child: Text(L10n.current.aiRenameSubmit),
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: Align(
+              alignment: Alignment.center,
+              child: ElevatedButton(
+                onPressed: isLoading ? null : handleConfirm,
+                child: Text(L10n.current.aiRenameSubmit),
+              ),
             ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 
