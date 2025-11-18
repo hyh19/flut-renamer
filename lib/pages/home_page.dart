@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
           );
         },
         tooltip: L10n.current.rename,
-        child: const Icon(Icons.play_arrow_rounded),
+        child: const Icon(Icons.drive_file_rename_outline),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       body: SafeArea(
