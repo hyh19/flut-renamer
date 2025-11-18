@@ -36,6 +36,20 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  void showColorPickerDialog() => showDialog(
+        context: context,
+        builder: (context) => CustomDialog(
+          title: const Text('颜色选择器'),
+          content: const Text('此功能待实现'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('确定'),
+            ),
+          ],
+        ),
+      );
+
   @override
   Widget build(BuildContext context) {
     final filesPage = FilesPage(
@@ -75,14 +89,13 @@ class _HomePageState extends State<HomePage> {
     );
 
     return Scaffold(
-      // bottomNavigationBar: HomeToolBar(
-      //   onlySelectedCallback: (value) => Shared.onlySelected = value,
-      //   onlySelectedValue: () => Shared.onlySelected,
-      //   removeRenamedCallback: (value) => Shared.removeRenamed = value,
-      //   removeRenamedValue: () => Shared.removeRenamed,
-      //   removeRulesCallback: (value) => Shared.removeRules = value,
-      //   removeRulesValue: () => Shared.removeRules,
-      // ),
+      bottomNavigationBar: BottomAppBar(
+        child: IconButton(
+          tooltip: '颜色选择器',
+          icon: const Icon(Icons.palette),
+          onPressed: showColorPickerDialog,
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: _toggleMode,
         tooltip: _isAiMode ? '切换到普通模式' : '切换到 AI 模式',
@@ -151,23 +164,23 @@ class _HomeToolBarState extends State<HomeToolBar> {
   Widget build(BuildContext context) {
     return BottomAppBar(
       child: Responsive(
-        mobile: ListView(
-          scrollDirection: _dire,
-          children: [
-            ..._iconButtons(),
-            _expandIndicator(),
-            if (expanded) ..._chips(),
-          ],
-        ),
-        desktop: ListView(
-          scrollDirection: _dire,
-          children: [
-            ..._iconButtons(),
-            ..._chips(),
-          ],
-        ),
+      mobile: ListView(
+        scrollDirection: _dire,
+        children: [
+          ..._iconButtons(),
+          _expandIndicator(),
+          if (expanded) ..._chips(),
+        ],
       ),
-    );
+      desktop: ListView(
+        scrollDirection: _dire,
+        children: [
+          ..._iconButtons(),
+          ..._chips(),
+        ],
+      ),
+      ),
+      );
   }
 
   List<IconButton> _iconButtons() => [
