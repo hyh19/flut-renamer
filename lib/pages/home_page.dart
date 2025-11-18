@@ -41,39 +41,20 @@ class _HomePageState extends State<HomePage> {
     showDialog(
       context: context,
       builder: (dialogContext) {
-        Color tempColor = Shared.seedColor;
-        return StatefulBuilder(
-          builder: (context, setState) {
-            return CustomDialog(
-              title: const Text('颜色选择器'),
-              content: SizedBox(
-                width: 360,
-                child: MaterialPicker(
-                  pickerColor: tempColor,
-                  onColorChanged: (color) {
-                    setState(() {
-                      tempColor = color;
-                    });
-                  },
-                  enableLabel: true,
-                  portraitOnly: true,
-                ),
-              ),
-              actions: [
-                TextButton(
-                  onPressed: () => Navigator.of(dialogContext).pop(),
-                  child: const Text('取消'),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Shared.seedColor = tempColor;
-                    Navigator.of(dialogContext).pop();
-                  },
-                  child: const Text('确定'),
-                ),
-              ],
-            );
-          },
+        return AlertDialog(
+          titlePadding: EdgeInsets.zero,
+          contentPadding: EdgeInsets.zero,
+          content: SingleChildScrollView(
+            child: MaterialPicker(
+              pickerColor: Shared.seedColor,
+              onColorChanged: (color) {
+                setState(() {
+                  Shared.seedColor = color;
+                });
+                Navigator.of(dialogContext).pop();
+              },
+            ),
+          ),
         );
       },
     );
