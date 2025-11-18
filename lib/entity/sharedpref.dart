@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Shared {
@@ -11,6 +12,8 @@ class Shared {
     _removeRules = pref.getBool(_removeRulesKey) ?? _removeRules;
     _ruleName = pref.getString(_ruleNameKey) ?? _ruleName;
     _doNotRemindAgain = pref.getBool(_doNotRemindAgainKey) ?? _doNotRemindAgain;
+    _seedColorValue = pref.getInt(_seedColorKey) ?? _seedColorValue;
+    seedColorNotifier.value = Color(_seedColorValue);
   }
 
   static SharedPreferences get pref => _pref!;
@@ -23,6 +26,7 @@ class Shared {
   static const _removeRulesKey = 'remove_rules';
   static const _ruleNameKey = 'rule_name';
   static const _doNotRemindAgainKey = 'do_not_remind_again';
+  static const _seedColorKey = 'seed_color';
 
   static String _fileOrDir = 'Files';
   static String get fileOrDir => _fileOrDir;
@@ -65,4 +69,16 @@ class Shared {
     _doNotRemindAgain = value;
     pref.setBool(_doNotRemindAgainKey, value);
   }
+
+  static int _seedColorValue = 0xff9cdce8;
+  static Color get seedColor => Color(_seedColorValue);
+  static set seedColor(Color value) {
+    final int colorValue = value.toARGB32();
+    _seedColorValue = colorValue;
+    seedColorNotifier.value = value;
+    pref.setInt(_seedColorKey, colorValue);
+  }
+
+  static final ValueNotifier<Color> seedColorNotifier =
+      ValueNotifier<Color>(Color(_seedColorValue));
 }

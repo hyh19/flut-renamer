@@ -6,6 +6,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:langchain/langchain.dart';
 import 'package:langchain_openai/langchain_openai.dart';
 import 'package:yaml/yaml.dart';
+import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
 import '../entity/constants.dart';
 import '../entity/sharedpref.dart';
@@ -36,19 +37,47 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  void showColorPickerDialog() => showDialog(
-        context: context,
-        builder: (context) => CustomDialog(
-          title: const Text('颜色选择器'),
-          content: const Text('此功能待实现'),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.of(context).pop(),
-              child: const Text('确定'),
-            ),
-          ],
-        ),
-      );
+  void showColorPickerDialog() {
+    showDialog(
+      context: context,
+      builder: (dialogContext) {
+        Color tempColor = Shared.seedColor;
+        return StatefulBuilder(
+          builder: (context, setState) {
+            return CustomDialog(
+              title: const Text('颜色选择器'),
+              content: SizedBox(
+                width: 360,
+                child: MaterialPicker(
+                  pickerColor: tempColor,
+                  onColorChanged: (color) {
+                    setState(() {
+                      tempColor = color;
+                    });
+                  },
+                  enableLabel: true,
+                  portraitOnly: true,
+                ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.of(dialogContext).pop(),
+                  child: const Text('取消'),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Shared.seedColor = tempColor;
+                    Navigator.of(dialogContext).pop();
+                  },
+                  child: const Text('确定'),
+                ),
+              ],
+            );
+          },
+        );
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -164,23 +193,23 @@ class _HomeToolBarState extends State<HomeToolBar> {
   Widget build(BuildContext context) {
     return BottomAppBar(
       child: Responsive(
-      mobile: ListView(
-        scrollDirection: _dire,
-        children: [
-          ..._iconButtons(),
-          _expandIndicator(),
-          if (expanded) ..._chips(),
-        ],
+        mobile: ListView(
+          scrollDirection: _dire,
+          children: [
+            ..._iconButtons(),
+            _expandIndicator(),
+            if (expanded) ..._chips(),
+          ],
+        ),
+        desktop: ListView(
+          scrollDirection: _dire,
+          children: [
+            ..._iconButtons(),
+            ..._chips(),
+          ],
+        ),
       ),
-      desktop: ListView(
-        scrollDirection: _dire,
-        children: [
-          ..._iconButtons(),
-          ..._chips(),
-        ],
-      ),
-      ),
-      );
+    );
   }
 
   List<IconButton> _iconButtons() => [
@@ -211,7 +240,8 @@ class _HomeToolBarState extends State<HomeToolBar> {
                     style: TextStyle(color: Colors.blue),
                   ),
                   onTap: () {
-                    launchUrl(Uri.parse('https://github.com/sun-jiao/renamer/issues/new'));
+                    launchUrl(Uri.parse(
+                        'https://github.com/sun-jiao/renamer/issues/new'));
                   },
                 ),
               ],
@@ -231,14 +261,18 @@ class _HomeToolBarState extends State<HomeToolBar> {
       ];
 
   IconButton _expandIndicator() => IconButton(
-        tooltip: expanded ? L10n.current.collapseOptions : L10n.current.expandOptions,
+        tooltip: expanded
+            ? L10n.current.collapseOptions
+            : L10n.current.expandOptions,
         onPressed: () {
           setState(() {
             expanded = !expanded;
           });
         },
         icon: Icon(
-          expanded ? Icons.arrow_back_ios_new_rounded : Icons.arrow_forward_ios_rounded,
+          expanded
+              ? Icons.arrow_back_ios_new_rounded
+              : Icons.arrow_forward_ios_rounded,
           size: 20,
         ),
       );
