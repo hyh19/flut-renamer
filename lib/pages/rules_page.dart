@@ -79,14 +79,29 @@ class RulesPageState extends State<RulesPage> {
     final modeSwitch = Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       child: SegmentedButton<bool>(
-        segments: const [
+        showSelectedIcon: false,
+        segments: [
           ButtonSegment<bool>(
             value: false,
-            label: Text('Manual Mode'),
+            label: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(Icons.rule, size: 18),
+                const SizedBox(width: 4),
+                const Text('Manual Mode'),
+              ],
+            ),
           ),
           ButtonSegment<bool>(
             value: true,
-            label: Text('AI Mode'),
+            label: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(Icons.auto_awesome, size: 18),
+                const SizedBox(width: 4),
+                const Text('AI Mode'),
+              ],
+            ),
           ),
         ],
         selected: {_isAiRenameMode},
