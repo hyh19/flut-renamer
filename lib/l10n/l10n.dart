@@ -499,10 +499,10 @@ class L10n {
     );
   }
 
-  /// `Describe how you want to rename these files. For example:\n• "Rename all files to vacation_beach_1, vacation_beach_2..."\n• "Add the date prefix 2024-01-15_"\n• "Replace IMG with Photo"\n• "Renumber by shooting time"`
+  /// `Describe how you want to rename these files.`
   String get aiRenameRequirementsHint {
     return Intl.message(
-      'Describe how you want to rename these files. For example:\n• "Rename all files to vacation_beach_1, vacation_beach_2..."\n• "Add the date prefix 2024-01-15_"\n• "Replace IMG with Photo"\n• "Renumber by shooting time"',
+      'Describe how you want to rename these files.',
       name: 'aiRenameRequirementsHint',
       desc: '',
       args: [],

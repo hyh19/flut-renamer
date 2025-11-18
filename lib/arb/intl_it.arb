@@ -59,7 +59,7 @@
   "renameFailed": "Rinomina non riuscita",
   "aiRenameTitle": "Rinomina con IA",
   "aiRenameRequirementsLabel": "Istruzioni di rinomina",
-  "aiRenameRequirementsHint": "Descrivi come desideri rinominare questi file. Ad esempio:\n• \"Rinomina tutti i file in vacation_beach_1, vacation_beach_2...\"\n• \"Aggiungi il prefisso data 2024-01-15_\"\n• \"Sostituisci IMG con Photo\"\n• \"Rinumera in base all'orario di scatto\"",
+  "aiRenameRequirementsHint": "Descrivi come desideri rinominare questi file.",
   "aiRenameSubmit": "Invia",
   "aiRenameSnackbarEmptyRequirements": "Inserisci le istruzioni di rinomina",
   "aiRenameSnackbarNoSelection": "Nessun file selezionato",

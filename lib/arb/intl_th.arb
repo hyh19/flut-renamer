@@ -59,7 +59,7 @@
   "renameFailed": "เปลี่ยนชื่อล้มเหลว",
   "aiRenameTitle": "การเปลี่ยนชื่อด้วย AI",
   "aiRenameRequirementsLabel": "คำแนะนำการเปลี่ยนชื่อ",
-  "aiRenameRequirementsHint": "อธิบายว่าคุณต้องการเปลี่ยนชื่อไฟล์เหล่านี้อย่างไร ตัวอย่างเช่น:\n• \"เปลี่ยนชื่อไฟล์ทั้งหมดเป็น vacation_beach_1, vacation_beach_2...\"\n• \"เพิ่มคำนำหน้าวันที่ 2024-01-15_\"\n• \"แทนที่ IMG ด้วย Photo\"\n• \"จัดลำดับหมายเลขใหม่ตามเวลาในการถ่าย\"",
+  "aiRenameRequirementsHint": "อธิบายว่าคุณต้องการเปลี่ยนชื่อไฟล์เหล่านี้อย่างไร",
   "aiRenameSubmit": "ส่ง",
   "aiRenameSnackbarEmptyRequirements": "กรุณากรอกคำแนะนำการเปลี่ยนชื่อ",
   "aiRenameSnackbarNoSelection": "ไม่มีไฟล์ที่เลือก",

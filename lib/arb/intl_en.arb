@@ -59,7 +59,7 @@
   "renameFailed": "Rename failed",
   "aiRenameTitle": "AI Rename",
   "aiRenameRequirementsLabel": "Rename instructions",
-  "aiRenameRequirementsHint": "Describe how you want to rename these files. For example:\n• \"Rename all files to vacation_beach_1, vacation_beach_2...\"\n• \"Add the date prefix 2024-01-15_\"\n• \"Replace IMG with Photo\"\n• \"Renumber by shooting time\"",
+  "aiRenameRequirementsHint": "Describe how you want to rename these files.",
   "aiRenameSubmit": "Submit",
   "aiRenameSnackbarEmptyRequirements": "Enter rename instructions",
   "aiRenameSnackbarNoSelection": "No files selected",

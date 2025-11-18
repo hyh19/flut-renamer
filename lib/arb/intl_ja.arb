@@ -59,7 +59,7 @@
   "renameFailed": "リネームに失敗しました",
   "aiRenameTitle": "AI リネーム",
   "aiRenameRequirementsLabel": "リネーム手順",
-  "aiRenameRequirementsHint": "これらのファイルをどのようにリネームしたいか説明してください。例：\n• 「すべてのファイル名を vacation_beach_1、vacation_beach_2... にする」\n• 「日付プレフィックス 2024-01-15_ を追加する」\n• 「IMG を Photo に置き換える」\n• 「撮影時間順に再番号を振る」",
+  "aiRenameRequirementsHint": "これらのファイルをどのようにリネームしたいか説明してください。",
   "aiRenameSubmit": "送信",
   "aiRenameSnackbarEmptyRequirements": "リネーム手順を入力してください",
   "aiRenameSnackbarNoSelection": "ファイルが選択されていません",

@@ -80,7 +80,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "AI がリクエストを分析しています。しばらくお待ちください...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "これらのファイルをどのようにリネームしたいか説明してください。例：\n• 「すべてのファイル名を vacation_beach_1、vacation_beach_2... にする」\n• 「日付プレフィックス 2024-01-15_ を追加する」\n• 「IMG を Photo に置き換える」\n• 「撮影時間順に再番号を振る」",
+      "これらのファイルをどのようにリネームしたいか説明してください。",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage("リネーム手順"),
     "aiRenameRulePreview": m1,
