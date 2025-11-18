@@ -356,45 +356,45 @@ class FilesPageState extends State<FilesPage> {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        Padding(
-          padding: const EdgeInsets.all(16),
-          child: Row(
-            children: <Widget>[
-              // CustomDrop<String>(
-              //   value: Shared.fileOrDir,
-              //   onChanged: (String? newValue) {
-              //     setState(() {
-              //       Shared.fileOrDir = newValue!;
-              //     });
-              //   },
-              //   items: const <String>['Files', 'Directories', 'Files & Dirs'],
-              //   tToStr: (obj) => {
-              //     'Files': L10n.current.files,
-              //     'Directories': L10n.current.directories,
-              //     'Files & Dirs': L10n.current.filesDirs,
-              //   }[obj]!,
-              //   semanticsAppendix: L10n.current.semanticsFilesDropdownButton,
-              // ),
-              // Expanded(
-              //   child: TextField(
-              //     decoration: InputDecoration(
-              //       hintText: L10n.current.filter,
-              //     ),
-              //     onChanged: (val) {
-              //       setState(() {
-              //         _filter = val;
-              //       });
-              //     },
-              //   ),
-              // ),
-              // box,
-              ElevatedButton(
-                onPressed: addFileFromPicker,
-                child: Text(L10n.current.addFile),
-              ),
-            ],
-          ),
-        ),
+        // Padding(
+        //   padding: const EdgeInsets.all(16),
+        //   child: Row(
+        //     children: <Widget>[
+        //       // CustomDrop<String>(
+        //       //   value: Shared.fileOrDir,
+        //       //   onChanged: (String? newValue) {
+        //       //     setState(() {
+        //       //       Shared.fileOrDir = newValue!;
+        //       //     });
+        //       //   },
+        //       //   items: const <String>['Files', 'Directories', 'Files & Dirs'],
+        //       //   tToStr: (obj) => {
+        //       //     'Files': L10n.current.files,
+        //       //     'Directories': L10n.current.directories,
+        //       //     'Files & Dirs': L10n.current.filesDirs,
+        //       //   }[obj]!,
+        //       //   semanticsAppendix: L10n.current.semanticsFilesDropdownButton,
+        //       // ),
+        //       // Expanded(
+        //       //   child: TextField(
+        //       //     decoration: InputDecoration(
+        //       //       hintText: L10n.current.filter,
+        //       //     ),
+        //       //     onChanged: (val) {
+        //       //       setState(() {
+        //       //         _filter = val;
+        //       //       });
+        //       //     },
+        //       //   ),
+        //       // ),
+        //       // box,
+        //       ElevatedButton(
+        //         onPressed: addFileFromPicker,
+        //         child: Text(L10n.current.addFile),
+        //       ),
+        //     ],
+        //   ),
+        // ),
         _table(_headerRow()),
         Expanded(
           child: DropTarget(
@@ -447,9 +447,12 @@ class FilesPageState extends State<FilesPage> {
                     )
                   else if (!_dragging)
                     Center(
-                      child: Text(Platform.isIOS
-                          ? L10n.current.addFiles
-                          : L10n.current.dragToAdd),
+                      child: ElevatedButton(
+                        onPressed: addFileFromPicker,
+                        child: Text(Platform.isIOS
+                            ? L10n.current.addFiles
+                            : L10n.current.dragToAdd),
+                      ),
                     ),
                   if (_dragging)
                     Container(
