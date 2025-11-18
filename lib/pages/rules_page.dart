@@ -64,32 +64,6 @@ class RulesPageState extends State<RulesPage> {
     }
   }
 
-  void addRule(Rule rule) {
-    setState(() {
-      _rules.add(rule);
-    });
-    widget.onRuleChanged.call();
-  }
-
-  void showRuleDialog() {
-    switch (Shared.ruleName) {
-      case 'Replace':
-        showReplaceDialog(context, addRule);
-      case 'Remove':
-        showRemoveDialog(context, addRule);
-      case 'Insert':
-        showInsertDialog(context, addRule);
-      case 'Increment':
-        showIncrementDialog(context, addRule);
-      // case 'Rearrange':
-      //   showRearrangeDialog(context, addRule);
-      // case 'Transliterate':
-      //   showTransliterateDialog(context, addRule);
-      case 'Truncate':
-        showTruncateDialog(context, addRule);
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     // 如果处于 AI 重命名模式，返回 AI 重命名界面
@@ -106,132 +80,9 @@ class RulesPageState extends State<RulesPage> {
       );
     }
 
-    // 定义可用的规则名称列表
-    const List<String> availableRuleNames = [
-      'Replace',
-      'Remove',
-      'Insert',
-      'Increment',
-      // 'Rearrange',
-      // 'Transliterate',
-      'Truncate',
-    ];
-
-    // 确保 Shared.ruleName 在可用列表中，如果不在则使用第一个值
-    String currentRuleName = Shared.ruleName;
-    if (!availableRuleNames.contains(currentRuleName)) {
-      currentRuleName = availableRuleNames.first;
-      Shared.ruleName = currentRuleName;
-    }
-
-    return Column(
-      children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-          child: SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                CustomDrop<String>(
-                  value: currentRuleName,
-                  onChanged: (String? newValue) {
-                    setState(() {
-                      Shared.ruleName = newValue!;
-                    });
-                  },
-                  items: availableRuleNames,
-                  tToStr: (obj) => {
-                    'Replace': L10n.current.replace,
-                    'Remove': L10n.current.remove,
-                    'Insert': L10n.current.insert,
-                    'Increment': L10n.current.increment,
-                    // 'Rearrange': L10n.current.rearrange,
-                    // 'Transliterate': L10n.current.transliterate,
-                    'Truncate': L10n.current.truncate,
-                  }[obj]!,
-                  semanticsAppendix: L10n.current.semanticsRuleDropdownButton,
-                ),
-                const SizedBox(width: 16),
-                ElevatedButton(
-                  onPressed: showRuleDialog,
-                  child: Text(L10n.current.addRule),
-                ),
-                const SizedBox(width: 16),
-                ElevatedButton(
-                  onPressed: () {
-                    setState(() {
-                      _rules.clear();
-                    });
-                    widget.onRuleChanged.call();
-                  },
-                  child: Text(L10n.current.removeAll),
-                ),
-              ],
-            ),
-          ),
-        ),
-        if (_rules.isEmpty)
-          Expanded(
-            child: Center(
-              child: SizedBox(
-                width: 175,
-                child: Text(
-                  L10n.current.rulesSequentially,
-                  semanticsLabel: L10n.current.semanticsReorderableList,
-                ),
-              ),
-            ),
-          )
-        else
-          Expanded(
-            child: ReorderableListView.builder(
-              onReorder: (oldIndex, newIndex) {
-                setState(() {
-                  if (newIndex > oldIndex) {
-                    newIndex -= 1;
-                  }
-                  final item = _rules.removeAt(oldIndex);
-                  _rules.insert(newIndex, item);
-                });
-                widget.onRuleChanged.call();
-              },
-              buildDefaultDragHandles: false,
-              itemBuilder: (context, index) {
-                final item = _rules[index];
-                return ListTile(
-                  title: Text(item.toString()),
-                  key: ValueKey(item),
-                  leading: ReorderableDragStartListener(
-                    index: index,
-                    child: const Icon(Icons.drag_handle),
-                  ),
-                  trailing: IconButton(
-                    onPressed: () {
-                      setState(() {
-                        _rules.removeAt(index);
-                      });
-                      widget.onRuleChanged.call();
-                    },
-                    icon: const Icon(Icons.clear),
-                  ),
-                  onTap: () {
-                    item.openDialog(
-                      context,
-                      (rule) {
-                        setState(() {
-                          _rules[index] = rule;
-                        });
-                        widget.onRuleChanged.call();
-                      },
-                    );
-                  },
-                );
-              },
-              itemCount: _rules.length,
-            ),
-          ),
-      ],
+    // 非 AI 模式，使用 ManualRulesContent 组件
+    return ManualRulesContent(
+      onRuleChanged: widget.onRuleChanged,
     );
   }
 }
@@ -395,5 +246,176 @@ class _AiRenameContentState extends State<AiRenameContent> {
         isLoading = false;
       });
     }
+  }
+}
+
+class ManualRulesContent extends StatefulWidget {
+  const ManualRulesContent({
+    super.key,
+    required this.onRuleChanged,
+  });
+
+  final VoidCallback onRuleChanged;
+
+  @override
+  State<ManualRulesContent> createState() => _ManualRulesContentState();
+}
+
+class _ManualRulesContentState extends State<ManualRulesContent> {
+  void addRule(Rule rule) {
+    setState(() {
+      _rules.add(rule);
+    });
+    widget.onRuleChanged.call();
+  }
+
+  void showRuleDialog() {
+    switch (Shared.ruleName) {
+      case 'Replace':
+        showReplaceDialog(context, addRule);
+      case 'Remove':
+        showRemoveDialog(context, addRule);
+      case 'Insert':
+        showInsertDialog(context, addRule);
+      case 'Increment':
+        showIncrementDialog(context, addRule);
+      // case 'Rearrange':
+      //   showRearrangeDialog(context, addRule);
+      // case 'Transliterate':
+      //   showTransliterateDialog(context, addRule);
+      case 'Truncate':
+        showTruncateDialog(context, addRule);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // 定义可用的规则名称列表
+    const List<String> availableRuleNames = [
+      'Replace',
+      'Remove',
+      'Insert',
+      'Increment',
+      // 'Rearrange',
+      // 'Transliterate',
+      'Truncate',
+    ];
+
+    // 确保 Shared.ruleName 在可用列表中，如果不在则使用第一个值
+    String currentRuleName = Shared.ruleName;
+    if (!availableRuleNames.contains(currentRuleName)) {
+      currentRuleName = availableRuleNames.first;
+      Shared.ruleName = currentRuleName;
+    }
+
+    return Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                CustomDrop<String>(
+                  value: currentRuleName,
+                  onChanged: (String? newValue) {
+                    setState(() {
+                      Shared.ruleName = newValue!;
+                    });
+                  },
+                  items: availableRuleNames,
+                  tToStr: (obj) => {
+                    'Replace': L10n.current.replace,
+                    'Remove': L10n.current.remove,
+                    'Insert': L10n.current.insert,
+                    'Increment': L10n.current.increment,
+                    // 'Rearrange': L10n.current.rearrange,
+                    // 'Transliterate': L10n.current.transliterate,
+                    'Truncate': L10n.current.truncate,
+                  }[obj]!,
+                  semanticsAppendix: L10n.current.semanticsRuleDropdownButton,
+                ),
+                const SizedBox(width: 16),
+                ElevatedButton(
+                  onPressed: showRuleDialog,
+                  child: Text(L10n.current.addRule),
+                ),
+                const SizedBox(width: 16),
+                ElevatedButton(
+                  onPressed: () {
+                    setState(() {
+                      _rules.clear();
+                    });
+                    widget.onRuleChanged.call();
+                  },
+                  child: Text(L10n.current.removeAll),
+                ),
+              ],
+            ),
+          ),
+        ),
+        if (_rules.isEmpty)
+          Expanded(
+            child: Center(
+              child: SizedBox(
+                width: 175,
+                child: Text(
+                  L10n.current.rulesSequentially,
+                  semanticsLabel: L10n.current.semanticsReorderableList,
+                ),
+              ),
+            ),
+          )
+        else
+          Expanded(
+            child: ReorderableListView.builder(
+              onReorder: (oldIndex, newIndex) {
+                setState(() {
+                  if (newIndex > oldIndex) {
+                    newIndex -= 1;
+                  }
+                  final item = _rules.removeAt(oldIndex);
+                  _rules.insert(newIndex, item);
+                });
+                widget.onRuleChanged.call();
+              },
+              buildDefaultDragHandles: false,
+              itemBuilder: (context, index) {
+                final item = _rules[index];
+                return ListTile(
+                  title: Text(item.toString()),
+                  key: ValueKey(item),
+                  leading: ReorderableDragStartListener(
+                    index: index,
+                    child: const Icon(Icons.drag_handle),
+                  ),
+                  trailing: IconButton(
+                    onPressed: () {
+                      setState(() {
+                        _rules.removeAt(index);
+                      });
+                      widget.onRuleChanged.call();
+                    },
+                    icon: const Icon(Icons.clear),
+                  ),
+                  onTap: () {
+                    item.openDialog(
+                      context,
+                      (rule) {
+                        setState(() {
+                          _rules[index] = rule;
+                        });
+                        widget.onRuleChanged.call();
+                      },
+                    );
+                  },
+                );
+              },
+              itemCount: _rules.length,
+            ),
+          ),
+      ],
+    );
   }
 }
