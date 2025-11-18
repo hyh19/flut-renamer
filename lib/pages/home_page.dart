@@ -51,7 +51,6 @@ class _HomePageState extends State<HomePage> {
                 setState(() {
                   Shared.seedColor = color;
                 });
-                Navigator.of(dialogContext).pop();
               },
             ),
           ),
