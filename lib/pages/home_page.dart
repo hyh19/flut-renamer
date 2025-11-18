@@ -1,23 +1,20 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:langchain/langchain.dart';
-import 'package:langchain_openai/langchain_openai.dart';
-import 'package:yaml/yaml.dart';
-import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
 import '../entity/constants.dart';
 import '../entity/sharedpref.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
+import '../tools/ex_file.dart';
 import '../tools/file_metadata.dart';
 import '../tools/responsive.dart';
 import '../widget/custom_dialog.dart';
-import '../tools/ex_file.dart';
-import 'rules_page.dart';
 import 'files_page.dart';
+import 'rules_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
