@@ -97,16 +97,25 @@ class _HomePageState extends State<HomePage> {
     );
 
     return Scaffold(
-      bottomNavigationBar: BottomAppBar(
-        child: Align(
-          alignment: Alignment.centerLeft,
-          child: IconButton(
+      appBar: AppBar(
+        actions: [
+          IconButton(
             tooltip: '颜色选择器',
             icon: const Icon(Icons.palette),
             onPressed: showColorPickerDialog,
           ),
-        ),
+        ],
       ),
+      // bottomNavigationBar: BottomAppBar(
+      //   child: Align(
+      //     alignment: Alignment.centerLeft,
+      //     child: IconButton(
+      //       tooltip: '颜色选择器',
+      //       icon: const Icon(Icons.palette),
+      //       onPressed: showColorPickerDialog,
+      //     ),
+      //   ),
+      // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           filesKey.currentState?.renameFiles(
