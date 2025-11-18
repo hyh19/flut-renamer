@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
         tooltip: L10n.current.rename,
         child: const Icon(Icons.play_arrow_rounded),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       body: SafeArea(
         child: Responsive(
           desktop: Row(
