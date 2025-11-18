@@ -34,11 +34,16 @@ final List<Rule> _rules = [];
 class RulesPageState extends State<RulesPage> {
   bool _isAiRenameMode = false;
   Rule? _aiRule;
+  String _aiRequirementsText = '';
 
   @override
   void initState() {
     super.initState();
     _isAiRenameMode = widget.isAiMode;
+    // 如果已有保存的 AI 规则，初始化输入文本
+    if (_aiRule is RuleAiRename) {
+      _aiRequirementsText = (_aiRule as RuleAiRename).userRequirements;
+    }
   }
 
   @override
@@ -123,11 +128,20 @@ class RulesPageState extends State<RulesPage> {
               onSave: (rule) {
                 setState(() {
                   _aiRule = rule;
+                  if (rule is RuleAiRename) {
+                    _aiRequirementsText = rule.userRequirements;
+                  }
                 });
                 widget.onRuleChanged.call();
               },
+              onTextChanged: (text) {
+                setState(() {
+                  _aiRequirementsText = text;
+                });
+              },
               fileList: widget.getSelectedFiles(),
               rule: _aiRule as RuleAiRename?,
+              initialText: _aiRequirementsText,
             ),
           ),
         ],
@@ -154,26 +168,57 @@ class AiRenameContent extends StatefulWidget {
     required this.onSave,
     required this.fileList,
     this.rule,
+    this.onTextChanged,
+    this.initialText,
   });
 
   final Function(Rule) onSave;
   final List<String> fileList;
   final RuleAiRename? rule;
+  final void Function(String text)? onTextChanged;
+  final String? initialText;
 
   @override
   State<AiRenameContent> createState() => _AiRenameContentState();
 }
 
 class _AiRenameContentState extends State<AiRenameContent> {
-  TextEditingController requirementsController = TextEditingController();
+  late TextEditingController requirementsController;
   bool isLoading = false;
 
   @override
   void initState() {
-    if (widget.rule != null) {
-      requirementsController.text = widget.rule!.userRequirements;
-    }
     super.initState();
+    // 优先使用 initialText，其次使用 rule 中的内容
+    final initialValue = widget.initialText?.isNotEmpty == true
+        ? widget.initialText!
+        : (widget.rule?.userRequirements ?? '');
+    requirementsController = TextEditingController(text: initialValue);
+    requirementsController.addListener(_onTextChanged);
+  }
+
+  @override
+  void didUpdateWidget(AiRenameContent oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // 如果 initialText 变化了，更新控制器（但要避免在用户正在输入时覆盖）
+    if (widget.initialText != oldWidget.initialText &&
+        widget.initialText != null &&
+        widget.initialText != requirementsController.text) {
+      requirementsController.removeListener(_onTextChanged);
+      requirementsController.text = widget.initialText!;
+      requirementsController.addListener(_onTextChanged);
+    }
+  }
+
+  @override
+  void dispose() {
+    requirementsController.removeListener(_onTextChanged);
+    requirementsController.dispose();
+    super.dispose();
+  }
+
+  void _onTextChanged() {
+    widget.onTextChanged?.call(requirementsController.text);
   }
 
   @override
