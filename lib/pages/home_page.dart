@@ -95,6 +95,11 @@ class _HomePageState extends State<HomePage> {
             .toList();
       },
       isAiMode: _isAiMode,
+      onModeChanged: (bool isAiMode) {
+        setState(() {
+          _isAiMode = isAiMode;
+        });
+      },
     );
 
     return Scaffold(

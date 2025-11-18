@@ -17,11 +17,13 @@ class RulesPage extends StatefulWidget {
     required this.onRuleChanged,
     required this.getSelectedFiles,
     required this.isAiMode,
+    this.onModeChanged,
   });
 
   final VoidCallback onRuleChanged;
   final List<String> Function() getSelectedFiles;
   final bool isAiMode;
+  final void Function(bool isAiMode)? onModeChanged;
 
   @override
   State<RulesPage> createState() => RulesPageState();
@@ -64,25 +66,69 @@ class RulesPageState extends State<RulesPage> {
     }
   }
 
+  void _handleModeChange(bool isAiMode) {
+    setState(() {
+      _isAiRenameMode = isAiMode;
+    });
+    widget.onModeChanged?.call(isAiMode);
+  }
+
   @override
   Widget build(BuildContext context) {
+    // 构建模式切换组件
+    final modeSwitch = Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      child: SegmentedButton<bool>(
+        segments: const [
+          ButtonSegment<bool>(
+            value: false,
+            label: Text('Manual Mode'),
+          ),
+          ButtonSegment<bool>(
+            value: true,
+            label: Text('AI Mode'),
+          ),
+        ],
+        selected: {_isAiRenameMode},
+        onSelectionChanged: (Set<bool> newSelection) {
+          if (newSelection.isNotEmpty) {
+            _handleModeChange(newSelection.first);
+          }
+        },
+      ),
+    );
+
     // 如果处于 AI 重命名模式，返回 AI 重命名界面
     if (_isAiRenameMode) {
-      return AiRenameContent(
-        onSave: (rule) {
-          setState(() {
-            _aiRule = rule;
-          });
-          widget.onRuleChanged.call();
-        },
-        fileList: widget.getSelectedFiles(),
-        rule: _aiRule as RuleAiRename?,
+      return Column(
+        children: [
+          modeSwitch,
+          Expanded(
+            child: AiRenameContent(
+              onSave: (rule) {
+                setState(() {
+                  _aiRule = rule;
+                });
+                widget.onRuleChanged.call();
+              },
+              fileList: widget.getSelectedFiles(),
+              rule: _aiRule as RuleAiRename?,
+            ),
+          ),
+        ],
       );
     }
 
     // 非 AI 模式，使用 ManualRulesContent 组件
-    return ManualRulesContent(
-      onRuleChanged: widget.onRuleChanged,
+    return Column(
+      children: [
+        modeSwitch,
+        Expanded(
+          child: ManualRulesContent(
+            onRuleChanged: widget.onRuleChanged,
+          ),
+        ),
+      ],
     );
   }
 }
@@ -125,13 +171,6 @@ class _AiRenameContentState extends State<AiRenameContent> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(16),
-            child: Text(
-              L10n.current.aiRenameTitle,
-              style: Theme.of(context).textTheme.headlineSmall,
-            ),
-          ),
           Expanded(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
