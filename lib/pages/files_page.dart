@@ -27,7 +27,8 @@ class FilesPage extends StatefulWidget {
     required this.resetRules,
   });
 
-  final FutureOr<String> Function(String name, FileMetadata metadata) getNewName;
+  final FutureOr<String> Function(String name, FileMetadata metadata)
+      getNewName;
   final VoidCallback clearRules;
   final VoidCallback resetRules;
 
@@ -57,7 +58,7 @@ class FilesPageState extends State<FilesPage> {
       if (!mounted) {
         return;
       }
-      
+
       final result = await Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => const AndroidFilePicker()),
@@ -82,7 +83,8 @@ class FilesPageState extends State<FilesPage> {
       }
 
       if (!_files.any((e) => e.parent.path == dirs.first.toString())) {
-        await PlatformFilePicker.changeScopedAccess(dirs.first.toString(), true);
+        await PlatformFilePicker.changeScopedAccess(
+            dirs.first.toString(), true);
       }
 
       final files = await PlatformFilePicker.fileAccess(dirs.first.toString());
@@ -90,47 +92,57 @@ class FilesPageState extends State<FilesPage> {
         return;
       }
 
-      entities = files.skipWhile((e) => e == null).map((e) => e.toString()).map((e) => e.toFileSystemEntity());
+      entities = files
+          .skipWhile((e) => e == null)
+          .map((e) => e.toString())
+          .map((e) => e.toFileSystemEntity());
     } else {
-      FilePickerResult? result = await FilePicker.platform.pickFiles(allowMultiple: true);
+      FilePickerResult? result =
+          await FilePicker.platform.pickFiles(allowMultiple: true);
       if (result != null) {
         entities = result.files
-            .where((e1) => e1.path != null && _files.every((e2) => e1.path != e2.path))
+            .where((e1) =>
+                e1.path != null && _files.every((e2) => e1.path != e2.path))
             .map((e) => e.toFileSystemEntity());
       } else {
         return;
       }
     }
     setState(() {
-      _files.addAll(entities.skipWhile((eNew) => _files.any((eOld) => eNew.path == eOld.path)));
+      _files.addAll(entities
+          .skipWhile((eNew) => _files.any((eOld) => eNew.path == eOld.path)));
     });
   }
 
   Future<bool?> _remindDialog(BuildContext contextD) => showDialog<bool>(
-    context: contextD,
-    builder: (contextD) => CustomDialog(
-      title: Text(Platform.isIOS ? L10n.current.iosRemindTitle : L10n.current.androidRemindTitle),
-      content: Text(Platform.isIOS ? L10n.current.iosRemindContent : L10n.current.androidRemindContent),
-      actions: [
-        if (Platform.isIOS) TextButton(
-          onPressed: () => Navigator.pop(contextD, false),
-          child: Text(L10n.current.cancel),
+        context: contextD,
+        builder: (contextD) => CustomDialog(
+          title: Text(Platform.isIOS
+              ? L10n.current.iosRemindTitle
+              : L10n.current.androidRemindTitle),
+          content: Text(Platform.isIOS
+              ? L10n.current.iosRemindContent
+              : L10n.current.androidRemindContent),
+          actions: [
+            if (Platform.isIOS)
+              TextButton(
+                onPressed: () => Navigator.pop(contextD, false),
+                child: Text(L10n.current.cancel),
+              ),
+            TextButton(
+              onPressed: () => Navigator.pop(contextD, true),
+              child: Text(L10n.current.ok),
+            ),
+            TextButton(
+              onPressed: () {
+                Shared.doNotRemindAgain = true;
+                Navigator.pop(contextD, true);
+              },
+              child: Text(L10n.current.doNotRemindAgain),
+            ),
+          ],
         ),
-        TextButton(
-          onPressed: () => Navigator.pop(contextD, true),
-          child: Text(L10n.current.ok),
-        ),
-        TextButton(
-          onPressed: () {
-            Shared.doNotRemindAgain = true;
-            Navigator.pop(contextD, true);
-          },
-          child: Text(L10n.current.doNotRemindAgain),
-        ),
-      ],
-    ),
-  );
-
+      );
 
   void update() => setState(() {});
 
@@ -141,7 +153,8 @@ class FilesPageState extends State<FilesPage> {
 
     try {
       file.newName = await widget.getNewName(file.name, metadata);
-      if (file.newName != file.name && ((await File(file.newPath).exists()) || file.newNameDuplicate)) {
+      if (file.newName != file.name &&
+          ((await File(file.newPath).exists()) || file.newNameDuplicate)) {
         file.error = L10n.current.fileAlreadyExists;
         return;
       }
@@ -157,7 +170,8 @@ class FilesPageState extends State<FilesPage> {
 
   List<FileSystemEntity> _filteredList() {
     _files.sort((a, b) {
-      final nameCompare = compareNatural(a.name.toLowerCase(), b.name.toLowerCase());
+      final nameCompare =
+          compareNatural(a.name.toLowerCase(), b.name.toLowerCase());
       if (nameCompare != 0) {
         return nameCompare;
       }
@@ -166,7 +180,10 @@ class FilesPageState extends State<FilesPage> {
     return _files
         .where(
           (element) =>
-              element.name.toString().toLowerCase().contains(_filter.toLowerCase()) &&
+              element.name
+                  .toString()
+                  .toLowerCase()
+                  .contains(_filter.toLowerCase()) &&
               Shared.fileOrDir.contains(element.fileOrDir()),
         )
         .toList();
@@ -180,17 +197,19 @@ class FilesPageState extends State<FilesPage> {
     }
 
     return TableCell(
-      child: isNew ? FutureBuilder(
-        future: getNewName(file, FileMetadata(file)),
-        builder: (context, snap) {
-          if ((snap.connectionState == ConnectionState.active ||
-              snap.connectionState == ConnectionState.done) &&
-              (!snap.hasError)) {
-            return getRowText(file.newName, file.error);
-          }
-          return const LinearProgressIndicator();
-        },
-      ) : getRowText(file.name, null),
+      child: isNew
+          ? FutureBuilder(
+              future: getNewName(file, FileMetadata(file)),
+              builder: (context, snap) {
+                if ((snap.connectionState == ConnectionState.active ||
+                        snap.connectionState == ConnectionState.done) &&
+                    (!snap.hasError)) {
+                  return getRowText(file.newName, file.error);
+                }
+                return const LinearProgressIndicator();
+              },
+            )
+          : getRowText(file.name, null),
     );
   }
 
@@ -226,7 +245,9 @@ class FilesPageState extends State<FilesPage> {
       filteredList.length,
       (index) => TableRow(
         decoration: BoxDecoration(
-          color: index % 2 == 0 ? fileListColors.primaryColor : fileListColors.secondaryColor,
+          color: index % 2 == 0
+              ? fileListColors.primaryColor
+              : fileListColors.secondaryColor,
         ),
         children: [
           // TableCell(
@@ -371,11 +392,6 @@ class FilesPageState extends State<FilesPage> {
                 onPressed: addFileFromPicker,
                 child: Text(L10n.current.addFile),
               ),
-              const SizedBox(width: 16),
-              ElevatedButton(
-                onPressed: renameFiles,
-                child: Text(L10n.current.rename),
-              ),
             ],
           ),
         ),
@@ -388,7 +404,9 @@ class FilesPageState extends State<FilesPage> {
                 late final FileSystemEntity file;
                 if (Platform.isAndroid && xFile.path.startsWith('content://')) {
                   try {
-                    file = (await PlatformFilePicker.getRealPathFromURI(xFile.path)).toFileSystemEntity();
+                    file = (await PlatformFilePicker.getRealPathFromURI(
+                            xFile.path))
+                        .toFileSystemEntity();
                   } catch (e) {
                     Fluttertoast.showToast(msg: L10n.current.dragNotSupported);
                     return;
@@ -429,7 +447,9 @@ class FilesPageState extends State<FilesPage> {
                     )
                   else if (!_dragging)
                     Center(
-                      child: Text(Platform.isIOS ? L10n.current.addFiles : L10n.current.dragToAdd),
+                      child: Text(Platform.isIOS
+                          ? L10n.current.addFiles
+                          : L10n.current.dragToAdd),
                     ),
                   if (_dragging)
                     Container(
@@ -471,7 +491,8 @@ class FilesPageState extends State<FilesPage> {
                 _files.remove(file);
               });
 
-              if (Platform.isIOS && !_files.any((e) => e.parent.path == file.parent.path)) {
+              if (Platform.isIOS &&
+                  !_files.any((e) => e.parent.path == file.parent.path)) {
                 PlatformFilePicker.changeScopedAccess(file.parent.path, false);
               }
             } else {

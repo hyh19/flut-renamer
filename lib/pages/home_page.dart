@@ -31,12 +31,6 @@ class _HomePageState extends State<HomePage> {
   final GlobalKey<RulesPageState> rulesKey = GlobalKey<RulesPageState>();
   bool _isAiMode = false;
 
-  void _toggleMode() {
-    setState(() {
-      _isAiMode = !_isAiMode;
-    });
-  }
-
   void showColorPickerDialog() {
     showDialog(
       context: context,
@@ -104,16 +98,24 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       bottomNavigationBar: BottomAppBar(
-        child: IconButton(
-          tooltip: '颜色选择器',
-          icon: const Icon(Icons.palette),
-          onPressed: showColorPickerDialog,
+        child: Align(
+          alignment: Alignment.centerLeft,
+          child: IconButton(
+            tooltip: '颜色选择器',
+            icon: const Icon(Icons.palette),
+            onPressed: showColorPickerDialog,
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _toggleMode,
-        tooltip: _isAiMode ? '切换到普通模式' : '切换到 AI 模式',
-        child: Icon(_isAiMode ? Icons.auto_awesome : Icons.rule),
+        onPressed: () {
+          filesKey.currentState?.renameFiles(
+            remove: Shared.removeRenamed,
+            onlySelected: Shared.onlySelected,
+          );
+        },
+        tooltip: L10n.current.rename,
+        child: const Icon(Icons.play_arrow_rounded),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       body: SafeArea(
