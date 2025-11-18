@@ -140,6 +140,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       appBar: AppBar(
+        backgroundColor: Shared.seedColor,
         actions: [
           IconButton(
             tooltip: '颜色选择器',
