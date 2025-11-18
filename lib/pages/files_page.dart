@@ -420,7 +420,7 @@ class FilesPageState extends State<FilesPage> {
             },
             onDragUpdated: (detail) {},
             child: Container(
-              color: Theme.of(context).extension<FileListColors>()!.primaryColor,
+              // color: Theme.of(context).extension<FileListColors>()!.primaryColor,
               child: Stack(
                 children: [
                   if (_files.isNotEmpty)
