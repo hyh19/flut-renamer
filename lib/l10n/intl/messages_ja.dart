@@ -75,6 +75,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFile": MessageLookupByLibrary.simpleMessage("ファイルを追加"),
     "addFiles": MessageLookupByLibrary.simpleMessage("ファイルを追加してください。"),
     "addRule": MessageLookupByLibrary.simpleMessage("ルールを追加"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("AI モード"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "AI がリクエストを分析しています。しばらくお待ちください...",
@@ -105,6 +106,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "cancelAll": MessageLookupByLibrary.simpleMessage("すべてキャンセル"),
     "caseSensitive": MessageLookupByLibrary.simpleMessage("大文字と小文字を区別する"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("オプションを折りたたむ"),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("カラーピッカー"),
     "currentName": MessageLookupByLibrary.simpleMessage("現在のファイル名"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "ファイル名を増分します。例：写真-1、写真-2、写真-3。",
@@ -198,6 +200,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("言語："),
     "limit": MessageLookupByLibrary.simpleMessage("回数制限"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("手動モード"),
     "me": MessageLookupByLibrary.simpleMessage("モンテネグロ語"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "メタデータタグが含まれていますが、メタデータパーサーが提供されていません。",

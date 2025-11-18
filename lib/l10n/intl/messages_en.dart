@@ -78,6 +78,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFile": MessageLookupByLibrary.simpleMessage("Add file"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Add files"),
     "addRule": MessageLookupByLibrary.simpleMessage("Add Rule"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("AI Mode"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "AI is analyzing your request, please wait...",
@@ -112,6 +113,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "cancelAll": MessageLookupByLibrary.simpleMessage("Cancel All"),
     "caseSensitive": MessageLookupByLibrary.simpleMessage("Case sensitive"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Collapse options"),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("Color picker"),
     "currentName": MessageLookupByLibrary.simpleMessage("Current name"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Increment the filename, e.g., Photo-1, Photo-2, Photo-3.",
@@ -225,6 +227,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("Language: "),
     "limit": MessageLookupByLibrary.simpleMessage("limit"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("Manual Mode"),
     "me": MessageLookupByLibrary.simpleMessage("Montenegrin"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "Contains metadata tag while MetadataParser was not provided.",

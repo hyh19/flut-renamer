@@ -74,6 +74,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFile": MessageLookupByLibrary.simpleMessage("添加文件"),
     "addFiles": MessageLookupByLibrary.simpleMessage("请添加文件。"),
     "addRule": MessageLookupByLibrary.simpleMessage("添加规则"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("AI 模式"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "AI 正在分析您的需求，请稍候...",
@@ -106,6 +107,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "cancelAll": MessageLookupByLibrary.simpleMessage("全部取消"),
     "caseSensitive": MessageLookupByLibrary.simpleMessage("区分大小写"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("收起选项"),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("颜色选择器"),
     "currentName": MessageLookupByLibrary.simpleMessage("当前文件名"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "递增文件名，例如 照片-1、照片-2、照片-3。",
@@ -189,6 +191,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("语言："),
     "limit": MessageLookupByLibrary.simpleMessage("次数"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("手动模式"),
     "me": MessageLookupByLibrary.simpleMessage("黑山语"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "包含元数据标签，但未提供元数据解析器。",

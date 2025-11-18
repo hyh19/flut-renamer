@@ -81,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Por favor, agrega archivos.",
     ),
     "addRule": MessageLookupByLibrary.simpleMessage("Agregar regla"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("Modo IA"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "La IA está analizando tu solicitud, espera...",
@@ -121,6 +122,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "collapseOptions": MessageLookupByLibrary.simpleMessage(
       "Contraer opciones",
     ),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("Selector de color"),
     "currentName": MessageLookupByLibrary.simpleMessage("Nombre actual"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Incrementar el nombre del archivo, por ejemplo, Foto-1, Foto-2, Foto-3.",
@@ -242,6 +244,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("Idioma:"),
     "limit": MessageLookupByLibrary.simpleMessage("Límite"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("Modo manual"),
     "me": MessageLookupByLibrary.simpleMessage("Montenegrino"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "Se incluyen etiquetas de metadatos pero no se proporciona un analizador de metadatos.",

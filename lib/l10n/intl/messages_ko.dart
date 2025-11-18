@@ -75,6 +75,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFile": MessageLookupByLibrary.simpleMessage("파일 추가"),
     "addFiles": MessageLookupByLibrary.simpleMessage("파일을 추가하세요."),
     "addRule": MessageLookupByLibrary.simpleMessage("규칙 추가"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("AI 모드"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "AI가 요청을 분석 중입니다. 잠시만 기다려 주세요...",
@@ -107,6 +108,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "cancelAll": MessageLookupByLibrary.simpleMessage("모두 취소"),
     "caseSensitive": MessageLookupByLibrary.simpleMessage("대소문자 구분"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("옵션 축소"),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("색상 선택기"),
     "currentName": MessageLookupByLibrary.simpleMessage("현재 파일 이름"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "파일 이름을 증가시킵니다. 예: 사진-1, 사진-2, 사진-3.",
@@ -196,6 +198,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("언어:"),
     "limit": MessageLookupByLibrary.simpleMessage("제한"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("수동 모드"),
     "me": MessageLookupByLibrary.simpleMessage("몬테네그로어"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "메타데이터 태그가 포함되어 있지만 메타데이터 파서가 제공되지 않았습니다.",

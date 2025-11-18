@@ -80,6 +80,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Si prega di aggiungere dei file.",
     ),
     "addRule": MessageLookupByLibrary.simpleMessage("Aggiungi regola"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("Modalità IA"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "L\'IA sta analizzando la tua richiesta, attendi...",
@@ -118,6 +119,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Maiuscole/minuscole",
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Nascondi opzioni"),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("Selettore colori"),
     "currentName": MessageLookupByLibrary.simpleMessage("Nome attuale"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Incrementa il nome del file, ad esempio Foto-1, Foto-2, Foto-3.",
@@ -239,6 +241,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("Lingua:"),
     "limit": MessageLookupByLibrary.simpleMessage("Limite"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("Modalità manuale"),
     "me": MessageLookupByLibrary.simpleMessage("Montenegrino"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "Tag dei metadati presenti ma non è stato fornito alcun analizzatore di metadati.",

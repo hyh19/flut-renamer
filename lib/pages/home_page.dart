@@ -143,7 +143,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Shared.seedColor,
         actions: [
           IconButton(
-            tooltip: '颜色选择器',
+            tooltip: L10n.current.colorPicker,
             icon: const Icon(Icons.palette),
             onPressed: showColorPickerDialog,
           ),

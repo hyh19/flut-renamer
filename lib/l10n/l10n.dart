@@ -1628,6 +1628,26 @@ class L10n {
       args: [toEnd],
     );
   }
+
+  /// `Color picker`
+  String get colorPicker {
+    return Intl.message(
+      'Color picker',
+      name: 'colorPicker',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manual Mode`
+  String get manualMode {
+    return Intl.message('Manual Mode', name: 'manualMode', desc: '', args: []);
+  }
+
+  /// `AI Mode`
+  String get aiMode {
+    return Intl.message('AI Mode', name: 'aiMode', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<L10n> {

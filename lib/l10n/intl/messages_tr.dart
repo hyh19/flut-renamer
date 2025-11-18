@@ -80,6 +80,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Lütfen dosyalar ekleyin.",
     ),
     "addRule": MessageLookupByLibrary.simpleMessage("Kural Ekle"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("AI Modu"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "Yapay zekâ isteğinizi analiz ediyor, lütfen bekleyin...",
@@ -120,6 +121,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "collapseOptions": MessageLookupByLibrary.simpleMessage(
       "Seçenekleri Daralt",
     ),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("Renk seçici"),
     "currentName": MessageLookupByLibrary.simpleMessage("Mevcut Dosya Adı"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Dosya adını artırın, örneğin Fotoğraf-1, Fotoğraf-2, Fotoğraf-3.",
@@ -239,6 +241,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("Dil:"),
     "limit": MessageLookupByLibrary.simpleMessage("Sınır"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("Manuel Mod"),
     "me": MessageLookupByLibrary.simpleMessage("Karadağca"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "Meta veri etiketleri içeriyor ancak meta veri ayrıştırıcısı sağlanmadı.",

@@ -338,5 +338,8 @@
         "type": "String"
       }
     }
-  }
+  },
+  "colorPicker": "Color picker",
+  "manualMode": "Manual Mode",
+  "aiMode": "AI Mode"
 }

@@ -93,7 +93,7 @@ class RulesPageState extends State<RulesPage> {
               children: [
                 const Icon(Icons.rule, size: 18),
                 const SizedBox(width: 4),
-                const Text('Manual Mode'),
+                Text(L10n.current.manualMode),
               ],
             ),
           ),
@@ -104,7 +104,7 @@ class RulesPageState extends State<RulesPage> {
               children: [
                 const Icon(Icons.auto_awesome, size: 18),
                 const SizedBox(width: 4),
-                const Text('AI Mode'),
+                Text(L10n.current.aiMode),
               ],
             ),
           ),

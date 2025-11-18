@@ -78,6 +78,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFile": MessageLookupByLibrary.simpleMessage("เพิ่มไฟล์"),
     "addFiles": MessageLookupByLibrary.simpleMessage("โปรดเพิ่มไฟล์"),
     "addRule": MessageLookupByLibrary.simpleMessage("เพิ่มกฏ"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("โหมด AI"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "ระบบ AI กำลังวิเคราะห์คำขอของคุณ กรุณารอสักครู่...",
@@ -116,6 +117,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "ตรวจสอบตัวพิมพ์ใหญ่เล็ก",
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("ยุบตัวเลือก"),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("ตัวเลือกสี"),
     "currentName": MessageLookupByLibrary.simpleMessage("ชื่อไฟล์ปัจจุบัน"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "เพิ่มเลขดัชนีในชื่อไฟล์ (เช่น รูปภาพ-1, รูปภาพ-2, รูปภาพ-3)",
@@ -227,6 +229,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("ภาษา:"),
     "limit": MessageLookupByLibrary.simpleMessage("จำกัด"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("โหมดแมนนวล"),
     "me": MessageLookupByLibrary.simpleMessage("เมอร์เซเดีย"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "มีแท็กข้อมูลแต่ไม่มีตัวแยก ไม่สามารถแยกและดึงข้อมูลได้",

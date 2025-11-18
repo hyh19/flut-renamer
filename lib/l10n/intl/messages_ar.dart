@@ -78,6 +78,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFile": MessageLookupByLibrary.simpleMessage("إضافة ملف"),
     "addFiles": MessageLookupByLibrary.simpleMessage("الرجاء إضافة ملفات."),
     "addRule": MessageLookupByLibrary.simpleMessage("إضافة قاعدة"),
+    "aiMode": MessageLookupByLibrary.simpleMessage("وضع الذكاء الاصطناعي"),
     "aiRenameError": m0,
     "aiRenameLoading": MessageLookupByLibrary.simpleMessage(
       "يقوم الذكاء الاصطناعي بتحليل طلبك، يرجى الانتظار...",
@@ -116,6 +117,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "حساسية لحالة الأحرف",
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("طي الخيارات"),
+    "colorPicker": MessageLookupByLibrary.simpleMessage("منتقي الألوان"),
     "currentName": MessageLookupByLibrary.simpleMessage("الاسم الحالي"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "زيادة في تسمية الملفات، على سبيل المثال: ملف-1، ملف-2، ملف-3.",
@@ -227,6 +229,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language": MessageLookupByLibrary.simpleMessage("اللغة:"),
     "limit": MessageLookupByLibrary.simpleMessage("الحد"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "manualMode": MessageLookupByLibrary.simpleMessage("الوضع اليدوي"),
     "me": MessageLookupByLibrary.simpleMessage("المونتينيغرين"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(
       "يحتوي على علامات البيانات الوصفية، لكن لم يتم توفير محلل البيانات الوصفية.",
