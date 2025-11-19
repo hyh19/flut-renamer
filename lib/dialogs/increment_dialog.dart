@@ -7,7 +7,9 @@ import '../rules/rule.dart';
 // import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
 
-void showIncrementDialog(BuildContext context, Function(Rule) onSave, [RuleIncrement? rule]) => showDialog(
+void showIncrementDialog(BuildContext context, Function(Rule) onSave,
+        [RuleIncrement? rule]) =>
+    showDialog(
       context: context,
       builder: (context) => IncrementDialog(
         onSave: onSave,
@@ -78,7 +80,8 @@ class _IncrementDialogState extends State<IncrementDialog> {
               inputFormatters: <TextInputFormatter>[
                 FilteringTextInputFormatter.allow(RegExp('[0-9]')), // 只允许数字
               ],
-              decoration: InputDecoration(labelText: L10n.current.indexIncrementalStep),
+              decoration:
+                  InputDecoration(labelText: L10n.current.indexIncrementalStep),
             ),
             // CheckboxTile(
             //   title: Text(L10n.current.omitDash),

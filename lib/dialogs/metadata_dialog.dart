@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../l10n/l10n.dart';
 import '../widget/custom_dialog.dart';
 
-void showMetadataDialog(BuildContext context, Function(String tag) onInsert) => showDialog(
+void showMetadataDialog(BuildContext context, Function(String tag) onInsert) =>
+    showDialog(
       context: context,
       builder: (context) => MetadataDialog(
         onInsert: onInsert,

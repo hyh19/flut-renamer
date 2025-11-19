@@ -1,13 +1,15 @@
+import 'package:cyrtranslit/cyrtranslit.dart' as cyrtranslit;
 import 'package:flutter/material.dart';
+
 import '../entity/transliterate.dart';
 import '../l10n/l10n.dart';
+import '../rules/rule.dart';
 import '../widget/custom_dialog.dart';
 import '../widget/custom_drop.dart';
-import 'package:cyrtranslit/cyrtranslit.dart' as cyrtranslit;
 
-import '../rules/rule.dart';
-
-void showTransliterateDialog(BuildContext context, Function(Rule) onSave, [RuleTransliterate? rule]) => showDialog(
+void showTransliterateDialog(BuildContext context, Function(Rule) onSave,
+        [RuleTransliterate? rule]) =>
+    showDialog(
       context: context,
       builder: (context) => TransliterateDialog(
         onSave: onSave,
@@ -58,7 +60,8 @@ class _TransliterateDialogState extends State<TransliterateDialog> {
               },
               items: Transliterate.values,
             ),
-            if ([Transliterate.cyrillic2Latin, Transliterate.latin2Cyrillic].contains(type))
+            if ([Transliterate.cyrillic2Latin, Transliterate.latin2Cyrillic]
+                .contains(type))
               Row(
                 children: [
                   Text(L10n.current.language),
@@ -69,7 +72,10 @@ class _TransliterateDialogState extends State<TransliterateDialog> {
                         langCode = newValue;
                       });
                     },
-                    items: cyrtranslit.supported().map((e) => e.toString()).toList(),
+                    items: cyrtranslit
+                        .supported()
+                        .map((e) => e.toString())
+                        .toList(),
                     tToStr: (e) => RuleTransliterate.langCodeMap[e]!,
                   ),
                 ],

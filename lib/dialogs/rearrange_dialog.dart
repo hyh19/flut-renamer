@@ -6,7 +6,9 @@ import '../l10n/l10n.dart';
 import '../rules/rule.dart';
 import '../widget/custom_dialog.dart';
 
-void showRearrangeDialog(BuildContext context, Function(Rule) onSave, [RuleRearrange? rule]) => showDialog(
+void showRearrangeDialog(BuildContext context, Function(Rule) onSave,
+        [RuleRearrange? rule]) =>
+    showDialog(
       context: context,
       builder: (context) => RearrangeDialog(
         onSave: onSave,
@@ -49,7 +51,8 @@ class _RearrangeDialogState extends State<RearrangeDialog> {
             Text(L10n.current.descriptionRearrange),
             TextFormField(
               controller: delimiterController,
-              decoration: InputDecoration(labelText: L10n.current.rearrangeDelimiter),
+              decoration:
+                  InputDecoration(labelText: L10n.current.rearrangeDelimiter),
             ),
             box,
             TextFormField(
@@ -87,9 +90,13 @@ class _RearrangeDialogState extends State<RearrangeDialog> {
           onPressed: () {
             String delimiter = delimiterController.text;
             String order = intArrayController.text;
-            List<int> orderList = order.split(RegExp('[,，]')).map((s) => int.tryParse(s.trim()) ?? 0).toList();
+            List<int> orderList = order
+                .split(RegExp('[,，]'))
+                .map((s) => int.tryParse(s.trim()) ?? 0)
+                .toList();
 
-            final Rule rule = RuleRearrange(delimiter, orderList, ignoreExtension);
+            final Rule rule =
+                RuleRearrange(delimiter, orderList, ignoreExtension);
 
             widget.onSave.call(rule);
             Navigator.of(context).pop();
