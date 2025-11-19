@@ -36,7 +36,10 @@ class CustomDrop<T> extends StatelessWidget {
             final text = tToStr.call(tValue);
             return DropdownMenuItem<T>(
               value: tValue,
-              child: Text(text, semanticsLabel: text + semanticsAppendix,),
+              child: Text(
+                text,
+                semanticsLabel: text + semanticsAppendix,
+              ),
             );
           }).toList(),
         ),

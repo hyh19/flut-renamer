@@ -54,13 +54,16 @@ class RuleTransliterate implements Rule {
 
   @override
   String toString() {
-    if ([Transliterate.cyrillic2Latin, Transliterate.latin2Cyrillic].contains(type)) {
-      return L10n.current.transliterateToStringCyrillic(langCodeMap[langCode]!, type.toString());
+    if ([Transliterate.cyrillic2Latin, Transliterate.latin2Cyrillic]
+        .contains(type)) {
+      return L10n.current.transliterateToStringCyrillic(
+          langCodeMap[langCode]!, type.toString());
     } else {
       return L10n.current.transliterateToString(type.toString());
     }
   }
 
   @override
-  void openDialog(BuildContext context, Function(Rule rule) onSave) => showTransliterateDialog(context, onSave, this);
+  void openDialog(BuildContext context, Function(Rule rule) onSave) =>
+      showTransliterateDialog(context, onSave, this);
 }

@@ -12,7 +12,8 @@ class RuleIncrement implements Rule {
   int index;
 
   final String prefix;
-  final int startIndex; // start index, first file will be renamed as "prefix-startIndex"
+  final int
+      startIndex; // start index, first file will be renamed as "prefix-startIndex"
   final int step; // incremental step of index
   final bool omitDash; // omit the dash between prefix and index
   final bool ignoreExtension;
@@ -44,5 +45,6 @@ class RuleIncrement implements Rule {
   }
 
   @override
-  void openDialog(BuildContext context, Function(Rule rule) onSave) => showIncrementDialog(context, onSave, this);
+  void openDialog(BuildContext context, Function(Rule rule) onSave) =>
+      showIncrementDialog(context, onSave, this);
 }

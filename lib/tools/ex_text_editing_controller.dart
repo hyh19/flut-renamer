@@ -2,8 +2,8 @@ import 'dart:io';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:toastification/toastification.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:toastification/toastification.dart';
 
 import 'file_metadata.dart';
 
@@ -14,7 +14,8 @@ extension ExTextEditingController on TextEditingController {
     for (final match in matches) {
       if (cursorPos > match.start && cursorPos < match.end) {
         if (Platform.isAndroid) {
-          Fluttertoast.showToast(msg: 'Do not insert a tag inside another tag.');
+          Fluttertoast.showToast(
+              msg: 'Do not insert a tag inside another tag.');
         } else {
           toastification.show(
             context: context,

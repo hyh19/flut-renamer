@@ -1,39 +1,43 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import '../tools/ex_text_editing_controller.dart';
 import '../dialogs/metadata_dialog.dart';
 import '../l10n/l10n.dart';
+import '../tools/ex_text_editing_controller.dart';
 import 'checkbox_tile.dart';
 
 class MetadataTile extends StatefulWidget {
-  const MetadataTile({super.key, required this.textController, required this.withMetadata});
+  const MetadataTile(
+      {super.key, required this.textController, required this.withMetadata});
 
   final TextEditingController textController;
   final ValueNotifier<bool> withMetadata;
+
   @override
   State<MetadataTile> createState() => _MetadataTileState();
 }
 
 class _MetadataTileState extends State<MetadataTile> {
-  final Map<CustomSemanticsAction, VoidCallback> _semanticsActions = <CustomSemanticsAction, VoidCallback>{};
-  
+  final Map<CustomSemanticsAction, VoidCallback> _semanticsActions =
+      <CustomSemanticsAction, VoidCallback>{};
+
   @override
   void initState() {
-    _semanticsActions[CustomSemanticsAction(label: L10n.current.semanticsOpenMetadataDialog)] = _showDialog;
+    _semanticsActions[CustomSemanticsAction(
+        label: L10n.current.semanticsOpenMetadataDialog)] = _showDialog;
     super.initState();
   }
 
   void _showDialog() => showMetadataDialog(context, (tag) {
-    widget.textController.insertTag(tag, context);
-    setState(() {
-      widget.withMetadata.value = true;
-    });
-  });
+        widget.textController.insertTag(tag, context);
+        setState(() {
+          widget.withMetadata.value = true;
+        });
+      });
 
   void _onChanged(bool? value) => setState(() {
-    widget.withMetadata.value = value ?? widget.withMetadata.value;
-  });
+        widget.withMetadata.value = value ?? widget.withMetadata.value;
+      });
 
   @override
   Widget build(BuildContext context) {

@@ -4,10 +4,10 @@ import 'package:file_manager/file_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-import '../tools/responsive.dart';
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../tools/ex_file.dart';
+import '../tools/responsive.dart';
 
 /// Only flutter supported:
 /// https://api.flutter.dev/flutter/widgets/Image-class.html
@@ -88,15 +88,19 @@ class _AndroidFilePickerState extends State<AndroidFilePicker> {
               builder: (contextS, setStateS) => Responsive(
                 mobile: ListView.separated(
                   separatorBuilder: (_, __) => const Divider(),
-                  padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 0),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 2, vertical: 0),
                   itemCount: entities.length,
-                  itemBuilder: (context, index) => itemBuilder(context, index, setStateS, entities),
+                  itemBuilder: (context, index) =>
+                      itemBuilder(context, index, setStateS, entities),
                 ),
                 desktop: gridBuilder(
                   context: contextS,
-                  crossAxisCount: MediaQuery.of(context).size.width ~/ 250, // Number of columns
+                  crossAxisCount: MediaQuery.of(context).size.width ~/
+                      250, // Number of columns
                   itemCount: entities.length,
-                  itemBuilder: (context, index) => itemBuilder(context, index, setStateS, entities),
+                  itemBuilder: (context, index) =>
+                      itemBuilder(context, index, setStateS, entities),
                 ),
               ),
             );
@@ -130,7 +134,9 @@ class _AndroidFilePickerState extends State<AndroidFilePicker> {
         children: List.generate(
           crossAxisCount,
           (index) => Expanded(
-            child: itemBuilder.call(context, rowIndex * crossAxisCount + index) ?? Container(),
+            child:
+                itemBuilder.call(context, rowIndex * crossAxisCount + index) ??
+                    Container(),
           ),
         ),
       ),
@@ -244,13 +250,16 @@ class _AndroidFilePickerState extends State<AndroidFilePicker> {
           icon: const Icon(Icons.select_all_rounded),
         ),
         IconButton(
-          tooltip: hideHiddenEntities ? L10n.current.hideHiddenFiles : L10n.current.showHiddenFiles,
+          tooltip: hideHiddenEntities
+              ? L10n.current.hideHiddenFiles
+              : L10n.current.showHiddenFiles,
           onPressed: () {
             setState(() {
               hideHiddenEntities = !hideHiddenEntities;
             });
           },
-          icon: Icon(hideHiddenEntities ? Icons.visibility_off : Icons.visibility),
+          icon: Icon(
+              hideHiddenEntities ? Icons.visibility_off : Icons.visibility),
         ),
         IconButton(
           tooltip: L10n.current.fileManagerSaveButton,
@@ -290,7 +299,8 @@ class _AndroidFilePickerState extends State<AndroidFilePicker> {
 
             return Text(
               '$last $size',
-              semanticsLabel: L10n.current.semanticsFileManagerSubtitle(last, size),
+              semanticsLabel:
+                  L10n.current.semanticsFileManagerSubtitle(last, size),
             );
           }
           return Text(

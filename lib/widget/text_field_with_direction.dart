@@ -25,7 +25,9 @@ class _DirectionTextFieldState extends State<DirectionTextField> {
     return _getRow(widget.con, widget.toEnd, widget.labelText);
   }
 
-  Widget _getRow(TextEditingController con, ValueNotifier<bool> toEnd, String labelText) => Row(
+  Widget _getRow(TextEditingController con, ValueNotifier<bool> toEnd,
+          String labelText) =>
+      Row(
         children: [
           Expanded(
             child: TextFormField(
@@ -40,7 +42,8 @@ class _DirectionTextFieldState extends State<DirectionTextField> {
           TextButton(
             child: Text(
               L10n.current.toLast,
-              semanticsLabel: L10n.current.semanticSwitchNumberToStartAndToEnd(toEnd.value.toString()),
+              semanticsLabel: L10n.current
+                  .semanticSwitchNumberToStartAndToEnd(toEnd.value.toString()),
               style: TextStyle(
                 color: toEnd.value ? null : Colors.grey,
               ),

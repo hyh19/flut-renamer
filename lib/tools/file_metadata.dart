@@ -99,9 +99,11 @@ class FileMetadata {
       case 'Photo:ISO':
         return (_exif['EXIF ISOSpeedRatings'] ?? '').toString();
       case 'Photo:Longitude':
-        return _getLatLng(_exif['GPS GPSLongitude'], _exif['GPS GPSLongitudeRef']);
+        return _getLatLng(
+            _exif['GPS GPSLongitude'], _exif['GPS GPSLongitudeRef']);
       case 'Photo:Latitude':
-        return _getLatLng(_exif['GPS GPSLatitude'], _exif['GPS GPSLatitudeRef']);
+        return _getLatLng(
+            _exif['GPS GPSLatitude'], _exif['GPS GPSLatitudeRef']);
       case 'Photo:Altitude':
         return (_exif['GPS GPSAltitude'] ?? 0).toString();
       case 'Photo:Photographer':
@@ -157,8 +159,10 @@ class FileMetadata {
       final List<Ratio> coordinate = (tag.values as IfdRatios).ratios;
       if (coordinate.isNotEmpty) {
         int degrees = _parseRatio(coordinate[0]).toInt();
-        int minutes = coordinate.length > 1 ? _parseRatio(coordinate[1]).toInt() : 0;
-        double seconds = coordinate.length > 2 ? _parseRatio(coordinate[2]) : 0.0;
+        int minutes =
+            coordinate.length > 1 ? _parseRatio(coordinate[1]).toInt() : 0;
+        double seconds =
+            coordinate.length > 2 ? _parseRatio(coordinate[2]) : 0.0;
         return '$degrees°$minutes′$seconds″';
       }
     }
@@ -225,11 +229,11 @@ class FileMetadata {
     int minutes = dur.inMinutes;
     int hours = dur.inHours;
 
-    if (hours > 0){
+    if (hours > 0) {
       return '$hours:${twoDigits(minutes)}:${twoDigits(seconds)}.${twoDigits(centiseconds)}';
-    } else if(minutes > 0){
+    } else if (minutes > 0) {
       return '${twoDigits(minutes)}:${twoDigits(seconds)}.${twoDigits(centiseconds)}';
-    } else if (seconds > 0){
+    } else if (seconds > 0) {
       return '${twoDigits(seconds)}.${twoDigits(centiseconds)}sec';
     } else {
       return '${dur.inMilliseconds}ms';

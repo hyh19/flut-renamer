@@ -29,8 +29,10 @@ class FileListColors extends ThemeExtension<FileListColors> {
     }
 
     return FileListColors(
-      primaryColor: Color.lerp(primaryColor, other.primaryColor, t) ?? primaryColor,
-      secondaryColor: Color.lerp(secondaryColor, other.secondaryColor, t) ?? secondaryColor,
+      primaryColor:
+          Color.lerp(primaryColor, other.primaryColor, t) ?? primaryColor,
+      secondaryColor:
+          Color.lerp(secondaryColor, other.secondaryColor, t) ?? secondaryColor,
     );
   }
 }

@@ -29,49 +29,63 @@ class Shared {
   static const _seedColorKey = 'seed_color';
 
   static String _fileOrDir = 'Files';
+
   static String get fileOrDir => _fileOrDir;
+
   static set fileOrDir(String value) {
     _fileOrDir = value;
     pref.setString(_fileOrDirKey, value);
   }
 
   static bool _onlySelected = false;
+
   static bool get onlySelected => _onlySelected;
+
   static set onlySelected(bool value) {
     _onlySelected = value;
     pref.setBool(_onlySelectedKey, value);
   }
 
   static bool _removeRenamed = false;
+
   static bool get removeRenamed => _removeRenamed;
+
   static set removeRenamed(bool value) {
     _removeRenamed = value;
     pref.setBool(_removeRenamedKey, value);
   }
 
   static bool _removeRules = true;
+
   static bool get removeRules => _removeRules;
+
   static set removeRules(bool value) {
     _removeRules = value;
     pref.setBool(_removeRulesKey, value);
   }
 
   static String _ruleName = 'Replace';
+
   static String get ruleName => _ruleName;
+
   static set ruleName(String value) {
     _ruleName = value;
     pref.setString(_ruleNameKey, value);
   }
 
   static bool _doNotRemindAgain = false;
+
   static bool get doNotRemindAgain => _doNotRemindAgain;
+
   static set doNotRemindAgain(bool value) {
     _doNotRemindAgain = value;
     pref.setBool(_doNotRemindAgainKey, value);
   }
 
   static int _seedColorValue = 0xff9cdce8;
+
   static Color get seedColor => Color(_seedColorValue);
+
   static set seedColor(Color value) {
     final int colorValue = value.toARGB32();
     _seedColorValue = colorValue;

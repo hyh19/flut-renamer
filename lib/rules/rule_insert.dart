@@ -52,9 +52,11 @@ class RuleInsert implements Rule {
 
   @override
   String toString() {
-    return L10n.current.insertToString(toEnd.toString(), 'o${insertIndex % 10}', insert, insertIndex);
+    return L10n.current.insertToString(
+        toEnd.toString(), 'o${insertIndex % 10}', insert, insertIndex);
   }
 
   @override
-  void openDialog(BuildContext context, Function(Rule rule) onSave) => showInsertDialog(context, onSave, this);
+  void openDialog(BuildContext context, Function(Rule rule) onSave) =>
+      showInsertDialog(context, onSave, this);
 }

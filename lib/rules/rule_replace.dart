@@ -46,8 +46,8 @@ class RuleReplace implements Rule {
     if (isRegex) {
       target = RegExp(targetString, caseSensitive: caseSensitive);
       replacer = (match) {
-        List<String?> groups =
-            match.groups(List<int>.generate(match.groupCount + 1, (index) => index));
+        List<String?> groups = match
+            .groups(List<int>.generate(match.groupCount + 1, (index) => index));
 
         String replacedString = replacementString;
         for (int i = 0; i <= match.groupCount; i++) {
@@ -57,7 +57,8 @@ class RuleReplace implements Rule {
         return replacedString;
       };
     } else {
-      target = RegExp(RegExp.escape(targetString), caseSensitive: caseSensitive);
+      target =
+          RegExp(RegExp.escape(targetString), caseSensitive: caseSensitive);
       replacer = (match) => replacementString;
     }
 
@@ -82,5 +83,6 @@ class RuleReplace implements Rule {
   }
 
   @override
-  void openDialog(BuildContext context, Function(Rule rule) onSave) => showReplaceDialog(context, onSave, this);
+  void openDialog(BuildContext context, Function(Rule rule) onSave) =>
+      showReplaceDialog(context, onSave, this);
 }

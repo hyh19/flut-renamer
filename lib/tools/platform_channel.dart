@@ -27,7 +27,8 @@ class PlatformFilePicker {
     }
   }
 
-  static Future<bool> changeScopedAccess(String targetPath, bool startOrEnd) async {
+  static Future<bool> changeScopedAccess(
+      String targetPath, bool startOrEnd) async {
     try {
       return await _channel.invokeMethod(
         'changeScopedAccess',
