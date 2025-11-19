@@ -42,7 +42,7 @@ class Shared {
     pref.setBool(_onlySelectedKey, value);
   }
 
-  static bool _removeRenamed = true;
+  static bool _removeRenamed = false;
   static bool get removeRenamed => _removeRenamed;
   static set removeRenamed(bool value) {
     _removeRenamed = value;
