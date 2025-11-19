@@ -89,15 +89,15 @@ class _IncrementDialogState extends State<IncrementDialog> {
                 });
               },
             ),
-            CheckboxTile(
-              title: Text(L10n.current.ignoreExtension),
-              value: ignoreExtension,
-              onChanged: (value) {
-                setState(() {
-                  ignoreExtension = value ?? ignoreExtension;
-                });
-              },
-            ),
+            // CheckboxTile(
+            //   title: Text(L10n.current.ignoreExtension),
+            //   value: ignoreExtension,
+            //   onChanged: (value) {
+            //     setState(() {
+            //       ignoreExtension = value ?? ignoreExtension;
+            //     });
+            //   },
+            // ),
           ],
         ),
       ),

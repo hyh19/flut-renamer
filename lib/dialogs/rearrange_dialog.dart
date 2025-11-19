@@ -4,7 +4,6 @@ import 'package:flutter/services.dart';
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
-import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
 
 void showRearrangeDialog(BuildContext context, Function(Rule) onSave, [RuleRearrange? rule]) => showDialog(
@@ -65,15 +64,15 @@ class _RearrangeDialogState extends State<RearrangeDialog> {
                 hintText: L10n.current.rearrangeOrderHint,
               ),
             ),
-            CheckboxTile(
-              title: Text(L10n.current.ignoreExtension),
-              value: ignoreExtension,
-              onChanged: (value) {
-                setState(() {
-                  ignoreExtension = value ?? ignoreExtension;
-                });
-              },
-            ),
+            // CheckboxTile(
+            //   title: Text(L10n.current.ignoreExtension),
+            //   value: ignoreExtension,
+            //   onChanged: (value) {
+            //     setState(() {
+            //       ignoreExtension = value ?? ignoreExtension;
+            //     });
+            //   },
+            // ),
           ],
         ),
       ),

@@ -4,7 +4,6 @@ import '../widget/text_field_with_direction.dart';
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
-import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
 
 void showTruncateDialog(BuildContext context, Function(Rule) onSave, [RuleTruncate? rule]) => showDialog(
@@ -70,15 +69,15 @@ class _TruncateDialogState extends State<TruncateDialog> {
                 },
               ),
             ),
-            CheckboxTile(
-              title: Text(L10n.current.ignoreExtension),
-              value: ignoreExtension,
-              onChanged: (value) {
-                setState(() {
-                  ignoreExtension = value ?? ignoreExtension;
-                });
-              },
-            ),
+            // CheckboxTile(
+            //   title: Text(L10n.current.ignoreExtension),
+            //   value: ignoreExtension,
+            //   onChanged: (value) {
+            //     setState(() {
+            //       ignoreExtension = value ?? ignoreExtension;
+            //     });
+            //   },
+            // ),
           ],
         ),
       ),

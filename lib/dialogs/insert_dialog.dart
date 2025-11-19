@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
-import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
 import '../widget/text_field_with_direction.dart';
 
@@ -69,15 +68,15 @@ class _InsertDialogState extends State<InsertDialog> {
                 labelText: L10n.current.insertIndex),
             // Text(L10n.current.insertBeforeIndex, style: const TextStyle(fontSize: 13),),
             // MetadataTile(textController: textController, withMetadata: withMetadata),
-            CheckboxTile(
-              title: Text(L10n.current.ignoreExtension),
-              value: ignoreExtension,
-              onChanged: (value) {
-                setState(() {
-                  ignoreExtension = value ?? ignoreExtension;
-                });
-              },
-            ),
+            // CheckboxTile(
+            //   title: Text(L10n.current.ignoreExtension),
+            //   value: ignoreExtension,
+            //   onChanged: (value) {
+            //     setState(() {
+            //       ignoreExtension = value ?? ignoreExtension;
+            //     });
+            //   },
+            // ),
           ],
         ),
       ),
