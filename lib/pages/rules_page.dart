@@ -244,7 +244,6 @@ class _AiRenameContentState extends State<AiRenameContent> {
                       textAlignVertical: TextAlignVertical.top,
                       decoration: InputDecoration(
                         labelText: L10n.current.aiRenameRequirementsLabel,
-                        hintText: L10n.current.aiRenameRequirementsHint,
                         border: const OutlineInputBorder(),
                         alignLabelWithHint: true,
                       ),
