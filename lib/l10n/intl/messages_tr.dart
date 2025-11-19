@@ -127,16 +127,16 @@ class MessageLookup extends MessageLookupByLibrary {
       "Dosya adını artırın, örneğin Fotoğraf-1, Fotoğraf-2, Fotoğraf-3.",
     ),
     "descriptionInsert": MessageLookupByLibrary.simpleMessage(
-      "Belirtilen konuma belirtilen metni (veya dosya meta verisi ve EXIF verileriyle) ekleyin.",
+      "Belirtilen konuma belirtilen metni ekleyin.",
     ),
     "descriptionRearrange": MessageLookupByLibrary.simpleMessage(
       "Dosya adını kullanıcı tarafından belirtilen bir ayraçla parçalara bölebilir ve belirtilen sıraya göre yeniden düzenleyebilirsiniz.",
     ),
     "descriptionRemove": MessageLookupByLibrary.simpleMessage(
-      "Belirtilen metni (veya verilen düzenli ifadeyle eşleşen metni) dosya adından kaldırın.",
+      "Belirtilen metni dosya adından kaldırın.",
     ),
     "descriptionReplace": MessageLookupByLibrary.simpleMessage(
-      "Belirtilen metni (veya verilen düzenli ifadeyle eşleşen metni) verilen değiştirme metni (veya dosya meta verisi ve EXIF verileriyle) ile değiştirin.",
+      "Belirtilen metni verilen değiştirme metni ile değiştirin.",
     ),
     "descriptionTransliterate": MessageLookupByLibrary.simpleMessage(
       "Önceden tanımlanmış bir standarta göre karakterleri değiştirin, büyük veya küçük harfleri değiştirin, farklı metin varyantlarına veya farklı yazı sistemlerine dönüştürün.",

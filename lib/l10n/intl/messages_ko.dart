@@ -114,16 +114,16 @@ class MessageLookup extends MessageLookupByLibrary {
       "파일 이름을 증가시킵니다. 예: 사진-1, 사진-2, 사진-3.",
     ),
     "descriptionInsert": MessageLookupByLibrary.simpleMessage(
-      "지정된 위치에 제공된 텍스트(또는 파일 메타데이터 및 EXIF 데이터)를 삽입합니다.",
+      "지정된 위치에 제공된 텍스트를 삽입합니다.",
     ),
     "descriptionRearrange": MessageLookupByLibrary.simpleMessage(
       "파일 이름을 사용자가 지정한 구분 기호로 분할하고 제공된 순서에 따라 다시 정렬합니다.",
     ),
     "descriptionRemove": MessageLookupByLibrary.simpleMessage(
-      "지정된 텍스트(또는 제공된 정규식과 일치하는 텍스트)를 파일 이름에서 제거합니다.",
+      "지정된 텍스트를 파일 이름에서 제거합니다.",
     ),
     "descriptionReplace": MessageLookupByLibrary.simpleMessage(
-      "지정된 텍스트(또는 제공된 정규식과 일치하는 텍스트)를 제공된 대체 텍스트(또는 파일 메타데이터 및 EXIF 데이터)로 바꿉니다.",
+      "지정된 텍스트를 제공된 대체 텍스트로 바꿉니다.",
     ),
     "descriptionTransliterate": MessageLookupByLibrary.simpleMessage(
       "미리 정의된 명세에 따라 문자를 변환합니다. 대문자 또는 소문자로 변환, 다른 문자 변형으로의 변환 또는 다른 문자 체계로의 변환을 포함합니다.",

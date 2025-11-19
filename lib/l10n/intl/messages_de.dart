@@ -126,16 +126,16 @@ class MessageLookup extends MessageLookupByLibrary {
       "Inkrementieren Sie den Dateinamen, z. B. Foto-1, Foto-2, Foto-3.",
     ),
     "descriptionInsert": MessageLookupByLibrary.simpleMessage(
-      "Fügen Sie den angegebenen Text (oder Dateimetadaten und EXIF-Daten) an der angegebenen Position in den Dateinamen ein.",
+      "Fügen Sie den angegebenen Text an der angegebenen Position in den Dateinamen ein.",
     ),
     "descriptionRearrange": MessageLookupByLibrary.simpleMessage(
       "Teilen Sie den Dateinamen anhand des vom Benutzer angegebenen Trennzeichens in Segmente auf und ordnen Sie diese Segmente gemäß der bereitgestellten Reihenfolge neu an.",
     ),
     "descriptionRemove": MessageLookupByLibrary.simpleMessage(
-      "Entfernen Sie den angegebenen Text (oder den Text, der dem bereitgestellten regulären Ausdruck entspricht) aus dem Dateinamen.",
+      "Entfernen Sie den angegebenen Text aus dem Dateinamen.",
     ),
     "descriptionReplace": MessageLookupByLibrary.simpleMessage(
-      "Ersetzen Sie den angegebenen Text (oder den Text, der dem bereitgestellten regulären Ausdruck entspricht) durch den angegebenen Ersatztext (oder Dateimetadaten und EXIF-Daten).",
+      "Ersetzen Sie den angegebenen Text durch den angegebenen Ersatztext.",
     ),
     "descriptionTransliterate": MessageLookupByLibrary.simpleMessage(
       "Konvertieren Sie Zeichen gemäß einer vordefinierten Norm, einschließlich Groß- oder Kleinschreibung, verschiedenen Textvarianten oder verschiedenen Schreibsystemen.",

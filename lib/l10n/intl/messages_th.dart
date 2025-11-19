@@ -123,16 +123,16 @@ class MessageLookup extends MessageLookupByLibrary {
       "เพิ่มเลขดัชนีในชื่อไฟล์ (เช่น รูปภาพ-1, รูปภาพ-2, รูปภาพ-3)",
     ),
     "descriptionInsert": MessageLookupByLibrary.simpleMessage(
-      "แทรกข้อความที่ระบุ (หรือข้อมูลเมตาดาต้าและ EXIF) ที่ตำแหน่งที่ระบุ",
+      "แทรกข้อความที่ระบุที่ตำแหน่งที่ระบุ",
     ),
     "descriptionRearrange": MessageLookupByLibrary.simpleMessage(
       "แยกชื่อไฟล์เป็นส่วนๆ ด้วยตัวคั่นที่ระบุ และจัดเรียงตามลำดับที่กำหนด",
     ),
     "descriptionRemove": MessageLookupByLibrary.simpleMessage(
-      "ลบข้อความที่ระบุ (หรือข้อมูลเมตาดาต้าและ EXIF) ออกจากชื่อไฟล์",
+      "ลบข้อความที่ระบุออกจากชื่อไฟล์",
     ),
     "descriptionReplace": MessageLookupByLibrary.simpleMessage(
-      "แทนที่ข้อความที่ระบุ (หรือข้อมูลเมตาดาต้าและ EXIF) ด้วยข้อความที่ระบุ (หรือข้อมูลเมตาดาต้าและ EXIF) ที่กำหนด",
+      "แทนที่ข้อความที่ระบุด้วยข้อความที่ระบุที่กำหนด",
     ),
     "descriptionTransliterate": MessageLookupByLibrary.simpleMessage(
       "แปลงตัวอักษรตามรูปแบบที่กำหนด เช่น เปลี่ยนเป็นตัวพิมพ์ใหญ่หรือตัวพิมพ์เล็ก",

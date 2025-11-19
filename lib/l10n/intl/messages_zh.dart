@@ -112,17 +112,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "递增文件名，例如 照片-1、照片-2、照片-3。",
     ),
-    "descriptionInsert": MessageLookupByLibrary.simpleMessage(
-      "在指定位置插入指定文本（或文件元数据和EXIF数据）。",
-    ),
+    "descriptionInsert": MessageLookupByLibrary.simpleMessage("在指定位置插入指定文本。"),
     "descriptionRearrange": MessageLookupByLibrary.simpleMessage(
       "以用户指定的分隔符将文件名分割成若干片段，并根据提供的顺序重新排列。",
     ),
-    "descriptionRemove": MessageLookupByLibrary.simpleMessage(
-      "从文件名中删除指定的文本（或与提供的正则表达式匹配的文本）。",
-    ),
+    "descriptionRemove": MessageLookupByLibrary.simpleMessage("从文件名中删除指定的文本。"),
     "descriptionReplace": MessageLookupByLibrary.simpleMessage(
-      "用给定的替换文本（或文件元数据和EXIF数据）替换指定的文本（或与提供的正则表达式匹配的文本）。",
+      "用给定的替换文本替换指定的文本。",
     ),
     "descriptionTransliterate": MessageLookupByLibrary.simpleMessage(
       "根据预先定义的规范转换字符，包括将字母转换为大写或小写、转换为不同的文字变体或转换为不同的书写系统。",

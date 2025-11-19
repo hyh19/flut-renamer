@@ -1345,30 +1345,30 @@ class L10n {
     );
   }
 
-  /// `Replace the specified text (or text matching the provided regular expression) with the given replacement text (or file metadata and EXIF data).`
+  /// `Replace the specified text with the given replacement text.`
   String get descriptionReplace {
     return Intl.message(
-      'Replace the specified text (or text matching the provided regular expression) with the given replacement text (or file metadata and EXIF data).',
+      'Replace the specified text with the given replacement text.',
       name: 'descriptionReplace',
       desc: '',
       args: [],
     );
   }
 
-  /// `Remove the specified text (or text matching the provided regular expression) from the filename.`
+  /// `Remove the specified text from the filename.`
   String get descriptionRemove {
     return Intl.message(
-      'Remove the specified text (or text matching the provided regular expression) from the filename.',
+      'Remove the specified text from the filename.',
       name: 'descriptionRemove',
       desc: '',
       args: [],
     );
   }
 
-  /// `Insert the specified text (or file metadata and EXIF data) at the designated position.`
+  /// `Insert the specified text at the designated position.`
   String get descriptionInsert {
     return Intl.message(
-      'Insert the specified text (or file metadata and EXIF data) at the designated position.',
+      'Insert the specified text at the designated position.',
       name: 'descriptionInsert',
       desc: '',
       args: [],

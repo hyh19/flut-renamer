@@ -119,16 +119,16 @@ class MessageLookup extends MessageLookupByLibrary {
       "Increment the filename, e.g., Photo-1, Photo-2, Photo-3.",
     ),
     "descriptionInsert": MessageLookupByLibrary.simpleMessage(
-      "Insert the specified text (or file metadata and EXIF data) at the designated position.",
+      "Insert the specified text at the designated position.",
     ),
     "descriptionRearrange": MessageLookupByLibrary.simpleMessage(
       "Splitting the filename by the user-specified delimiter and rearrange segments according to the provided order.",
     ),
     "descriptionRemove": MessageLookupByLibrary.simpleMessage(
-      "Remove the specified text (or text matching the provided regular expression) from the filename.",
+      "Remove the specified text from the filename.",
     ),
     "descriptionReplace": MessageLookupByLibrary.simpleMessage(
-      "Replace the specified text (or text matching the provided regular expression) with the given replacement text (or file metadata and EXIF data).",
+      "Replace the specified text with the given replacement text.",
     ),
     "descriptionTransliterate": MessageLookupByLibrary.simpleMessage(
       "Transliterate characters according to predefined specifications, including converting characters to upper or lower case, converting between character sets, or converting characters to phonetic equivalents.",

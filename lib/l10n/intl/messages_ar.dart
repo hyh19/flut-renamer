@@ -123,16 +123,16 @@ class MessageLookup extends MessageLookupByLibrary {
       "زيادة في تسمية الملفات، على سبيل المثال: ملف-1، ملف-2، ملف-3.",
     ),
     "descriptionInsert": MessageLookupByLibrary.simpleMessage(
-      "أدرج النص المحدد (أو بيانات الملف وبيانات EXIF) في الموقع المحدد.",
+      "أدرج النص المحدد في الموقع المحدد.",
     ),
     "descriptionRearrange": MessageLookupByLibrary.simpleMessage(
       "قم بتقسيم اسم الملف إلى أجزاء باستخدام الفاصل المحدد وإعادة ترتيبها بترتيب محدد.",
     ),
     "descriptionRemove": MessageLookupByLibrary.simpleMessage(
-      "احذف النص المحدد (أو النص المتطابق مع التعبير العادي المقدم) من اسم الملف.",
+      "احذف النص المحدد من اسم الملف.",
     ),
     "descriptionReplace": MessageLookupByLibrary.simpleMessage(
-      "استبدل النص المحدد (أو النص المتطابق مع التعبير العادي المقدم) بالنص المحدد (أو بيانات الملف وبيانات EXIF).",
+      "استبدل النص المحدد بالنص المحدد.",
     ),
     "descriptionTransliterate": MessageLookupByLibrary.simpleMessage(
       "قم بتحويل الحروف وفقًا للمواصفات المحددة مسبقًا، بما في ذلك تحويل الأحرف إلى الأحرف الكبيرة أو الصغيرة، أو تحويلها إلى أشكال نصية مختلفة أو إلى أنظمة كتابة مختلفة.",

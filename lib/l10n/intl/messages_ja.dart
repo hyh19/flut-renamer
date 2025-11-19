@@ -112,16 +112,16 @@ class MessageLookup extends MessageLookupByLibrary {
       "ファイル名を増分します。例：写真-1、写真-2、写真-3。",
     ),
     "descriptionInsert": MessageLookupByLibrary.simpleMessage(
-      "指定された位置に指定されたテキスト（またはファイルメタデータおよびEXIFデータ）を挿入します。",
+      "指定された位置に指定されたテキストを挿入します。",
     ),
     "descriptionRearrange": MessageLookupByLibrary.simpleMessage(
       "ファイル名を指定された区切り文字で分割し、提供された順序に従って並べ替えます。",
     ),
     "descriptionRemove": MessageLookupByLibrary.simpleMessage(
-      "指定されたテキスト（または提供された正規表現に一致するテキスト）をファイル名から削除します。",
+      "指定されたテキストをファイル名から削除します。",
     ),
     "descriptionReplace": MessageLookupByLibrary.simpleMessage(
-      "指定されたテキスト（またはファイルメタデータおよびEXIFデータ）を指定されたテキスト（または提供された正規表現に一致するテキスト）で置換します。",
+      "指定されたテキストを指定されたテキストで置換します。",
     ),
     "descriptionTransliterate": MessageLookupByLibrary.simpleMessage(
       "指定された仕様に従って文字を変換します。大文字や小文字への変換、異なる文字バリアントへの変換、別の文字体系への変換などが含まれます。",
