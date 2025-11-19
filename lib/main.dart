@@ -9,7 +9,6 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'entity/sharedpref.dart';
-import 'entity/theme_extension.dart';
 import 'l10n/l10n.dart';
 import 'pages/home_page.dart';
 import 'pages/files_page.dart';
@@ -99,12 +98,12 @@ class RenamerApp extends StatelessWidget {
             ),
             brightness: Brightness.light,
             useMaterial3: true,
-            extensions: <ThemeExtension<dynamic>>[
-              FileListColors(
-                primaryColor: Colors.white,
-                secondaryColor: Colors.grey.shade100,
-              ),
-            ],
+            // extensions: <ThemeExtension<dynamic>>[
+            //   FileListColors(
+            //     primaryColor: Colors.white,
+            //     secondaryColor: Colors.grey.shade100,
+            //   ),
+            // ],
           ),
           darkTheme: ThemeData(
             // fixed Chinese font rendering error on Windows
@@ -115,12 +114,12 @@ class RenamerApp extends StatelessWidget {
             ),
             brightness: Brightness.dark,
             useMaterial3: true,
-            extensions: <ThemeExtension<dynamic>>[
-              FileListColors(
-                primaryColor: Colors.grey.shade900,
-                secondaryColor: Colors.grey.shade800,
-              ),
-            ],
+            // extensions: <ThemeExtension<dynamic>>[
+            //   FileListColors(
+            //     primaryColor: Colors.grey.shade900,
+            //     secondaryColor: Colors.grey.shade800,
+            //   ),
+            // ],
           ),
           home: Directionality(
             textDirection: Bidi.isRtlLanguage(_appLocale.languageCode)

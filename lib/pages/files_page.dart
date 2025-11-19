@@ -7,17 +7,14 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-import '../entity/theme_extension.dart';
 import '../l10n/l10n.dart';
 import '../pages/android_file_picker_page.dart';
 import '../tools/platform_channel.dart';
-import '../entity/constants.dart';
 import '../tools/ex_file.dart';
 import '../tools/file_metadata.dart';
 import '../entity/sharedpref.dart';
 import '../tools/rename.dart';
 import '../widget/custom_dialog.dart';
-import '../widget/custom_drop.dart';
 
 class FilesPage extends StatefulWidget {
   const FilesPage({
@@ -240,14 +237,14 @@ class FilesPageState extends State<FilesPage> {
 
   List<TableRow> _tableRows() {
     final filteredList = _filteredList();
-    final fileListColors = Theme.of(context).extension<FileListColors>()!;
+    final colorScheme = Theme.of(context).colorScheme;
     return List.generate(
       filteredList.length,
       (index) => TableRow(
         decoration: BoxDecoration(
           color: index % 2 == 0
-              ? fileListColors.primaryColor
-              : fileListColors.secondaryColor,
+              ? colorScheme.surface
+              : colorScheme.surfaceContainerHighest,
         ),
         children: [
           // TableCell(
