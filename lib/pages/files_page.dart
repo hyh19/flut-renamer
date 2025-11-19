@@ -2,17 +2,15 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:collection/collection.dart';
-import 'package:desktop_drop/desktop_drop.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 
+import '../entity/sharedpref.dart';
 import '../l10n/l10n.dart';
 import '../pages/android_file_picker_page.dart';
-import '../tools/platform_channel.dart';
 import '../tools/ex_file.dart';
 import '../tools/file_metadata.dart';
-import '../entity/sharedpref.dart';
+import '../tools/platform_channel.dart';
 import '../tools/rename.dart';
 import '../widget/custom_dialog.dart';
 
@@ -40,8 +38,6 @@ class FilesPage extends StatefulWidget {
 final List<FileSystemEntity> _files = [];
 
 class FilesPageState extends State<FilesPage> {
-  bool _dragging = false;
-
   List<FileSystemEntity> get files => _files;
   String _filter = '';
 
@@ -394,74 +390,18 @@ class FilesPageState extends State<FilesPage> {
         // ),
         _table(_headerRow()),
         Expanded(
-          child: DropTarget(
-            enable: !Platform.isIOS,
-            onDragDone: (detail) async {
-              for (var xFile in detail.files) {
-                late final FileSystemEntity file;
-                if (Platform.isAndroid && xFile.path.startsWith('content://')) {
-                  try {
-                    file = (await PlatformFilePicker.getRealPathFromURI(
-                            xFile.path))
-                        .toFileSystemEntity();
-                  } catch (e) {
-                    Fluttertoast.showToast(msg: L10n.current.dragNotSupported);
-                    return;
-                  }
-                } else {
-                  file = xFile.toFileSystemEntity();
-                }
-
-                if (_files.every((exist) => file.path != exist.path)) {
-                  setState(() {
-                    _files.add(file);
-                  });
-                }
-              }
-
-              setState(() {
-                _dragging = false;
-              });
-            },
-            onDragEntered: (detail) {
-              setState(() {
-                _dragging = true;
-              });
-            },
-            onDragExited: (detail) {
-              setState(() {
-                _dragging = false;
-              });
-            },
-            onDragUpdated: (detail) {},
-            child: Container(
-              // color: Theme.of(context).extension<FileListColors>()!.primaryColor,
-              child: Stack(
-                children: [
-                  if (_files.isNotEmpty)
-                    SingleChildScrollView(
-                      child: _table(_tableRows()),
-                    )
-                  else if (!_dragging)
-                    Center(
-                      child: ElevatedButton(
-                        onPressed: addFileFromPicker,
-                        child: Text(Platform.isIOS
-                            ? L10n.current.addFiles
-                            : L10n.current.dragToAdd),
-                      ),
-                    ),
-                  if (_dragging)
-                    Container(
-                      color: Colors.blue.withOpacity(0.2),
-                      child: Center(
-                        child: Text(L10n.current.dropToAdd),
-                      ),
-                    ),
-                ],
-              ),
-            ),
-          ),
+          child: _files.isNotEmpty
+              ? SingleChildScrollView(
+                  child: _table(_tableRows()),
+                )
+              : Center(
+                  child: ElevatedButton(
+                    onPressed: addFileFromPicker,
+                    child: Text(Platform.isIOS
+                        ? L10n.current.addFiles
+                        : L10n.current.addFile),
+                  ),
+                ),
         ),
       ],
     );

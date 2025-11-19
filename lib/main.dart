@@ -4,14 +4,14 @@ import 'package:args/args.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' hide TextDirection;
 import 'package:permission_handler/permission_handler.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'entity/sharedpref.dart';
 import 'l10n/l10n.dart';
-import 'pages/home_page.dart';
 import 'pages/files_page.dart';
+import 'pages/home_page.dart';
 import 'tools/ex_file.dart';
 import 'widget/custom_dialog.dart';
 
@@ -160,7 +160,8 @@ class AppPage extends StatelessWidget {
     }
   }
 
-  void _permissionRequest(BuildContext context, Permission permission) => showDialog(
+  void _permissionRequest(BuildContext context, Permission permission) =>
+      showDialog(
         context: context,
         builder: (contextD) => CustomDialog(
           title: Text(L10n.current.permissionTitle),
@@ -172,9 +173,7 @@ class AppPage extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {
-                permission.request()
-                    .isGranted
-                    .then((value) {
+                permission.request().isGranted.then((value) {
                   if (value) {
                     Navigator.pop(contextD);
                   }
