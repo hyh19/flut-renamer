@@ -8,7 +8,9 @@ import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
 import '../widget/metadata_tile.dart';
 
-void showReplaceDialog(BuildContext context, Function(Rule) onSave, [RuleReplace? rule]) => showDialog(
+void showReplaceDialog(BuildContext context, Function(Rule) onSave,
+        [RuleReplace? rule]) =>
+    showDialog(
       context: context,
       builder: (context) => ReplaceDialog(
         onSave: onSave,
@@ -18,12 +20,13 @@ void showReplaceDialog(BuildContext context, Function(Rule) onSave, [RuleReplace
     );
 
 class ReplaceDialog extends StatefulWidget {
-  const ReplaceDialog({super.key, required this.onSave, required this.remove, this.rule});
+  const ReplaceDialog(
+      {super.key, required this.onSave, required this.remove, this.rule});
 
   final Function(Rule) onSave;
   final bool remove;
   final RuleReplace? rule;
-  
+
   @override
   State<ReplaceDialog> createState() => _ReplaceDialogState();
 }
@@ -69,16 +72,20 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(remove ? L10n.current.descriptionRemove : L10n.current.descriptionReplace),
+            Text(remove
+                ? L10n.current.descriptionRemove
+                : L10n.current.descriptionReplace),
             TextFormField(
               controller: targetController,
-              decoration: InputDecoration(labelText: '$ruleName ${L10n.current.target}'),
+              decoration: InputDecoration(
+                  labelText: '$ruleName ${L10n.current.target}'),
             ),
             box,
             if (!remove)
               TextFormField(
                 controller: replacementController,
-                decoration: InputDecoration(labelText: L10n.current.replacement),
+                decoration:
+                    InputDecoration(labelText: L10n.current.replacement),
               ),
             if (!remove) box,
             TextFormField(
@@ -87,7 +94,8 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
               inputFormatters: <TextInputFormatter>[
                 FilteringTextInputFormatter.allow(RegExp('[0-9]')), // 只允许数字
               ],
-              decoration: InputDecoration(labelText: '$ruleName ${L10n.current.limit}'),
+              decoration:
+                  InputDecoration(labelText: '$ruleName ${L10n.current.limit}'),
             ),
             CheckboxTile(
               title: Text(L10n.current.fromStart),
@@ -99,7 +107,9 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
               },
             ),
             if (!remove)
-              MetadataTile(textController: replacementController, withMetadata: withMetadata),
+              MetadataTile(
+                  textController: replacementController,
+                  withMetadata: withMetadata),
             CheckboxTile(
               title: Text(L10n.current.caseSensitive),
               value: caseSensitive,
@@ -109,15 +119,15 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
                 });
               },
             ),
-            CheckboxTile(
-              title: Text(L10n.current.isRegex),
-              value: isRegex,
-              onChanged: (value) {
-                setState(() {
-                  isRegex = value ?? isRegex;
-                });
-              },
-            ),
+            // CheckboxTile(
+            //   title: Text(L10n.current.isRegex),
+            //   value: isRegex,
+            //   onChanged: (value) {
+            //     setState(() {
+            //       isRegex = value ?? isRegex;
+            //     });
+            //   },
+            // ),
             CheckboxTile(
               title: Text(L10n.current.ignoreExtension),
               value: ignoreExtension,
