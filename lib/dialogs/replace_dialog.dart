@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+
 // import 'package:flutter/services.dart';
 
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
-import '../widget/checkbox_tile.dart';
+// import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
 
 void showReplaceDialog(BuildContext context, Function(Rule) onSave,
@@ -33,12 +34,13 @@ class ReplaceDialog extends StatefulWidget {
 class _ReplaceDialogState extends State<ReplaceDialog> {
   TextEditingController targetController = TextEditingController();
   TextEditingController replacementController = TextEditingController();
+
   // TextEditingController limitController = TextEditingController(
   //   text: '0',
   // );
   // bool fromStart = true;
   ValueNotifier<bool> withMetadata = ValueNotifier(false);
-  bool caseSensitive = false;
+  bool caseSensitive = true;
   bool isRegex = false;
   bool ignoreExtension = true;
   late bool remove;
@@ -55,7 +57,7 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
       // limitController.text = widget.rule!.replaceLimit.abs().toString();
       // fromStart = widget.rule!.replaceLimit >= 0;
       withMetadata.value = widget.rule!.withMetadata;
-      caseSensitive = widget.rule!.caseSensitive;
+      // caseSensitive = widget.rule!.caseSensitive;
       isRegex = widget.rule!.isRegex;
       ignoreExtension = widget.rule!.ignoreExtension;
     }
@@ -109,15 +111,15 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
             //   MetadataTile(
             //       textController: replacementController,
             //       withMetadata: withMetadata),
-            CheckboxTile(
-              title: Text(L10n.current.caseSensitive),
-              value: caseSensitive,
-              onChanged: (value) {
-                setState(() {
-                  caseSensitive = value ?? caseSensitive;
-                });
-              },
-            ),
+            // CheckboxTile(
+            //   title: Text(L10n.current.caseSensitive),
+            //   value: caseSensitive,
+            //   onChanged: (value) {
+            //     setState(() {
+            //       caseSensitive = value ?? caseSensitive;
+            //     });
+            //   },
+            // ),
             // CheckboxTile(
             //   title: Text(L10n.current.isRegex),
             //   value: isRegex,
