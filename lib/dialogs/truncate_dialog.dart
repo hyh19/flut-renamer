@@ -7,7 +7,9 @@ import '../l10n/l10n.dart';
 import '../rules/rule.dart';
 import '../widget/custom_dialog.dart';
 
-void showTruncateDialog(BuildContext context, Function(Rule) onSave, [RuleTruncate? rule]) => showDialog(
+void showTruncateDialog(BuildContext context, Function(Rule) onSave,
+        [RuleTruncate? rule]) =>
+    showDialog(
       context: context,
       builder: (context) => TruncateDialog(
         onSave: onSave,
@@ -28,8 +30,10 @@ class TruncateDialog extends StatefulWidget {
 class _TruncateDialogState extends State<TruncateDialog> {
   TextEditingController i1Controller = TextEditingController(text: '0');
   TextEditingController i2Controller = TextEditingController(text: '0');
-  ValueNotifier<bool> i1toEnd = ValueNotifier(false); // true: negative (Xth-to-last), false: positive (Xth)
-  ValueNotifier<bool> i2toEnd = ValueNotifier(false); // true: negative (Xth-to-last), false: positive (Xth)
+  ValueNotifier<bool> i1toEnd = ValueNotifier(
+      false); // true: negative (Xth-to-last), false: positive (Xth)
+  ValueNotifier<bool> i2toEnd = ValueNotifier(
+      false); // true: negative (Xth-to-last), false: positive (Xth)
   bool ignoreExtension = true;
   bool keepBetween = true; // true: keep chars in ranges, false: remove in range
 
@@ -76,14 +80,26 @@ class _TruncateDialogState extends State<TruncateDialog> {
               ],
               decoration: InputDecoration(labelText: L10n.current.indexTwo),
             ),
-            ListTile(
-              title: TextButton(
-                child: Text(keepBetween ? L10n.current.keepCharacters : L10n.current.removeCharacters),
-                onPressed: () {
+            RadioGroup<bool>(
+              groupValue: keepBetween,
+              onChanged: (bool? value) {
+                if (value != null) {
                   setState(() {
-                    keepBetween = !keepBetween;
+                    keepBetween = value;
                   });
-                },
+                }
+              },
+              child: Column(
+                children: [
+                  RadioListTile<bool>(
+                    title: Text(L10n.current.removeCharacters),
+                    value: false,
+                  ),
+                  RadioListTile<bool>(
+                    title: Text(L10n.current.keepCharacters),
+                    value: true,
+                  ),
+                ],
               ),
             ),
             // CheckboxTile(
