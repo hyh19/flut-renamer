@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
 import '../widget/custom_dialog.dart';
-import '../widget/text_field_with_direction.dart';
+// import '../widget/text_field_with_direction.dart';
 
 void showInsertDialog(BuildContext context, Function(Rule) onSave,
         [RuleInsert? rule]) =>
@@ -41,7 +42,7 @@ class _InsertDialogState extends State<InsertDialog> {
       textController.text = widget.rule!.insert;
       indexController.text = widget.rule!.insertIndex.toString();
       withMetadata.value = widget.rule!.withMetadata;
-      toEnd.value = widget.rule!.toEnd;
+      // toEnd.value = widget.rule!.toEnd;
     }
 
     super.initState();
@@ -62,10 +63,18 @@ class _InsertDialogState extends State<InsertDialog> {
               decoration: InputDecoration(labelText: L10n.current.insertedText),
             ),
             box,
-            DirectionTextField(
-                con: indexController,
-                toEnd: toEnd,
-                labelText: L10n.current.insertIndex),
+            // DirectionTextField(
+            //     con: indexController,
+            //     toEnd: toEnd,
+            //     labelText: L10n.current.insertIndex),
+            TextFormField(
+              controller: indexController,
+              keyboardType: TextInputType.number,
+              inputFormatters: <TextInputFormatter>[
+                FilteringTextInputFormatter.allow(RegExp('[0-9]')), // 只允许数字
+              ],
+              decoration: InputDecoration(labelText: L10n.current.insertIndex),
+            ),
             // Text(L10n.current.insertBeforeIndex, style: const TextStyle(fontSize: 13),),
             // MetadataTile(textController: textController, withMetadata: withMetadata),
             // CheckboxTile(
@@ -95,7 +104,7 @@ class _InsertDialogState extends State<InsertDialog> {
             final Rule rule = RuleInsert(
               insertText,
               insertIndex,
-              toEnd.value,
+              false,
               withMetadata.value,
               ignoreExtension,
             );

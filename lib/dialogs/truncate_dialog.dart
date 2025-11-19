@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
-import '../widget/text_field_with_direction.dart';
+// import '../widget/text_field_with_direction.dart';
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
@@ -37,8 +38,8 @@ class _TruncateDialogState extends State<TruncateDialog> {
     if (widget.rule != null) {
       i1Controller.text = widget.rule!.index1.toString();
       i2Controller.text = widget.rule!.index2.toString();
-      i1toEnd.value = widget.rule!.i1toEnd;
-      i2toEnd.value = widget.rule!.i2toEnd;
+      // i1toEnd.value = widget.rule!.i1toEnd;
+      // i2toEnd.value = widget.rule!.i2toEnd;
       ignoreExtension = widget.rule!.ignoreExtension;
       keepBetween = widget.rule!.keepBetween;
     }
@@ -56,9 +57,25 @@ class _TruncateDialogState extends State<TruncateDialog> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(L10n.current.descriptionTruncate),
-            DirectionTextField(con: i1Controller, toEnd: i1toEnd, labelText: L10n.current.indexOne),
+            // DirectionTextField(con: i1Controller, toEnd: i1toEnd, labelText: L10n.current.indexOne),
+            TextFormField(
+              controller: i1Controller,
+              keyboardType: TextInputType.number,
+              inputFormatters: <TextInputFormatter>[
+                FilteringTextInputFormatter.allow(RegExp('[0-9]')), // 只允许数字
+              ],
+              decoration: InputDecoration(labelText: L10n.current.indexOne),
+            ),
             box,
-            DirectionTextField(con: i2Controller, toEnd: i2toEnd, labelText: L10n.current.indexTwo),
+            // DirectionTextField(con: i2Controller, toEnd: i2toEnd, labelText: L10n.current.indexTwo),
+            TextFormField(
+              controller: i2Controller,
+              keyboardType: TextInputType.number,
+              inputFormatters: <TextInputFormatter>[
+                FilteringTextInputFormatter.allow(RegExp('[0-9]')), // 只允许数字
+              ],
+              decoration: InputDecoration(labelText: L10n.current.indexTwo),
+            ),
             ListTile(
               title: TextButton(
                 child: Text(keepBetween ? L10n.current.keepCharacters : L10n.current.removeCharacters),
@@ -96,8 +113,8 @@ class _TruncateDialogState extends State<TruncateDialog> {
             final Rule rule = RuleTruncate(
               index1,
               index2,
-              i1toEnd.value,
-              i2toEnd.value,
+              false,
+              false,
               ignoreExtension,
               keepBetween,
             );
