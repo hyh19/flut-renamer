@@ -447,8 +447,8 @@ class FilesPageState extends State<FilesPage> {
 
     await Future.wait(futures);
 
-    if (noError && remove) {
-      widget.clearRules.call();
-    }
+    if (noError) {
+    widget.clearRules.call();
   }
+}
 }

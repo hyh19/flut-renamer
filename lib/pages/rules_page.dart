@@ -67,6 +67,8 @@ class RulesPageState extends State<RulesPage> {
     if (Shared.removeRules) {
       setState(() {
         _rules.clear();
+        _aiRule = null;
+        _aiRequirementsText = '';
       });
     }
   }
