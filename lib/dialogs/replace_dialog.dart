@@ -96,15 +96,15 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
               decoration:
                   InputDecoration(labelText: '$ruleName ${L10n.current.limit}'),
             ),
-            CheckboxTile(
-              title: Text(L10n.current.fromStart),
-              value: fromStart,
-              onChanged: (value) {
-                setState(() {
-                  fromStart = value ?? fromStart;
-                });
-              },
-            ),
+            // CheckboxTile(
+            //   title: Text(L10n.current.fromStart),
+            //   value: fromStart,
+            //   onChanged: (value) {
+            //     setState(() {
+            //       fromStart = value ?? fromStart;
+            //     });
+            //   },
+            // ),
             // if (!remove)
             //   MetadataTile(
             //       textController: replacementController,
