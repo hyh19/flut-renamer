@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../widget/metadata_tile.dart';
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
@@ -8,7 +7,9 @@ import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
 import '../widget/text_field_with_direction.dart';
 
-void showInsertDialog(BuildContext context, Function(Rule) onSave, [RuleInsert? rule]) => showDialog(
+void showInsertDialog(BuildContext context, Function(Rule) onSave,
+        [RuleInsert? rule]) =>
+    showDialog(
       context: context,
       builder: (context) => InsertDialog(
         onSave: onSave,
@@ -62,9 +63,12 @@ class _InsertDialogState extends State<InsertDialog> {
               decoration: InputDecoration(labelText: L10n.current.insertedText),
             ),
             box,
-            DirectionTextField(con: indexController, toEnd: toEnd, labelText: L10n.current.insertIndex),
+            DirectionTextField(
+                con: indexController,
+                toEnd: toEnd,
+                labelText: L10n.current.insertIndex),
             // Text(L10n.current.insertBeforeIndex, style: const TextStyle(fontSize: 13),),
-            MetadataTile(textController: textController, withMetadata: withMetadata),
+            // MetadataTile(textController: textController, withMetadata: withMetadata),
             CheckboxTile(
               title: Text(L10n.current.ignoreExtension),
               value: ignoreExtension,

@@ -6,7 +6,6 @@ import '../l10n/l10n.dart';
 import '../rules/rule.dart';
 import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
-import '../widget/metadata_tile.dart';
 
 void showReplaceDialog(BuildContext context, Function(Rule) onSave,
         [RuleReplace? rule]) =>
@@ -106,10 +105,10 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
                 });
               },
             ),
-            if (!remove)
-              MetadataTile(
-                  textController: replacementController,
-                  withMetadata: withMetadata),
+            // if (!remove)
+            //   MetadataTile(
+            //       textController: replacementController,
+            //       withMetadata: withMetadata),
             CheckboxTile(
               title: Text(L10n.current.caseSensitive),
               value: caseSensitive,
