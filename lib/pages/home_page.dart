@@ -140,7 +140,8 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       appBar: AppBar(
-        backgroundColor: Shared.seedColor,
+        backgroundColor: Theme.of(context).colorScheme.surfaceContainer,
+        surfaceTintColor: Theme.of(context).colorScheme.surfaceTint,
         actions: [
           IconButton(
             tooltip: L10n.current.colorPicker,
