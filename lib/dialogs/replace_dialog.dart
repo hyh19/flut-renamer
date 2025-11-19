@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+// import 'package:flutter/services.dart';
 
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
@@ -33,10 +33,10 @@ class ReplaceDialog extends StatefulWidget {
 class _ReplaceDialogState extends State<ReplaceDialog> {
   TextEditingController targetController = TextEditingController();
   TextEditingController replacementController = TextEditingController();
-  TextEditingController limitController = TextEditingController(
-    text: '0',
-  );
-  bool fromStart = true;
+  // TextEditingController limitController = TextEditingController(
+  //   text: '0',
+  // );
+  // bool fromStart = true;
   ValueNotifier<bool> withMetadata = ValueNotifier(false);
   bool caseSensitive = false;
   bool isRegex = false;
@@ -52,8 +52,8 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
     if (widget.rule != null) {
       targetController.text = widget.rule!.targetString;
       replacementController.text = widget.rule!.replacementString;
-      limitController.text = widget.rule!.replaceLimit.abs().toString();
-      fromStart = widget.rule!.replaceLimit >= 0;
+      // limitController.text = widget.rule!.replaceLimit.abs().toString();
+      // fromStart = widget.rule!.replaceLimit >= 0;
       withMetadata.value = widget.rule!.withMetadata;
       caseSensitive = widget.rule!.caseSensitive;
       isRegex = widget.rule!.isRegex;
@@ -87,15 +87,15 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
                     InputDecoration(labelText: L10n.current.replacement),
               ),
             if (!remove) box,
-            TextFormField(
-              controller: limitController,
-              keyboardType: TextInputType.number,
-              inputFormatters: <TextInputFormatter>[
-                FilteringTextInputFormatter.allow(RegExp('[0-9]')), // 只允许数字
-              ],
-              decoration:
-                  InputDecoration(labelText: '$ruleName ${L10n.current.limit}'),
-            ),
+            // TextFormField(
+            //   controller: limitController,
+            //   keyboardType: TextInputType.number,
+            //   inputFormatters: <TextInputFormatter>[
+            //     FilteringTextInputFormatter.allow(RegExp('[0-9]')), // 只允许数字
+            //   ],
+            //   decoration:
+            //       InputDecoration(labelText: '$ruleName ${L10n.current.limit}'),
+            // ),
             // CheckboxTile(
             //   title: Text(L10n.current.fromStart),
             //   value: fromStart,
@@ -150,8 +150,9 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
           onPressed: () {
             String targetString = targetController.text;
             String replacementString = replacementController.text;
-            int replaceLimit = int.tryParse(limitController.text) ?? 0;
-            replaceLimit = replaceLimit.abs() * (fromStart ? 1 : -1);
+            // int replaceLimit = int.tryParse(limitController.text) ?? 0;
+            // replaceLimit = replaceLimit.abs() * (fromStart ? 1 : -1);
+            int replaceLimit = 0; // 默认替换所有匹配项
             final Rule rule;
             if (remove) {
               rule = RuleRemove(
