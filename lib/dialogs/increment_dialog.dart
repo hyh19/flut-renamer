@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import '../entity/constants.dart';
 import '../l10n/l10n.dart';
 import '../rules/rule.dart';
-import '../widget/checkbox_tile.dart';
+// import '../widget/checkbox_tile.dart';
 import '../widget/custom_dialog.dart';
 
 void showIncrementDialog(BuildContext context, Function(Rule) onSave, [RuleIncrement? rule]) => showDialog(
@@ -33,7 +33,7 @@ class _IncrementDialogState extends State<IncrementDialog> {
   TextEditingController stepController = TextEditingController(
     text: '1',
   );
-  bool omitDash = false;
+  bool omitDash = true;
   bool ignoreExtension = true;
 
   @override
@@ -42,7 +42,7 @@ class _IncrementDialogState extends State<IncrementDialog> {
       prefixController.text = widget.rule!.prefix;
       indexController.text = widget.rule!.index.toString();
       stepController.text = widget.rule!.step.toString();
-      omitDash = widget.rule!.omitDash;
+      // omitDash = widget.rule!.omitDash;
       ignoreExtension = widget.rule!.ignoreExtension;
     }
 
@@ -80,15 +80,15 @@ class _IncrementDialogState extends State<IncrementDialog> {
               ],
               decoration: InputDecoration(labelText: L10n.current.indexIncrementalStep),
             ),
-            CheckboxTile(
-              title: Text(L10n.current.omitDash),
-              value: omitDash,
-              onChanged: (value) {
-                setState(() {
-                  omitDash = value ?? omitDash;
-                });
-              },
-            ),
+            // CheckboxTile(
+            //   title: Text(L10n.current.omitDash),
+            //   value: omitDash,
+            //   onChanged: (value) {
+            //     setState(() {
+            //       omitDash = value ?? omitDash;
+            //     });
+            //   },
+            // ),
             // CheckboxTile(
             //   title: Text(L10n.current.ignoreExtension),
             //   value: ignoreExtension,
