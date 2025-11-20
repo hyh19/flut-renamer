@@ -1,0 +1,346 @@
+{
+  "@@locale": "he",
+  "appName": "עוזר שינוי שם קבצים אצווה",
+  "lowercaseAppName": "עוזר שינוי שם קבצים אצווה",
+  "ok": "אישור",
+  "cancel": "ביטול",
+  "exit": "יציאה",
+  "save": "שמירה",
+  "add": "הוספה",
+  "permissionTitle": "הרשאה לאחסון חיצוני",
+  "permissionContent": "כדי לספק לך את שירות שינוי שם הקבצים שלנו, אנו זקוקיםשאתך לניהול אחסון חיצוני. זה מאפשר לנו לגשת ולשנות את שמות הקבצים השמורים במכשיר שלך. ללא הרשאה זו, האפליקציה לא תוכל לגשת לנתיבי הקבצים המלאים ולכן לא תוכל לשנות את שמות הקבצים. אנו מבטיחים לך שהפרטיות והאבטחה שלך הן העדיפויות הגבוהות ביותר שלנו, ואנו ניגשים לקבצים רק למטרת שינוי שם.",
+  "exitTitle": "לא ניתן לגשת לאחסון חיצוני",
+  "exitContent": "הרשאת ניהול אחסון חיצוני מאפשרת לנו לגשת ולשנות את שמות הקבצים השמורים במכשיר שלך. ללא הרשאה זו, האפליקציה לא תוכל לגשת לנתיבי הקבצים המלאים ולכן לא תוכל לשנות את שמות הקבצים. אנא עבור לדף ההגדרות והענק את ההרשאה ידנית; אחרת, איננו יכולים לספק שירות כלשהו.",
+  "iosRemindTitle": "אודות בחירת קבצים ב-iOS",
+  "iosRemindContent": "כדי לבחור קבצים ב-iOS, בחר תחילה את התיקייה שבה נמצאים הקבצים שלך. לאחר מכן, בתוך התיקייה שנבחרה, בחר את הקבצים שברצונך לשנות את שמם. בשל מגבלות iOS, עלינו להשתמש בתהליך דו-שלבי, המבטיח ניהול קבצים בטוח. בואו נתחיל!",
+  "androidRemindTitle": "שינוי שם תיקייה",
+  "androidRemindContent": "באמצעות Flut Renamer, אתה יכול לשנות את שמות לא רק קבצים אלא גם תיקיות. לחץ לחיצה ארוכה על תיקייה כדי לבחור אותה, ובחר 'קבצים ותיקיות' מהכפתור הנפתח בפינה השמאלית העליונה כדי לאפשר שינוי שם תיקיות. מסיבות אבטחה, חלק מהתיקיות השמורות של המערכת אינן ניתנות לבחירה.",
+  "doNotRemindAgain": "אישור. אל תזכיר לי שוב.",
+  "rename": "שינוי שם",
+  "appInfo": "מידע על האפליקציה",
+  "aboutContent": "אפליקציה זו נועדה לעזור למשתמשים לשנות את שמות הקבצים שלהם. היא בנויה עם Flutter - מסגרת אפליקציות רב-פלטפורמית, ולכן היא זמינה גם במערכות הפעלה אחרות. היא קוד פתוח לחלוטין וניתן לבדוק אותה או לתרום לה.",
+  "rating": "דירוג האפליקציה",
+  "ratingTitle": "דרג את האפליקציה שלנו",
+  "ratingContent": "נהנה מהאפליקציה שלנו? עזור לנו לגדול על ידי מתן דירוג מהיר בחנות או ב-GitHub. המשוב שלך חשוב לנו מאוד! תודה על התמיכה שלך.",
+  "ratingStore": "דרג את האפליקציה בחנות",
+  "ratingGithub": "סמן אותה בכוכב ב-Github",
+  "sourceCode": "קוד מקור",
+  "collapseOptions": "צמצם אפשרויות",
+  "expandOptions": "הרחב אפשרויות",
+  "onlySelected": "רק נבחרים",
+  "removeRenamed": "הסר קבצים ששמם שונה",
+  "removeRule": "הסר כלל זה",
+  "removeRules": "הסר את כל הכללים לאחר שינוי שם",
+  "addRule": "הוסף כלל",
+  "removeAll": "הסר הכל",
+  "replace": "החלף",
+  "remove": "הסר",
+  "insert": "הוסף",
+  "increment": "הגדל",
+  "rearrange": "סדר מחדש",
+  "transliterate": "תעתיק",
+  "truncate": "קיצוץ",
+  "cancelAll": "בטל הכל",
+  "select": "בחר",
+  "selectAll": "בחר הכל",
+  "currentName": "שם נוכחי",
+  "newName": "שם חדש",
+  "fileNotExist": "הקובץ לא קיים",
+  "files": "קבצים",
+  "directories": "תיקיות",
+  "filesDirs": "קבצים ותיקיות",
+  "filter": "מסנן",
+  "addFile": "הוסף קובץ",
+  "addFiles": "הוסף קבצים",
+  "dragToAdd": "גרור ושחרר כדי להוסיף קבצים.",
+  "dropToAdd": "שחרר כדי להוסיף קבצים.",
+  "dragNotSupported": "בגלל מגבלת אבטחת המערכת, גרירה ושחרור של קבצים מאפליקציה זו אינו נתמך.",
+  "fileAlreadyExists": "שם הקובץ כבר בשימוש על ידי קובץ אחר",
+  "renameFailed": "שינוי שם נכשל",
+  "aiRenameTitle": "שינוי שם AI",
+  "aiRenameRequirementsLabel": "הוראות שינוי שם",
+  "aiRenameRequirementsHint": "תאר כיצד ברצונך לשנות את שמות הקבצים האלה.",
+  "aiRenameSubmit": "שלח",
+  "aiRenameSnackbarEmptyRequirements": "הכנס הוראות שינוי שם",
+  "aiRenameSnackbarNoSelection": "לא נבחרו קבצים",
+  "aiRenameLoading": "AI מנתח את הבקשה שלך, אנא המתן...",
+  "aiRenameSuccess": "נוצר כלל שינוי שם AI. {count} קבצים יקבלו שם חדש.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "שינוי שם AI נכשל: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "שינוי שם AI: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "הכללים מבוצעים ברצף. לחץ על כלל כדי לערוך אותו. החזק את כפתור '=' משמאל וגרור אותו כדי למיין כללים.",
+  "noSysDir": "אל תשנה את שמה של תיקיית מערכת שמורה.",
+  "fileSortName": "שם",
+  "fileSortSize": "גודל",
+  "fileSortDate": "תאריך",
+  "fileSortType": "סוג",
+  "transliterateUpper": "תווים לטיניים לאותיות גדולות",
+  "transliterateLower": "תווים לטיניים לאותיות קטנות",
+  "transliterateTraditional": "תווים סיניים לסינית מסורתית",
+  "transliterateSimplified": "תווים סיניים לסינית מפושטת",
+  "transliteratePinyin": "תווים סיניים ל-pinyin",
+  "transliterateCyrillic2Latin": "תווים קיריליים ללטיניים",
+  "transliterateLatin2Cyrillic": "תווים לטיניים לקיריליים",
+  "insertTagInsideAnother": "אל תכניס תגית בתוך תגית אחרת.",
+  "appError": "שגיאת אפליקציה",
+  "errorDetails": "פרטי שגיאה",
+  "ifFileNotShown": "אם קבצים לא מוצגים ברשימת הקבצים, נקה הכל והמשך.",
+  "metadataTags": "תגיות מטא-נתונים",
+  "osTodayDate": "תאריך היום",
+  "osNowTime": "השעה הנוכחית",
+  "fileSize": "גודל הקובץ",
+  "fileCreateDate": "תאריך יצירת הקובץ",
+  "fileCreateTime": "שעת יצירת הקובץ",
+  "fileModifyDate": "תאריך שינוי הקובץ",
+  "fileModifyTime": "שעת שינוי הקובץ",
+  "photoDate": "תאריך צילום מ-exif",
+  "photoTime": "שעת צילום מ-exif",
+  "photoCamName": "שם המצלמה מ-exif",
+  "photoLensName": "שם העדשה מ-exif",
+  "photoFocalLength": "אורך המוקד מ-exif",
+  "photoAperture": "ערך הצמצם מ-exif",
+  "photoShutter": "מהירות התריס מ-exif",
+  "photoISO": "ערך ISO מ-exif",
+  "photoLongitude": "קו אורך GPS של התמונה מ-exif",
+  "photoLatitude": "קו רוחב GPS של התמונה מ-exif",
+  "photoAltitude": "גובה GPS של התמונה מ-exif",
+  "photoPhotographer": "שם הצלם מ-exif",
+  "photoCopyright": "שם בעל זכויות היוצרים מ-exif",
+  "musicAlbumName": "שם האלבום",
+  "musicAlbumArtist": "שם האמן של האלבום",
+  "musicAlbumLength": "מספר השירים באלבום",
+  "musicYear": "שנת פרסום השיר",
+  "musicTrackDuration": "משך השיר",
+  "musicTrackName": "שם השיר",
+  "musicTrackArtist": "שמות האמנים המבצעים בשיר",
+  "musicTrackNumber": "מיקום השיר באלבום",
+  "musicDiscNumber": "מיקום הדיסק",
+  "musicGenres": "סוג האמנות של המוזיקה",
+  "musicAuthor": "מחבר השיר",
+  "musicWriter": "כותב השיר",
+  "prefix": "קידומת",
+  "startIndex": "אינדקס התחלה",
+  "indexIncrementalStep": "שלב הגדלת אינדקס",
+  "omitDash": "השמט מקף",
+  "ignoreExtension": "התעלם מהסיומת",
+  "insertedText": "טקסט להכנסה",
+  "insertIndex": "אינדקס הכנסה",
+  "fromStart": "מההתחלה",
+  "insertBeforeIndex": "הכנס לפני אינדקס",
+  "rearrangeDelimiter": "מפריד סידור מחדש",
+  "rearrangeOrderLabel": "סדר סידור מחדש",
+  "rearrangeOrderHint": "מספרים מופרדים בפסיק",
+  "target": "יעד",
+  "replacement": "החלפה",
+  "limit": "גבול",
+  "caseSensitive": "רגיש לאותיות גדולות/קטנות",
+  "isRegex": "הוא regex",
+  "language": "שפה: ",
+  "indexOne": "אינדקס התו הראשון",
+  "indexTwo": "אינדקס התו השני",
+  "toLast": "-לאחרון",
+  "goingForward": "התקדמות קדימה",
+  "keepCharacters": "שמור תווים ביניהם",
+  "removeCharacters": "הסר תווים ביניהם",
+  "metadataParserNotProvided": "מכיל תגית מטא-נתונים בעוד ש-MetadataParser לא סופק.",
+  "replaceToString": "החלף \"{targetString}\" ב-\"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "הסר \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "הכנס \"{insert}\" בתו {insertIndex}{ordinal, select, o1{ה} o2{ה} o3{ה} other{ה}}{toEnd, select, true{-לסוף} false{} other{}}.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "שינוי שם הדרגתי: {prefix}-אינדקס",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "סדר מחדש: מפריד: {delimiter}, סדר: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "תעתיק: המר {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "תעתיק: המר {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "קיצוץ: {keepType, select, true{שמור רק} false{הסר} other{}} תווים בין {iOne}{iTwoOrdinal, select, o1{ה} o2{ה} o3{ה} other{ה}}{iOneToEnd, select, true{-לסוף} false{} other{}} תו ל-{iTwo}{iOneOrdinal, select, o1{ה} o2{ה} o3{ה} other{ה}}{iTwoToEnd, select, true{-לסוף} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "החלף את הטקסט שצוין בטקסט ההחלפה שניתן.",
+  "descriptionRemove": "הסר את הטקסט שצוין משם הקובץ.",
+  "descriptionInsert": "הכנס את הטקסט שצוין במיקום שצוין.",
+  "descriptionIncrement": "הגדל את שם הקובץ, למשל תמונה-1, תמונה-2, תמונה-3.",
+  "descriptionRearrange": "פיצול שם הקובץ על ידי המפריד שצוין על ידי המשתמש וסידור מחדש של מקטעים לפי הסדר שסופק.",
+  "descriptionTransliterate": "תעתיק תווים לפי מפרטים מוגדרים מראש, כולל המרת תווים לאותיות גדולות או קטנות, המרה בין קבוצות תווים או המרת תווים למקבילות פונטיות.",
+  "descriptionTruncate": "הסר או שמור את החלק שצוין של שם הקובץ, החל ממיקום שצוין אחד לאחר.",
+  "bg": "בולגרית",
+  "me": "מונטנגרית",
+  "mk": "מקדונית",
+  "mn": "מונגולית",
+  "ru": "רוסית",
+  "sr": "סרבית",
+  "tj": "טג'יקית",
+  "ua": "אוקראינית",
+  "fileManagerSortButton": "מיין לפי",
+  "fileManagerStorageButton": "בחר אחסון",
+  "fileManagerSaveButton": "הוסף בחירות לרשימה",
+  "fileManagerBackButton": "חזור",
+  "showHiddenFiles": "הצג קבצים מוסתרים",
+  "hideHiddenFiles": "הסתר קבצים מוסתרים",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{נבחר} false{לא נבחר} other{}} {entityType, select, File{קובץ} Directory{תיקייה} Link{קישור} other{יישות מערכת קבצים}}, שם הקובץ הוא {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "שונה לאחרונה ב-{last}, גודל {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "שונה לאחרונה ב-{last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "זהו כפתור נפתח, הערך הנוכחי הוא \"{value}\", לחץ לחיצה כפולה כדי לפתוח אותו ולבחור ערך אחר.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". בחר ולאחר מכן לחץ על כפתור \"הוסף כלל\" כדי להוסיף כלל זה.",
+  "semanticsFilesDropdownButton": ". בחר פריט זה כדי להגביל יעדי שינוי שם.",
+  "semanticsReorderableList": "זוהי רשימת הכללים, היא ריקה כעת. לחץ על כפתור 'הוסף כלל' כדי להוסיף אחד. הכללים מבוצעים ברצף. רשימה זו ניתנת לסידור מחדש, ומאפשרת לך להזיז כלל למעלה, למטה ולחלק העליון או התחתון. כאשר הסמן נמצא על כלל, השתמש במחווה גרירה אנכית כדי לעבור בין פעולות, והשתמש בלחיצה כפולה כדי לבצע את הפעולה שנבחרה.",
+  "semanticsOpenMetadataDialog": "לחץ לחיצה כפולה כדי לפתוח דיאלוג ולבחור תגית מטא-נתונים להכנסה.",
+  "semanticsMultipleActionsHint": ", עבור בין פעולות באמצעות מחווה גרירה אנכית",
+  "semanticNumberWithDirection": "מעבר בין כיוון ספירה מההתחלה ומהסוף",
+  "semanticSwitchNumberToStartAndToEnd": "מעבר בין כיוון ספירה מההתחלה ומהסוף, כרגע סופר מ-{toEnd, select, true{הסוף} false{ההתחלה} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "בוחר צבעים",
+  "manualMode": "מצב ידני",
+  "aiMode": "מצב AI"
+}
+

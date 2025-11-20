@@ -1,0 +1,346 @@
+{
+  "@@locale": "id",
+  "appName": "Asisten Pengganti Nama File Batch",
+  "lowercaseAppName": "asisten pengganti nama file batch",
+  "ok": "OK",
+  "cancel": "Batal",
+  "exit": "Keluar",
+  "save": "Simpan",
+  "add": "Tambah",
+  "permissionTitle": "Izin penyimpanan eksternal",
+  "permissionContent": "Untuk menyediakan layanan penggantian nama file, kami memerlukan izin Anda untuk mengelola penyimpanan eksternal. Ini memungkinkan kami untuk mengakses dan mengganti nama file yang disimpan di perangkat Anda. Tanpa izin ini, aplikasi tidak akan dapat mengakses jalur file lengkap dan karenanya tidak dapat mengganti nama file. Kami meyakinkan Anda bahwa privasi dan keamanan Anda adalah prioritas utama kami, dan kami hanya mengakses file untuk tujuan penggantian nama.",
+  "exitTitle": "Tidak dapat mengakses penyimpanan eksternal",
+  "exitContent": "Izin mengelola penyimpanan eksternal memungkinkan kami untuk mengakses dan mengganti nama file yang disimpan di perangkat Anda. Tanpa izin ini, aplikasi tidak akan dapat mengakses jalur file lengkap dan karenanya tidak dapat mengganti nama file. Silakan buka halaman Pengaturan dan berikan izin secara manual; jika tidak, kami tidak dapat menyediakan layanan apa pun.",
+  "iosRemindTitle": "Tentang memilih file di iOS",
+  "iosRemindContent": "Untuk memilih file di iOS, pertama-tama pilih direktori tempat file Anda berada. Kemudian, dalam folder yang dipilih, pilih file yang ingin Anda ganti namanya. Karena pembatasan iOS, kami harus menggunakan proses dua langkah, yang memastikan manajemen file yang aman. Mari kita mulai!",
+  "androidRemindTitle": "Ganti nama direktori",
+  "androidRemindContent": "Menggunakan Flut Renamer, Anda tidak hanya dapat mengganti nama file tetapi juga direktori. Tekan lama pada direktori untuk memilihnya, dan pilih 'File & Direktori' dari tombol dropdown di sudut kiri atas untuk mengaktifkan penggantian nama direktori. Untuk alasan keamanan, beberapa direktori yang dicadangkan sistem tidak dapat dipilih.",
+  "doNotRemindAgain": "OK. Jangan ingatkan saya lagi.",
+  "rename": "Ganti Nama",
+  "appInfo": "Info aplikasi",
+  "aboutContent": "Aplikasi ini dirancang untuk membantu pengguna mengganti nama file mereka. Ini dibangun dengan Flutter - kerangka kerja aplikasi multi-platform, dan karenanya juga tersedia di sistem operasi lain. Ini sepenuhnya open source dan dapat ditinjau atau dikontribusikan.",
+  "rating": "Rating aplikasi",
+  "ratingTitle": "Beri Rating Aplikasi Kami",
+  "ratingContent": "Menikmati aplikasi kami? Bantu kami tumbuh dengan memberikan rating cepat di toko atau GitHub. Masukan Anda sangat berarti bagi kami! Terima kasih atas dukungan Anda.",
+  "ratingStore": "Beri rating aplikasi di toko",
+  "ratingGithub": "Beri bintang di Github",
+  "sourceCode": "Kode sumber",
+  "collapseOptions": "Ciutkan opsi",
+  "expandOptions": "Perluas opsi",
+  "onlySelected": "Hanya yang dipilih",
+  "removeRenamed": "Hapus file yang sudah diganti namanya",
+  "removeRule": "Hapus aturan ini",
+  "removeRules": "Hapus semua aturan setelah penggantian nama",
+  "addRule": "Tambah Aturan",
+  "removeAll": "Hapus semua",
+  "replace": "Ganti",
+  "remove": "Hapus",
+  "insert": "Sisipkan",
+  "increment": "Kenaikan",
+  "rearrange": "Susun ulang",
+  "transliterate": "Transliterasi",
+  "truncate": "Potong",
+  "cancelAll": "Batalkan Semua",
+  "select": "Pilih",
+  "selectAll": "Pilih Semua",
+  "currentName": "Nama saat ini",
+  "newName": "Nama baru",
+  "fileNotExist": "File tidak ada",
+  "files": "File",
+  "directories": "Direktori",
+  "filesDirs": "File & Direktori",
+  "filter": "Filter",
+  "addFile": "Tambah file",
+  "addFiles": "Tambah file",
+  "dragToAdd": "Seret dan lepas untuk menambah file.",
+  "dropToAdd": "Lepas untuk menambah file.",
+  "dragNotSupported": "Karena pembatasan keamanan sistem, menyeret file dari aplikasi ini tidak didukung.",
+  "fileAlreadyExists": "Nama file sudah digunakan oleh file lain",
+  "renameFailed": "Penggantian nama gagal",
+  "aiRenameTitle": "Ganti Nama AI",
+  "aiRenameRequirementsLabel": "Instruksi penggantian nama",
+  "aiRenameRequirementsHint": "Jelaskan bagaimana Anda ingin mengganti nama file-file ini.",
+  "aiRenameSubmit": "Kirim",
+  "aiRenameSnackbarEmptyRequirements": "Masukkan instruksi penggantian nama",
+  "aiRenameSnackbarNoSelection": "Tidak ada file yang dipilih",
+  "aiRenameLoading": "AI sedang menganalisis permintaan Anda, harap tunggu...",
+  "aiRenameSuccess": "Aturan penggantian nama AI dibuat. {count} file akan diganti namanya.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "Penggantian nama AI gagal: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "Ganti nama AI: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Aturan dieksekusi secara berurutan. Klik aturan untuk mengeditnya. Tahan tombol '=' di sebelah kiri dan seret untuk mengurutkan aturan.",
+  "noSysDir": "Jangan mengganti nama direktori yang dicadangkan sistem.",
+  "fileSortName": "Nama",
+  "fileSortSize": "Ukuran",
+  "fileSortDate": "Tanggal",
+  "fileSortType": "Jenis",
+  "transliterateUpper": "Karakter Latin ke huruf besar",
+  "transliterateLower": "Karakter Latin ke huruf kecil",
+  "transliterateTraditional": "Karakter Cina ke Cina tradisional",
+  "transliterateSimplified": "Karakter Cina ke Cina sederhana",
+  "transliteratePinyin": "Karakter Cina ke pinyin",
+  "transliterateCyrillic2Latin": "Karakter Cyrillic ke Latin",
+  "transliterateLatin2Cyrillic": "Karakter Latin ke Cyrillic",
+  "insertTagInsideAnother": "Jangan menyisipkan tag di dalam tag lain.",
+  "appError": "Kesalahan aplikasi",
+  "errorDetails": "Detail kesalahan",
+  "ifFileNotShown": "Jika file tidak ditampilkan dalam daftar file, harap hapus semua dan lanjutkan.",
+  "metadataTags": "Tag metadata",
+  "osTodayDate": "Tanggal hari ini",
+  "osNowTime": "Waktu sekarang",
+  "fileSize": "Ukuran file",
+  "fileCreateDate": "Tanggal pembuatan file",
+  "fileCreateTime": "Waktu pembuatan file",
+  "fileModifyDate": "Tanggal modifikasi file",
+  "fileModifyTime": "Waktu modifikasi file",
+  "photoDate": "Tanggal pemotretan dari exif",
+  "photoTime": "Waktu pemotretan dari exif",
+  "photoCamName": "Nama kamera dari exif",
+  "photoLensName": "Nama lensa dari exif",
+  "photoFocalLength": "Panjang fokus dari exif",
+  "photoAperture": "Nilai aperture dari exif",
+  "photoShutter": "Kecepatan rana dari exif",
+  "photoISO": "Nilai ISO dari exif",
+  "photoLongitude": "Bujur GPS foto dari exif",
+  "photoLatitude": "Lintang GPS foto dari exif",
+  "photoAltitude": "Ketinggian GPS foto dari exif",
+  "photoPhotographer": "Nama fotografer dari exif",
+  "photoCopyright": "Nama pemegang hak cipta dari exif",
+  "musicAlbumName": "Nama album",
+  "musicAlbumArtist": "Nama artis album",
+  "musicAlbumLength": "Jumlah lagu dalam album",
+  "musicYear": "Tahun publikasi lagu",
+  "musicTrackDuration": "Durasi lagu",
+  "musicTrackName": "Nama lagu",
+  "musicTrackArtist": "Nama artis yang tampil dalam lagu",
+  "musicTrackNumber": "Posisi lagu dalam album",
+  "musicDiscNumber": "Posisi disc",
+  "musicGenres": "Jenis seni musik",
+  "musicAuthor": "Penulis lagu",
+  "musicWriter": "Penulis lagu",
+  "prefix": "Awalan",
+  "startIndex": "Indeks awal",
+  "indexIncrementalStep": "Langkah kenaikan indeks",
+  "omitDash": "Hilangkan tanda hubung",
+  "ignoreExtension": "Abaikan Ekstensi",
+  "insertedText": "Teks yang akan disisipkan",
+  "insertIndex": "Indeks penyisipan",
+  "fromStart": "Dari awal",
+  "insertBeforeIndex": "Sisipkan sebelum indeks",
+  "rearrangeDelimiter": "Pembatas susun ulang",
+  "rearrangeOrderLabel": "Urutan susun ulang",
+  "rearrangeOrderHint": "angka dipisahkan dengan koma",
+  "target": "target",
+  "replacement": "Pengganti",
+  "limit": "batas",
+  "caseSensitive": "Peka huruf besar/kecil",
+  "isRegex": "Adalah regex",
+  "language": "Bahasa: ",
+  "indexOne": "Indeks karakter pertama",
+  "indexTwo": "Indeks karakter kedua",
+  "toLast": "-ke-terakhir",
+  "goingForward": "Maju",
+  "keepCharacters": "Pertahankan karakter di antara mereka",
+  "removeCharacters": "Hapus karakter di antara mereka",
+  "metadataParserNotProvided": "Berisi tag metadata sementara MetadataParser tidak disediakan.",
+  "replaceToString": "Ganti \"{targetString}\" dengan \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Hapus \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Sisipkan \"{insert}\" pada karakter {insertIndex}{ordinal, select, o1{ke-} o2{ke-} o3{ke-} other{ke-}}{toEnd, select, true{-ke-akhir} false{} other{}}.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Penggantian nama bertahap: {prefix}-indeks",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Susun ulang: pembatas: {delimiter}, urutan: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transliterasi: konversi {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transliterasi: konversi {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Potong: {keepType, select, true{pertahankan hanya} false{hapus} other{}} karakter antara karakter {iOne}{iTwoOrdinal, select, o1{ke-} o2{ke-} o3{ke-} other{ke-}}{iOneToEnd, select, true{-ke-akhir} false{} other{}} dan {iTwo}{iOneOrdinal, select, o1{ke-} o2{ke-} o3{ke-} other{ke-}}{iTwoToEnd, select, true{-ke-akhir} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Ganti teks yang ditentukan dengan teks pengganti yang diberikan.",
+  "descriptionRemove": "Hapus teks yang ditentukan dari nama file.",
+  "descriptionInsert": "Sisipkan teks yang ditentukan pada posisi yang ditentukan.",
+  "descriptionIncrement": "Tingkatkan nama file, misalnya, Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Membagi nama file dengan pembatas yang ditentukan pengguna dan menyusun ulang segmen sesuai urutan yang diberikan.",
+  "descriptionTransliterate": "Transliterasi karakter sesuai spesifikasi yang telah ditentukan, termasuk mengonversi karakter ke huruf besar atau kecil, mengonversi antar set karakter, atau mengonversi karakter ke ekuivalen fonetik.",
+  "descriptionTruncate": "Hapus atau pertahankan bagian yang ditentukan dari nama file, mulai dari satu posisi yang ditentukan ke posisi lain.",
+  "bg": "Bulgaria",
+  "me": "Montenegro",
+  "mk": "Makedonia",
+  "mn": "Mongolia",
+  "ru": "Rusia",
+  "sr": "Serbia",
+  "tj": "Tajikistan",
+  "ua": "Ukraina",
+  "fileManagerSortButton": "Urutkan berdasarkan",
+  "fileManagerStorageButton": "Pilih penyimpanan",
+  "fileManagerSaveButton": "Tambahkan pilihan ke daftar",
+  "fileManagerBackButton": "Kembali",
+  "showHiddenFiles": "Tampilkan file tersembunyi",
+  "hideHiddenFiles": "Sembunyikan file tersembunyi",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Dipilih} false{Tidak dipilih} other{}} {entityType, select, File{File} Directory{Folder} Link{Tautan} other{Entitas sistem file}}, nama file adalah {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "terakhir dimodifikasi pada {last}, berukuran {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "terakhir dimodifikasi pada {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Ini adalah tombol dropdown, nilai saat ini adalah \"{value}\", klik dua kali untuk membukanya dan memilih nilai lain.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Pilih dan kemudian klik tombol \"Tambah Aturan\" untuk menambahkan aturan ini.",
+  "semanticsFilesDropdownButton": ". Pilih item ini untuk membatasi target penggantian nama.",
+  "semanticsReorderableList": "Ini adalah daftar aturan, sekarang kosong. Klik tombol 'Tambah aturan' untuk menambahkan satu. Aturan dieksekusi secara berurutan. Daftar ini dapat diurutkan ulang, memungkinkan Anda untuk memindahkan aturan ke atas, ke bawah, dan ke atas atau bawah. Ketika kursor berada pada aturan, gunakan gerakan geser vertikal untuk beralih di antara tindakan, dan gunakan klik ganda untuk mengeksekusi tindakan yang dipilih.",
+  "semanticsOpenMetadataDialog": "Ketuk dua kali untuk membuka dialog dan memilih tag metadata yang akan disisipkan.",
+  "semanticsMultipleActionsHint": ", beralih di antara tindakan dengan gerakan geser vertikal",
+  "semanticNumberWithDirection": "Mengalihkan arah penghitungan antara dari awal dan dari akhir",
+  "semanticSwitchNumberToStartAndToEnd": "Mengalihkan arah penghitungan antara dari awal dan dari akhir, saat ini menghitung dari {toEnd, select, true{akhir} false{awal} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Pemilih warna",
+  "manualMode": "Mode Manual",
+  "aiMode": "Mode AI"
+}
+

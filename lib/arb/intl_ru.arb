@@ -1,0 +1,346 @@
+{
+  "@@locale": "ru",
+  "appName": "Помощник массового переименования файлов",
+  "lowercaseAppName": "помощник массового переименования файлов",
+  "ok": "ОК",
+  "cancel": "Отмена",
+  "exit": "Выход",
+  "save": "Сохранить",
+  "add": "Добавить",
+  "permissionTitle": "Разрешение на внешнее хранилище",
+  "permissionContent": "Чтобы предоставить вам услугу переименования файлов, нам нужно ваше разрешение на управление внешним хранилищем. Это позволяет нам получать доступ и переименовывать файлы, хранящиеся на вашем устройстве. Без этого разрешения приложение не сможет получить доступ к полным путям файлов и, следовательно, не сможет переименовывать файлы. Мы заверяем вас, что ваша конфиденциальность и безопасность являются нашими главными приоритетами, и мы получаем доступ к файлам только с целью переименования.",
+  "exitTitle": "Невозможно получить доступ к внешнему хранилищу",
+  "exitContent": "Разрешение на управление внешним хранилищем позволяет нам получать доступ и переименовывать файлы, хранящиеся на вашем устройстве. Без этого разрешения приложение не сможет получить доступ к полным путям файлов и, следовательно, не сможет переименовывать файлы. Пожалуйста, перейдите на страницу настроек и предоставьте разрешение вручную; в противном случае мы не сможем предоставить никаких услуг.",
+  "iosRemindTitle": "О выборе файлов в iOS",
+  "iosRemindContent": "Чтобы выбрать файлы в iOS, сначала выберите каталог, где находятся ваши файлы. Затем в выбранной папке выберите файлы, которые вы хотите переименовать. Из-за ограничений iOS нам приходится использовать двухэтапный процесс, что обеспечивает безопасное управление файлами. Давайте начнем!",
+  "androidRemindTitle": "Переименование каталога",
+  "androidRemindContent": "Используя Flut Renamer, вы можете переименовывать не только файлы, но и каталоги. Долгим нажатием выберите каталог, а затем выберите «Файлы и каталоги» из выпадающей кнопки в верхнем левом углу, чтобы включить переименование каталогов. По соображениям безопасности некоторые системные зарезервированные каталоги недоступны для выбора.",
+  "doNotRemindAgain": "ОК. Больше не напоминать.",
+  "rename": "Переименовать",
+  "appInfo": "Информация о приложении",
+  "aboutContent": "Это приложение предназначено для помощи пользователям в переименовании их файлов. Оно построено на Flutter - мультиплатформенном фреймворке приложений, и поэтому также доступно на других операционных системах. Оно полностью открыто и может быть проверено или дополнено.",
+  "rating": "Оценка приложения",
+  "ratingTitle": "Оцените наше приложение",
+  "ratingContent": "Нравится наше приложение? Помогите нам расти, поставив быструю оценку в магазине или на GitHub. Ваш отзыв очень важен для нас! Спасибо за вашу поддержку.",
+  "ratingStore": "Оценить приложение в магазине",
+  "ratingGithub": "Поставить звезду на Github",
+  "sourceCode": "Исходный код",
+  "collapseOptions": "Свернуть опции",
+  "expandOptions": "Развернуть опции",
+  "onlySelected": "Только выбранные",
+  "removeRenamed": "Удалить переименованные файлы",
+  "removeRule": "Удалить это правило",
+  "removeRules": "Удалить правила после переименования",
+  "addRule": "Добавить правило",
+  "removeAll": "Удалить все",
+  "replace": "Заменить",
+  "remove": "Удалить",
+  "insert": "Вставить",
+  "increment": "Увеличить",
+  "rearrange": "Переставить",
+  "transliterate": "Транслитерация",
+  "truncate": "Обрезать",
+  "cancelAll": "Отменить все",
+  "select": "Выбрать",
+  "selectAll": "Выбрать все",
+  "currentName": "Текущее имя",
+  "newName": "Новое имя",
+  "fileNotExist": "Файл не существует",
+  "files": "Файлы",
+  "directories": "Каталоги",
+  "filesDirs": "Файлы и каталоги",
+  "filter": "Фильтр",
+  "addFile": "Добавить файл",
+  "addFiles": "Добавить файлы",
+  "dragToAdd": "Перетащите и отпустите, чтобы добавить файлы.",
+  "dropToAdd": "Отпустите, чтобы добавить файлы.",
+  "dragNotSupported": "Из-за ограничений безопасности системы перетаскивание файлов из этого приложения не поддерживается.",
+  "fileAlreadyExists": "Имя файла уже используется другим файлом",
+  "renameFailed": "Переименование не удалось",
+  "aiRenameTitle": "ИИ переименование",
+  "aiRenameRequirementsLabel": "Инструкции по переименованию",
+  "aiRenameRequirementsHint": "Опишите, как вы хотите переименовать эти файлы.",
+  "aiRenameSubmit": "Отправить",
+  "aiRenameSnackbarEmptyRequirements": "Введите инструкции по переименованию",
+  "aiRenameSnackbarNoSelection": "Файлы не выбраны",
+  "aiRenameLoading": "ИИ анализирует ваш запрос, пожалуйста, подождите...",
+  "aiRenameSuccess": "Правило переименования ИИ создано. {count} файлов будет переименовано.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "Ошибка переименования ИИ: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "ИИ переименование: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Правила выполняются последовательно. Нажмите на правило, чтобы отредактировать его. Удерживайте кнопку «=» слева и перетащите ее, чтобы отсортировать правила.",
+  "noSysDir": "Не переименовывайте системный зарезервированный каталог.",
+  "fileSortName": "Имя",
+  "fileSortSize": "Размер",
+  "fileSortDate": "Дата",
+  "fileSortType": "Тип",
+  "transliterateUpper": "Латинские символы в верхний регистр",
+  "transliterateLower": "Латинские символы в нижний регистр",
+  "transliterateTraditional": "Китайские символы в традиционный китайский",
+  "transliterateSimplified": "Китайские символы в упрощенный китайский",
+  "transliteratePinyin": "Китайские символы в пиньинь",
+  "transliterateCyrillic2Latin": "Кириллические символы в латиницу",
+  "transliterateLatin2Cyrillic": "Латинские символы в кириллицу",
+  "insertTagInsideAnother": "Не вставляйте тег внутри другого тега.",
+  "appError": "Ошибка приложения",
+  "errorDetails": "Детали ошибки",
+  "ifFileNotShown": "Если файлы не отображаются в списке файлов, очистите все и продолжите.",
+  "metadataTags": "Теги метаданных",
+  "osTodayDate": "Дата сегодня",
+  "osNowTime": "Время сейчас",
+  "fileSize": "Размер файла",
+  "fileCreateDate": "Дата создания файла",
+  "fileCreateTime": "Время создания файла",
+  "fileModifyDate": "Дата изменения файла",
+  "fileModifyTime": "Время изменения файла",
+  "photoDate": "Дата фотографирования из exif",
+  "photoTime": "Время фотографирования из exif",
+  "photoCamName": "Название камеры из exif",
+  "photoLensName": "Название объектива из exif",
+  "photoFocalLength": "Фокусное расстояние из exif",
+  "photoAperture": "Значение диафрагмы из exif",
+  "photoShutter": "Скорость затвора из exif",
+  "photoISO": "Значение ISO из exif",
+  "photoLongitude": "Долгота GPS фотографии из exif",
+  "photoLatitude": "Широта GPS фотографии из exif",
+  "photoAltitude": "Высота GPS фотографии из exif",
+  "photoPhotographer": "Имя фотографа из exif",
+  "photoCopyright": "Имя владельца авторских прав из exif",
+  "musicAlbumName": "Название альбома",
+  "musicAlbumArtist": "Имя артиста альбома",
+  "musicAlbumLength": "Количество треков в альбоме",
+  "musicYear": "Год публикации трека",
+  "musicTrackDuration": "Длительность трека",
+  "musicTrackName": "Название трека",
+  "musicTrackArtist": "Имена артистов, исполняющих трек",
+  "musicTrackNumber": "Позиция трека в альбоме",
+  "musicDiscNumber": "Позиция диска",
+  "musicGenres": "Художественный тип музыки",
+  "musicAuthor": "Автор трека",
+  "musicWriter": "Писатель трека",
+  "prefix": "Префикс",
+  "startIndex": "Начальный индекс",
+  "indexIncrementalStep": "Шаг приращения индекса",
+  "omitDash": "Пропустить тире",
+  "ignoreExtension": "Игнорировать расширение",
+  "insertedText": "Текст для вставки",
+  "insertIndex": "Индекс вставки",
+  "fromStart": "С начала",
+  "insertBeforeIndex": "Вставить перед индексом",
+  "rearrangeDelimiter": "Разделитель перестановки",
+  "rearrangeOrderLabel": "Порядок перестановки",
+  "rearrangeOrderHint": "числа, разделенные запятой",
+  "target": "цель",
+  "replacement": "Замена",
+  "limit": "лимит",
+  "caseSensitive": "Учитывать регистр",
+  "isRegex": "Является регулярным выражением",
+  "language": "Язык: ",
+  "indexOne": "Индекс первого символа",
+  "indexTwo": "Индекс второго символа",
+  "toLast": "-с конца",
+  "goingForward": "Вперед",
+  "keepCharacters": "Сохранить символы между ними",
+  "removeCharacters": "Удалить символы между ними",
+  "metadataParserNotProvided": "Содержит тег метаданных, но парсер метаданных не предоставлен.",
+  "replaceToString": "Заменить \"{targetString}\" на \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Удалить \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Вставить \"{insert}\" в {insertIndex}{ordinal, select, o1{й} o2{й} o3{й} other{й}}{toEnd, select, true{-с конца} false{} other{}} символ.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Инкрементное переименование: {prefix}-индекс",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Переставить: разделитель: {delimiter}, порядок: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Транслитерация: преобразовать {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Транслитерация: преобразовать {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Обрезать: {keepType, select, true{оставить только} false{удалить} other{}} символы между {iOne}{iTwoOrdinal, select, o1{м} o2{м} o3{м} other{м}}{iOneToEnd, select, true{-с конца} false{} other{}} символом и {iTwo}{iOneOrdinal, select, o1{м} o2{м} o3{м} other{м}}{iTwoToEnd, select, true{-с конца} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Заменить указанный текст на заданный текст замены.",
+  "descriptionRemove": "Удалить указанный текст из имени файла.",
+  "descriptionInsert": "Вставить указанный текст в указанную позицию.",
+  "descriptionIncrement": "Увеличить имя файла, например, Фото-1, Фото-2, Фото-3.",
+  "descriptionRearrange": "Разделить имя файла по указанному пользователем разделителю и переставить сегменты согласно предоставленному порядку.",
+  "descriptionTransliterate": "Транслитерировать символы согласно предопределенным спецификациям, включая преобразование символов в верхний или нижний регистр, преобразование между наборами символов или преобразование символов в фонетические эквиваленты.",
+  "descriptionTruncate": "Удалить или сохранить указанную часть имени файла, начиная с одной указанной позиции до другой.",
+  "bg": "Болгарский",
+  "me": "Черногорский",
+  "mk": "Македонский",
+  "mn": "Монгольский",
+  "ru": "Русский",
+  "sr": "Сербский",
+  "tj": "Таджикский",
+  "ua": "Украинский",
+  "fileManagerSortButton": "Сортировать по",
+  "fileManagerStorageButton": "Выбрать хранилище",
+  "fileManagerSaveButton": "Добавить выбранные в список",
+  "fileManagerBackButton": "Назад",
+  "showHiddenFiles": "Показать скрытые файлы",
+  "hideHiddenFiles": "Скрыть скрытые файлы",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Выбранный} false{Невыбранный} other{}} {entityType, select, File{Файл} Directory{Папка} Link{Ссылка} other{Объект файловой системы}}, имя файла {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "последнее изменение {last}, размер {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "последнее изменение {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Это кнопка выпадающего списка, текущее значение \"{value}\", дважды нажмите, чтобы открыть ее и выбрать другое значение.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Выберите и затем нажмите кнопку \"Добавить правило\", чтобы добавить это правило.",
+  "semanticsFilesDropdownButton": ". Выберите этот элемент, чтобы ограничить цели переименования.",
+  "semanticsReorderableList": "Это список правил, сейчас он пуст. Нажмите кнопку 'Добавить правило', чтобы добавить одно. Правила выполняются последовательно. Этот список можно переупорядочить, позволяя перемещать правило вверх, вниз, в начало или в конец. Когда курсор находится на правиле, используйте вертикальный жест смахивания для переключения между действиями и дважды нажмите, чтобы выполнить выбранное действие.",
+  "semanticsOpenMetadataDialog": "Дважды нажмите, чтобы открыть диалог и выбрать тег метаданных для вставки.",
+  "semanticsMultipleActionsHint": ", переключайтесь между действиями вертикальным жестом смахивания",
+  "semanticNumberWithDirection": "Переключение направления подсчета между от начала и от конца",
+  "semanticSwitchNumberToStartAndToEnd": "Переключение направления подсчета между от начала и от конца, в настоящее время подсчет от {toEnd, select, true{конца} false{начала} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Выбор цвета",
+  "manualMode": "Ручной режим",
+  "aiMode": "Режим ИИ"
+}
+

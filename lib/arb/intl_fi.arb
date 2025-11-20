@@ -1,0 +1,346 @@
+{
+  "@@locale": "fi",
+  "appName": "Tiedostojen Massanimeämisen Avustaja",
+  "lowercaseAppName": "tiedostojen massanimeämisen avustaja",
+  "ok": "OK",
+  "cancel": "Peruuta",
+  "exit": "Poistu",
+  "save": "Tallenna",
+  "add": "Lisää",
+  "permissionTitle": "Lupa ulkoiseen tallennustilaan",
+  "permissionContent": "Jotta voimme tarjota tiedostonimeämispalvelun, tarvitsemme luvan hallita ulkoista tallennustilaa. Tämä antaa meille pääsyn tiedostoihin ja mahdollisuuden nimetä ne uudelleen laitteellasi. Ilman tätä lupaa sovellus ei voi käyttää täydellisiä tiedostopolkuja ja siksi se ei voi nimetä tiedostoja uudelleen. Vakuutamme, että yksityisyytesi ja turvallisuutesi ovat korkeimmassa prioriteetissa, ja käytämme tiedostoja vain uudelleennimeämistarkoituksessa.",
+  "exitTitle": "Ei pääsyä ulkoiseen tallennustilaan",
+  "exitContent": "Lupa hallita ulkoista tallennustilaa antaa meille pääsyn tiedostoihin ja mahdollisuuden nimetä ne uudelleen laitteellasi. Ilman tätä lupaa sovellus ei voi käyttää täydellisiä tiedostopolkuja ja siksi se ei voi nimetä tiedostoja uudelleen. Siirry Asetukset-sivulle ja myönnä lupa manuaalisesti; muuten emme voi tarjota mitään palvelua.",
+  "iosRemindTitle": "Tiedostojen valitsemisesta iOS:llä",
+  "iosRemindContent": "Valitaksesi tiedostoja iOS:llä, valitse ensin hakemisto, jossa tiedostosi sijaitsevat. Valitse sitten valitusta kansiosta ne tiedostot, joiden nimeä haluat muuttaa. iOS:n rajoitusten vuoksi meidän on käytettävä kaksivaiheista prosessia, mikä varmistaa turvallisen tiedostojen hallinnan. Aloitetaan!",
+  "androidRemindTitle": "Nimeä hakemisto uudelleen",
+  "androidRemindContent": "Flut Renamerin avulla voit nimetä uudelleen paitsi tiedostoja myös hakemistoja. Paina pitkään hakemistoa valitaksesi sen ja valitse 'Tiedostot ja hakemistot' avattavasta painikkeesta vasemmassa yläkulmassa ottaaksesi hakemistojen uudelleennimeämisen käyttöön. Turvallisuussyistä jotkin järjestelmän varatut hakemistot eivät ole valittavissa.",
+  "doNotRemindAgain": "OK. Älä muistuta minua uudelleen.",
+  "rename": "Nimeä uudelleen",
+  "appInfo": "Sovelluksen tiedot",
+  "aboutContent": "Tämä sovellus on suunniteltu auttamaan käyttäjiä nimeämään tiedostonsa uudelleen. Se on rakennettu Flutter-kehyksellä - monialustaisella sovelluskehyksellä, ja siksi se on saatavilla myös muilla käyttöjärjestelmillä. Se on täysin avointa lähdekoodia ja sitä voidaan tarkastella tai siihen voidaan osallistua.",
+  "rating": "Sovelluksen arvostelu",
+  "ratingTitle": "Arvioi Sovelluksemme",
+  "ratingContent": "Nautitko sovelluksestamme? Auta meitä kasvamaan antamalla nopea arvostelu kaupassa tai GitHubissa. Palautteesi merkitsee meille paljon! Kiitos tuestasi.",
+  "ratingStore": "Arvioi sovellus kaupassa",
+  "ratingGithub": "Tähditä se Githubissa",
+  "sourceCode": "Lähdekoodi",
+  "collapseOptions": "Sulje asetukset",
+  "expandOptions": "Laajenna asetukset",
+  "onlySelected": "Vain valitut",
+  "removeRenamed": "Poista uudelleennimettyjä tiedostoja",
+  "removeRule": "Poista tämä sääntö",
+  "removeRules": "Poista kaikki säännöt uudelleennimeämisen jälkeen",
+  "addRule": "Lisää Sääntö",
+  "removeAll": "Poista kaikki",
+  "replace": "Korvaa",
+  "remove": "Poista",
+  "insert": "Lisää",
+  "increment": "Kasvata",
+  "rearrange": "Järjestä uudelleen",
+  "transliterate": "Transkriboi",
+  "truncate": "Katkaise",
+  "cancelAll": "Peruuta Kaikki",
+  "select": "Valitse",
+  "selectAll": "Valitse Kaikki",
+  "currentName": "Nykyinen nimi",
+  "newName": "Uusi nimi",
+  "fileNotExist": "Tiedostoa ei ole olemassa",
+  "files": "Tiedostot",
+  "directories": "Hakemistot",
+  "filesDirs": "Tiedostot ja hakemistot",
+  "filter": "Suodatin",
+  "addFile": "Lisää tiedosto",
+  "addFiles": "Lisää tiedostoja",
+  "dragToAdd": "Vedä ja pudota lisätäksesi tiedostoja.",
+  "dropToAdd": "Pudota lisätäksesi tiedostoja.",
+  "dragNotSupported": "Järjestelmän turvallisuusrajoitusten vuoksi tämän sovelluksen tiedostojen vetäminen ja pudottaminen ei ole tuettu.",
+  "fileAlreadyExists": "Tiedostonimi on jo käytössä toisessa tiedostossa",
+  "renameFailed": "Uudelleennimeäminen epäonnistui",
+  "aiRenameTitle": "AI Uudelleennimeäminen",
+  "aiRenameRequirementsLabel": "Uudelleennimeämisohjeet",
+  "aiRenameRequirementsHint": "Kuvaile, miten haluat nimetä nämä tiedostot uudelleen.",
+  "aiRenameSubmit": "Lähetä",
+  "aiRenameSnackbarEmptyRequirements": "Syötä uudelleennimeämisohjeet",
+  "aiRenameSnackbarNoSelection": "Ei tiedostoja valittu",
+  "aiRenameLoading": "AI analysoi pyyntöäsi, odota...",
+  "aiRenameSuccess": "AI-uudelleennimeämissääntö luotu. {count} tiedostoa nimetään uudelleen.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI-uudelleennimeäminen epäonnistui: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI-uudelleennimeäminen: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Säännöt suoritetaan peräkkäin. Klikkaa sääntöä muokataksesi sitä. Pidä '='-painiketta vasemmalla ja vedä sitä lajittaaksesi säännöt.",
+  "noSysDir": "Älä nimeä järjestelmän varattua hakemistoa uudelleen.",
+  "fileSortName": "Nimi",
+  "fileSortSize": "Koko",
+  "fileSortDate": "Päivämäärä",
+  "fileSortType": "Tyyppi",
+  "transliterateUpper": "Latinalaiset merkit isoiksi kirjaimiksi",
+  "transliterateLower": "Latinalaiset merkit pieniksi kirjaimiksi",
+  "transliterateTraditional": "Kiinalaiset merkit perinteiseen kiinaan",
+  "transliterateSimplified": "Kiinalaiset merkit yksinkertaistettuun kiinaan",
+  "transliteratePinyin": "Kiinalaiset merkit pinyiniin",
+  "transliterateCyrillic2Latin": "Kyrilliset merkit latinalaisiin",
+  "transliterateLatin2Cyrillic": "Latinalaiset merkit kyrillisiin",
+  "insertTagInsideAnother": "Älä lisää tagia toisen tagin sisään.",
+  "appError": "Sovellusvirhe",
+  "errorDetails": "Virheen yksityiskohdat",
+  "ifFileNotShown": "Jos tiedostoja ei näy tiedostoluettelossa, tyhjennä kaikki ja jatka.",
+  "metadataTags": "Metatietotagit",
+  "osTodayDate": "Tämän päivän päivämäärä",
+  "osNowTime": "Nykyinen aika",
+  "fileSize": "Tiedoston koko",
+  "fileCreateDate": "Tiedoston luontipäivämäärä",
+  "fileCreateTime": "Tiedoston luontiaika",
+  "fileModifyDate": "Tiedoston muokkauspäivämäärä",
+  "fileModifyTime": "Tiedoston muokkausaika",
+  "photoDate": "Valokuvauspäivämäärä exifistä",
+  "photoTime": "Valokuvausaika exifistä",
+  "photoCamName": "Kameran nimi exifistä",
+  "photoLensName": "Linssin nimi exifistä",
+  "photoFocalLength": "Polttoväli exifistä",
+  "photoAperture": "Aukon arvo exifistä",
+  "photoShutter": "Suljinajanopeus exifistä",
+  "photoISO": "ISO-arvo exifistä",
+  "photoLongitude": "Valokuvan GPS-pituusaste exifistä",
+  "photoLatitude": "Valokuvan GPS-leveysaste exifistä",
+  "photoAltitude": "Valokuvan GPS-korkeus exifistä",
+  "photoPhotographer": "Valokuvaajan nimi exifistä",
+  "photoCopyright": "Tekijänoikeuden haltijan nimi exifistä",
+  "musicAlbumName": "Albumin nimi",
+  "musicAlbumArtist": "Albumin artistin nimi",
+  "musicAlbumLength": "Kappaleiden määrä albumilla",
+  "musicYear": "Kappaleen julkaisuvuosi",
+  "musicTrackDuration": "Kappaleen kesto",
+  "musicTrackName": "Kappaleen nimi",
+  "musicTrackArtist": "Kappaleessa esiintyvien artistien nimet",
+  "musicTrackNumber": "Kappaleen sijainti albumilla",
+  "musicDiscNumber": "Levyn sijainti",
+  "musicGenres": "Musiikin taiteellinen tyyppi",
+  "musicAuthor": "Kappaleen tekijä",
+  "musicWriter": "Kappaleen kirjoittaja",
+  "prefix": "Etuliite",
+  "startIndex": "Aloitusindeksi",
+  "indexIncrementalStep": "Indeksin kasvuväli",
+  "omitDash": "Jätä viiva pois",
+  "ignoreExtension": "Ohita Tiedostopääte",
+  "insertedText": "Lisättävä teksti",
+  "insertIndex": "Lisäysindeksi",
+  "fromStart": "Alusta",
+  "insertBeforeIndex": "Lisää ennen indeksiä",
+  "rearrangeDelimiter": "Järjestä uudelleen erotin",
+  "rearrangeOrderLabel": "Järjestä uudelleen järjestys",
+  "rearrangeOrderHint": "numerot pilkulla erotettuina",
+  "target": "kohde",
+  "replacement": "Korvaus",
+  "limit": "raja",
+  "caseSensitive": "Kirjainkokoherkkä",
+  "isRegex": "On regex",
+  "language": "Kieli: ",
+  "indexOne": "Ensimmäisen merkin indeksi",
+  "indexTwo": "Toisen merkin indeksi",
+  "toLast": "-viimeiseen",
+  "goingForward": "Eteenpäin",
+  "keepCharacters": "Pidä merkit niiden välillä",
+  "removeCharacters": "Poista merkit niiden välillä",
+  "metadataParserNotProvided": "Sisältää metatietotagin, mutta MetadataParseria ei annettu.",
+  "replaceToString": "Korvaa \"{targetString}\" merkkijonolla \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Poista \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Lisää \"{insert}\" {insertIndex}{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-viimeiseen} false{} other{}} merkkiin.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Kasvava uudelleennimeäminen: {prefix}-indeksi",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Järjestä uudelleen: erotin: {delimiter}, järjestys: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transkriboi: muunna {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transkriboi: muunna {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Katkaise: {keepType, select, true{pitä vain} false{poista} other{}} merkit {iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-viimeiseen} false{} other{}} merkin ja {iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-viimeiseen} false{} other{}} välillä.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Korvaa määritetty teksti annetulla korvaavalla tekstillä.",
+  "descriptionRemove": "Poista määritetty teksti tiedostonimestä.",
+  "descriptionInsert": "Lisää määritetty teksti määritettyyn paikkaan.",
+  "descriptionIncrement": "Kasvata tiedostonimeä, esim. Kuva-1, Kuva-2, Kuva-3.",
+  "descriptionRearrange": "Jaa tiedostonimi käyttäjän määrittämällä erottimella ja järjestä segmentit uudelleen annetun järjestyksen mukaan.",
+  "descriptionTransliterate": "Transkriboi merkit ennalta määriteltyjen määritysten mukaan, mukaan lukien merkkien muuntaminen isoiksi tai pieniksi kirjaimiksi, merkkijoukkojen välinen muuntaminen tai merkkien muuntaminen fonettisiksi vastineiksi.",
+  "descriptionTruncate": "Poista tai pidä tiedostonimen määritetty osa, alkaen yhdestä määritetystä paikasta toiseen.",
+  "bg": "Bulgarialainen",
+  "me": "Montenegrolainen",
+  "mk": "Makedonialainen",
+  "mn": "Mongolialainen",
+  "ru": "Venäläinen",
+  "sr": "Serbialainen",
+  "tj": "Tadžikistanilainen",
+  "ua": "Ukrainalainen",
+  "fileManagerSortButton": "Lajittele",
+  "fileManagerStorageButton": "Valitse tallennustila",
+  "fileManagerSaveButton": "Lisää valinnat listaan",
+  "fileManagerBackButton": "Takaisin",
+  "showHiddenFiles": "Näytä piilotiedostot",
+  "hideHiddenFiles": "Piilota piilotiedostot",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Valittu} false{Ei valittu} other{}} {entityType, select, File{Tiedosto} Directory{Kansio} Link{Linkki} other{Tiedostojärjestelmäyksikkö}}, tiedostonimi on {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "viimeksi muokattu {last}, koko {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "viimeksi muokattu {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Tämä on avattava painike, nykyinen arvo on \"{value}\", kaksoisnapsauta avataksesi sen ja valitaksesi toisen arvon.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Valitse ja klikkaa sitten 'Lisää Sääntö'-painiketta lisätäksesi tämän säännön.",
+  "semanticsFilesDropdownButton": ". Valitse tämä kohde rajoittaaksesi uudelleennimeämiskohteita.",
+  "semanticsReorderableList": "Tämä on sääntöluettelo, se on nyt tyhjä. Klikkaa 'Lisää sääntö'-painiketta lisätäksesi yhden. Säännöt suoritetaan peräkkäin. Tämä luettelo voidaan järjestää uudelleen, jolloin voit siirtää säännön ylös, alas ja ylös tai alas. Kun kohdistin on säännöllä, käytä pystysuuntaista pyyhkäisyyliikettä vaihtaaksesi toimintojen välillä ja käytä kaksoisnapsautusta suorittaaksesi valitun toiminnon.",
+  "semanticsOpenMetadataDialog": "Kaksoisnapauta avataksesi dialogin ja valitaksesi lisättävän metatietotagin.",
+  "semanticsMultipleActionsHint": ", vaihda toimintojen välillä pystysuuntaisella pyyhkäisyyliikkeellä",
+  "semanticNumberWithDirection": "Vaihtaa laskentasuuntaa alusta ja lopusta",
+  "semanticSwitchNumberToStartAndToEnd": "Vaihtaa laskentasuuntaa alusta ja lopusta, laskee tällä hetkellä {toEnd, select, true{lopusta} false{alusta} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Värien valitsin",
+  "manualMode": "Manuaalinen Tila",
+  "aiMode": "AI Tila"
+}
+

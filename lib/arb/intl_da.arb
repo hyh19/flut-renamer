@@ -1,0 +1,346 @@
+{
+  "@@locale": "da",
+  "appName": "Batch Filnavn Omnavngivning Assistent",
+  "lowercaseAppName": "batch filnavn omnavngivning assistent",
+  "ok": "OK",
+  "cancel": "Annuller",
+  "exit": "Afslut",
+  "save": "Gem",
+  "add": "Tilføj",
+  "permissionTitle": "Tilladelse til ekstern lagring",
+  "permissionContent": "For at give dig vores filnavn-omnavngivningstjeneste, har vi brug for din tilladelse til at administrere ekstern lagring. Dette giver os adgang til og mulighed for at omnavngive filer, der er gemt på din enhed. Uden denne tilladelse vil appen ikke kunne få adgang til de fulde filstier og kan derfor ikke omnavngive filer. Vi forsikrer dig om, at dit privatliv og sikkerhed er vores højeste prioriteter, og vi får kun adgang til filer med henblik på omnavngivning.",
+  "exitTitle": "Kan ikke få adgang til ekstern lagring",
+  "exitContent": "Tilladelsen til at administrere ekstern lagring giver os adgang til og mulighed for at omnavngive filer, der er gemt på din enhed. Uden denne tilladelse vil appen ikke kunne få adgang til de fulde filstier og kan derfor ikke omnavngive filer. Gå til indstillingssiden og giv tilladelsen manuelt; ellers kan vi ikke levere nogen tjeneste.",
+  "iosRemindTitle": "Om at vælge filer på iOS",
+  "iosRemindContent": "For at vælge filer på iOS, vælg først den mappe, hvor dine filer er placeret. Derefter, i den valgte mappe, vælg de filer, du vil omnavngive. På grund af iOS-begrænsninger skal vi bruge en to-trins proces, hvilket sikrer sikker filhåndtering. Lad os komme i gang!",
+  "androidRemindTitle": "Omnavngiv mappe",
+  "androidRemindContent": "Ved at bruge Flut Renamer kan du omnavngive ikke kun filer, men også mapper. Tryk længe på en mappe for at vælge den, og vælg 'Filer & Mapper' fra rullemenuknappen i øverste venstre hjørne for at aktivere mappeomnavngivning. Af sikkerhedsmæssige årsager er nogle systemreserverede mapper ikke valgbare.",
+  "doNotRemindAgain": "OK. Påmind mig ikke igen.",
+  "rename": "Omnavngiv",
+  "appInfo": "App-information",
+  "aboutContent": "Denne applikation er designet til at hjælpe brugere med at omnavngive deres filer. Den er bygget med Flutter - et multi-platform applikationsframework, og er derfor også tilgængelig på andre operativsystemer. Den er helt open source og kan gennemgås eller bidrages til.",
+  "rating": "Bedømmelse af appen",
+  "ratingTitle": "Bedøm Vores App",
+  "ratingContent": "Nyder du vores app? Hjælp os med at vokse ved at give en hurtig bedømmelse i butikken eller på GitHub. Din feedback betyder meget for os! Tak for din støtte.",
+  "ratingStore": "Bedøm appen i butikken",
+  "ratingGithub": "Stjernemærk den på Github",
+  "sourceCode": "Kildekode",
+  "collapseOptions": "Skjul indstillinger",
+  "expandOptions": "Udvid indstillinger",
+  "onlySelected": "Kun valgte",
+  "removeRenamed": "Fjern omnavngivede filer",
+  "removeRule": "Fjern denne regel",
+  "removeRules": "Fjern alle regler efter omnavngivning",
+  "addRule": "Tilføj Regel",
+  "removeAll": "Fjern alle",
+  "replace": "Erstat",
+  "remove": "Fjern",
+  "insert": "Indsæt",
+  "increment": "Forøg",
+  "rearrange": "Omarranger",
+  "transliterate": "Transskriber",
+  "truncate": "Afkort",
+  "cancelAll": "Annuller Alt",
+  "select": "Vælg",
+  "selectAll": "Vælg Alt",
+  "currentName": "Nuværende navn",
+  "newName": "Nyt navn",
+  "fileNotExist": "Filen findes ikke",
+  "files": "Filer",
+  "directories": "Mapper",
+  "filesDirs": "Filer & Mapper",
+  "filter": "Filter",
+  "addFile": "Tilføj fil",
+  "addFiles": "Tilføj filer",
+  "dragToAdd": "Træk og slip for at tilføje filer.",
+  "dropToAdd": "Slip for at tilføje filer.",
+  "dragNotSupported": "På grund af systemets sikkerhedsbegrænsninger understøttes ikke træk og slip af filer fra denne app.",
+  "fileAlreadyExists": "Filnavnet bruges allerede af en anden fil",
+  "renameFailed": "Omnavngivning mislykkedes",
+  "aiRenameTitle": "AI Omnavngivning",
+  "aiRenameRequirementsLabel": "Omnavngivningsinstruktioner",
+  "aiRenameRequirementsHint": "Beskriv, hvordan du vil omnavngive disse filer.",
+  "aiRenameSubmit": "Send",
+  "aiRenameSnackbarEmptyRequirements": "Indtast omnavngivningsinstruktioner",
+  "aiRenameSnackbarNoSelection": "Ingen filer valgt",
+  "aiRenameLoading": "AI analyserer din anmodning, vent venligst...",
+  "aiRenameSuccess": "AI-omnavngivningsregel oprettet. {count} filer vil blive omnavngivet.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI-omnavngivning mislykkedes: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI-omnavngivning: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Regler udføres sekventielt. Klik på en regel for at redigere den. Hold '='-knappen til venstre og træk den for at sortere regler.",
+  "noSysDir": "Omnavngiv ikke en systemreserveret mappe.",
+  "fileSortName": "Navn",
+  "fileSortSize": "Størrelse",
+  "fileSortDate": "Dato",
+  "fileSortType": "Type",
+  "transliterateUpper": "Latinske tegn til store bogstaver",
+  "transliterateLower": "Latinske tegn til små bogstaver",
+  "transliterateTraditional": "Kinesiske tegn til traditionel kinesisk",
+  "transliterateSimplified": "Kinesiske tegn til forenklet kinesisk",
+  "transliteratePinyin": "Kinesiske tegn til pinyin",
+  "transliterateCyrillic2Latin": "Kyrilliske tegn til latinsk",
+  "transliterateLatin2Cyrillic": "Latinske tegn til kyrillisk",
+  "insertTagInsideAnother": "Indsæt ikke en tag inde i en anden tag.",
+  "appError": "Applikationsfejl",
+  "errorDetails": "Fejldetaljer",
+  "ifFileNotShown": "Hvis filer ikke vises i fillisten, ryd alt og fortsæt.",
+  "metadataTags": "Metadata-tags",
+  "osTodayDate": "Dagens dato",
+  "osNowTime": "Nuværende tid",
+  "fileSize": "Filens størrelse",
+  "fileCreateDate": "Oprettelsesdato for fil",
+  "fileCreateTime": "Oprettelsestid for fil",
+  "fileModifyDate": "Ændringsdato for fil",
+  "fileModifyTime": "Ændringstid for fil",
+  "photoDate": "Fotograferingsdato fra exif",
+  "photoTime": "Fotograferingstid fra exif",
+  "photoCamName": "Kameranavn fra exif",
+  "photoLensName": "Objektivnavn fra exif",
+  "photoFocalLength": "Brændvidde fra exif",
+  "photoAperture": "Blændeværdi fra exif",
+  "photoShutter": "Lukkertid fra exif",
+  "photoISO": "ISO-værdi fra exif",
+  "photoLongitude": "Længdegrad for foto GPS fra exif",
+  "photoLatitude": "Breddegrad for foto GPS fra exif",
+  "photoAltitude": "Højde for foto GPS fra exif",
+  "photoPhotographer": "Fotografnavn fra exif",
+  "photoCopyright": "Ophavsretsindehaverens navn fra exif",
+  "musicAlbumName": "Albummets navn",
+  "musicAlbumArtist": "Albumartistens navn",
+  "musicAlbumLength": "Antal numre i albummet",
+  "musicYear": "Udgivelsesår for nummeret",
+  "musicTrackDuration": "Nummerets varighed",
+  "musicTrackName": "Nummerets navn",
+  "musicTrackArtist": "Navne på kunstnere, der optræder i nummeret",
+  "musicTrackNumber": "Nummerets position i albummet",
+  "musicDiscNumber": "Pladens position",
+  "musicGenres": "Kunsttype for musikken",
+  "musicAuthor": "Nummerets forfatter",
+  "musicWriter": "Nummerets forfatter",
+  "prefix": "Præfiks",
+  "startIndex": "Startindeks",
+  "indexIncrementalStep": "Indeksforøgelsestrin",
+  "omitDash": "Udelad bindestreg",
+  "ignoreExtension": "Ignorer Forlængelse",
+  "insertedText": "Tekst, der skal indsættes",
+  "insertIndex": "Indsætningsindeks",
+  "fromStart": "Fra starten",
+  "insertBeforeIndex": "Indsæt før indeks",
+  "rearrangeDelimiter": "Omarranger afgrænser",
+  "rearrangeOrderLabel": "Omarranger rækkefølge",
+  "rearrangeOrderHint": "tal adskilt med komma",
+  "target": "mål",
+  "replacement": "Erstatning",
+  "limit": "grænse",
+  "caseSensitive": "Følsom over for store/små bogstaver",
+  "isRegex": "Er regex",
+  "language": "Sprog: ",
+  "indexOne": "Første tegnindeks",
+  "indexTwo": "Andet tegnindeks",
+  "toLast": "-til-sidste",
+  "goingForward": "Går fremad",
+  "keepCharacters": "Behold tegn mellem dem",
+  "removeCharacters": "Fjern tegn mellem dem",
+  "metadataParserNotProvided": "Indeholder metadata-tag, mens MetadataParser ikke blev givet.",
+  "replaceToString": "Erstat \"{targetString}\" med \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Fjern \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Indsæt \"{insert}\" ved {insertIndex}{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-til-slut} false{} other{}} tegnet.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Inkrementel omnavngivning: {prefix}-indeks",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Omarranger: afgrænser: {delimiter}, rækkefølge: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transskriber: konverter {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transskriber: konverter {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Afkort: {keepType, select, true{behold kun} false{fjern} other{}} tegn mellem {iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-til-slut} false{} other{}} tegnet og {iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-til-slut} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Erstat den angivne tekst med den givne erstatningstekst.",
+  "descriptionRemove": "Fjern den angivne tekst fra filnavnet.",
+  "descriptionInsert": "Indsæt den angivne tekst på den angivne position.",
+  "descriptionIncrement": "Forøg filnavnet, f.eks. Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Opdel filnavnet med brugerens angivne afgrænser og omarranger segmenter i henhold til den angivne rækkefølge.",
+  "descriptionTransliterate": "Transskriber tegn i henhold til foruddefinerede specifikationer, herunder konvertering af tegn til store eller små bogstaver, konvertering mellem tegnsæt eller konvertering af tegn til fonetiske ækvivalenter.",
+  "descriptionTruncate": "Fjern eller behold den angivne del af filnavnet, startende fra en angivet position til en anden.",
+  "bg": "Bulgarsk",
+  "me": "Montenegrinsk",
+  "mk": "Makedonsk",
+  "mn": "Mongolsk",
+  "ru": "Russisk",
+  "sr": "Serbisk",
+  "tj": "Tadsjikisk",
+  "ua": "Ukrainsk",
+  "fileManagerSortButton": "Sorter efter",
+  "fileManagerStorageButton": "Vælg lagring",
+  "fileManagerSaveButton": "Tilføj valg til listen",
+  "fileManagerBackButton": "Tilbage",
+  "showHiddenFiles": "Vis skjulte filer",
+  "hideHiddenFiles": "Skjul skjulte filer",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Valgt} false{Ikke valgt} other{}} {entityType, select, File{Fil} Directory{Mappe} Link{Link} other{Filsystemenhed}}, filnavn er {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "sidst ændret kl {last}, størrelse {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "sidst ændret kl {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Dette er en rullemenuknapp, nuværende værdi er \"{value}\", dobbeltklik for at åbne den og vælge en anden værdi.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Vælg og klik derefter på 'Tilføj Regel'-knappen for at tilføje denne regel.",
+  "semanticsFilesDropdownButton": ". Vælg dette element for at begrænse omnavngivningsmål.",
+  "semanticsReorderableList": "Dette er regellisten, den er tom nu. Klik på 'Tilføj regel'-knappen for at tilføje en. Regler udføres sekventielt. Denne liste kan omarrangeres, hvilket giver dig mulighed for at flytte en regel op, ned og til toppen eller bunden. Når markøren er på en regel, brug en vertikal swipe-gestus for at skifte mellem handlinger, og brug dobbeltklik for at udføre den valgte handling.",
+  "semanticsOpenMetadataDialog": "Dobbeltryk for at åbne en dialog og vælge en metadata-tag, der skal indsættes.",
+  "semanticsMultipleActionsHint": ", skift mellem handlinger med en vertikal swipe-gestus",
+  "semanticNumberWithDirection": "Skifter tælleretning mellem fra begyndelsen og fra slutningen",
+  "semanticSwitchNumberToStartAndToEnd": "Skifter tælleretning mellem fra begyndelsen og fra slutningen, tæller i øjeblikket fra {toEnd, select, true{slutningen} false{begyndelsen} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Farvevælger",
+  "manualMode": "Manuel Tilstand",
+  "aiMode": "AI Tilstand"
+}
+

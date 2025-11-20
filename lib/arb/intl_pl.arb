@@ -1,0 +1,346 @@
+{
+  "@@locale": "pl",
+  "appName": "Asystent Masowego Zmieniania Nazw Plików",
+  "lowercaseAppName": "asystent masowego zmieniania nazw plików",
+  "ok": "OK",
+  "cancel": "Anuluj",
+  "exit": "Wyjdź",
+  "save": "Zapisz",
+  "add": "Dodaj",
+  "permissionTitle": "Uprawnienie do zewnętrznej pamięci",
+  "permissionContent": "Aby zapewnić Ci usługę zmiany nazw plików, potrzebujemy Twojej zgody na zarządzanie zewnętrzną pamięcią. To pozwala nam uzyskać dostęp i zmieniać nazwy plików przechowywanych na Twoim urządzeniu. Bez tego uprawnienia aplikacja nie będzie mogła uzyskać dostępu do pełnych ścieżek plików i dlatego nie będzie mogła zmieniać nazw plików. Zapewniamy Cię, że Twoja prywatność i bezpieczeństwo są naszymi najwyższymi priorytetami, i uzyskujemy dostęp do plików wyłącznie w celu zmiany nazw.",
+  "exitTitle": "Nie można uzyskać dostępu do zewnętrznej pamięci",
+  "exitContent": "Uprawnienie do zarządzania zewnętrzną pamięcią pozwala nam uzyskać dostęp i zmieniać nazwy plików przechowywanych na Twoim urządzeniu. Bez tego uprawnienia aplikacja nie będzie mogła uzyskać dostępu do pełnych ścieżek plików i dlatego nie będzie mogła zmieniać nazw plików. Przejdź do strony Ustawienia i przyznaj uprawnienie ręcznie; w przeciwnym razie nie możemy świadczyć żadnych usług.",
+  "iosRemindTitle": "O wybieraniu plików w iOS",
+  "iosRemindContent": "Aby wybrać pliki w iOS, najpierw wybierz katalog, w którym znajdują się Twoje pliki. Następnie w wybranym folderze wybierz pliki, które chcesz zmienić nazwę. Ze względu na ograniczenia iOS musimy użyć procesu dwuetapowego, co zapewnia bezpieczne zarządzanie plikami. Zacznijmy!",
+  "androidRemindTitle": "Zmień nazwę katalogu",
+  "androidRemindContent": "Używając Flut Renamer, możesz zmieniać nazwy nie tylko plików, ale także katalogów. Naciśnij i przytrzymaj katalog, aby go wybrać, a następnie wybierz 'Pliki i katalogi' z przycisku rozwijanego w lewym górnym rogu, aby włączyć zmianę nazw katalogów. Ze względów bezpieczeństwa niektóre zarezerwowane katalogi systemowe nie są wybieralne.",
+  "doNotRemindAgain": "OK. Nie przypominaj mi ponownie.",
+  "rename": "Zmień nazwę",
+  "appInfo": "Informacje o aplikacji",
+  "aboutContent": "Ta aplikacja została zaprojektowana, aby pomóc użytkownikom zmieniać nazwy ich plików. Została zbudowana z Flutter - wieloplatformowym frameworkiem aplikacji, i dlatego jest również dostępna na innych systemach operacyjnych. Jest całkowicie open source i może być przeglądana lub wzbogacana.",
+  "rating": "Ocena aplikacji",
+  "ratingTitle": "Oceń Naszą Aplikację",
+  "ratingContent": "Podoba Ci się nasza aplikacja? Pomóż nam rosnąć, dając szybką ocenę w sklepie lub na GitHub. Twoja opinia jest dla nas bardzo ważna! Dziękujemy za wsparcie.",
+  "ratingStore": "Oceń aplikację w sklepie",
+  "ratingGithub": "Oznacz gwiazdką na Github",
+  "sourceCode": "Kod źródłowy",
+  "collapseOptions": "Zwiń opcje",
+  "expandOptions": "Rozwiń opcje",
+  "onlySelected": "Tylko wybrane",
+  "removeRenamed": "Usuń zmienione nazwy plików",
+  "removeRule": "Usuń tę regułę",
+  "removeRules": "Usuń wszystkie reguły po zmianie nazwy",
+  "addRule": "Dodaj Regułę",
+  "removeAll": "Usuń wszystko",
+  "replace": "Zastąp",
+  "remove": "Usuń",
+  "insert": "Wstaw",
+  "increment": "Zwiększ",
+  "rearrange": "Przestaw",
+  "transliterate": "Transliteruj",
+  "truncate": "Obetnij",
+  "cancelAll": "Anuluj Wszystko",
+  "select": "Wybierz",
+  "selectAll": "Wybierz Wszystko",
+  "currentName": "Bieżąca nazwa",
+  "newName": "Nowa nazwa",
+  "fileNotExist": "Plik nie istnieje",
+  "files": "Pliki",
+  "directories": "Katalogi",
+  "filesDirs": "Pliki i katalogi",
+  "filter": "Filtr",
+  "addFile": "Dodaj plik",
+  "addFiles": "Dodaj pliki",
+  "dragToAdd": "Przeciągnij i upuść, aby dodać pliki.",
+  "dropToAdd": "Upuść, aby dodać pliki.",
+  "dragNotSupported": "Ze względu na ograniczenia bezpieczeństwa systemu, przeciąganie plików z tej aplikacji nie jest obsługiwane.",
+  "fileAlreadyExists": "Nazwa pliku jest już używana przez inny plik",
+  "renameFailed": "Zmiana nazwy nie powiodła się",
+  "aiRenameTitle": "Zmiana nazwy AI",
+  "aiRenameRequirementsLabel": "Instrukcje zmiany nazwy",
+  "aiRenameRequirementsHint": "Opisz, jak chcesz zmienić nazwy tych plików.",
+  "aiRenameSubmit": "Prześlij",
+  "aiRenameSnackbarEmptyRequirements": "Wprowadź instrukcje zmiany nazwy",
+  "aiRenameSnackbarNoSelection": "Nie wybrano plików",
+  "aiRenameLoading": "AI analizuje Twoje żądanie, proszę czekać...",
+  "aiRenameSuccess": "Utworzono regułę zmiany nazwy AI. {count} plików zostanie zmienionych.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "Zmiana nazwy AI nie powiodła się: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "Zmiana nazwy AI: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Reguły są wykonywane sekwencyjnie. Kliknij regułę, aby ją edytować. Przytrzymaj przycisk '=' po lewej stronie i przeciągnij go, aby sortować reguły.",
+  "noSysDir": "Nie zmieniaj nazwy zarezerwowanego katalogu systemowego.",
+  "fileSortName": "Nazwa",
+  "fileSortSize": "Rozmiar",
+  "fileSortDate": "Data",
+  "fileSortType": "Typ",
+  "transliterateUpper": "Znaki łacińskie na wielkie litery",
+  "transliterateLower": "Znaki łacińskie na małe litery",
+  "transliterateTraditional": "Znaki chińskie na tradycyjne chińskie",
+  "transliterateSimplified": "Znaki chińskie na uproszczone chińskie",
+  "transliteratePinyin": "Znaki chińskie na pinyin",
+  "transliterateCyrillic2Latin": "Znaki cyrylicy na łacińskie",
+  "transliterateLatin2Cyrillic": "Znaki łacińskie na cyrylicę",
+  "insertTagInsideAnother": "Nie wstawiaj tagu wewnątrz innego tagu.",
+  "appError": "Błąd aplikacji",
+  "errorDetails": "Szczegóły błędu",
+  "ifFileNotShown": "Jeśli pliki nie są wyświetlane na liście plików, wyczyść wszystko i kontynuuj.",
+  "metadataTags": "Tagi metadanych",
+  "osTodayDate": "Data dzisiejsza",
+  "osNowTime": "Czas teraz",
+  "fileSize": "Rozmiar pliku",
+  "fileCreateDate": "Data utworzenia pliku",
+  "fileCreateTime": "Czas utworzenia pliku",
+  "fileModifyDate": "Data modyfikacji pliku",
+  "fileModifyTime": "Czas modyfikacji pliku",
+  "photoDate": "Data fotografowania z exif",
+  "photoTime": "Czas fotografowania z exif",
+  "photoCamName": "Nazwa aparatu z exif",
+  "photoLensName": "Nazwa obiektywu z exif",
+  "photoFocalLength": "Ogniskowa z exif",
+  "photoAperture": "Wartość przysłony z exif",
+  "photoShutter": "Prędkość migawki z exif",
+  "photoISO": "Wartość ISO z exif",
+  "photoLongitude": "Długość geograficzna GPS zdjęcia z exif",
+  "photoLatitude": "Szerokość geograficzna GPS zdjęcia z exif",
+  "photoAltitude": "Wysokość GPS zdjęcia z exif",
+  "photoPhotographer": "Nazwa fotografa z exif",
+  "photoCopyright": "Nazwa właściciela praw autorskich z exif",
+  "musicAlbumName": "Nazwa albumu",
+  "musicAlbumArtist": "Nazwa artysty albumu",
+  "musicAlbumLength": "Liczba utworów w albumie",
+  "musicYear": "Rok publikacji utworu",
+  "musicTrackDuration": "Czas trwania utworu",
+  "musicTrackName": "Nazwa utworu",
+  "musicTrackArtist": "Nazwy artystów wykonujących utwór",
+  "musicTrackNumber": "Pozycja utworu w albumie",
+  "musicDiscNumber": "Pozycja płyty",
+  "musicGenres": "Typ artystyczny muzyki",
+  "musicAuthor": "Autor utworu",
+  "musicWriter": "Pisarz utworu",
+  "prefix": "Prefiks",
+  "startIndex": "Indeks początkowy",
+  "indexIncrementalStep": "Krok przyrostu indeksu",
+  "omitDash": "Pomiń myślnik",
+  "ignoreExtension": "Ignoruj Rozszerzenie",
+  "insertedText": "Tekst do wstawienia",
+  "insertIndex": "Indeks wstawienia",
+  "fromStart": "Od początku",
+  "insertBeforeIndex": "Wstaw przed indeksem",
+  "rearrangeDelimiter": "Ogranicznik przestawiania",
+  "rearrangeOrderLabel": "Kolejność przestawiania",
+  "rearrangeOrderHint": "liczby oddzielone przecinkiem",
+  "target": "cel",
+  "replacement": "Zastąpienie",
+  "limit": "limit",
+  "caseSensitive": "Rozróżnianie wielkości liter",
+  "isRegex": "Jest regex",
+  "language": "Język: ",
+  "indexOne": "Indeks pierwszego znaku",
+  "indexTwo": "Indeks drugiego znaku",
+  "toLast": "-do-ostatniego",
+  "goingForward": "Idąc do przodu",
+  "keepCharacters": "Zachowaj znaki między nimi",
+  "removeCharacters": "Usuń znaki między nimi",
+  "metadataParserNotProvided": "Zawiera tag metadanych, podczas gdy MetadataParser nie został dostarczony.",
+  "replaceToString": "Zastąp \"{targetString}\" przez \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Usuń \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Wstaw \"{insert}\" na {insertIndex}{ordinal, select, o1{-szym} o2{-gim} o3{-cim} other{-tym}}{toEnd, select, true{-do-końca} false{} other{}} znaku.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Przyrostowa zmiana nazwy: {prefix}-indeks",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Przestaw: ogranicznik: {delimiter}, kolejność: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transliteruj: konwertuj {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transliteruj: konwertuj {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Obetnij: {keepType, select, true{zachowaj tylko} false{usuń} other{}} znaki między {iOne}{iTwoOrdinal, select, o1{-szym} o2{-gim} o3{-cim} other{-tym}}{iOneToEnd, select, true{-do-końca} false{} other{}} znakiem a {iTwo}{iOneOrdinal, select, o1{-szym} o2{-gim} o3{-cim} other{-tym}}{iTwoToEnd, select, true{-do-końca} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Zastąp określony tekst podanym tekstem zastępczym.",
+  "descriptionRemove": "Usuń określony tekst z nazwy pliku.",
+  "descriptionInsert": "Wstaw określony tekst w określonej pozycji.",
+  "descriptionIncrement": "Zwiększ nazwę pliku, np. Zdjęcie-1, Zdjęcie-2, Zdjęcie-3.",
+  "descriptionRearrange": "Podziel nazwę pliku przez ogranicznik określony przez użytkownika i przestaw segmenty zgodnie z podaną kolejnością.",
+  "descriptionTransliterate": "Transliteruj znaki zgodnie z wstępnie zdefiniowanymi specyfikacjami, w tym konwertowanie znaków na wielkie lub małe litery, konwertowanie między zestawami znaków lub konwertowanie znaków na odpowiedniki fonetyczne.",
+  "descriptionTruncate": "Usuń lub zachowaj określoną część nazwy pliku, zaczynając od jednej określonej pozycji do drugiej.",
+  "bg": "Bułgarski",
+  "me": "Czarnogórski",
+  "mk": "Macedoński",
+  "mn": "Mongolski",
+  "ru": "Rosyjski",
+  "sr": "Serbski",
+  "tj": "Tadżycki",
+  "ua": "Ukraiński",
+  "fileManagerSortButton": "Sortuj według",
+  "fileManagerStorageButton": "Wybierz pamięć",
+  "fileManagerSaveButton": "Dodaj wybory do listy",
+  "fileManagerBackButton": "Wstecz",
+  "showHiddenFiles": "Pokaż ukryte pliki",
+  "hideHiddenFiles": "Ukryj ukryte pliki",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Wybrany} false{Niewybrany} other{}} {entityType, select, File{Plik} Directory{Folder} Link{Link} other{Encja systemu plików}}, nazwa pliku to {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "ostatnia modyfikacja o {last}, rozmiar {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "ostatnia modyfikacja o {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "To jest przycisk rozwijany, bieżąca wartość to \"{value}\", kliknij dwukrotnie, aby go otworzyć i wybrać inną wartość.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Wybierz, a następnie kliknij przycisk \"Dodaj Regułę\", aby dodać tę regułę.",
+  "semanticsFilesDropdownButton": ". Wybierz ten element, aby ograniczyć cele zmiany nazwy.",
+  "semanticsReorderableList": "To jest lista reguł, jest teraz pusta. Kliknij przycisk 'Dodaj regułę', aby dodać jedną. Reguły są wykonywane sekwencyjnie. Ta lista może być przestawiana, pozwalając na przesunięcie reguły w górę, w dół i na górę lub dół. Gdy kursor znajduje się na regule, użyj gestu przesunięcia w pionie, aby przełączać się między akcjami, i użyj podwójnego kliknięcia, aby wykonać wybraną akcję.",
+  "semanticsOpenMetadataDialog": "Kliknij dwukrotnie, aby otworzyć okno dialogowe i wybrać tag metadanych do wstawienia.",
+  "semanticsMultipleActionsHint": ", przełączaj się między akcjami za pomocą gestu przesunięcia w pionie",
+  "semanticNumberWithDirection": "Przełączanie kierunku liczenia między od początku i od końca",
+  "semanticSwitchNumberToStartAndToEnd": "Przełączanie kierunku liczenia między od początku i od końca, obecnie liczenie od {toEnd, select, true{końca} false{początku} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Wybór koloru",
+  "manualMode": "Tryb Ręczny",
+  "aiMode": "Tryb AI"
+}
+

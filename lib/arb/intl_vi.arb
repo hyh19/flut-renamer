@@ -1,0 +1,346 @@
+{
+  "@@locale": "vi",
+  "appName": "Trợ lý Đổi tên File Hàng loạt",
+  "lowercaseAppName": "trợ lý đổi tên file hàng loạt",
+  "ok": "OK",
+  "cancel": "Hủy",
+  "exit": "Thoát",
+  "save": "Lưu",
+  "add": "Thêm",
+  "permissionTitle": "Quyền truy cập bộ nhớ ngoài",
+  "permissionContent": "Để cung cấp dịch vụ đổi tên file, chúng tôi cần quyền của bạn để quản lý bộ nhớ ngoài. Điều này cho phép chúng tôi truy cập và đổi tên các file được lưu trữ trên thiết bị của bạn. Nếu không có quyền này, ứng dụng sẽ không thể truy cập đường dẫn file đầy đủ và do đó không thể đổi tên file. Chúng tôi đảm bảo với bạn rằng quyền riêng tư và bảo mật của bạn là ưu tiên hàng đầu của chúng tôi, và chúng tôi chỉ truy cập file cho mục đích đổi tên.",
+  "exitTitle": "Không thể truy cập bộ nhớ ngoài",
+  "exitContent": "Quyền quản lý bộ nhớ ngoài cho phép chúng tôi truy cập và đổi tên các file được lưu trữ trên thiết bị của bạn. Nếu không có quyền này, ứng dụng sẽ không thể truy cập đường dẫn file đầy đủ và do đó không thể đổi tên file. Vui lòng đi đến trang Cài đặt và cấp quyền thủ công; nếu không, chúng tôi không thể cung cấp bất kỳ dịch vụ nào.",
+  "iosRemindTitle": "Về việc chọn file trên iOS",
+  "iosRemindContent": "Để chọn file trên iOS, trước tiên hãy chọn thư mục nơi file của bạn được đặt. Sau đó, trong thư mục đã chọn, chọn các file bạn muốn đổi tên. Do các hạn chế của iOS, chúng tôi phải sử dụng quy trình hai bước, điều này đảm bảo quản lý file an toàn. Hãy bắt đầu!",
+  "androidRemindTitle": "Đổi tên thư mục",
+  "androidRemindContent": "Sử dụng Flut Renamer, bạn không chỉ có thể đổi tên file mà còn cả thư mục. Nhấn giữ một thư mục để chọn nó, và chọn 'File & Thư mục' từ nút thả xuống ở góc trên bên trái để bật tính năng đổi tên thư mục. Vì lý do bảo mật, một số thư mục dành riêng của hệ thống không thể chọn.",
+  "doNotRemindAgain": "OK. Không nhắc lại.",
+  "rename": "Đổi tên",
+  "appInfo": "Thông tin ứng dụng",
+  "aboutContent": "Ứng dụng này được thiết kế để giúp người dùng đổi tên file của họ. Nó được xây dựng với Flutter - một framework ứng dụng đa nền tảng, và do đó cũng có sẵn trên các hệ điều hành khác. Nó hoàn toàn mã nguồn mở và có thể được xem xét hoặc đóng góp.",
+  "rating": "Đánh giá ứng dụng",
+  "ratingTitle": "Đánh giá Ứng dụng của Chúng tôi",
+  "ratingContent": "Thích ứng dụng của chúng tôi? Hãy giúp chúng tôi phát triển bằng cách cho một đánh giá nhanh trên cửa hàng hoặc GitHub. Phản hồi của bạn rất quan trọng đối với chúng tôi! Cảm ơn sự hỗ trợ của bạn.",
+  "ratingStore": "Đánh giá ứng dụng trên cửa hàng",
+  "ratingGithub": "Đánh dấu sao trên Github",
+  "sourceCode": "Mã nguồn",
+  "collapseOptions": "Thu gọn tùy chọn",
+  "expandOptions": "Mở rộng tùy chọn",
+  "onlySelected": "Chỉ đã chọn",
+  "removeRenamed": "Xóa file đã đổi tên",
+  "removeRule": "Xóa quy tắc này",
+  "removeRules": "Xóa tất cả quy tắc sau khi đổi tên",
+  "addRule": "Thêm Quy tắc",
+  "removeAll": "Xóa tất cả",
+  "replace": "Thay thế",
+  "remove": "Xóa",
+  "insert": "Chèn",
+  "increment": "Tăng dần",
+  "rearrange": "Sắp xếp lại",
+  "transliterate": "Chuyển tự",
+  "truncate": "Cắt ngắn",
+  "cancelAll": "Hủy Tất cả",
+  "select": "Chọn",
+  "selectAll": "Chọn Tất cả",
+  "currentName": "Tên hiện tại",
+  "newName": "Tên mới",
+  "fileNotExist": "File không tồn tại",
+  "files": "Tệp",
+  "directories": "Thư mục",
+  "filesDirs": "Tệp & Thư mục",
+  "filter": "Lọc",
+  "addFile": "Thêm file",
+  "addFiles": "Thêm file",
+  "dragToAdd": "Kéo và thả để thêm file.",
+  "dropToAdd": "Thả để thêm file.",
+  "dragNotSupported": "Do hạn chế bảo mật hệ thống, kéo thả file từ ứng dụng này không được hỗ trợ.",
+  "fileAlreadyExists": "Tên file đã được sử dụng bởi file khác",
+  "renameFailed": "Đổi tên thất bại",
+  "aiRenameTitle": "Đổi tên AI",
+  "aiRenameRequirementsLabel": "Hướng dẫn đổi tên",
+  "aiRenameRequirementsHint": "Mô tả cách bạn muốn đổi tên các file này.",
+  "aiRenameSubmit": "Gửi",
+  "aiRenameSnackbarEmptyRequirements": "Nhập hướng dẫn đổi tên",
+  "aiRenameSnackbarNoSelection": "Không có file nào được chọn",
+  "aiRenameLoading": "AI đang phân tích yêu cầu của bạn, vui lòng đợi...",
+  "aiRenameSuccess": "Quy tắc đổi tên AI đã được tạo. {count} file sẽ được đổi tên.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "Đổi tên AI thất bại: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "Đổi tên AI: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Các quy tắc được thực thi tuần tự. Nhấp vào một quy tắc để chỉnh sửa nó. Giữ nút '=' ở bên trái và kéo nó để sắp xếp các quy tắc.",
+  "noSysDir": "Không đổi tên thư mục dành riêng của hệ thống.",
+  "fileSortName": "Tên",
+  "fileSortSize": "Kích thước",
+  "fileSortDate": "Ngày",
+  "fileSortType": "Loại",
+  "transliterateUpper": "Ký tự Latin sang chữ hoa",
+  "transliterateLower": "Ký tự Latin sang chữ thường",
+  "transliterateTraditional": "Ký tự Trung Quốc sang tiếng Trung truyền thống",
+  "transliterateSimplified": "Ký tự Trung Quốc sang tiếng Trung giản thể",
+  "transliteratePinyin": "Ký tự Trung Quốc sang pinyin",
+  "transliterateCyrillic2Latin": "Ký tự Cyrillic sang Latin",
+  "transliterateLatin2Cyrillic": "Ký tự Latin sang Cyrillic",
+  "insertTagInsideAnother": "Không chèn thẻ bên trong thẻ khác.",
+  "appError": "Lỗi ứng dụng",
+  "errorDetails": "Chi tiết lỗi",
+  "ifFileNotShown": "Nếu file không hiển thị trong danh sách file, vui lòng xóa tất cả và tiếp tục.",
+  "metadataTags": "Thẻ metadata",
+  "osTodayDate": "Ngày hôm nay",
+  "osNowTime": "Thời gian hiện tại",
+  "fileSize": "Kích thước file",
+  "fileCreateDate": "Ngày tạo file",
+  "fileCreateTime": "Thời gian tạo file",
+  "fileModifyDate": "Ngày sửa đổi file",
+  "fileModifyTime": "Thời gian sửa đổi file",
+  "photoDate": "Ngày chụp ảnh từ exif",
+  "photoTime": "Thời gian chụp ảnh từ exif",
+  "photoCamName": "Tên máy ảnh từ exif",
+  "photoLensName": "Tên ống kính từ exif",
+  "photoFocalLength": "Tiêu cự từ exif",
+  "photoAperture": "Giá trị khẩu độ từ exif",
+  "photoShutter": "Tốc độ màn trập từ exif",
+  "photoISO": "Giá trị ISO từ exif",
+  "photoLongitude": "Kinh độ GPS ảnh từ exif",
+  "photoLatitude": "Vĩ độ GPS ảnh từ exif",
+  "photoAltitude": "Độ cao GPS ảnh từ exif",
+  "photoPhotographer": "Tên nhiếp ảnh gia từ exif",
+  "photoCopyright": "Tên người giữ bản quyền từ exif",
+  "musicAlbumName": "Tên album",
+  "musicAlbumArtist": "Tên nghệ sĩ album",
+  "musicAlbumLength": "Số lượng bài hát trong album",
+  "musicYear": "Năm phát hành bài hát",
+  "musicTrackDuration": "Thời lượng bài hát",
+  "musicTrackName": "Tên bài hát",
+  "musicTrackArtist": "Tên các nghệ sĩ biểu diễn trong bài hát",
+  "musicTrackNumber": "Vị trí bài hát trong album",
+  "musicDiscNumber": "Vị trí đĩa",
+  "musicGenres": "Loại nghệ thuật của âm nhạc",
+  "musicAuthor": "Tác giả bài hát",
+  "musicWriter": "Người viết bài hát",
+  "prefix": "Tiền tố",
+  "startIndex": "Chỉ số bắt đầu",
+  "indexIncrementalStep": "Bước tăng chỉ số",
+  "omitDash": "Bỏ qua dấu gạch ngang",
+  "ignoreExtension": "Bỏ qua Phần mở rộng",
+  "insertedText": "Văn bản cần chèn",
+  "insertIndex": "Chỉ số chèn",
+  "fromStart": "Từ đầu",
+  "insertBeforeIndex": "Chèn trước chỉ số",
+  "rearrangeDelimiter": "Dấu phân cách sắp xếp lại",
+  "rearrangeOrderLabel": "Thứ tự sắp xếp lại",
+  "rearrangeOrderHint": "số được phân tách bằng dấu phẩy",
+  "target": "mục tiêu",
+  "replacement": "Thay thế",
+  "limit": "giới hạn",
+  "caseSensitive": "Phân biệt chữ hoa chữ thường",
+  "isRegex": "Là regex",
+  "language": "Ngôn ngữ: ",
+  "indexOne": "Chỉ số ký tự đầu tiên",
+  "indexTwo": "Chỉ số ký tự thứ hai",
+  "toLast": "-đến-cuối",
+  "goingForward": "Tiến về phía trước",
+  "keepCharacters": "Giữ các ký tự giữa chúng",
+  "removeCharacters": "Xóa các ký tự giữa chúng",
+  "metadataParserNotProvided": "Chứa thẻ metadata trong khi MetadataParser không được cung cấp.",
+  "replaceToString": "Thay thế \"{targetString}\" bằng \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Xóa \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Chèn \"{insert}\" tại ký tự {insertIndex}{ordinal, select, o1{thứ} o2{thứ} o3{thứ} other{thứ}}{toEnd, select, true{-đến-cuối} false{} other{}}.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Đổi tên tăng dần: {prefix}-chỉ số",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Sắp xếp lại: dấu phân cách: {delimiter}, thứ tự: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Chuyển tự: chuyển đổi {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Chuyển tự: chuyển đổi {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Cắt ngắn: {keepType, select, true{chỉ giữ} false{xóa} other{}} các ký tự giữa ký tự {iOne}{iTwoOrdinal, select, o1{thứ} o2{thứ} o3{thứ} other{thứ}}{iOneToEnd, select, true{-đến-cuối} false{} other{}} và {iTwo}{iOneOrdinal, select, o1{thứ} o2{thứ} o3{thứ} other{thứ}}{iTwoToEnd, select, true{-đến-cuối} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Thay thế văn bản được chỉ định bằng văn bản thay thế đã cho.",
+  "descriptionRemove": "Xóa văn bản được chỉ định khỏi tên file.",
+  "descriptionInsert": "Chèn văn bản được chỉ định tại vị trí được chỉ định.",
+  "descriptionIncrement": "Tăng tên file, ví dụ: Ảnh-1, Ảnh-2, Ảnh-3.",
+  "descriptionRearrange": "Chia tên file bằng dấu phân cách do người dùng chỉ định và sắp xếp lại các đoạn theo thứ tự được cung cấp.",
+  "descriptionTransliterate": "Chuyển tự các ký tự theo thông số kỹ thuật được xác định trước, bao gồm chuyển đổi ký tự sang chữ hoa hoặc chữ thường, chuyển đổi giữa các bộ ký tự hoặc chuyển đổi ký tự sang các tương đương ngữ âm.",
+  "descriptionTruncate": "Xóa hoặc giữ phần được chỉ định của tên file, bắt đầu từ một vị trí được chỉ định đến vị trí khác.",
+  "bg": "Bulgaria",
+  "me": "Montenegro",
+  "mk": "Macedonia",
+  "mn": "Mông Cổ",
+  "ru": "Nga",
+  "sr": "Serbia",
+  "tj": "Tajikistan",
+  "ua": "Ukraine",
+  "fileManagerSortButton": "Sắp xếp theo",
+  "fileManagerStorageButton": "Chọn bộ nhớ",
+  "fileManagerSaveButton": "Thêm lựa chọn vào danh sách",
+  "fileManagerBackButton": "Quay lại",
+  "showHiddenFiles": "Hiển thị file ẩn",
+  "hideHiddenFiles": "Ẩn file ẩn",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Đã chọn} false{Chưa chọn} other{}} {entityType, select, File{Tệp} Directory{Thư mục} Link{Liên kết} other{Thực thể hệ thống file}}, tên file là {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "sửa đổi lần cuối tại {last}, kích thước {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "sửa đổi lần cuối tại {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Đây là nút thả xuống, giá trị hiện tại là \"{value}\", nhấp đúp để mở nó và chọn giá trị khác.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Chọn và sau đó nhấp vào nút \"Thêm Quy tắc\" để thêm quy tắc này.",
+  "semanticsFilesDropdownButton": ". Chọn mục này để giới hạn mục tiêu đổi tên.",
+  "semanticsReorderableList": "Đây là danh sách quy tắc, hiện tại đang trống. Nhấp vào nút 'Thêm quy tắc' để thêm một quy tắc. Các quy tắc được thực thi tuần tự. Danh sách này có thể sắp xếp lại, cho phép bạn di chuyển quy tắc lên, xuống và lên đầu hoặc cuối. Khi con trỏ ở trên quy tắc, sử dụng cử chỉ vuốt dọc để chuyển đổi giữa các hành động và sử dụng nhấp đúp để thực thi hành động đã chọn.",
+  "semanticsOpenMetadataDialog": "Nhấn đúp để mở hộp thoại và chọn thẻ metadata để chèn.",
+  "semanticsMultipleActionsHint": ", chuyển đổi giữa các hành động bằng cử chỉ vuốt dọc",
+  "semanticNumberWithDirection": "Chuyển đổi hướng đếm giữa từ đầu và từ cuối",
+  "semanticSwitchNumberToStartAndToEnd": "Chuyển đổi hướng đếm giữa từ đầu và từ cuối, hiện đang đếm từ {toEnd, select, true{cuối} false{đầu} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Bộ chọn màu",
+  "manualMode": "Chế độ Thủ công",
+  "aiMode": "Chế độ AI"
+}
+

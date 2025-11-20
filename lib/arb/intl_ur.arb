@@ -1,0 +1,346 @@
+{
+  "@@locale": "ur",
+  "appName": "بیچ فائل نام تبدیل معاون",
+  "lowercaseAppName": "بیچ فائل نام تبدیل معاون",
+  "ok": "ٹھیک ہے",
+  "cancel": "منسوخ",
+  "exit": "خروج",
+  "save": "محفوظ کریں",
+  "add": "شامل کریں",
+  "permissionTitle": "بیرونی اسٹوریج کی اجازت",
+  "permissionContent": "آپ کو ہماری فائل نام تبدیل کرنے کی سروس فراہم کرنے کے لیے، ہمیں بیرونی اسٹوریج کو منظم کرنے کی آپ کی اجازت درکار ہے۔ یہ ہمیں آپ کے ڈیوائس پر محفوظ فائلوں تک رسائی حاصل کرنے اور ان کا نام تبدیل کرنے کی اجازت دیتا ہے۔ اس اجازت کے بغیر، ایپ مکمل فائل پاتھ تک رسائی حاصل نہیں کر سکے گی اور اس لیے فائلوں کا نام تبدیل نہیں کر سکے گی۔ ہم آپ کو یقین دلاتے ہیں کہ آپ کی رازداری اور حفاظت ہماری سب سے بڑی ترجیحات ہیں، اور ہم صرف نام تبدیل کرنے کے مقصد کے لیے فائلوں تک رسائی حاصل کرتے ہیں۔",
+  "exitTitle": "بیرونی اسٹوریج تک رسائی حاصل نہیں کر سکتے",
+  "exitContent": "بیرونی اسٹوریج کو منظم کرنے کی اجازت ہمیں آپ کے ڈیوائس پر محفوظ فائلوں تک رسائی حاصل کرنے اور ان کا نام تبدیل کرنے کی اجازت دیتی ہے۔ اس اجازت کے بغیر، ایپ مکمل فائل پاتھ تک رسائی حاصل نہیں کر سکے گی اور اس لیے فائلوں کا نام تبدیل نہیں کر سکے گی۔ براہ کرم سیٹنگز صفحہ پر جائیں اور دستی طور پر اجازت دیں؛ ورنہ، ہم کوئی سروس فراہم نہیں کر سکتے۔",
+  "iosRemindTitle": "iOS پر فائلیں منتخب کرنے کے بارے میں",
+  "iosRemindContent": "iOS پر فائلیں منتخب کرنے کے لیے، پہلے وہ ڈائریکٹری منتخب کریں جہاں آپ کی فائلیں واقع ہیں۔ پھر، منتخب کردہ فولڈر کے اندر، وہ فائلیں منتخب کریں جن کا آپ نام تبدیل کرنا چاہتے ہیں۔ iOS کی پابندیوں کی وجہ سے، ہمیں ایک دو مرحلہ عمل استعمال کرنا ہوگا، جو محفوظ فائل مینجمنٹ کو یقینی بناتا ہے۔ آئیے شروع کریں!",
+  "androidRemindTitle": "ڈائریکٹری کا نام تبدیل کریں",
+  "androidRemindContent": "Flut Renamer استعمال کرتے ہوئے، آپ نہ صرف فائلوں بلکہ ڈائریکٹریز کا بھی نام تبدیل کر سکتے ہیں۔ ایک ڈائریکٹری منتخب کرنے کے لیے لمبا دبائیں، اور ڈائریکٹری نام تبدیل کرنے کو فعال کرنے کے لیے بائیں اوپر کونے میں ڈراپ ڈاؤن بٹن سے 'فائلیں اور ڈائریکٹریز' منتخب کریں۔ حفاظتی وجوہات کی بنا پر، کچھ سسٹم محفوظ ڈائریکٹریز منتخب نہیں کی جا سکتیں۔",
+  "doNotRemindAgain": "ٹھیک ہے۔ مجھے دوبارہ یاد نہ دلائیں۔",
+  "rename": "نام تبدیل کریں",
+  "appInfo": "ایپ کی معلومات",
+  "aboutContent": "یہ ایپلیکیشن صارفین کو ان کی فائلوں کا نام تبدیل کرنے میں مدد کرنے کے لیے ڈیزائن کی گئی ہے۔ یہ Flutter کے ساتھ بنائی گئی ہے - ایک ملٹی پلیٹ فارم ایپلیکیشن فریم ورک، اور اس لیے یہ دوسرے آپریٹنگ سسٹمز پر بھی دستیاب ہے۔ یہ مکمل طور پر اوپن سورس ہے اور اس کا جائزہ لیا جا سکتا ہے یا اس میں حصہ ڈالا جا سکتا ہے۔",
+  "rating": "ایپ کی درجہ بندی",
+  "ratingTitle": "ہماری ایپ کی درجہ بندی کریں",
+  "ratingContent": "ہماری ایپ سے لطف اندوز ہو رہے ہیں؟ اسٹور یا GitHub پر ایک فوری درجہ بندی دے کر ہماری ترقی میں مدد کریں۔ آپ کی رائے ہمارے لیے بہت اہم ہے! آپ کی حمایت کا شکریہ۔",
+  "ratingStore": "اسٹور پر ایپ کی درجہ بندی کریں",
+  "ratingGithub": "Github پر اسے ستارہ دیں",
+  "sourceCode": "سورس کوڈ",
+  "collapseOptions": "اختیارات کو سکیڑیں",
+  "expandOptions": "اختیارات کو پھیلائیں",
+  "onlySelected": "صرف منتخب شدہ",
+  "removeRenamed": "نام تبدیل شدہ فائلیں ہٹائیں",
+  "removeRule": "یہ قاعدہ ہٹائیں",
+  "removeRules": "نام تبدیل کرنے کے بعد تمام قواعد ہٹائیں",
+  "addRule": "قاعدہ شامل کریں",
+  "removeAll": "سب ہٹائیں",
+  "replace": "تبدیل کریں",
+  "remove": "ہٹائیں",
+  "insert": "داخل کریں",
+  "increment": "اضافہ",
+  "rearrange": "دوبارہ ترتیب دیں",
+  "transliterate": "حرفی نقل",
+  "truncate": "کاٹ دیں",
+  "cancelAll": "سب منسوخ کریں",
+  "select": "منتخب کریں",
+  "selectAll": "سب منتخب کریں",
+  "currentName": "موجودہ نام",
+  "newName": "نیا نام",
+  "fileNotExist": "فائل موجود نہیں ہے",
+  "files": "فائلیں",
+  "directories": "ڈائریکٹریز",
+  "filesDirs": "فائلیں اور ڈائریکٹریز",
+  "filter": "فلٹر",
+  "addFile": "فائل شامل کریں",
+  "addFiles": "فائلیں شامل کریں",
+  "dragToAdd": "فائلیں شامل کرنے کے لیے کھینچیں اور چھوڑیں۔",
+  "dropToAdd": "فائلیں شامل کرنے کے لیے چھوڑیں۔",
+  "dragNotSupported": "سسٹم کی حفاظتی پابندی کی وجہ سے، اس ایپ سے فائلوں کو کھینچنا اور چھوڑنا معاون نہیں ہے۔",
+  "fileAlreadyExists": "فائل کا نام پہلے سے ہی دوسری فائل استعمال کر رہی ہے",
+  "renameFailed": "نام تبدیل کرنا ناکام",
+  "aiRenameTitle": "AI نام تبدیل",
+  "aiRenameRequirementsLabel": "نام تبدیل کرنے کی ہدایات",
+  "aiRenameRequirementsHint": "بیان کریں کہ آپ ان فائلوں کا نام کیسے تبدیل کرنا چاہتے ہیں۔",
+  "aiRenameSubmit": "جمع کریں",
+  "aiRenameSnackbarEmptyRequirements": "نام تبدیل کرنے کی ہدایات درج کریں",
+  "aiRenameSnackbarNoSelection": "کوئی فائلیں منتخب نہیں کی گئیں",
+  "aiRenameLoading": "AI آپ کی درخواست کا تجزیہ کر رہا ہے، براہ کرم انتظار کریں...",
+  "aiRenameSuccess": "AI نام تبدیل کرنے کا قاعدہ بنایا گیا۔ {count} فائلوں کا نام تبدیل کیا جائے گا۔",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI نام تبدیل کرنا ناکام: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI نام تبدیل: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "قواعد ترتیب سے عمل میں آتی ہیں۔ کسی قاعدے میں ترمیم کرنے کے لیے کلک کریں۔ بائیں طرف '=' بٹن کو پکڑیں اور اسے کھینچیں تاکہ قواعد کو ترتیب دیں۔",
+  "noSysDir": "سسٹم محفوظ ڈائریکٹری کا نام تبدیل نہ کریں۔",
+  "fileSortName": "نام",
+  "fileSortSize": "سائز",
+  "fileSortDate": "تاریخ",
+  "fileSortType": "قسم",
+  "transliterateUpper": "لاطینی حروف بڑے حروف میں",
+  "transliterateLower": "لاطینی حروف چھوٹے حروف میں",
+  "transliterateTraditional": "چینی حروف روایتی چینی میں",
+  "transliterateSimplified": "چینی حروف آسان چینی میں",
+  "transliteratePinyin": "چینی حروف pinyin میں",
+  "transliterateCyrillic2Latin": "سیریلک حروف لاطینی میں",
+  "transliterateLatin2Cyrillic": "لاطینی حروف سیریلک میں",
+  "insertTagInsideAnother": "دوسرے ٹیگ کے اندر ٹیگ داخل نہ کریں۔",
+  "appError": "ایپلیکیشن خرابی",
+  "errorDetails": "خرابی کی تفصیلات",
+  "ifFileNotShown": "اگر فائلیں فائل کی فہرست میں نہیں دکھائی گئیں، سب صاف کریں اور جاری رکھیں۔",
+  "metadataTags": "میٹا ڈیٹا ٹیگز",
+  "osTodayDate": "آج کی تاریخ",
+  "osNowTime": "اب کا وقت",
+  "fileSize": "فائل کا سائز",
+  "fileCreateDate": "فائل بنانے کی تاریخ",
+  "fileCreateTime": "فائل بنانے کا وقت",
+  "fileModifyDate": "فائل میں تبدیلی کی تاریخ",
+  "fileModifyTime": "فائل میں تبدیلی کا وقت",
+  "photoDate": "exif سے فوٹوگرافی کی تاریخ",
+  "photoTime": "exif سے فوٹوگرافی کا وقت",
+  "photoCamName": "exif سے کیمرے کا نام",
+  "photoLensName": "exif سے لینس کا نام",
+  "photoFocalLength": "exif سے فوکل لمبائی",
+  "photoAperture": "exif سے اپرچر کی قیمت",
+  "photoShutter": "exif سے شٹر کی رفتار",
+  "photoISO": "exif سے ISO کی قیمت",
+  "photoLongitude": "exif سے فوٹو GPS کی طول البلد",
+  "photoLatitude": "exif سے فوٹو GPS کی عرض البلد",
+  "photoAltitude": "exif سے فوٹو GPS کی بلندی",
+  "photoPhotographer": "exif سے فوٹوگرافر کا نام",
+  "photoCopyright": "exif سے کاپی رائٹ ہولڈر کا نام",
+  "musicAlbumName": "البم کا نام",
+  "musicAlbumArtist": "البم آرٹسٹ کا نام",
+  "musicAlbumLength": "البم میں ٹریکس کی تعداد",
+  "musicYear": "ٹریک کی اشاعت کا سال",
+  "musicTrackDuration": "ٹریک کی مدت",
+  "musicTrackName": "ٹریک کا نام",
+  "musicTrackArtist": "ٹریک میں پرفارم کرنے والے آرٹسٹس کے نام",
+  "musicTrackNumber": "البم میں ٹریک کی پوزیشن",
+  "musicDiscNumber": "ڈسک کی پوزیشن",
+  "musicGenres": "موسیقی کی آرٹ کی قسم",
+  "musicAuthor": "ٹریک کا مصنف",
+  "musicWriter": "ٹریک کا مصنف",
+  "prefix": "سابقہ",
+  "startIndex": "شروع انڈیکس",
+  "indexIncrementalStep": "انڈیکس اضافہ قدم",
+  "omitDash": "ڈیش چھوڑ دیں",
+  "ignoreExtension": "ایکسٹینشن نظر انداز کریں",
+  "insertedText": "داخل کرنے کے لیے متن",
+  "insertIndex": "داخل کرنے کا انڈیکس",
+  "fromStart": "شروع سے",
+  "insertBeforeIndex": "انڈیکس سے پہلے داخل کریں",
+  "rearrangeDelimiter": "دوبارہ ترتیب دینے کا علیحدہ کنندہ",
+  "rearrangeOrderLabel": "دوبارہ ترتیب دینے کا ترتیب",
+  "rearrangeOrderHint": "کاما سے الگ کیے گئے نمبر",
+  "target": "ہدف",
+  "replacement": "تبدیلی",
+  "limit": "حد",
+  "caseSensitive": "کیس حساس",
+  "isRegex": "regex ہے",
+  "language": "زبان: ",
+  "indexOne": "پہلے کریکٹر کا انڈیکس",
+  "indexTwo": "دوسرے کریکٹر کا انڈیکس",
+  "toLast": "-آخری تک",
+  "goingForward": "آگے بڑھ رہا ہے",
+  "keepCharacters": "ان کے درمیان کریکٹرز رکھیں",
+  "removeCharacters": "ان کے درمیان کریکٹرز ہٹائیں",
+  "metadataParserNotProvided": "میٹا ڈیٹا ٹیگ شامل ہے جبکہ MetadataParser فراہم نہیں کیا گیا تھا۔",
+  "replaceToString": "\"{targetString}\" کو \"{replacementString}\" سے تبدیل کریں۔",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "\"{targetString}\" ہٹائیں",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "{insertIndex}{ordinal, select, o1{ویں} o2{ویں} o3{ویں} other{ویں}}{toEnd, select, true{-آخر تک} false{} other{}} کریکٹر میں \"{insert}\" داخل کریں۔",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "اضافہ نام تبدیل: {prefix}-انڈیکس",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "دوبارہ ترتیب دیں: علیحدہ کنندہ: {delimiter}, ترتیب: {order}۔",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "حرفی نقل: {type} تبدیل کریں۔",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "حرفی نقل: {langName} {type} تبدیل کریں۔",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "کاٹ دیں: {keepType, select, true{صرف رکھیں} false{ہٹائیں} other{}} {iOne}{iTwoOrdinal, select, o1{ویں} o2{ویں} o3{ویں} other{ویں}}{iOneToEnd, select, true{-آخر تک} false{} other{}} کریکٹر اور {iTwo}{iOneOrdinal, select, o1{ویں} o2{ویں} o3{ویں} other{ویں}}{iTwoToEnd, select, true{-آخر تک} false{} other{}} کے درمیان کریکٹرز۔",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "مخصوص متن کو دیے گئے تبدیلی کے متن سے تبدیل کریں۔",
+  "descriptionRemove": "فائل کے نام سے مخصوص متن ہٹائیں۔",
+  "descriptionInsert": "مخصوص پوزیشن پر مخصوص متن داخل کریں۔",
+  "descriptionIncrement": "فائل کا نام بڑھائیں، مثال کے طور پر، فوٹو-1، فوٹو-2، فوٹو-3۔",
+  "descriptionRearrange": "صارف کے مخصوص علیحدہ کنندہ سے فائل کا نام تقسیم کریں اور فراہم کردہ ترتیب کے مطابق حصوں کو دوبارہ ترتیب دیں۔",
+  "descriptionTransliterate": "پہلے سے طے شدہ تفصیلات کے مطابق کریکٹرز کا حرفی نقل کریں، جس میں کریکٹرز کو بڑے یا چھوٹے حروف میں تبدیل کرنا، کریکٹر سیٹس کے درمیان تبدیل کرنا، یا کریکٹرز کو صوتی مساوی میں تبدیل کرنا شامل ہے۔",
+  "descriptionTruncate": "فائل کے نام کا مخصوص حصہ ہٹائیں یا رکھیں، ایک مخصوص پوزیشن سے دوسری پوزیشن تک شروع کرتے ہوئے۔",
+  "bg": "بلغاری",
+  "me": "مونٹینیگرین",
+  "mk": "مقدونیائی",
+  "mn": "منگولیائی",
+  "ru": "روسی",
+  "sr": "سربین",
+  "tj": "تاجک",
+  "ua": "یوکرینی",
+  "fileManagerSortButton": "ترتیب دیں",
+  "fileManagerStorageButton": "اسٹوریج منتخب کریں",
+  "fileManagerSaveButton": "فہرست میں انتخابات شامل کریں",
+  "fileManagerBackButton": "واپس",
+  "showHiddenFiles": "پوشیدہ فائلیں دکھائیں",
+  "hideHiddenFiles": "پوشیدہ فائلیں چھپائیں",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{منتخب شدہ} false{غیر منتخب شدہ} other{}} {entityType, select, File{فائل} Directory{فولڈر} Link{لنک} other{فائل سسٹم انٹیٹی}}, فائل کا نام {filename} ہے، ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "آخری بار {last} پر تبدیل کیا گیا، سائز {size}۔",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "آخری بار {last} پر تبدیل کیا گیا۔",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "یہ ایک ڈراپ ڈاؤن بٹن ہے، موجودہ قیمت \"{value}\" ہے، اسے کھولنے اور دوسری قیمت منتخب کرنے کے لیے ڈبل کلک کریں۔",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". منتخب کریں اور پھر اس قاعدہ کو شامل کرنے کے لیے 'قاعدہ شامل کریں' بٹن پر کلک کریں۔",
+  "semanticsFilesDropdownButton": ". نام تبدیل کرنے کے اہداف کو محدود کرنے کے لیے اس آئٹم کو منتخب کریں۔",
+  "semanticsReorderableList": "یہ قواعد کی فہرست ہے، یہ اب خالی ہے۔ ایک شامل کرنے کے لیے 'قاعدہ شامل کریں' بٹن پر کلک کریں۔ قواعد ترتیب سے عمل میں آتی ہیں۔ یہ فہرست دوبارہ ترتیب دینے کے قابل ہے، جو آپ کو ایک قاعدہ کو اوپر، نیچے اور اوپر یا نیچے منتقل کرنے کی اجازت دیتی ہے۔ جب کرسر کسی قاعدہ پر ہو، تو اعمال کے درمیان سوئچ کرنے کے لیے عمودی سوائپ جسچر استعمال کریں، اور منتخب کردہ عمل کو انجام دینے کے لیے ڈبل کلک استعمال کریں۔",
+  "semanticsOpenMetadataDialog": "ڈائیلاگ کھولنے اور داخل کرنے کے لیے میٹا ڈیٹا ٹیگ منتخب کرنے کے لیے ڈبل ٹیپ کریں۔",
+  "semanticsMultipleActionsHint": ", عمودی سوائپ جسچر کے ذریعے اعمال کے درمیان سوئچ کریں",
+  "semanticNumberWithDirection": "شروع اور آخر سے گنتی کی سمت کے درمیان سوئچ کرنا",
+  "semanticSwitchNumberToStartAndToEnd": "شروع اور آخر سے گنتی کی سمت کے درمیان سوئچ کرنا، فی الحال {toEnd, select, true{آخر} false{شروع} other{}} سے گنتی کر رہا ہے",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "رنگ منتخب کنندہ",
+  "manualMode": "دستی موڈ",
+  "aiMode": "AI موڈ"
+}
+

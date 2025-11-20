@@ -1,0 +1,346 @@
+{
+  "@@locale": "el",
+  "appName": "Βοηθός Μαζικής Μετονομασίας Αρχείων",
+  "lowercaseAppName": "βοηθός μαζικής μετονομασίας αρχείων",
+  "ok": "OK",
+  "cancel": "Ακύρωση",
+  "exit": "Έξοδος",
+  "save": "Αποθήκευση",
+  "add": "Προσθήκη",
+  "permissionTitle": "Άδεια για εξωτερική αποθήκευση",
+  "permissionContent": "Για να σας παρέχουμε την υπηρεσία μετονομασίας αρχείων, χρειαζόμαστε την άδειά σας για τη διαχείριση εξωτερικής αποθήκευσης. Αυτό μας επιτρέπει να έχουμε πρόσβαση και να μετονομάζουμε αρχεία που είναι αποθηκευμένα στη συσκευή σας. Χωρίς αυτή την άδεια, η εφαρμογή δεν θα μπορεί να έχει πρόσβαση στα πλήρη μονοπάτια αρχείων και επομένως δεν μπορεί να μετονομάσει αρχεία. Σας διαβεβαιώνουμε ότι η ιδιωτικότητα και η ασφάλειά σας είναι οι υψηλότερες προτεραιότητές μας, και έχουμε πρόσβαση σε αρχεία μόνο για σκοπό μετονομασίας.",
+  "exitTitle": "Δεν είναι δυνατή η πρόσβαση στην εξωτερική αποθήκευση",
+  "exitContent": "Η άδεια διαχείρισης εξωτερικής αποθήκευσης μας επιτρέπει να έχουμε πρόσβαση και να μετονομάζουμε αρχεία που είναι αποθηκευμένα στη συσκευή σας. Χωρίς αυτή την άδεια, η εφαρμογή δεν θα μπορεί να έχει πρόσβαση στα πλήρη μονοπάτια αρχείων και επομένως δεν μπορεί να μετονομάσει αρχεία. Παρακαλώ πηγαίνετε στη σελίδα Ρυθμίσεις και δώστε την άδεια χειροκίνητα· αλλιώς δεν μπορούμε να παρέχουμε καμία υπηρεσία.",
+  "iosRemindTitle": "Σχετικά με την επιλογή αρχείων στο iOS",
+  "iosRemindContent": "Για να επιλέξετε αρχεία στο iOS, επιλέξτε πρώτα τον κατάλογο όπου βρίσκονται τα αρχεία σας. Στη συνέχεια, εντός του επιλεγμένου φακέλου, επιλέξτε τα αρχεία που θέλετε να μετονομάσετε. Λόγω των περιορισμών του iOS, πρέπει να χρησιμοποιήσουμε μια διαδικασία δύο βημάτων, η οποία εξασφαλίζει ασφαλή διαχείριση αρχείων. Ας ξεκινήσουμε!",
+  "androidRemindTitle": "Μετονομασία καταλόγου",
+  "androidRemindContent": "Χρησιμοποιώντας το Flut Renamer, μπορείτε να μετονομάσετε όχι μόνο αρχεία αλλά και καταλόγους. Πατήστε παρατεταμένα έναν κατάλογο για να τον επιλέξετε και επιλέξτε 'Αρχεία & Κατάλογοι' από το κουμπί αναπτυσσόμενης λίστας στην επάνω αριστερή γωνία για να ενεργοποιήσετε τη μετονομασία καταλόγων. Για λόγους ασφαλείας, ορισμένοι συστηματικοί δεσμευμένοι κατάλογοι δεν είναι επιλέξιμοι.",
+  "doNotRemindAgain": "OK. Να μην μου το υπενθυμίσετε ξανά.",
+  "rename": "Μετονομασία",
+  "appInfo": "Πληροφορίες εφαρμογής",
+  "aboutContent": "Αυτή η εφαρμογή έχει σχεδιαστεί για να βοηθά τους χρήστες να μετονομάζουν τα αρχεία τους. Είναι χτισμένη με Flutter - ένα πλαίσιο εφαρμογών πολλαπλών πλατφορμών, και επομένως είναι επίσης διαθέσιμη σε άλλα λειτουργικά συστήματα. Είναι εντελώς ανοιχτού κώδικα και μπορεί να εξεταστεί ή να συνεισφερθεί.",
+  "rating": "Αξιολόγηση εφαρμογής",
+  "ratingTitle": "Αξιολογήστε την Εφαρμογή μας",
+  "ratingContent": "Απολαμβάνετε την εφαρμογή μας; Βοηθήστε μας να αναπτυχθούμε δίνοντας μια γρήγορη αξιολόγηση στο κατάστημα ή στο GitHub. Η ανατροφοδότησή σας σημαίνει πολλά για εμάς! Ευχαριστούμε για την υποστήριξή σας.",
+  "ratingStore": "Αξιολογήστε την εφαρμογή στο κατάστημα",
+  "ratingGithub": "Σημειώστε το με αστέρι στο Github",
+  "sourceCode": "Πηγαίος κώδικας",
+  "collapseOptions": "Σύμπτυξη επιλογών",
+  "expandOptions": "Επέκταση επιλογών",
+  "onlySelected": "Μόνο επιλεγμένα",
+  "removeRenamed": "Αφαίρεση μετονομασμένων αρχείων",
+  "removeRule": "Αφαίρεση αυτού του κανόνα",
+  "removeRules": "Αφαίρεση όλων των κανόνων μετά τη μετονομασία",
+  "addRule": "Προσθήκη Κανόνα",
+  "removeAll": "Αφαίρεση όλων",
+  "replace": "Αντικατάσταση",
+  "remove": "Αφαίρεση",
+  "insert": "Εισαγωγή",
+  "increment": "Αύξηση",
+  "rearrange": "Αναδιάταξη",
+  "transliterate": "Μεταγραφή",
+  "truncate": "Περικοπή",
+  "cancelAll": "Ακύρωση Όλων",
+  "select": "Επιλογή",
+  "selectAll": "Επιλογή Όλων",
+  "currentName": "Τρέχον όνομα",
+  "newName": "Νέο όνομα",
+  "fileNotExist": "Το αρχείο δεν υπάρχει",
+  "files": "Αρχεία",
+  "directories": "Κατάλογοι",
+  "filesDirs": "Αρχεία & Κατάλογοι",
+  "filter": "Φίλτρο",
+  "addFile": "Προσθήκη αρχείου",
+  "addFiles": "Προσθήκη αρχείων",
+  "dragToAdd": "Σύρετε και αφήστε για προσθήκη αρχείων.",
+  "dropToAdd": "Αφήστε για προσθήκη αρχείων.",
+  "dragNotSupported": "Λόγω περιορισμού ασφαλείας συστήματος, η μεταφορά αρχείων από αυτή την εφαρμογή δεν υποστηρίζεται.",
+  "fileAlreadyExists": "Το όνομα αρχείου χρησιμοποιείται ήδη από άλλο αρχείο",
+  "renameFailed": "Η μετονομασία απέτυχε",
+  "aiRenameTitle": "AI Μετονομασία",
+  "aiRenameRequirementsLabel": "Οδηγίες μετονομασίας",
+  "aiRenameRequirementsHint": "Περιγράψτε πώς θέλετε να μετονομάσετε αυτά τα αρχεία.",
+  "aiRenameSubmit": "Υποβολή",
+  "aiRenameSnackbarEmptyRequirements": "Εισαγάγετε οδηγίες μετονομασίας",
+  "aiRenameSnackbarNoSelection": "Δεν έχουν επιλεγεί αρχεία",
+  "aiRenameLoading": "Το AI αναλύει το αίτημά σας, παρακαλώ περιμένετε...",
+  "aiRenameSuccess": "Δημιουργήθηκε κανόνας AI μετονομασίας. {count} αρχεία θα μετονομαστούν.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "Η AI μετονομασία απέτυχε: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI μετονομασία: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Οι κανόνες εκτελούνται διαδοχικά. Κάντε κλικ σε έναν κανόνα για να τον επεξεργαστείτε. Κρατήστε πατημένο το κουμπί '=' στα αριστερά και σύρετέ το για να ταξινομήσετε τους κανόνες.",
+  "noSysDir": "Μην μετονομάσετε έναν συστηματικό δεσμευμένο κατάλογο.",
+  "fileSortName": "Όνομα",
+  "fileSortSize": "Μέγεθος",
+  "fileSortDate": "Ημερομηνία",
+  "fileSortType": "Τύπος",
+  "transliterateUpper": "Λατινικοί χαρακτήρες σε κεφαλαία",
+  "transliterateLower": "Λατινικοί χαρακτήρες σε πεζά",
+  "transliterateTraditional": "Κινεζικοί χαρακτήρες σε παραδοσιακά κινεζικά",
+  "transliterateSimplified": "Κινεζικοί χαρακτήρες σε απλοποιημένα κινεζικά",
+  "transliteratePinyin": "Κινεζικοί χαρακτήρες σε pinyin",
+  "transliterateCyrillic2Latin": "Κυριλλικοί χαρακτήρες σε λατινικούς",
+  "transliterateLatin2Cyrillic": "Λατινικοί χαρακτήρες σε κυριλλικούς",
+  "insertTagInsideAnother": "Μην εισάγετε μια ετικέτα μέσα σε άλλη ετικέτα.",
+  "appError": "Σφάλμα εφαρμογής",
+  "errorDetails": "Λεπτομέρειες σφάλματος",
+  "ifFileNotShown": "Εάν τα αρχεία δεν εμφανίζονται στη λίστα αρχείων, καθαρίστε τα πάντα και συνεχίστε.",
+  "metadataTags": "Ετικέτες μεταδεδομένων",
+  "osTodayDate": "Ημερομηνία σήμερα",
+  "osNowTime": "Ώρα τώρα",
+  "fileSize": "Μέγεθος αρχείου",
+  "fileCreateDate": "Ημερομηνία δημιουργίας αρχείου",
+  "fileCreateTime": "Ώρα δημιουργίας αρχείου",
+  "fileModifyDate": "Ημερομηνία τροποποίησης αρχείου",
+  "fileModifyTime": "Ώρα τροποποίησης αρχείου",
+  "photoDate": "Ημερομηνία φωτογράφισης από exif",
+  "photoTime": "Ώρα φωτογράφισης από exif",
+  "photoCamName": "Όνομα κάμερας από exif",
+  "photoLensName": "Όνομα φακού από exif",
+  "photoFocalLength": "Εστιακή απόσταση από exif",
+  "photoAperture": "Τιμή διαφράγματος από exif",
+  "photoShutter": "Ταχύτητα κλείστρου από exif",
+  "photoISO": "Τιμή ISO από exif",
+  "photoLongitude": "Γεωγραφικό μήκος GPS φωτογραφίας από exif",
+  "photoLatitude": "Γεωγραφικό πλάτος GPS φωτογραφίας από exif",
+  "photoAltitude": "Υψόμετρο GPS φωτογραφίας από exif",
+  "photoPhotographer": "Όνομα φωτογράφου από exif",
+  "photoCopyright": "Όνομα κατόχου πνευματικών δικαιωμάτων από exif",
+  "musicAlbumName": "Όνομα άλμπουμ",
+  "musicAlbumArtist": "Όνομα καλλιτέχνη άλμπουμ",
+  "musicAlbumLength": "Αριθμός κομματιών στο άλμπουμ",
+  "musicYear": "Έτος δημοσίευσης κομματιού",
+  "musicTrackDuration": "Διάρκεια κομματιού",
+  "musicTrackName": "Όνομα κομματιού",
+  "musicTrackArtist": "Ονόματα καλλιτεχνών που ερμηνεύουν στο κομμάτι",
+  "musicTrackNumber": "Θέση κομματιού στο άλμπουμ",
+  "musicDiscNumber": "Θέση δίσκου",
+  "musicGenres": "Τύπος τέχνης της μουσικής",
+  "musicAuthor": "Συγγραφέας κομματιού",
+  "musicWriter": "Συγγραφέας κομματιού",
+  "prefix": "Πρόθεμα",
+  "startIndex": "Αρχικός δείκτης",
+  "indexIncrementalStep": "Βήμα αύξησης δείκτη",
+  "omitDash": "Παράλειψη παύλας",
+  "ignoreExtension": "Αγνόηση Επέκτασης",
+  "insertedText": "Κείμενο προς εισαγωγή",
+  "insertIndex": "Δείκτης εισαγωγής",
+  "fromStart": "Από την αρχή",
+  "insertBeforeIndex": "Εισαγωγή πριν από τον δείκτη",
+  "rearrangeDelimiter": "Οριοθέτης αναδιάταξης",
+  "rearrangeOrderLabel": "Σειρά αναδιάταξης",
+  "rearrangeOrderHint": "αριθμοί διαχωρισμένοι με κόμμα",
+  "target": "στόχος",
+  "replacement": "Αντικατάσταση",
+  "limit": "όριο",
+  "caseSensitive": "Ευαίσθητο σε πεζά-κεφαλαία",
+  "isRegex": "Είναι regex",
+  "language": "Γλώσσα: ",
+  "indexOne": "Δείκτης πρώτου χαρακτήρα",
+  "indexTwo": "Δείκτης δεύτερου χαρακτήρα",
+  "toLast": "-προς-τελευταίο",
+  "goingForward": "Προχωρώντας μπροστά",
+  "keepCharacters": "Διατήρηση χαρακτήρων μεταξύ τους",
+  "removeCharacters": "Αφαίρεση χαρακτήρων μεταξύ τους",
+  "metadataParserNotProvided": "Περιέχει ετικέτα μεταδεδομένων ενώ το MetadataParser δεν παρέχεται.",
+  "replaceToString": "Αντικατάσταση \"{targetString}\" με \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Αφαίρεση \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Εισαγωγή \"{insert}\" στο {insertIndex}{ordinal, select, o1{ο} o2{ο} o3{ο} other{ο}}{toEnd, select, true{-προς-τέλος} false{} other{}} χαρακτήρα.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Αυξανόμενη μετονομασία: {prefix}-δείκτης",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Αναδιάταξη: οριοθέτης: {delimiter}, σειρά: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Μεταγραφή: μετατροπή {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Μεταγραφή: μετατροπή {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Περικοπή: {keepType, select, true{διατήρηση μόνο} false{αφαίρεση} other{}} χαρακτήρες μεταξύ {iOne}{iTwoOrdinal, select, o1{ου} o2{ου} o3{ου} other{ου}}{iOneToEnd, select, true{-προς-τέλος} false{} other{}} χαρακτήρα και {iTwo}{iOneOrdinal, select, o1{ου} o2{ου} o3{ου} other{ου}}{iTwoToEnd, select, true{-προς-τέλος} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Αντικατάσταση του καθορισμένου κειμένου με το δεδομένο κείμενο αντικατάστασης.",
+  "descriptionRemove": "Αφαίρεση του καθορισμένου κειμένου από το όνομα αρχείου.",
+  "descriptionInsert": "Εισαγωγή του καθορισμένου κειμένου στην καθορισμένη θέση.",
+  "descriptionIncrement": "Αύξηση του ονόματος αρχείου, π.χ. Φωτο-1, Φωτο-2, Φωτο-3.",
+  "descriptionRearrange": "Διαίρεση του ονόματος αρχείου με τον καθορισμένο από τον χρήστη οριοθέτη και αναδιάταξη τμημάτων σύμφωνα με την παρεχόμενη σειρά.",
+  "descriptionTransliterate": "Μεταγραφή χαρακτήρων σύμφωνα με προκαθορισμένες προδιαγραφές, συμπεριλαμβανομένης της μετατροπής χαρακτήρων σε κεφαλαία ή πεζά, μετατροπής μεταξύ συνόλων χαρακτήρων ή μετατροπής χαρακτήρων σε φωνητικά ισοδύναμα.",
+  "descriptionTruncate": "Αφαίρεση ή διατήρηση του καθορισμένου τμήματος του ονόματος αρχείου, ξεκινώντας από μια καθορισμένη θέση σε μια άλλη.",
+  "bg": "Βουλγαρικά",
+  "me": "Μαυροβουνιακά",
+  "mk": "Σλαβομακεδονικά",
+  "mn": "Μογγολικά",
+  "ru": "Ρωσικά",
+  "sr": "Σερβικά",
+  "tj": "Τατζικικά",
+  "ua": "Ουκρανικά",
+  "fileManagerSortButton": "Ταξινόμηση κατά",
+  "fileManagerStorageButton": "Επιλογή αποθήκευσης",
+  "fileManagerSaveButton": "Προσθήκη επιλογών στη λίστα",
+  "fileManagerBackButton": "Πίσω",
+  "showHiddenFiles": "Εμφάνιση κρυφών αρχείων",
+  "hideHiddenFiles": "Απόκρυψη κρυφών αρχείων",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Επιλεγμένο} false{Μη επιλεγμένο} other{}} {entityType, select, File{Αρχείο} Directory{Φάκελος} Link{Σύνδεσμος} other{Οντότητα συστήματος αρχείων}}, το όνομα αρχείου είναι {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "τελευταία τροποποίηση στις {last}, μέγεθος {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "τελευταία τροποποίηση στις {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Αυτό είναι ένα κουμπί αναπτυσσόμενης λίστας, η τρέχουσα τιμή είναι \"{value}\", κάντε διπλό κλικ για να το ανοίξετε και να επιλέξετε άλλη τιμή.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Επιλέξτε και στη συνέχεια κάντε κλικ στο κουμπί \"Προσθήκη Κανόνα\" για να προσθέσετε αυτόν τον κανόνα.",
+  "semanticsFilesDropdownButton": ". Επιλέξτε αυτό το στοιχείο για να περιορίσετε τους στόχους μετονομασίας.",
+  "semanticsReorderableList": "Αυτή είναι η λίστα κανόνων, είναι άδεια τώρα. Κάντε κλικ στο κουμπί 'Προσθήκη κανόνα' για να προσθέσετε έναν. Οι κανόνες εκτελούνται διαδοχικά. Αυτή η λίστα μπορεί να αναδιαταχθεί, επιτρέποντάς σας να μετακινήσετε έναν κανόνα πάνω, κάτω και στην κορυφή ή στο τέλος. Όταν ο δρομέας βρίσκεται σε έναν κανόνα, χρησιμοποιήστε μια κατακόρυφη χειρονομία σύρσης για εναλλαγή μεταξύ ενεργειών και χρησιμοποιήστε διπλό κλικ για εκτέλεση της επιλεγμένης ενέργειας.",
+  "semanticsOpenMetadataDialog": "Κάντε διπλό πατήσιμο για να ανοίξετε ένα διάλογο και να επιλέξετε μια ετικέτα μεταδεδομένων προς εισαγωγή.",
+  "semanticsMultipleActionsHint": ", εναλλαγή μεταξύ ενεργειών με μια κατακόρυφη χειρονομία σύρσης",
+  "semanticNumberWithDirection": "Εναλλαγή κατεύθυνσης μέτρησης μεταξύ από την αρχή και από το τέλος",
+  "semanticSwitchNumberToStartAndToEnd": "Εναλλαγή κατεύθυνσης μέτρησης μεταξύ από την αρχή και από το τέλος, επί του παρόντος μέτρηση από {toEnd, select, true{το τέλος} false{την αρχή} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Επιλογέας χρώματος",
+  "manualMode": "Χειροκίνητη Λειτουργία",
+  "aiMode": "Λειτουργία AI"
+}
+

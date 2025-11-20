@@ -1,0 +1,346 @@
+{
+  "@@locale": "sv",
+  "appName": "Batch-filnamnbyte Assistent",
+  "lowercaseAppName": "batch-filnamnbyte assistent",
+  "ok": "OK",
+  "cancel": "Avbryt",
+  "exit": "Avsluta",
+  "save": "Spara",
+  "add": "Lägg till",
+  "permissionTitle": "Behörighet för extern lagring",
+  "permissionContent": "För att ge dig vår filnamnbytestjänst behöver vi din tillstånd att hantera extern lagring. Detta gör att vi kan komma åt och byta namn på filer som lagras på din enhet. Utan denna behörighet kommer appen inte att kunna komma åt de fullständiga filsökvägarna och kan därför inte byta namn på filer. Vi försäkrar dig om att din integritet och säkerhet är våra högsta prioriteringar, och vi kommer endast åt filer i syfte att byta namn.",
+  "exitTitle": "Kan inte komma åt extern lagring",
+  "exitContent": "Behörigheten att hantera extern lagring gör att vi kan komma åt och byta namn på filer som lagras på din enhet. Utan denna behörighet kommer appen inte att kunna komma åt de fullständiga filsökvägarna och kan därför inte byta namn på filer. Gå till inställningssidan och bevilja behörigheten manuellt; annars kan vi inte tillhandahålla någon tjänst.",
+  "iosRemindTitle": "Om att välja filer på iOS",
+  "iosRemindContent": "För att välja filer på iOS, välj först katalogen där dina filer finns. Sedan, inom den valda mappen, välj de filer du vill byta namn på. På grund av iOS-begränsningar måste vi använda en tvåstegsprocess, vilket säkerställer säker filhantering. Låt oss börja!",
+  "androidRemindTitle": "Byt namn på katalog",
+  "androidRemindContent": "Med Flut Renamer kan du byta namn på inte bara filer utan också kataloger. Tryck länge på en katalog för att välja den och välj sedan 'Filer & Kataloger' från rullgardinsknappen i övre vänstra hörnet för att aktivera katalognamnsbyte. Av säkerhetsskäl är vissa systemreserverade kataloger inte valbara.",
+  "doNotRemindAgain": "OK. Påminn mig inte igen.",
+  "rename": "Byt namn",
+  "appInfo": "App-information",
+  "aboutContent": "Denna applikation är utformad för att hjälpa användare att byta namn på sina filer. Den är byggd med Flutter - ett multi-plattformsapplikationsramverk, och är därför också tillgänglig på andra operativsystem. Den är helt öppen källkod och kan granskas eller bidras till.",
+  "rating": "Bedömning av appen",
+  "ratingTitle": "Betygsätt Vår App",
+  "ratingContent": "Gillar du vår app? Hjälp oss att växa genom att ge en snabb betyg i butiken eller på GitHub. Din feedback betyder mycket för oss! Tack för ditt stöd.",
+  "ratingStore": "Betygsätt appen i butiken",
+  "ratingGithub": "Stjärnmärk den på Github",
+  "sourceCode": "Källkod",
+  "collapseOptions": "Dölj alternativ",
+  "expandOptions": "Expandera alternativ",
+  "onlySelected": "Endast valda",
+  "removeRenamed": "Ta bort omdöpta filer",
+  "removeRule": "Ta bort denna regel",
+  "removeRules": "Ta bort alla regler efter namnbyte",
+  "addRule": "Lägg till Regel",
+  "removeAll": "Ta bort alla",
+  "replace": "Ersätt",
+  "remove": "Ta bort",
+  "insert": "Infoga",
+  "increment": "Öka",
+  "rearrange": "Ordna om",
+  "transliterate": "Transkribera",
+  "truncate": "Klipp av",
+  "cancelAll": "Avbryt Allt",
+  "select": "Välj",
+  "selectAll": "Välj Allt",
+  "currentName": "Nuvarande namn",
+  "newName": "Nytt namn",
+  "fileNotExist": "Filen finns inte",
+  "files": "Filer",
+  "directories": "Kataloger",
+  "filesDirs": "Filer & Kataloger",
+  "filter": "Filter",
+  "addFile": "Lägg till fil",
+  "addFiles": "Lägg till filer",
+  "dragToAdd": "Dra och släpp för att lägga till filer.",
+  "dropToAdd": "Släpp för att lägga till filer.",
+  "dragNotSupported": "På grund av systemets säkerhetsbegränsningar stöds inte dragning och släppning av filer från denna app.",
+  "fileAlreadyExists": "Filnamnet används redan av en annan fil",
+  "renameFailed": "Namnbyte misslyckades",
+  "aiRenameTitle": "AI Namnbyte",
+  "aiRenameRequirementsLabel": "Namnbytestruktioner",
+  "aiRenameRequirementsHint": "Beskriv hur du vill byta namn på dessa filer.",
+  "aiRenameSubmit": "Skicka",
+  "aiRenameSnackbarEmptyRequirements": "Ange namnbytestruktioner",
+  "aiRenameSnackbarNoSelection": "Inga filer valda",
+  "aiRenameLoading": "AI analyserar din begäran, vänta...",
+  "aiRenameSuccess": "AI-namnbytesregel skapad. {count} filer kommer att byta namn.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI-namnbyte misslyckades: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI-namnbyte: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Regler körs sekventiellt. Klicka på en regel för att redigera den. Håll '='-knappen till vänster och dra den för att sortera regler.",
+  "noSysDir": "Byt inte namn på en systemreserverad katalog.",
+  "fileSortName": "Namn",
+  "fileSortSize": "Storlek",
+  "fileSortDate": "Datum",
+  "fileSortType": "Typ",
+  "transliterateUpper": "Latinska tecken till versaler",
+  "transliterateLower": "Latinska tecken till gemener",
+  "transliterateTraditional": "Kinesiska tecken till traditionell kinesiska",
+  "transliterateSimplified": "Kinesiska tecken till förenklad kinesiska",
+  "transliteratePinyin": "Kinesiska tecken till pinyin",
+  "transliterateCyrillic2Latin": "Kyrilliska tecken till latinska",
+  "transliterateLatin2Cyrillic": "Latinska tecken till kyrilliska",
+  "insertTagInsideAnother": "Infoga inte en tagg inuti en annan tagg.",
+  "appError": "Applikationsfel",
+  "errorDetails": "Felinformation",
+  "ifFileNotShown": "Om filer inte visas i fillistan, rensa allt och fortsätt.",
+  "metadataTags": "Metadata-taggar",
+  "osTodayDate": "Dagens datum",
+  "osNowTime": "Nuvarande tid",
+  "fileSize": "Filens storlek",
+  "fileCreateDate": "Skapandedatum för fil",
+  "fileCreateTime": "Skapandetid för fil",
+  "fileModifyDate": "Ändringsdatum för fil",
+  "fileModifyTime": "Ändringstid för fil",
+  "photoDate": "Fotograferingsdatum från exif",
+  "photoTime": "Fotograferingstid från exif",
+  "photoCamName": "Kameranamn från exif",
+  "photoLensName": "Objektivnamn från exif",
+  "photoFocalLength": "Brännvidd från exif",
+  "photoAperture": "Bländarvärde från exif",
+  "photoShutter": "Slutartid från exif",
+  "photoISO": "ISO-värde från exif",
+  "photoLongitude": "Longitud för foto GPS från exif",
+  "photoLatitude": "Latitud för foto GPS från exif",
+  "photoAltitude": "Höjd för foto GPS från exif",
+  "photoPhotographer": "Fotografnamn från exif",
+  "photoCopyright": "Upphovsrättsinnehavarens namn från exif",
+  "musicAlbumName": "Albumets namn",
+  "musicAlbumArtist": "Albumartistens namn",
+  "musicAlbumLength": "Antal spår i albumet",
+  "musicYear": "Publiceringsår för spåret",
+  "musicTrackDuration": "Spårets varaktighet",
+  "musicTrackName": "Spårets namn",
+  "musicTrackArtist": "Namn på artister som framför i spåret",
+  "musicTrackNumber": "Spårets position i albumet",
+  "musicDiscNumber": "Skivans position",
+  "musicGenres": "Konsttyp för musiken",
+  "musicAuthor": "Spårets författare",
+  "musicWriter": "Spårets författare",
+  "prefix": "Prefix",
+  "startIndex": "Startindex",
+  "indexIncrementalStep": "Indexsteg",
+  "omitDash": "Utelämna bindestreck",
+  "ignoreExtension": "Ignorera Förlängning",
+  "insertedText": "Text att infoga",
+  "insertIndex": "Infogningsindex",
+  "fromStart": "Från början",
+  "insertBeforeIndex": "Infoga före index",
+  "rearrangeDelimiter": "Ordna om avgränsare",
+  "rearrangeOrderLabel": "Ordna om ordning",
+  "rearrangeOrderHint": "nummer separerade med komma",
+  "target": "mål",
+  "replacement": "Ersättning",
+  "limit": "gräns",
+  "caseSensitive": "Skiftlägeskänslig",
+  "isRegex": "Är regex",
+  "language": "Språk: ",
+  "indexOne": "Första teckenindex",
+  "indexTwo": "Andra teckenindex",
+  "toLast": "-till-sista",
+  "goingForward": "Går framåt",
+  "keepCharacters": "Behåll tecken mellan dem",
+  "removeCharacters": "Ta bort tecken mellan dem",
+  "metadataParserNotProvided": "Innehåller metadata-tagg medan MetadataParser inte tillhandahölls.",
+  "replaceToString": "Ersätt \"{targetString}\" med \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Ta bort \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Infoga \"{insert}\" vid {insertIndex}{ordinal, select, o1{:a} o2{:a} o3{:e} other{:e}}{toEnd, select, true{-till-slut} false{} other{}} tecknet.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Inkrementellt namnbyte: {prefix}-index",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Ordna om: avgränsare: {delimiter}, ordning: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transkribera: konvertera {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transkribera: konvertera {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Klipp av: {keepType, select, true{behåll endast} false{ta bort} other{}} tecken mellan {iOne}{iTwoOrdinal, select, o1{:a} o2{:a} o3{:e} other{:e}}{iOneToEnd, select, true{-till-slut} false{} other{}} tecknet och {iTwo}{iOneOrdinal, select, o1{:a} o2{:a} o3{:e} other{:e}}{iTwoToEnd, select, true{-till-slut} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Ersätt den angivna texten med den givna ersättningstexten.",
+  "descriptionRemove": "Ta bort den angivna texten från filnamnet.",
+  "descriptionInsert": "Infoga den angivna texten på den angivna positionen.",
+  "descriptionIncrement": "Öka filnamnet, t.ex. Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Dela filnamnet med den användarspecifika avgränsaren och ordna om segmenten enligt den angivna ordningen.",
+  "descriptionTransliterate": "Transkribera tecken enligt fördefinierade specifikationer, inklusive konvertering av tecken till versaler eller gemener, konvertering mellan teckenuppsättningar eller konvertering av tecken till fonetiska motsvarigheter.",
+  "descriptionTruncate": "Ta bort eller behåll den angivna delen av filnamnet, börja från en angiven position till en annan.",
+  "bg": "Bulgariska",
+  "me": "Montenegrinska",
+  "mk": "Makedonska",
+  "mn": "Mongoliska",
+  "ru": "Ryska",
+  "sr": "Serbiska",
+  "tj": "Tadzjikiska",
+  "ua": "Ukrainska",
+  "fileManagerSortButton": "Sortera efter",
+  "fileManagerStorageButton": "Välj lagring",
+  "fileManagerSaveButton": "Lägg till val till listan",
+  "fileManagerBackButton": "Tillbaka",
+  "showHiddenFiles": "Visa dolda filer",
+  "hideHiddenFiles": "Dölj dolda filer",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Vald} false{Inte vald} other{}} {entityType, select, File{Fil} Directory{Mapp} Link{Länk} other{Filsystementitet}}, filnamn är {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "senast ändrad vid {last}, storlek {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "senast ändrad vid {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Detta är en rullgardinsknapp, nuvarande värde är \"{value}\", dubbelklicka för att öppna den och välj ett annat värde.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Välj och klicka sedan på knappen \"Lägg till Regel\" för att lägga till denna regel.",
+  "semanticsFilesDropdownButton": ". Välj detta objekt för att begränsa namnbytesmål.",
+  "semanticsReorderableList": "Detta är regellistan, den är tom nu. Klicka på knappen 'Lägg till regel' för att lägga till en. Regler körs sekventiellt. Denna lista kan ordnas om, vilket gör att du kan flytta en regel upp, ner och till toppen eller botten. När markören är på en regel, använd en vertikal svepgest för att växla mellan åtgärder och använd dubbelklick för att köra den valda åtgärden.",
+  "semanticsOpenMetadataDialog": "Dubbeltryck för att öppna en dialog och välj en metadata-tagg som ska infogas.",
+  "semanticsMultipleActionsHint": ", växla mellan åtgärder med en vertikal svepgest",
+  "semanticNumberWithDirection": "Växla räkningsriktning mellan från början och från slutet",
+  "semanticSwitchNumberToStartAndToEnd": "Växla räkningsriktning mellan från början och från slutet, räknar för närvarande från {toEnd, select, true{slutet} false{början} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Färgväljare",
+  "manualMode": "Manuellt Läge",
+  "aiMode": "AI Läge"
+}
+

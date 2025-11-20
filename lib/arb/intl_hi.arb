@@ -1,0 +1,346 @@
+{
+  "@@locale": "hi",
+  "appName": "बैच फ़ाइल नाम बदलने सहायक",
+  "lowercaseAppName": "बैच फ़ाइल नाम बदलने सहायक",
+  "ok": "ठीक",
+  "cancel": "रद्द करें",
+  "exit": "बाहर निकलें",
+  "save": "सहेजें",
+  "add": "जोड़ें",
+  "permissionTitle": "बाहरी संग्रहण अनुमति",
+  "permissionContent": "आपको फ़ाइल नाम बदलने की सेवा प्रदान करने के लिए, हमें बाहरी संग्रहण प्रबंधन की आपकी अनुमति की आवश्यकता है। यह हमें आपके डिवाइस पर संग्रहीत फ़ाइलों तक पहुंचने और उनका नाम बदलने की अनुमति देता है। इस अनुमति के बिना, ऐप फ़ाइलों के पूर्ण पथ तक पहुंचने में सक्षम नहीं होगा और इसलिए फ़ाइलों का नाम नहीं बदल सकता। हम आपको आश्वासन देते हैं कि आपकी गोपनीयता और सुरक्षा हमारी सर्वोच्च प्राथमिकताएं हैं, और हम केवल नाम बदलने के उद्देश्य से फ़ाइलों तक पहुंचते हैं।",
+  "exitTitle": "बाहरी संग्रहण तक पहुंच नहीं सकते",
+  "exitContent": "बाहरी संग्रहण प्रबंधन अनुमति हमें आपके डिवाइस पर संग्रहीत फ़ाइलों तक पहुंचने और उनका नाम बदलने की अनुमति देती है। इस अनुमति के बिना, ऐप फ़ाइलों के पूर्ण पथ तक पहुंचने में सक्षम नहीं होगा और इसलिए फ़ाइलों का नाम नहीं बदल सकता। कृपया सेटिंग्स पृष्ठ पर जाएं और मैन्युअल रूप से अनुमति दें; अन्यथा, हम कोई सेवा प्रदान नहीं कर सकते।",
+  "iosRemindTitle": "iOS पर फ़ाइलें चुनने के बारे में",
+  "iosRemindContent": "iOS पर फ़ाइलें चुनने के लिए, पहले उस निर्देशिका का चयन करें जहां आपकी फ़ाइलें स्थित हैं। फिर, चयनित फ़ोल्डर के भीतर, उन फ़ाइलों का चयन करें जिनका नाम आप बदलना चाहते हैं। iOS की सीमाओं के कारण, हमें दो-चरणीय प्रक्रिया का उपयोग करना होगा, जो सुरक्षित फ़ाइल प्रबंधन सुनिश्चित करता है। आइए शुरू करें!",
+  "androidRemindTitle": "निर्देशिका का नाम बदलें",
+  "androidRemindContent": "Flut Renamer का उपयोग करके, आप न केवल फ़ाइलों बल्कि निर्देशिकाओं का भी नाम बदल सकते हैं। निर्देशिका का चयन करने के लिए लंबे समय तक दबाएं, और निर्देशिका नाम बदलने को सक्षम करने के लिए ऊपरी बाएं कोने में ड्रॉपडाउन बटन से 'फ़ाइलें और निर्देशिकाएं' चुनें। सुरक्षा कारणों से, कुछ सिस्टम आरक्षित निर्देशिकाएं चयन योग्य नहीं हैं।",
+  "doNotRemindAgain": "ठीक है। फिर से याद न दिलाएं।",
+  "rename": "नाम बदलें",
+  "appInfo": "ऐप जानकारी",
+  "aboutContent": "यह एप्लिकेशन उपयोगकर्ताओं को उनकी फ़ाइलों का नाम बदलने में मदद करने के लिए डिज़ाइन किया गया है। यह Flutter - एक बहु-प्लेटफ़ॉर्म एप्लिकेशन फ्रेमवर्क के साथ बनाया गया है, और इसलिए यह अन्य ऑपरेटिंग सिस्टम पर भी उपलब्ध है। यह पूरी तरह से ओपन सोर्स है और इसे समीक्षा या योगदान दिया जा सकता है।",
+  "rating": "ऐप रेटिंग",
+  "ratingTitle": "हमारे ऐप को रेट करें",
+  "ratingContent": "हमारा ऐप पसंद आ रहा है? स्टोर या GitHub पर एक त्वरित रेटिंग देकर हमें बढ़ने में मदद करें। आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! आपके समर्थन के लिए धन्यवाद।",
+  "ratingStore": "स्टोर पर ऐप रेट करें",
+  "ratingGithub": "Github पर स्टार करें",
+  "sourceCode": "स्रोत कोड",
+  "collapseOptions": "विकल्प संकुचित करें",
+  "expandOptions": "विकल्प विस्तृत करें",
+  "onlySelected": "केवल चयनित",
+  "removeRenamed": "नाम बदली गई फ़ाइलें हटाएं",
+  "removeRule": "इस नियम को हटाएं",
+  "removeRules": "नाम बदलने के बाद सभी नियम हटाएं",
+  "addRule": "नियम जोड़ें",
+  "removeAll": "सभी हटाएं",
+  "replace": "बदलें",
+  "remove": "हटाएं",
+  "insert": "डालें",
+  "increment": "वृद्धि",
+  "rearrange": "पुनर्व्यवस्थित करें",
+  "transliterate": "लिप्यंतरण",
+  "truncate": "काटें",
+  "cancelAll": "सभी रद्द करें",
+  "select": "चुनें",
+  "selectAll": "सभी चुनें",
+  "currentName": "वर्तमान नाम",
+  "newName": "नया नाम",
+  "fileNotExist": "फ़ाइल मौजूद नहीं है",
+  "files": "फ़ाइलें",
+  "directories": "निर्देशिकाएं",
+  "filesDirs": "फ़ाइलें और निर्देशिकाएं",
+  "filter": "फ़िल्टर",
+  "addFile": "फ़ाइल जोड़ें",
+  "addFiles": "फ़ाइलें जोड़ें",
+  "dragToAdd": "फ़ाइलें जोड़ने के लिए खींचें और छोड़ें।",
+  "dropToAdd": "फ़ाइलें जोड़ने के लिए छोड़ें।",
+  "dragNotSupported": "सिस्टम सुरक्षा प्रतिबंध के कारण, इस ऐप से फ़ाइलों को खींचना-छोड़ना समर्थित नहीं है।",
+  "fileAlreadyExists": "फ़ाइल नाम पहले से ही किसी अन्य फ़ाइल द्वारा उपयोग किया जा रहा है",
+  "renameFailed": "नाम बदलना विफल",
+  "aiRenameTitle": "AI नाम बदलें",
+  "aiRenameRequirementsLabel": "नाम बदलने के निर्देश",
+  "aiRenameRequirementsHint": "वर्णन करें कि आप इन फ़ाइलों का नाम कैसे बदलना चाहते हैं।",
+  "aiRenameSubmit": "सबमिट करें",
+  "aiRenameSnackbarEmptyRequirements": "नाम बदलने के निर्देश दर्ज करें",
+  "aiRenameSnackbarNoSelection": "कोई फ़ाइल चयनित नहीं",
+  "aiRenameLoading": "AI आपके अनुरोध का विश्लेषण कर रहा है, कृपया प्रतीक्षा करें...",
+  "aiRenameSuccess": "AI नाम बदलने का नियम बनाया गया। {count} फ़ाइलों का नाम बदला जाएगा।",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI नाम बदलना विफल: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI नाम बदलें: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "नियम क्रमिक रूप से निष्पादित होते हैं। नियम को संपादित करने के लिए उस पर क्लिक करें। नियमों को क्रमबद्ध करने के लिए बाएं ओर '=' बटन को दबाए रखें और इसे खींचें।",
+  "noSysDir": "सिस्टम आरक्षित निर्देशिका का नाम न बदलें।",
+  "fileSortName": "नाम",
+  "fileSortSize": "आकार",
+  "fileSortDate": "तारीख",
+  "fileSortType": "प्रकार",
+  "transliterateUpper": "लैटिन वर्णों को अपरकेस में",
+  "transliterateLower": "लैटिन वर्णों को लोअरकेस में",
+  "transliterateTraditional": "चीनी वर्णों को पारंपरिक चीनी में",
+  "transliterateSimplified": "चीनी वर्णों को सरलीकृत चीनी में",
+  "transliteratePinyin": "चीनी वर्णों को पिनयिन में",
+  "transliterateCyrillic2Latin": "सिरिलिक वर्णों को लैटिन में",
+  "transliterateLatin2Cyrillic": "लैटिन वर्णों को सिरिलिक में",
+  "insertTagInsideAnother": "एक टैग के अंदर दूसरा टैग न डालें।",
+  "appError": "एप्लिकेशन त्रुटि",
+  "errorDetails": "त्रुटि विवरण",
+  "ifFileNotShown": "यदि फ़ाइल सूची में फ़ाइलें नहीं दिखाई दे रही हैं, तो कृपया सभी साफ़ करें और जारी रखें।",
+  "metadataTags": "मेटाडेटा टैग",
+  "osTodayDate": "आज की तारीख",
+  "osNowTime": "अभी का समय",
+  "fileSize": "फ़ाइल का आकार",
+  "fileCreateDate": "फ़ाइल बनाने की तारीख",
+  "fileCreateTime": "फ़ाइल बनाने का समय",
+  "fileModifyDate": "फ़ाइल संशोधित करने की तारीख",
+  "fileModifyTime": "फ़ाइल संशोधित करने का समय",
+  "photoDate": "exif से फोटोग्राफी की तारीख",
+  "photoTime": "exif से फोटोग्राफी का समय",
+  "photoCamName": "exif से कैमरा नाम",
+  "photoLensName": "exif से लेंस नाम",
+  "photoFocalLength": "exif से फोकल लंबाई",
+  "photoAperture": "exif से एपर्चर मान",
+  "photoShutter": "exif से शटर गति",
+  "photoISO": "exif से ISO मान",
+  "photoLongitude": "exif से फोटो GPS देशांतर",
+  "photoLatitude": "exif से फोटो GPS अक्षांश",
+  "photoAltitude": "exif से फोटो GPS ऊंचाई",
+  "photoPhotographer": "exif से फोटोग्राफर नाम",
+  "photoCopyright": "exif से कॉपीराइट धारक नाम",
+  "musicAlbumName": "एल्बम का नाम",
+  "musicAlbumArtist": "एल्बम कलाकार का नाम",
+  "musicAlbumLength": "एल्बम में ट्रैक की संख्या",
+  "musicYear": "ट्रैक का प्रकाशन वर्ष",
+  "musicTrackDuration": "ट्रैक की अवधि",
+  "musicTrackName": "ट्रैक का नाम",
+  "musicTrackArtist": "ट्रैक में प्रदर्शन करने वाले कलाकारों के नाम",
+  "musicTrackNumber": "एल्बम में ट्रैक की स्थिति",
+  "musicDiscNumber": "डिस्क की स्थिति",
+  "musicGenres": "संगीत का कला प्रकार",
+  "musicAuthor": "ट्रैक का लेखक",
+  "musicWriter": "ट्रैक का लेखक",
+  "prefix": "उपसर्ग",
+  "startIndex": "प्रारंभिक सूचकांक",
+  "indexIncrementalStep": "सूचकांक वृद्धि चरण",
+  "omitDash": "डैश छोड़ें",
+  "ignoreExtension": "एक्सटेंशन अनदेखा करें",
+  "insertedText": "डालने के लिए पाठ",
+  "insertIndex": "डालने का सूचकांक",
+  "fromStart": "शुरुआत से",
+  "insertBeforeIndex": "सूचकांक से पहले डालें",
+  "rearrangeDelimiter": "पुनर्व्यवस्थित करने वाला विभाजक",
+  "rearrangeOrderLabel": "पुनर्व्यवस्थित करने का क्रम",
+  "rearrangeOrderHint": "अल्पविराम से अलग किए गए नंबर",
+  "target": "लक्ष्य",
+  "replacement": "प्रतिस्थापन",
+  "limit": "सीमा",
+  "caseSensitive": "केस संवेदनशील",
+  "isRegex": "रेगेक्स है",
+  "language": "भाषा: ",
+  "indexOne": "पहला वर्ण सूचकांक",
+  "indexTwo": "दूसरा वर्ण सूचकांक",
+  "toLast": "-से-अंतिम",
+  "goingForward": "आगे बढ़ना",
+  "keepCharacters": "उनके बीच के वर्ण रखें",
+  "removeCharacters": "उनके बीच के वर्ण हटाएं",
+  "metadataParserNotProvided": "मेटाडेटा टैग शामिल है जबकि MetadataParser प्रदान नहीं किया गया था।",
+  "replaceToString": "\"{targetString}\" को \"{replacementString}\" से बदलें।",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "\"{targetString}\" हटाएं",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "\"{insert}\" को {insertIndex}{ordinal, select, o1{वें} o2{वें} o3{वें} other{वें}}{toEnd, select, true{-से-अंत} false{} other{}} वर्ण पर डालें।",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "वृद्धिशील नाम बदलना: {prefix}-सूचकांक",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "पुनर्व्यवस्थित करें: विभाजक: {delimiter}, क्रम: {order}।",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "लिप्यंतरण: {type} में बदलें।",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "लिप्यंतरण: {langName} {type} में बदलें।",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "काटें: {keepType, select, true{केवल रखें} false{हटाएं} other{}} {iOne}{iTwoOrdinal, select, o1{वें} o2{वें} o3{वें} other{वें}}{iOneToEnd, select, true{-से-अंत} false{} other{}} वर्ण और {iTwo}{iOneOrdinal, select, o1{वें} o2{वें} o3{वें} other{वें}}{iTwoToEnd, select, true{-से-अंत} false{} other{}} के बीच के वर्ण।",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "निर्दिष्ट पाठ को दिए गए प्रतिस्थापन पाठ से बदलें।",
+  "descriptionRemove": "फ़ाइल नाम से निर्दिष्ट पाठ हटाएं।",
+  "descriptionInsert": "निर्दिष्ट स्थिति पर निर्दिष्ट पाठ डालें।",
+  "descriptionIncrement": "फ़ाइल नाम बढ़ाएं, उदाहरण के लिए, फोटो-1, फोटो-2, फोटो-3।",
+  "descriptionRearrange": "उपयोगकर्ता-निर्दिष्ट विभाजक द्वारा फ़ाइल नाम को विभाजित करें और प्रदान किए गए क्रम के अनुसार खंडों को पुनर्व्यवस्थित करें।",
+  "descriptionTransliterate": "पूर्वनिर्धारित विनिर्देशों के अनुसार वर्णों का लिप्यंतरण करें, जिसमें वर्णों को अपरकेस या लोअरकेस में बदलना, वर्ण सेट के बीच बदलना, या वर्णों को ध्वन्यात्मक समकक्षों में बदलना शामिल है।",
+  "descriptionTruncate": "फ़ाइल नाम के निर्दिष्ट भाग को हटाएं या रखें, एक निर्दिष्ट स्थिति से दूसरी स्थिति तक शुरू करें।",
+  "bg": "बुल्गारियाई",
+  "me": "मोंटेनिग्रिन",
+  "mk": "मैसेडोनियाई",
+  "mn": "मंगोलियाई",
+  "ru": "रूसी",
+  "sr": "सर्बियाई",
+  "tj": "ताजिक",
+  "ua": "यूक्रेनी",
+  "fileManagerSortButton": "इसके अनुसार क्रमबद्ध करें",
+  "fileManagerStorageButton": "संग्रहण चुनें",
+  "fileManagerSaveButton": "सूची में चयन जोड़ें",
+  "fileManagerBackButton": "वापस",
+  "showHiddenFiles": "छुपी हुई फ़ाइलें दिखाएं",
+  "hideHiddenFiles": "छुपी हुई फ़ाइलें छुपाएं",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{चयनित} false{अचयनित} other{}} {entityType, select, File{फ़ाइल} Directory{फ़ोल्डर} Link{लिंक} other{फ़ाइल सिस्टम इकाई}}, फ़ाइल नाम {filename} है, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "अंतिम संशोधन {last} पर, आकार {size}।",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "अंतिम संशोधन {last} पर।",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "यह एक ड्रॉपडाउन बटन है, वर्तमान मान \"{value}\" है, इसे खोलने और दूसरा मान चुनने के लिए दो बार क्लिक करें।",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": "। चुनें और फिर इस नियम को जोड़ने के लिए \"नियम जोड़ें\" बटन पर क्लिक करें",
+  "semanticsFilesDropdownButton": "। नाम बदलने के लक्ष्यों को सीमित करने के लिए इस आइटम का चयन करें।",
+  "semanticsReorderableList": "यह नियम सूची है, अभी यह खाली है। एक जोड़ने के लिए 'नियम जोड़ें' बटन पर क्लिक करें। नियम क्रमिक रूप से निष्पादित होते हैं। यह सूची पुन: क्रमबद्ध करने योग्य है, जो आपको एक नियम को ऊपर, नीचे और शीर्ष या नीचे ले जाने की अनुमति देती है। जब कर्सर एक नियम पर होता है, तो कार्यों के बीच स्विच करने के लिए एक ऊर्ध्वाधर स्वाइप जेस्चर का उपयोग करें, और चयनित कार्य को निष्पादित करने के लिए दो बार क्लिक करें।",
+  "semanticsOpenMetadataDialog": "एक डायलॉग खोलने और डालने के लिए मेटाडेटा टैग चुनने के लिए दो बार टैप करें।",
+  "semanticsMultipleActionsHint": ", एक ऊर्ध्वाधर स्वाइप जेस्चर द्वारा कार्यों के बीच स्विच करें",
+  "semanticNumberWithDirection": "शुरुआत से और अंत से के बीच गिनती की दिशा स्विच करना",
+  "semanticSwitchNumberToStartAndToEnd": "शुरुआत से और अंत से के बीच गिनती की दिशा स्विच करना, वर्तमान में {toEnd, select, true{अंत} false{शुरुआत} other{}} से गिनती",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "रंग चयनकर्ता",
+  "manualMode": "मैनुअल मोड",
+  "aiMode": "AI मोड"
+}
+

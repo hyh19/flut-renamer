@@ -1,0 +1,346 @@
+{
+  "@@locale": "bn",
+  "appName": "ব্যাচ ফাইল নাম পরিবর্তন সহায়ক",
+  "lowercaseAppName": "ব্যাচ ফাইল নাম পরিবর্তন সহায়ক",
+  "ok": "ঠিক আছে",
+  "cancel": "বাতিল",
+  "exit": "প্রস্থান",
+  "save": "সংরক্ষণ",
+  "add": "যোগ করুন",
+  "permissionTitle": "বাহ্যিক স্টোরেজের জন্য অনুমতি",
+  "permissionContent": "আমাদের ফাইল নাম পরিবর্তন পরিষেবা প্রদানের জন্য, আমাদের বাহ্যিক স্টোরেজ পরিচালনার জন্য আপনার অনুমতির প্রয়োজন। এটি আমাদের আপনার ডিভাইসে সংরক্ষিত ফাইলগুলিতে অ্যাক্সেস করতে এবং সেগুলির নাম পরিবর্তন করতে দেয়। এই অনুমতি ছাড়া, অ্যাপটি সম্পূর্ণ ফাইল পাথগুলিতে অ্যাক্সেস করতে সক্ষম হবে না এবং তাই ফাইলগুলির নাম পরিবর্তন করতে পারবে না। আমরা আপনাকে আশ্বাস দিচ্ছি যে আপনার গোপনীয়তা এবং নিরাপত্তা আমাদের সর্বোচ্চ অগ্রাধিকার, এবং আমরা শুধুমাত্র নাম পরিবর্তনের উদ্দেশ্যে ফাইলগুলিতে অ্যাক্সেস করি।",
+  "exitTitle": "বাহ্যিক স্টোরেজে অ্যাক্সেস করতে পারবেন না",
+  "exitContent": "বাহ্যিক স্টোরেজ পরিচালনার অনুমতি আমাদের আপনার ডিভাইসে সংরক্ষিত ফাইলগুলিতে অ্যাক্সেস করতে এবং সেগুলির নাম পরিবর্তন করতে দেয়। এই অনুমতি ছাড়া, অ্যাপটি সম্পূর্ণ ফাইল পাথগুলিতে অ্যাক্সেস করতে সক্ষম হবে না এবং তাই ফাইলগুলির নাম পরিবর্তন করতে পারবে না। অনুগ্রহ করে সেটিংস পৃষ্ঠায় যান এবং ম্যানুয়ালি অনুমতি দিন; অন্যথায়, আমরা কোন পরিষেবা প্রদান করতে পারি না।",
+  "iosRemindTitle": "iOS-এ ফাইল বেছে নেওয়া সম্পর্কে",
+  "iosRemindContent": "iOS-এ ফাইল বেছে নিতে, প্রথমে সেই ডিরেক্টরি বেছে নিন যেখানে আপনার ফাইলগুলি অবস্থিত। তারপর, নির্বাচিত ফোল্ডারের মধ্যে, আপনি যে ফাইলগুলির নাম পরিবর্তন করতে চান সেগুলি বেছে নিন। iOS-এর সীমাবদ্ধতার কারণে, আমাদের একটি দুই-ধাপ প্রক্রিয়া ব্যবহার করতে হবে, যা নিরাপদ ফাইল ব্যবস্থাপনা নিশ্চিত করে। চলুন শুরু করি!",
+  "androidRemindTitle": "ডিরেক্টরির নাম পরিবর্তন করুন",
+  "androidRemindContent": "Flut Renamer ব্যবহার করে, আপনি শুধুমাত্র ফাইল নয়, ডিরেক্টরিগুলিরও নাম পরিবর্তন করতে পারেন। একটি ডিরেক্টরি নির্বাচন করতে দীর্ঘ চাপুন, এবং ডিরেক্টরি নাম পরিবর্তন সক্ষম করতে বাম উপরের কোণে ড্রপডাউন বোতাম থেকে 'ফাইল এবং ডিরেক্টরি' নির্বাচন করুন। নিরাপত্তার কারণে, কিছু সিস্টেম সংরক্ষিত ডিরেক্টরি নির্বাচনযোগ্য নয়।",
+  "doNotRemindAgain": "ঠিক আছে। আমাকে আবার মনে করিয়ে দেবেন না।",
+  "rename": "নাম পরিবর্তন",
+  "appInfo": "অ্যাপ তথ্য",
+  "aboutContent": "এই অ্যাপ্লিকেশনটি ব্যবহারকারীদের তাদের ফাইলগুলির নাম পরিবর্তন করতে সাহায্য করার জন্য ডিজাইন করা হয়েছে। এটি Flutter দিয়ে তৈরি করা হয়েছে - একটি মাল্টি-প্ল্যাটফর্ম অ্যাপ্লিকেশন ফ্রেমওয়ার্ক, এবং তাই এটি অন্যান্য অপারেটিং সিস্টেমেও উপলব্ধ। এটি সম্পূর্ণ ওপেন সোর্স এবং পর্যালোচনা করা যেতে পারে বা অবদান রাখা যেতে পারে।",
+  "rating": "অ্যাপ রেটিং",
+  "ratingTitle": "আমাদের অ্যাপ রেট করুন",
+  "ratingContent": "আমাদের অ্যাপ উপভোগ করছেন? স্টোরে বা GitHub-এ একটি দ্রুত রেটিং দিয়ে আমাদের বৃদ্ধিতে সাহায্য করুন। আপনার প্রতিক্রিয়া আমাদের কাছে অনেক গুরুত্বপূর্ণ! আপনার সমর্থনের জন্য ধন্যবাদ।",
+  "ratingStore": "স্টোরে অ্যাপ রেট করুন",
+  "ratingGithub": "Github-এ এটিকে স্টার করুন",
+  "sourceCode": "সোর্স কোড",
+  "collapseOptions": "বিকল্পগুলি সংকুচিত করুন",
+  "expandOptions": "বিকল্পগুলি প্রসারিত করুন",
+  "onlySelected": "শুধুমাত্র নির্বাচিত",
+  "removeRenamed": "নাম পরিবর্তিত ফাইলগুলি সরান",
+  "removeRule": "এই নিয়মটি সরান",
+  "removeRules": "নাম পরিবর্তনের পরে সমস্ত নিয়ম সরান",
+  "addRule": "নিয়ম যোগ করুন",
+  "removeAll": "সব সরান",
+  "replace": "প্রতিস্থাপন",
+  "remove": "সরান",
+  "insert": "সন্নিবেশ",
+  "increment": "বৃদ্ধি",
+  "rearrange": "পুনর্বিন্যাস",
+  "transliterate": "ট্রান্সলিটারেট",
+  "truncate": "ছাঁটাই",
+  "cancelAll": "সব বাতিল",
+  "select": "নির্বাচন করুন",
+  "selectAll": "সব নির্বাচন করুন",
+  "currentName": "বর্তমান নাম",
+  "newName": "নতুন নাম",
+  "fileNotExist": "ফাইল বিদ্যমান নেই",
+  "files": "ফাইল",
+  "directories": "ডিরেক্টরি",
+  "filesDirs": "ফাইল এবং ডিরেক্টরি",
+  "filter": "ফিল্টার",
+  "addFile": "ফাইল যোগ করুন",
+  "addFiles": "ফাইল যোগ করুন",
+  "dragToAdd": "ফাইল যোগ করতে টেনে আনুন এবং ছেড়ে দিন।",
+  "dropToAdd": "ফাইল যোগ করতে ছেড়ে দিন।",
+  "dragNotSupported": "সিস্টেম নিরাপত্তা সীমাবদ্ধতার কারণে, এই অ্যাপ থেকে ফাইল টেনে আনা এবং ছেড়ে দেওয়া সমর্থিত নয়।",
+  "fileAlreadyExists": "ফাইলের নাম ইতিমধ্যে অন্য একটি ফাইল দ্বারা ব্যবহৃত হচ্ছে",
+  "renameFailed": "নাম পরিবর্তন ব্যর্থ",
+  "aiRenameTitle": "AI নাম পরিবর্তন",
+  "aiRenameRequirementsLabel": "নাম পরিবর্তনের নির্দেশাবলী",
+  "aiRenameRequirementsHint": "বর্ণনা করুন আপনি কীভাবে এই ফাইলগুলির নাম পরিবর্তন করতে চান।",
+  "aiRenameSubmit": "জমা দিন",
+  "aiRenameSnackbarEmptyRequirements": "নাম পরিবর্তনের নির্দেশাবলী লিখুন",
+  "aiRenameSnackbarNoSelection": "কোন ফাইল নির্বাচিত নেই",
+  "aiRenameLoading": "AI আপনার অনুরোধ বিশ্লেষণ করছে, অনুগ্রহ করে অপেক্ষা করুন...",
+  "aiRenameSuccess": "AI নাম পরিবর্তনের নিয়ম তৈরি হয়েছে। {count} ফাইলের নাম পরিবর্তন করা হবে।",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI নাম পরিবর্তন ব্যর্থ: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI নাম পরিবর্তন: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "নিয়মগুলি ক্রমানুসারে কার্যকর করা হয়। একটি নিয়ম সম্পাদনা করতে ক্লিক করুন। বাম দিকে '=' বোতামটি ধরে রাখুন এবং এটিকে টেনে নিয়মগুলি সাজান।",
+  "noSysDir": "একটি সিস্টেম সংরক্ষিত ডিরেক্টরির নাম পরিবর্তন করবেন না।",
+  "fileSortName": "নাম",
+  "fileSortSize": "আকার",
+  "fileSortDate": "তারিখ",
+  "fileSortType": "টাইপ",
+  "transliterateUpper": "ল্যাটিন অক্ষর বড় হাতের অক্ষরে",
+  "transliterateLower": "ল্যাটিন অক্ষর ছোট হাতের অক্ষরে",
+  "transliterateTraditional": "চীনা অক্ষর ঐতিহ্যবাহী চীনা ভাষায়",
+  "transliterateSimplified": "চীনা অক্ষর সরলীকৃত চীনা ভাষায়",
+  "transliteratePinyin": "চীনা অক্ষর পিনইন-এ",
+  "transliterateCyrillic2Latin": "সিরিলিক অক্ষর ল্যাটিনে",
+  "transliterateLatin2Cyrillic": "ল্যাটিন অক্ষর সিরিলিকে",
+  "insertTagInsideAnother": "একটি ট্যাগের ভিতরে অন্য ট্যাগ সন্নিবেশ করবেন না।",
+  "appError": "অ্যাপ্লিকেশন ত্রুটি",
+  "errorDetails": "ত্রুটির বিবরণ",
+  "ifFileNotShown": "যদি ফাইল তালিকায় ফাইলগুলি দেখানো না হয়, সব পরিষ্কার করুন এবং চালিয়ে যান।",
+  "metadataTags": "মেটাডেটা ট্যাগ",
+  "osTodayDate": "আজকের তারিখ",
+  "osNowTime": "বর্তমান সময়",
+  "fileSize": "ফাইলের আকার",
+  "fileCreateDate": "ফাইল তৈরির তারিখ",
+  "fileCreateTime": "ফাইল তৈরির সময়",
+  "fileModifyDate": "ফাইল পরিবর্তনের তারিখ",
+  "fileModifyTime": "ফাইল পরিবর্তনের সময়",
+  "photoDate": "exif থেকে ফটোগ্রাফির তারিখ",
+  "photoTime": "exif থেকে ফটোগ্রাফির সময়",
+  "photoCamName": "exif থেকে ক্যামেরার নাম",
+  "photoLensName": "exif থেকে লেন্সের নাম",
+  "photoFocalLength": "exif থেকে ফোকাল দৈর্ঘ্য",
+  "photoAperture": "exif থেকে অ্যাপারচার মান",
+  "photoShutter": "exif থেকে শাটার গতি",
+  "photoISO": "exif থেকে ISO মান",
+  "photoLongitude": "exif থেকে ফটো GPS-এর দ্রাঘিমাংশ",
+  "photoLatitude": "exif থেকে ফটো GPS-এর অক্ষাংশ",
+  "photoAltitude": "exif থেকে ফটো GPS-এর উচ্চতা",
+  "photoPhotographer": "exif থেকে ফটোগ্রাফারের নাম",
+  "photoCopyright": "exif থেকে কপিরাইট ধারকের নাম",
+  "musicAlbumName": "অ্যালবামের নাম",
+  "musicAlbumArtist": "অ্যালবাম শিল্পীর নাম",
+  "musicAlbumLength": "অ্যালবামে ট্র্যাকের সংখ্যা",
+  "musicYear": "ট্র্যাক প্রকাশের বছর",
+  "musicTrackDuration": "ট্র্যাকের সময়কাল",
+  "musicTrackName": "ট্র্যাকের নাম",
+  "musicTrackArtist": "ট্র্যাকে পারফরম্যান্স করা শিল্পীদের নাম",
+  "musicTrackNumber": "অ্যালবামে ট্র্যাকের অবস্থান",
+  "musicDiscNumber": "ডিস্কের অবস্থান",
+  "musicGenres": "সঙ্গীতের শিল্পের ধরন",
+  "musicAuthor": "ট্র্যাকের লেখক",
+  "musicWriter": "ট্র্যাকের লেখক",
+  "prefix": "উপসর্গ",
+  "startIndex": "শুরু সূচক",
+  "indexIncrementalStep": "সূচক বৃদ্ধির ধাপ",
+  "omitDash": "ড্যাশ বাদ দিন",
+  "ignoreExtension": "এক্সটেনশন উপেক্ষা করুন",
+  "insertedText": "সন্নিবেশ করার পাঠ্য",
+  "insertIndex": "সন্নিবেশ সূচক",
+  "fromStart": "শুরু থেকে",
+  "insertBeforeIndex": "সূচকের আগে সন্নিবেশ",
+  "rearrangeDelimiter": "পুনর্বিন্যাস বিভাজক",
+  "rearrangeOrderLabel": "পুনর্বিন্যাস ক্রম",
+  "rearrangeOrderHint": "কমা দিয়ে বিভক্ত সংখ্যা",
+  "target": "লক্ষ্য",
+  "replacement": "প্রতিস্থাপন",
+  "limit": "সীমা",
+  "caseSensitive": "কেস সংবেদনশীল",
+  "isRegex": "regex",
+  "language": "ভাষা: ",
+  "indexOne": "প্রথম অক্ষরের সূচক",
+  "indexTwo": "দ্বিতীয় অক্ষরের সূচক",
+  "toLast": "-শেষ পর্যন্ত",
+  "goingForward": "এগিয়ে যাচ্ছে",
+  "keepCharacters": "তাদের মধ্যে অক্ষর রাখুন",
+  "removeCharacters": "তাদের মধ্যে অক্ষর সরান",
+  "metadataParserNotProvided": "MetadataParser প্রদান করা হয়নি যখন মেটাডেটা ট্যাগ রয়েছে।",
+  "replaceToString": "\"{targetString}\" কে \"{replacementString}\" দিয়ে প্রতিস্থাপন করুন।",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "\"{targetString}\" সরান",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "{insertIndex}{ordinal, select, o1{তম} o2{য়} o3{য়} other{তম}}{toEnd, select, true{-শেষ পর্যন্ত} false{} other{}} অক্ষরে \"{insert}\" সন্নিবেশ করুন।",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "ক্রমবর্ধমান নাম পরিবর্তন: {prefix}-সূচক",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "পুনর্বিন্যাস: বিভাজক: {delimiter}, ক্রম: {order}।",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "ট্রান্সলিটারেট: {type} রূপান্তর করুন।",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "ট্রান্সলিটারেট: {langName} {type} রূপান্তর করুন।",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "ছাঁটাই: {keepType, select, true{শুধুমাত্র রাখুন} false{সরান} other{}} {iOne}{iTwoOrdinal, select, o1{তম} o2{য়} o3{য়} other{তম}}{iOneToEnd, select, true{-শেষ পর্যন্ত} false{} other{}} অক্ষর এবং {iTwo}{iOneOrdinal, select, o1{তম} o2{য়} o3{য়} other{তম}}{iTwoToEnd, select, true{-শেষ পর্যন্ত} false{} other{}} এর মধ্যে অক্ষর।",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "নির্দিষ্ট পাঠ্যকে প্রদত্ত প্রতিস্থাপন পাঠ্য দিয়ে প্রতিস্থাপন করুন।",
+  "descriptionRemove": "ফাইলের নাম থেকে নির্দিষ্ট পাঠ্য সরান।",
+  "descriptionInsert": "নির্দিষ্ট অবস্থানে নির্দিষ্ট পাঠ্য সন্নিবেশ করুন।",
+  "descriptionIncrement": "ফাইলের নাম বৃদ্ধি করুন, উদাহরণস্বরূপ, ফটো-1, ফটো-2, ফটো-3।",
+  "descriptionRearrange": "ব্যবহারকারী-নির্দিষ্ট বিভাজক দ্বারা ফাইলের নাম বিভক্ত করুন এবং প্রদত্ত ক্রম অনুসারে সেগমেন্টগুলি পুনর্বিন্যাস করুন।",
+  "descriptionTransliterate": "পূর্বনির্ধারিত স্পেসিফিকেশন অনুসারে অক্ষর ট্রান্সলিটারেট করুন, যার মধ্যে অক্ষরগুলিকে বড় বা ছোট হাতের অক্ষরে রূপান্তর করা, অক্ষর সেটের মধ্যে রূপান্তর করা, বা অক্ষরগুলিকে ধ্বনিগত সমতুল্যে রূপান্তর করা অন্তর্ভুক্ত।",
+  "descriptionTruncate": "ফাইলের নামের নির্দিষ্ট অংশ সরান বা রাখুন, একটি নির্দিষ্ট অবস্থান থেকে অন্য অবস্থানে শুরু করে।",
+  "bg": "বুলগেরিয়ান",
+  "me": "মন্টিনিগ্রিন",
+  "mk": "ম্যাসেডোনিয়ান",
+  "mn": "মঙ্গোলিয়ান",
+  "ru": "রাশিয়ান",
+  "sr": "সার্বিয়ান",
+  "tj": "তাজিক",
+  "ua": "ইউক্রেনিয়ান",
+  "fileManagerSortButton": "দ্বারা সাজান",
+  "fileManagerStorageButton": "স্টোরেজ নির্বাচন করুন",
+  "fileManagerSaveButton": "তালিকায় নির্বাচন যোগ করুন",
+  "fileManagerBackButton": "পিছনে",
+  "showHiddenFiles": "লুকানো ফাইল দেখান",
+  "hideHiddenFiles": "লুকানো ফাইল লুকান",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{নির্বাচিত} false{নির্বাচিত নয়} other{}} {entityType, select, File{ফাইল} Directory{ফোল্ডার} Link{লিঙ্ক} other{ফাইল সিস্টেম এনটিটি}}, ফাইলের নাম হল {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "শেষ পরিবর্তন {last}, আকার {size}।",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "শেষ পরিবর্তন {last}।",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "এটি একটি ড্রপডাউন বোতাম, বর্তমান মান হল \"{value}\", এটি খুলতে এবং অন্য মান বেছে নিতে ডাবল ক্লিক করুন।",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". নির্বাচন করুন এবং তারপর এই নিয়ম যোগ করতে 'নিয়ম যোগ করুন' বোতামে ক্লিক করুন।",
+  "semanticsFilesDropdownButton": ". নাম পরিবর্তনের লক্ষ্যগুলি সীমাবদ্ধ করতে এই আইটেমটি নির্বাচন করুন।",
+  "semanticsReorderableList": "এটি নিয়মের তালিকা, এটি এখন খালি। একটি যোগ করতে 'নিয়ম যোগ করুন' বোতামে ক্লিক করুন। নিয়মগুলি ক্রমানুসারে কার্যকর করা হয়। এই তালিকাটি পুনর্বিন্যাসযোগ্য, যা আপনাকে একটি নিয়ম উপরে, নীচে এবং শীর্ষে বা নীচে সরাতে দেয়। যখন কার্সার একটি নিয়মে থাকে, ক্রিয়াগুলির মধ্যে স্যুইচ করতে একটি উল্লম্ব সোয়াইপ অঙ্গভঙ্গি ব্যবহার করুন, এবং নির্বাচিত ক্রিয়া সম্পাদন করতে ডাবল ক্লিক ব্যবহার করুন।",
+  "semanticsOpenMetadataDialog": "একটি ডায়ালগ খুলতে এবং সন্নিবেশ করার জন্য একটি মেটাডেটা ট্যাগ নির্বাচন করতে ডাবল ট্যাপ করুন।",
+  "semanticsMultipleActionsHint": ", একটি উল্লম্ব সোয়াইপ অঙ্গভঙ্গি দ্বারা ক্রিয়াগুলির মধ্যে স্যুইচ করুন",
+  "semanticNumberWithDirection": "শুরু এবং শেষ থেকে গণনার দিক পরিবর্তন করা",
+  "semanticSwitchNumberToStartAndToEnd": "শুরু এবং শেষ থেকে গণনার দিক পরিবর্তন করা, বর্তমানে {toEnd, select, true{শেষ} false{শুরু} other{}} থেকে গণনা করা হচ্ছে",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "রঙ নির্বাচক",
+  "manualMode": "ম্যানুয়াল মোড",
+  "aiMode": "AI মোড"
+}
+

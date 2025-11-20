@@ -1,0 +1,346 @@
+{
+  "@@locale": "nl",
+  "appName": "Batch Bestandsnaam Wijzigen Assistent",
+  "lowercaseAppName": "batch bestandsnaam wijzigen assistent",
+  "ok": "OK",
+  "cancel": "Annuleren",
+  "exit": "Afsluiten",
+  "save": "Opslaan",
+  "add": "Toevoegen",
+  "permissionTitle": "Toestemming voor externe opslag",
+  "permissionContent": "Om u onze bestandsnaamwijzigingsservice te bieden, hebben we uw toestemming nodig om externe opslag te beheren. Dit stelt ons in staat om toegang te krijgen tot en bestanden op uw apparaat te hernoemen. Zonder deze toestemming kan de app niet toegang krijgen tot de volledige bestandspaden en kan daarom geen bestanden hernoemen. Wij verzekeren u dat uw privacy en veiligheid onze hoogste prioriteit zijn, en wij hebben alleen toegang tot bestanden voor het doel van hernoemen.",
+  "exitTitle": "Kan geen toegang krijgen tot externe opslag",
+  "exitContent": "De toestemming voor het beheren van externe opslag stelt ons in staat om toegang te krijgen tot en bestanden op uw apparaat te hernoemen. Zonder deze toestemming kan de app niet toegang krijgen tot de volledige bestandspaden en kan daarom geen bestanden hernoemen. Ga naar de instellingenpagina en verleen de toestemming handmatig; anders kunnen wij geen service bieden.",
+  "iosRemindTitle": "Over het selecteren van bestanden op iOS",
+  "iosRemindContent": "Om bestanden op iOS te selecteren, kies eerst de map waar uw bestanden zich bevinden. Selecteer vervolgens binnen de geselecteerde map de bestanden die u wilt hernoemen. Vanwege de beperkingen van iOS moeten we een tweestapsproces gebruiken, wat veilig bestandsbeheer garandeert. Laten we beginnen!",
+  "androidRemindTitle": "Map hernoemen",
+  "androidRemindContent": "Met Flut Renamer kunt u niet alleen bestanden maar ook mappen hernoemen. Houd een map lang ingedrukt om deze te selecteren en selecteer 'Bestanden & Mappen' vanuit de vervolgkeuzeknop in de linkerbovenhoek om het hernoemen van mappen in te schakelen. Om veiligheidsredenen zijn sommige systeemgereserveerde mappen niet selecteerbaar.",
+  "doNotRemindAgain": "OK. Herinner me niet meer.",
+  "rename": "Hernoemen",
+  "appInfo": "App-informatie",
+  "aboutContent": "Deze applicatie is ontworpen om gebruikers te helpen hun bestanden te hernoemen. Het is gebouwd met Flutter - een multi-platform applicatieframework, en is daarom ook beschikbaar op andere besturingssystemen. Het is volledig open source en kan worden beoordeeld of bijgedragen.",
+  "rating": "App beoordelen",
+  "ratingTitle": "Beoordeel Onze App",
+  "ratingContent": "Geniet u van onze app? Help ons groeien door een snelle beoordeling te geven in de winkel of op GitHub. Uw feedback betekent veel voor ons! Bedankt voor uw steun.",
+  "ratingStore": "Beoordeel de app in de winkel",
+  "ratingGithub": "Geef een ster op Github",
+  "sourceCode": "Broncode",
+  "collapseOptions": "Opties inklappen",
+  "expandOptions": "Opties uitklappen",
+  "onlySelected": "Alleen geselecteerd",
+  "removeRenamed": "Hernoemde bestanden verwijderen",
+  "removeRule": "Deze regel verwijderen",
+  "removeRules": "Regels verwijderen na hernoemen",
+  "addRule": "Regel Toevoegen",
+  "removeAll": "Alles verwijderen",
+  "replace": "Vervangen",
+  "remove": "Verwijderen",
+  "insert": "Invoegen",
+  "increment": "Verhogen",
+  "rearrange": "Herschikken",
+  "transliterate": "Translitereren",
+  "truncate": "Afkappen",
+  "cancelAll": "Alles Annuleren",
+  "select": "Selecteren",
+  "selectAll": "Alles Selecteren",
+  "currentName": "Huidige naam",
+  "newName": "Nieuwe naam",
+  "fileNotExist": "Bestand bestaat niet",
+  "files": "Bestanden",
+  "directories": "Mappen",
+  "filesDirs": "Bestanden & Mappen",
+  "filter": "Filter",
+  "addFile": "Bestand toevoegen",
+  "addFiles": "Bestanden toevoegen",
+  "dragToAdd": "Sleep en zet neer om bestanden toe te voegen.",
+  "dropToAdd": "Zet neer om bestanden toe te voegen.",
+  "dragNotSupported": "Vanwege systeembeveiligingsbeperkingen wordt het slepen en neerzetten van bestanden vanuit deze app niet ondersteund.",
+  "fileAlreadyExists": "Bestandsnaam wordt al gebruikt door een ander bestand",
+  "renameFailed": "Hernoemen mislukt",
+  "aiRenameTitle": "AI Hernoemen",
+  "aiRenameRequirementsLabel": "Hernoeminstructies",
+  "aiRenameRequirementsHint": "Beschrijf hoe u deze bestanden wilt hernoemen.",
+  "aiRenameSubmit": "Verzenden",
+  "aiRenameSnackbarEmptyRequirements": "Voer hernoeminstructies in",
+  "aiRenameSnackbarNoSelection": "Geen bestanden geselecteerd",
+  "aiRenameLoading": "AI analyseert uw verzoek, even geduld...",
+  "aiRenameSuccess": "AI-hernoemregel gemaakt. {count} bestanden worden hernoemd.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI-hernoemen mislukt: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI-hernoemen: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Regels worden sequentieel uitgevoerd. Klik op een regel om deze te bewerken. Houd de '='-knop links ingedrukt en sleep deze om regels te sorteren.",
+  "noSysDir": "Hernoem geen systeemgereserveerde map.",
+  "fileSortName": "Naam",
+  "fileSortSize": "Grootte",
+  "fileSortDate": "Datum",
+  "fileSortType": "Type",
+  "transliterateUpper": "Latijnse tekens naar hoofdletters",
+  "transliterateLower": "Latijnse tekens naar kleine letters",
+  "transliterateTraditional": "Chinese tekens naar traditioneel Chinees",
+  "transliterateSimplified": "Chinese tekens naar vereenvoudigd Chinees",
+  "transliteratePinyin": "Chinese tekens naar pinyin",
+  "transliterateCyrillic2Latin": "Cyrillische tekens naar Latijns",
+  "transliterateLatin2Cyrillic": "Latijnse tekens naar Cyrillisch",
+  "insertTagInsideAnother": "Voeg geen tag in een andere tag in.",
+  "appError": "Applicatiefout",
+  "errorDetails": "Foutdetails",
+  "ifFileNotShown": "Als bestanden niet worden weergegeven in de bestandslijst, wis alles en ga door.",
+  "metadataTags": "Metadatatags",
+  "osTodayDate": "Datum van vandaag",
+  "osNowTime": "Tijd van nu",
+  "fileSize": "Grootte van bestand",
+  "fileCreateDate": "Aanmaakdatum van bestand",
+  "fileCreateTime": "Aanmaaktijd van bestand",
+  "fileModifyDate": "Wijzigingsdatum van bestand",
+  "fileModifyTime": "Wijzigingstijd van bestand",
+  "photoDate": "Fotografiedatum van exif",
+  "photoTime": "Fotografietijd van exif",
+  "photoCamName": "Cameranaam van exif",
+  "photoLensName": "Lensnaam van exif",
+  "photoFocalLength": "Brandpuntsafstand van exif",
+  "photoAperture": "Diafragmawaarde van exif",
+  "photoShutter": "Sluitersnelheid van exif",
+  "photoISO": "ISO-waarde van exif",
+  "photoLongitude": "Lengtegraad van foto GPS van exif",
+  "photoLatitude": "Breedtegraad van foto GPS van exif",
+  "photoAltitude": "Hoogte van foto GPS van exif",
+  "photoPhotographer": "Fotograafnaam van exif",
+  "photoCopyright": "Naam van rechthebbende van exif",
+  "musicAlbumName": "Naam van het album",
+  "musicAlbumArtist": "Naam van de albumartiest",
+  "musicAlbumLength": "Aantal nummers in het album",
+  "musicYear": "Publicatiejaar van het nummer",
+  "musicTrackDuration": "Duur van het nummer",
+  "musicTrackName": "Naam van het nummer",
+  "musicTrackArtist": "Namen van de artiesten die optreden in het nummer",
+  "musicTrackNumber": "Positie van nummer in het album",
+  "musicDiscNumber": "Positie van schijf",
+  "musicGenres": "Kunsttype van de muziek",
+  "musicAuthor": "Auteur van het nummer",
+  "musicWriter": "Schrijver van het nummer",
+  "prefix": "Voorvoegsel",
+  "startIndex": "Startindex",
+  "indexIncrementalStep": "Index verhogingsstap",
+  "omitDash": "Streepje weglaten",
+  "ignoreExtension": "Extensie Negeren",
+  "insertedText": "In te voegen tekst",
+  "insertIndex": "Invoegindex",
+  "fromStart": "Vanaf het begin",
+  "insertBeforeIndex": "Invoegen vóór index",
+  "rearrangeDelimiter": "Herschik scheidingsteken",
+  "rearrangeOrderLabel": "Herschik volgorde",
+  "rearrangeOrderHint": "nummers gescheiden met komma",
+  "target": "doel",
+  "replacement": "Vervanging",
+  "limit": "limiet",
+  "caseSensitive": "Hoofdlettergevoelig",
+  "isRegex": "Is regex",
+  "language": "Taal: ",
+  "indexOne": "Eerste tekenindex",
+  "indexTwo": "Tweede tekenindex",
+  "toLast": "-tot-laatste",
+  "goingForward": "Vooruit gaan",
+  "keepCharacters": "Houd tekens tussen hen",
+  "removeCharacters": "Verwijder tekens tussen hen",
+  "metadataParserNotProvided": "Bevat metadatatag terwijl MetadataParser niet werd verstrekt.",
+  "replaceToString": "Vervang \"{targetString}\" met \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Verwijder \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Voeg \"{insert}\" in op het {insertIndex}{ordinal, select, o1{e} o2{e} o3{e} other{e}}{toEnd, select, true{-tot-einde} false{} other{}} teken.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Incrementeel hernoemen: {prefix}-index",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Herschik: scheidingsteken: {delimiter}, volgorde: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Translitereren: converteer {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Translitereren: converteer {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Afkappen: {keepType, select, true{behoud alleen} false{verwijder} other{}} tekens tussen het {iOne}{iTwoOrdinal, select, o1{e} o2{e} o3{e} other{e}}{iOneToEnd, select, true{-tot-einde} false{} other{}} teken en het {iTwo}{iOneOrdinal, select, o1{e} o2{e} o3{e} other{e}}{iTwoToEnd, select, true{-tot-einde} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Vervang de opgegeven tekst met de gegeven vervangende tekst.",
+  "descriptionRemove": "Verwijder de opgegeven tekst uit de bestandsnaam.",
+  "descriptionInsert": "Voeg de opgegeven tekst in op de aangewezen positie.",
+  "descriptionIncrement": "Verhoog de bestandsnaam, bijvoorbeeld Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Splits de bestandsnaam door het door de gebruiker opgegeven scheidingsteken en herschik segmenten volgens de verstrekte volgorde.",
+  "descriptionTransliterate": "Translitereren tekens volgens vooraf gedefinieerde specificaties, inclusief het converteren van tekens naar hoofdletters of kleine letters, converteren tussen tekensets, of converteren van tekens naar fonetische equivalenten.",
+  "descriptionTruncate": "Verwijder of behoud het opgegeven deel van de bestandsnaam, beginnend vanaf één aangewezen positie naar een andere.",
+  "bg": "Bulgaars",
+  "me": "Montenegrijns",
+  "mk": "Macedonisch",
+  "mn": "Mongools",
+  "ru": "Russisch",
+  "sr": "Servisch",
+  "tj": "Tadzjieks",
+  "ua": "Oekraïens",
+  "fileManagerSortButton": "Sorteren op",
+  "fileManagerStorageButton": "Opslag selecteren",
+  "fileManagerSaveButton": "Selecties toevoegen aan de lijst",
+  "fileManagerBackButton": "Terug",
+  "showHiddenFiles": "Verborgen bestanden weergeven",
+  "hideHiddenFiles": "Verborgen bestanden verbergen",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Geselecteerd} false{Niet geselecteerd} other{}} {entityType, select, File{Bestand} Directory{Map} Link{Link} other{Bestandssysteementiteit}}, bestandsnaam is {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "laatst gewijzigd op {last}, grootte {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "laatst gewijzigd op {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Dit is een vervolgkeuzeknop, huidige waarde is \"{value}\", dubbelklik om deze te openen en een andere waarde te kiezen.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Selecteer en klik vervolgens op de knop \"Regel Toevoegen\" om deze regel toe te voegen.",
+  "semanticsFilesDropdownButton": ". Selecteer dit item om hernoemdoelen te beperken.",
+  "semanticsReorderableList": "Dit is de regellijst, deze is nu leeg. Klik op de knop 'Regel toevoegen' om er een toe te voegen. Regels worden sequentieel uitgevoerd. Deze lijst kan opnieuw worden geordend, waardoor u een regel omhoog, omlaag en naar boven of beneden kunt verplaatsen. Wanneer de cursor op een regel staat, gebruik een verticale veegbeweging om tussen acties te schakelen en gebruik een dubbelklik om de geselecteerde actie uit te voeren.",
+  "semanticsOpenMetadataDialog": "Dubbeltik om een dialoog te openen en een metadatatag te selecteren die moet worden ingevoegd.",
+  "semanticsMultipleActionsHint": ", schakel tussen acties met een verticale veegbeweging",
+  "semanticNumberWithDirection": "Schakelen tussen tellen vanaf het begin en vanaf het einde",
+  "semanticSwitchNumberToStartAndToEnd": "Schakelen tussen tellen vanaf het begin en vanaf het einde, momenteel tellen vanaf {toEnd, select, true{het einde} false{het begin} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Kleurenkiezer",
+  "manualMode": "Handmatige Modus",
+  "aiMode": "AI Modus"
+}
+
