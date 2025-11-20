@@ -54,7 +54,7 @@
   "addFiles": "請新增檔案。",
   "dragToAdd": "拖放檔案進行新增。",
   "dropToAdd": "在此處釋放檔案。",
-  "dragNotSupported": "由於系統安全限制，我們無法重新命名從此應用程式拖放的檔案。",
+  "dragNotSupported": "由於系統安全限制，不支援從此應用程式拖放檔案。",
   "fileAlreadyExists": "檔案名稱已被使用",
   "renameFailed": "重新命名失敗",
   "aiRenameTitle": "AI 重新命名",
@@ -181,7 +181,7 @@
   "semanticsReorderableList": "規則列表現在是空的。單擊「新增規則」按鈕新增一條。規則是按順序執行的。此列表可被重新排序，允許您向上、向下移動規則，以及將它們移動到頂部或底部。當游標位於規則上時，使用垂直滑動手勢在不同的操作之間切換，並使用雙擊執行選定的操作。",
   "semanticsOpenMetadataDialog": "雙擊開啟一個對話框並從中選擇要插入的中繼資料標籤。",
   "semanticsMultipleActionsHint": "，上下滑動切換至其他操作。",
-  "semanticSwitchNumberToStartAndToEnd": "切換計數方式是zhèng shǔ還是dào shǔ，目前是{toEnd, select, true{dào shǔ} false{zhèng shǔ} other{}}",
+  "semanticSwitchNumberToStartAndToEnd": "切換計數方式為從開頭計數或從末尾計數，目前從{toEnd, select, true{末尾} false{開頭} other{}}計數。",
   "colorPicker": "顏色選擇器",
   "manualMode": "手動模式",
   "aiMode": "AI 模式"
