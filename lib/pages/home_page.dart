@@ -171,19 +171,29 @@ class _HomePageState extends State<HomePage> {
                 tooltip: tooltipText,
                 icon: Icon(iconData),
                 onPressed: () {
+                  late String message;
                   setState(() {
                     switch (Shared.themeMode) {
                       case ThemeMode.system:
                         Shared.themeMode = ThemeMode.light;
+                        message = L10n.current.themeModeLight;
                         break;
                       case ThemeMode.light:
                         Shared.themeMode = ThemeMode.dark;
+                        message = L10n.current.themeModeDark;
                         break;
                       case ThemeMode.dark:
                         Shared.themeMode = ThemeMode.system;
+                        message = L10n.current.themeModeSystem;
                         break;
                     }
                   });
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text(message),
+                      duration: const Duration(seconds: 1),
+                    ),
+                  );
                 },
               );
             },
