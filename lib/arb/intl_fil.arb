@@ -156,6 +156,8 @@
   "caseSensitive": "Iniintindi ang malaki/maliit na titik",
   "isRegex": "Regex ba",
   "language": "Wika: ",
+  "languageFollowSystem": "Sundin ang wika ng system",
+  "languageEnglishOnly": "Ingles",
   "indexOne": "Index ng unang karakter",
   "indexTwo": "Index ng pangalawang karakter",
   "toLast": "-hanggang-huli",

@@ -135,6 +135,8 @@
   "caseSensitive": "Büyük Küçük Harfe Duyarlı",
   "isRegex": "Düzenli İfade Kullan",
   "language": "Dil:",
+  "languageFollowSystem": "Sistem dilini takip et",
+  "languageEnglishOnly": "İngilizce",
   "indexOne": "Birinci Konum",
   "indexTwo": "İkinci Konum",
   "toLast": "Son'a Kadar",

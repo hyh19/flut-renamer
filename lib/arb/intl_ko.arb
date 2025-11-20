@@ -135,6 +135,8 @@
   "caseSensitive": "대소문자 구분",
   "isRegex": "정규 표현식 사용",
   "language": "언어:",
+  "languageFollowSystem": "시스템 언어 따르기",
+  "languageEnglishOnly": "영어",
   "indexOne": "첫 번째 위치",
   "indexTwo": "두 번째 위치",
   "toLast": "마지막까지",

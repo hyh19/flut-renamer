@@ -229,6 +229,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "الاحتفاظ بالأحرف بينهما",
     ),
     "language": MessageLookupByLibrary.simpleMessage("اللغة:"),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("الإنجليزية"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "اتباع لغة النظام",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("الحد"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "مساعد إعادة تسمية الملفات الدُفعات",
@@ -322,7 +326,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "هل أعجبك تطبيقنا؟ قم بتقييمنا في متجر التطبيقات أو قم بإعطاء إعجاب على GitHub لمساعدتنا على النمو. تعليقاتك مهمة لنا! شكرًا لدعمك.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
       "أعط إعجابًا على GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage("قم بتقييم في المتجر"),
@@ -363,6 +367,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("حفظ"),
     "select": MessageLookupByLibrary.simpleMessage("تحديد"),
     "selectAll": MessageLookupByLibrary.simpleMessage("تحديد الكل"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "التبديل بين اتجاه العد من البداية ومن النهاية",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

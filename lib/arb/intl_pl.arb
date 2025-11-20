@@ -156,6 +156,8 @@
   "caseSensitive": "Rozróżnianie wielkości liter",
   "isRegex": "Jest regex",
   "language": "Język: ",
+  "languageFollowSystem": "Używaj języka systemu",
+  "languageEnglishOnly": "Angielski",
   "indexOne": "Indeks pierwszego znaku",
   "indexTwo": "Indeks drugiego znaku",
   "toLast": "-do-ostatniego",

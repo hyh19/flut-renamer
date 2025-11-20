@@ -239,6 +239,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "उनके बीच के वर्ण रखें",
     ),
     "language": MessageLookupByLibrary.simpleMessage("भाषा: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("अंग्रेजी"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "सिस्टम भाषा का अनुसरण करें",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("सीमा"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "बैच फ़ाइल नाम बदलने सहायक",
@@ -320,8 +324,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "हमारा ऐप पसंद आ रहा है? स्टोर या GitHub पर एक त्वरित रेटिंग देकर हमें बढ़ने में मदद करें। आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! आपके समर्थन के लिए धन्यवाद।",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Github पर स्टार करें",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "GitHub पर स्टार करें",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage("स्टोर पर ऐप रेट करें"),
     "ratingTitle": MessageLookupByLibrary.simpleMessage("हमारे ऐप को रेट करें"),

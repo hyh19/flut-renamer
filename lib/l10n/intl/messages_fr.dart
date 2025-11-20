@@ -250,6 +250,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Conserver les caractères entre les deux positions",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Langue :"),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Anglais"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Utiliser la langue du système",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("Limite"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "assistant de renommage de fichiers par lots",
@@ -347,8 +351,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Vous aimez notre application ? Aidez-nous à grandir en lui donnant une note rapide sur le magasin d\'applications ou sur GitHub. Vos commentaires nous sont précieux ! Merci pour votre soutien.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Ajouter une étoile sur Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Ajouter une étoile sur GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Noter l\'application sur le magasin",
@@ -390,6 +394,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("Enregistrer"),
     "select": MessageLookupByLibrary.simpleMessage("Sélectionner"),
     "selectAll": MessageLookupByLibrary.simpleMessage("Tout sélectionner"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "Changement de direction de comptage entre du début et de la fin",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

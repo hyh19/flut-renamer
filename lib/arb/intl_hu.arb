@@ -156,6 +156,8 @@
   "caseSensitive": "Kis- és nagybetű érzékeny",
   "isRegex": "Reguláris kifejezés",
   "language": "Nyelv: ",
+  "languageFollowSystem": "Rendszer nyelvének követése",
+  "languageEnglishOnly": "Angol",
   "indexOne": "Első karakter indexe",
   "indexTwo": "Második karakter indexe",
   "toLast": "-tól a végéig",

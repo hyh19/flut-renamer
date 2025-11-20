@@ -198,6 +198,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "isRegex": MessageLookupByLibrary.simpleMessage("正規表現を使用"),
     "keepCharacters": MessageLookupByLibrary.simpleMessage("両方の文字を保持"),
     "language": MessageLookupByLibrary.simpleMessage("言語："),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("英語"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage("システム言語に従う"),
     "limit": MessageLookupByLibrary.simpleMessage("回数制限"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "ファイル一括リネームアシスタント",
@@ -253,7 +255,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "当アプリを気に入りましたか？アプリストアで評価していただくか、GitHubでスターを付けていただくと成長に役立ちます。お客様のフィードバックは非常に重要です。ご支援いただきありがとうございます。",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage("GitHubでスターを付ける"),
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage("GitHubでスターを付ける"),
     "ratingStore": MessageLookupByLibrary.simpleMessage("ストアで評価"),
     "ratingTitle": MessageLookupByLibrary.simpleMessage("アプリを評価する"),
     "rearrange": MessageLookupByLibrary.simpleMessage("並べ替え"),
@@ -282,6 +284,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("保存"),
     "select": MessageLookupByLibrary.simpleMessage("選択"),
     "selectAll": MessageLookupByLibrary.simpleMessage("すべて選択"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "最初からと最後からのカウント方向の切り替え",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

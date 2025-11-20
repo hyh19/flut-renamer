@@ -44,7 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Switching counting direction between from the beginning and from the end, currently counting from ${Intl.select(toEnd, {'true': 'the end', 'false': 'the beginning', 'other': ''})}";
 
   static String m9(value) =>
-      "This is a dropdown button, current value is \"${value}\", double click to open the it and pick another value.";
+      "This is a dropdown button, current value is \"${value}\", double click to open it and pick another value.";
 
   static String m10(last) => "last modified at ${last}.";
 
@@ -227,6 +227,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Keep characters between them",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Language: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("English"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Follow system language",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("limit"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "batch file rename assistant",
@@ -322,7 +326,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Enjoying our app? Help us grow by giving it a quick rating on the store or GitHub. Your feedback means the world to us! Thanks for your support.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage("Star it on Github"),
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage("Star it on GitHub"),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Rate the app on store",
     ),

@@ -218,6 +218,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "isRegex": MessageLookupByLibrary.simpleMessage("הוא regex"),
     "keepCharacters": MessageLookupByLibrary.simpleMessage("שמור תווים ביניהם"),
     "language": MessageLookupByLibrary.simpleMessage("שפה: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("אנגלית"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "ביצוע אחר שפת המערכת",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("גבול"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "עוזר שינוי שם קבצים אצווה",
@@ -295,8 +299,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "נהנה מהאפליקציה שלנו? עזור לנו לגדול על ידי מתן דירוג מהיר בחנות או ב-GitHub. המשוב שלך חשוב לנו מאוד! תודה על התמיכה שלך.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "סמן אותה בכוכב ב-Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "סמן אותה בכוכב ב-GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "דרג את האפליקציה בחנות",

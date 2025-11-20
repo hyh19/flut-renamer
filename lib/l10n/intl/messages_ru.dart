@@ -236,6 +236,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Сохранить символы между ними",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Язык: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Английский"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Следовать языку системы",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("лимит"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "помощник массового переименования файлов",
@@ -329,8 +333,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Нравится наше приложение? Помогите нам расти, поставив быструю оценку в магазине или на GitHub. Ваш отзыв очень важен для нас! Спасибо за вашу поддержку.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Поставить звезду на Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Поставить звезду на GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Оценить приложение в магазине",

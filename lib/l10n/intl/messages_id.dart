@@ -236,6 +236,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Pertahankan karakter di antara mereka",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Bahasa: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Inggris"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Ikuti bahasa sistem",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("batas"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "asisten pengganti nama file batch",
@@ -325,8 +329,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Menikmati aplikasi kami? Bantu kami tumbuh dengan memberikan rating cepat di toko atau GitHub. Masukan Anda sangat berarti bagi kami! Terima kasih atas dukungan Anda.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Beri bintang di Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Beri bintang di GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Beri rating aplikasi di toko",

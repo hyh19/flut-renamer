@@ -246,6 +246,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Zeichen zwischen beiden behalten",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Sprache:"),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Englisch"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Systemsprache verwenden",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("Limit"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "batch-dateiumbenennungsassistent",
@@ -339,7 +343,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Mögen Sie unsere App? Geben Sie uns eine gute Bewertung im App Store oder geben Sie auf GitHub einen Stern, um uns zu unterstützen. Ihr Feedback ist uns sehr wichtig! Vielen Dank für Ihre Unterstützung.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
       "GitHub-Repository markieren",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage("Im Store bewerten"),
@@ -382,6 +386,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("Speichern"),
     "select": MessageLookupByLibrary.simpleMessage("Auswählen"),
     "selectAll": MessageLookupByLibrary.simpleMessage("Alle auswählen"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "Wechseln der Zählrichtung zwischen vom Anfang und vom Ende",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

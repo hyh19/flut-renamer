@@ -242,6 +242,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Behold tegn mellem dem",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Sprog: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Engelsk"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Følg systemets sprog",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("grænse"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "batch filnavn omnavngivning assistent",
@@ -333,8 +337,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Nyder du vores app? Hjælp os med at vokse ved at give en hurtig bedømmelse i butikken eller på GitHub. Din feedback betyder meget for os! Tak for din støtte.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Stjernemærk den på Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Stjernemærk den på GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Bedøm appen i butikken",

@@ -39,7 +39,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "取代：將「${targetString}」取代為「${replacementString}」。";
 
   static String m8(toEnd) =>
-      "切換計數方式是zhèng shǔ還是dào shǔ，目前是${Intl.select(toEnd, {'true': 'dào shǔ', 'false': 'zhèng shǔ', 'other': ''})}";
+      "切換計數方式為從開頭計數或從末尾計數，目前從${Intl.select(toEnd, {'true': '末尾', 'false': '開頭', 'other': ''})}計數。";
 
   static String m9(value) => "這是一個下拉按鈕，現在選中的是「${value}」，雙擊以打開下拉按鈕並選取另一個值。";
 
@@ -68,7 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
     "aboutContent": MessageLookupByLibrary.simpleMessage(
-      "此應用程式旨在幫助使用者重新命名檔案。它使用Flutter框架開發，因此也適用於其他作業系統。它是完全開源的，可以進行審查和貢獻。",
+      "此應用程式旨在幫助使用者重新命名檔案。它使用 Flutter 框架開發，因此也適用於其他作業系統。它是完全開源的，可以進行審查和貢獻。",
     ),
     "add": MessageLookupByLibrary.simpleMessage("加入"),
     "addFile": MessageLookupByLibrary.simpleMessage("加入檔案"),
@@ -96,7 +96,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI 重新命名"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "使用Flut Renamer，您不僅可以重新命名檔案，還可以重新命名目錄。長按目錄將其選中，然後在左上角下拉按鈕中選擇「檔案和目錄」即可啟用目錄重新命名功能。出於安全考慮，某些系統保留目錄不可選。",
+      "使用 Flut Renamer，您不僅可以重新命名檔案，還可以重新命名目錄。長按目錄將其選中，然後在左上角下拉按鈕中選擇「檔案和目錄」即可啟用目錄重新命名功能。出於安全考慮，某些系統保留目錄不可選。",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage("重新命名目錄"),
     "appError": MessageLookupByLibrary.simpleMessage("應用程式錯誤"),
@@ -129,7 +129,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "directories": MessageLookupByLibrary.simpleMessage("目錄"),
     "doNotRemindAgain": MessageLookupByLibrary.simpleMessage("確定，不再提醒"),
     "dragNotSupported": MessageLookupByLibrary.simpleMessage(
-      "由於系統安全限制，我們無法重新命名從此應用程式拖放的檔案。",
+      "由於系統安全限制，不支援從此應用程式拖放檔案。",
     ),
     "dragToAdd": MessageLookupByLibrary.simpleMessage("拖放檔案進行加入。"),
     "dropToAdd": MessageLookupByLibrary.simpleMessage("在此處釋放檔案。"),
@@ -179,12 +179,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "insertToString": m4,
     "insertedText": MessageLookupByLibrary.simpleMessage("要插入的文字"),
     "iosRemindContent": MessageLookupByLibrary.simpleMessage(
-      "要在iOS上選取檔案，首先選擇一個包含您的檔案的資料夾。然後，在選定的資料夾中，選擇您要重新命名的檔案。由於iOS的限制，我們必須採取這兩個步驟，這可以確保安全的檔案存取。讓我們開始吧！",
+      "要在 iOS 上選取檔案，首先選擇一個包含您的檔案的資料夾。然後，在選定的資料夾中，選擇您要重新命名的檔案。由於 iOS 的限制，我們必須採取這兩個步驟，這可以確保安全的檔案存取。讓我們開始吧！",
     ),
-    "iosRemindTitle": MessageLookupByLibrary.simpleMessage("關於在iOS上選取檔案"),
+    "iosRemindTitle": MessageLookupByLibrary.simpleMessage("關於在 iOS 上選取檔案"),
     "isRegex": MessageLookupByLibrary.simpleMessage("使用正則表達式"),
     "keepCharacters": MessageLookupByLibrary.simpleMessage("保留二者之間的字元"),
     "language": MessageLookupByLibrary.simpleMessage("語言："),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("英語"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage("跟隨系統語言"),
     "limit": MessageLookupByLibrary.simpleMessage("次數"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("檔案批量重新命名助手"),
     "manualMode": MessageLookupByLibrary.simpleMessage("手動模式"),
@@ -218,25 +220,27 @@ class MessageLookup extends MessageLookupByLibrary {
       "為了提供檔案重新命名服務，我們需要您授權我們管理外部儲存。這樣我們才能存取並重新命名您裝置上儲存的檔案。如果沒有此權限，應用程式將無法存取檔案的完整路徑，從而無法進行重新命名操作。我們向您保證，我們非常重視您的私隱和安全，我們只會在重新命名目的下存取檔案。",
     ),
     "permissionTitle": MessageLookupByLibrary.simpleMessage("外部儲存權限"),
-    "photoAltitude": MessageLookupByLibrary.simpleMessage("照片GPS海拔（來自exif）"),
-    "photoAperture": MessageLookupByLibrary.simpleMessage("光圈數值（來自exif）"),
-    "photoCamName": MessageLookupByLibrary.simpleMessage("相機名稱（來自exif）"),
-    "photoCopyright": MessageLookupByLibrary.simpleMessage("版權所有者姓名（來自exif）"),
-    "photoDate": MessageLookupByLibrary.simpleMessage("照片拍攝日期（來自exif）"),
-    "photoFocalLength": MessageLookupByLibrary.simpleMessage("焦距（來自exif）"),
-    "photoISO": MessageLookupByLibrary.simpleMessage("ISO數值（來自exif）"),
-    "photoLatitude": MessageLookupByLibrary.simpleMessage("照片GPS緯度（來自exif）"),
-    "photoLensName": MessageLookupByLibrary.simpleMessage("鏡頭名稱（來自exif）"),
-    "photoLongitude": MessageLookupByLibrary.simpleMessage("照片GPS經度（來自exif）"),
-    "photoPhotographer": MessageLookupByLibrary.simpleMessage("攝影師姓名（來自exif）"),
-    "photoShutter": MessageLookupByLibrary.simpleMessage("快門速度（來自exif）"),
-    "photoTime": MessageLookupByLibrary.simpleMessage("照片拍攝時間（來自exif）"),
+    "photoAltitude": MessageLookupByLibrary.simpleMessage("照片 GPS 海拔（來自 EXIF）"),
+    "photoAperture": MessageLookupByLibrary.simpleMessage("光圈數值（來自 EXIF）"),
+    "photoCamName": MessageLookupByLibrary.simpleMessage("相機名稱（來自 EXIF）"),
+    "photoCopyright": MessageLookupByLibrary.simpleMessage("版權所有者姓名（來自 EXIF）"),
+    "photoDate": MessageLookupByLibrary.simpleMessage("照片拍攝日期（來自 EXIF）"),
+    "photoFocalLength": MessageLookupByLibrary.simpleMessage("焦距（來自 EXIF）"),
+    "photoISO": MessageLookupByLibrary.simpleMessage("ISO 數值（來自 EXIF）"),
+    "photoLatitude": MessageLookupByLibrary.simpleMessage("照片 GPS 緯度（來自 EXIF）"),
+    "photoLensName": MessageLookupByLibrary.simpleMessage("鏡頭名稱（來自 EXIF）"),
+    "photoLongitude": MessageLookupByLibrary.simpleMessage(
+      "照片 GPS 經度（來自 EXIF）",
+    ),
+    "photoPhotographer": MessageLookupByLibrary.simpleMessage("攝影師姓名（來自 EXIF）"),
+    "photoShutter": MessageLookupByLibrary.simpleMessage("快門速度（來自 EXIF）"),
+    "photoTime": MessageLookupByLibrary.simpleMessage("照片拍攝時間（來自 EXIF）"),
     "prefix": MessageLookupByLibrary.simpleMessage("前綴"),
     "rating": MessageLookupByLibrary.simpleMessage("應用程式評分"),
     "ratingContent": MessageLookupByLibrary.simpleMessage(
-      "喜歡我們的應用程式嗎？在應用程式商店給個好評或在GitHub上點讚來幫助我們成長。您的回饋對我們非常重要！感謝您的支持。",
+      "喜歡我們的應用程式嗎？在應用程式商店給個好評或在 GitHub 上按讚來幫助我們成長。您的回饋對我們非常重要！感謝您的支持。",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage("給GitHub儲存庫點讚"),
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage("在 GitHub 儲存庫按讚"),
     "ratingStore": MessageLookupByLibrary.simpleMessage("去商店評分"),
     "ratingTitle": MessageLookupByLibrary.simpleMessage("評價我們的應用程式"),
     "rearrange": MessageLookupByLibrary.simpleMessage("重排"),
@@ -265,6 +269,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("儲存"),
     "select": MessageLookupByLibrary.simpleMessage("選擇"),
     "selectAll": MessageLookupByLibrary.simpleMessage("全選"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "切換計數方式為從開頭計數或從末尾計數",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

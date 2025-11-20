@@ -135,6 +135,8 @@
   "caseSensitive": "大文字と小文字を区別する",
   "isRegex": "正規表現を使用",
   "language": "言語：",
+  "languageFollowSystem": "システム言語に従う",
+  "languageEnglishOnly": "英語",
   "indexOne": "位置1",
   "indexTwo": "位置2",
   "toLast": "最後まで",

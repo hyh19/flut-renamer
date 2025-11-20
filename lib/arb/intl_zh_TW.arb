@@ -135,6 +135,8 @@
   "caseSensitive": "區分大小寫",
   "isRegex": "使用正則運算式",
   "language": "語言：",
+  "languageFollowSystem": "跟隨系統語言",
+  "languageEnglishOnly": "英語",
   "indexOne": "第一處位置",
   "indexTwo": "第二處位置",
   "toLast": "倒數",

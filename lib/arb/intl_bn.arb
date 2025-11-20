@@ -156,6 +156,8 @@
   "caseSensitive": "কেস সংবেদনশীল",
   "isRegex": "regex",
   "language": "ভাষা: ",
+  "languageFollowSystem": "সিস্টেম ভাষা অনুসরণ করুন",
+  "languageEnglishOnly": "ইংরেজি",
   "indexOne": "প্রথম অক্ষরের সূচক",
   "indexTwo": "দ্বিতীয় অক্ষরের সূচক",
   "toLast": "-শেষ পর্যন্ত",

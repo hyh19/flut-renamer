@@ -156,6 +156,8 @@
   "caseSensitive": "Bambanta MANYA da ƙanana",
   "isRegex": "Regex ne",
   "language": "Harshe: ",
+  "languageFollowSystem": "Bi harshen tsarin",
+  "languageEnglishOnly": "Turanci",
   "indexOne": "Harafi na farko",
   "indexTwo": "Harafi na biyu",
   "toLast": "-zuwa ƙarshe",

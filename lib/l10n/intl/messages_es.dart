@@ -244,6 +244,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Mantener caracteres entre ambos",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Idioma:"),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Inglés"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Seguir idioma del sistema",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("Límite"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "asistente de renombrado de archivos por lotes",
@@ -343,7 +347,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "¿Te gusta nuestra aplicación? Ayúdanos a crecer calificándonos en la tienda de aplicaciones o dándonos un like en GitHub. ¡Tu feedback es muy importante para nosotros! Gracias por tu apoyo.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage("Dar like en GitHub"),
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage("Dar like en GitHub"),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Calificar en la tienda",
     ),
@@ -384,6 +388,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("Guardar"),
     "select": MessageLookupByLibrary.simpleMessage("Seleccionar"),
     "selectAll": MessageLookupByLibrary.simpleMessage("Seleccionar todo"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "Cambiar la dirección de conteo entre desde el principio y desde el final",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

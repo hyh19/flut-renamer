@@ -156,6 +156,8 @@
   "caseSensitive": "Ευαίσθητο σε πεζά-κεφαλαία",
   "isRegex": "Είναι regex",
   "language": "Γλώσσα: ",
+  "languageFollowSystem": "Ακολούθηση γλώσσας συστήματος",
+  "languageEnglishOnly": "Αγγλικά",
   "indexOne": "Δείκτης πρώτου χαρακτήρα",
   "indexTwo": "Δείκτης δεύτερου χαρακτήρα",
   "toLast": "-προς-τελευταίο",

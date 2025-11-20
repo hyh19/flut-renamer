@@ -135,6 +135,8 @@
   "caseSensitive": "Sensible a mayúsculas",
   "isRegex": "Usar expresión regular",
   "language": "Idioma:",
+  "languageFollowSystem": "Seguir idioma del sistema",
+  "languageEnglishOnly": "Inglés",
   "indexOne": "Primera posición",
   "indexTwo": "Segunda posición",
   "toLast": "Hasta el final",

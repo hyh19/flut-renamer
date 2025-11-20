@@ -156,6 +156,8 @@
   "caseSensitive": "Kirjainkokoherkkä",
   "isRegex": "On regex",
   "language": "Kieli: ",
+  "languageFollowSystem": "Käytä järjestelmän kieltä",
+  "languageEnglishOnly": "Englanti",
   "indexOne": "Ensimmäisen merkin indeksi",
   "indexTwo": "Toisen merkin indeksi",
   "toLast": "-viimeiseen",

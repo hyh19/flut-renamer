@@ -135,6 +135,8 @@
   "caseSensitive": "Sensible à la casse",
   "isRegex": "Utiliser les expressions régulières",
   "language": "Langue :",
+  "languageFollowSystem": "Utiliser la langue du système",
+  "languageEnglishOnly": "Anglais",
   "indexOne": "Première position",
   "indexTwo": "Deuxième position",
   "toLast": "À la dernière",

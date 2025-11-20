@@ -156,6 +156,8 @@
   "caseSensitive": "کیس حساس",
   "isRegex": "regex ہے",
   "language": "زبان: ",
+  "languageFollowSystem": "نظام کی زبان کی پیروی کریں",
+  "languageEnglishOnly": "انگریزی",
   "indexOne": "پہلے کریکٹر کا انڈیکس",
   "indexTwo": "دوسرے کریکٹر کا انڈیکس",
   "toLast": "-آخری تک",

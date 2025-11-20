@@ -229,6 +229,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "เก็บอักขระทั้งสองข้าง",
     ),
     "language": MessageLookupByLibrary.simpleMessage("ภาษา:"),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("อังกฤษ"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "ปฏิบัติตามภาษาของระบบ",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("จำกัด"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "ผู้ช่วยเปลี่ยนชื่อไฟล์แบบกลุ่ม",
@@ -316,7 +320,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "ชอบแอปของเราหรือไม่? โปรดให้คะแนนดี ๆ ใน App Store หรือกดไลค์ใน GitHub เพื่อช่วยเราในการ成⻑ ความคิดเห็นของคุณมีความสำคัญอย่างยิ่งสำหรับเรา! ขอบคุณสำหรับการสนับสนุนของคุณ",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage("กดไลค์บน GitHub"),
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage("กดไลค์บน GitHub"),
     "ratingStore": MessageLookupByLibrary.simpleMessage("ให้คะแนนใน Store"),
     "ratingTitle": MessageLookupByLibrary.simpleMessage("ให้คะแนนแอปของเรา"),
     "rearrange": MessageLookupByLibrary.simpleMessage("จัดเรียงใหม่"),
@@ -355,6 +359,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("บันทึก"),
     "select": MessageLookupByLibrary.simpleMessage("เลือก"),
     "selectAll": MessageLookupByLibrary.simpleMessage("เลือกทั้งหมด"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "สลับทิศทางการนับระหว่างจากจุดเริ่มต้นและจากจุดสิ้นสุด",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

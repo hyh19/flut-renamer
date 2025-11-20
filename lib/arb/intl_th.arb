@@ -135,6 +135,8 @@
   "caseSensitive": "ตรวจสอบตัวพิมพ์ใหญ่เล็ก",
   "isRegex": "ใช้เป็น Regular Expression",
   "language": "ภาษา:",
+  "languageFollowSystem": "ปฏิบัติตามภาษาของระบบ",
+  "languageEnglishOnly": "อังกฤษ",
   "indexOne": "ตำแหน่งแรก",
   "indexTwo": "ตำแหน่งที่สอง",
   "toLast": "สุดท้าย",

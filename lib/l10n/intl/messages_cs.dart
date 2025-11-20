@@ -236,6 +236,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Zachovat znaky mezi nimi",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Jazyk: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Angličtina"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Použít jazyk systému",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("limit"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "asistent pro hromadné přejmenování souborů",
@@ -325,8 +329,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Líbí se vám naše aplikace? Pomozte nám růst tím, že jí dáte rychlé hodnocení v obchodě nebo na GitHub. Vaše zpětná vazba pro nás znamená hodně! Děkujeme za vaši podporu.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Označte ji hvězdičkou na Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Označte ji hvězdičkou na GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Ohodnoťte aplikaci v obchodě",

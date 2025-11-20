@@ -234,6 +234,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Houd tekens tussen hen",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Taal: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Engels"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Systeemtaal volgen",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("limiet"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "batch bestandsnaam wijzigen assistent",
@@ -335,8 +339,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Geniet u van onze app? Help ons groeien door een snelle beoordeling te geven in de winkel of op GitHub. Uw feedback betekent veel voor ons! Bedankt voor uw steun.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Geef een ster op Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Geef een ster op GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Beoordeel de app in de winkel",

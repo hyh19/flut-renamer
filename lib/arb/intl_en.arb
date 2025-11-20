@@ -156,6 +156,8 @@
   "caseSensitive": "Case sensitive",
   "isRegex": "Is regex",
   "language": "Language: ",
+  "languageFollowSystem": "Follow system language",
+  "languageEnglishOnly": "English",
   "indexOne": "First character index",
   "indexTwo": "Second character index",
   "toLast": "-to-last",

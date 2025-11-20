@@ -156,6 +156,8 @@
   "caseSensitive": "Rozlišovat velká a malá písmena",
   "isRegex": "Je regex",
   "language": "Jazyk: ",
+  "languageFollowSystem": "Použít jazyk systému",
+  "languageEnglishOnly": "Angličtina",
   "indexOne": "Index prvního znaku",
   "indexTwo": "Index druhého znaku",
   "toLast": "-do-posledního",

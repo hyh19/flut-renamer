@@ -241,6 +241,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Pidä merkit niiden välillä",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Kieli: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Englanti"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Käytä järjestelmän kieltä",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("raja"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "tiedostojen massanimeämisen avustaja",
@@ -340,8 +344,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Nautitko sovelluksestamme? Auta meitä kasvamaan antamalla nopea arvostelu kaupassa tai GitHubissa. Palautteesi merkitsee meille paljon! Kiitos tuestasi.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Tähditä se Githubissa",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Tähditä se GitHubissa",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Arvioi sovellus kaupassa",

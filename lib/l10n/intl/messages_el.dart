@@ -248,6 +248,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Διατήρηση χαρακτήρων μεταξύ τους",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Γλώσσα: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Αγγλικά"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Ακολούθηση γλώσσας συστήματος",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("όριο"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "βοηθός μαζικής μετονομασίας αρχείων",
@@ -347,8 +351,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Απολαμβάνετε την εφαρμογή μας; Βοηθήστε μας να αναπτυχθούμε δίνοντας μια γρήγορη αξιολόγηση στο κατάστημα ή στο GitHub. Η ανατροφοδότησή σας σημαίνει πολλά για εμάς! Ευχαριστούμε για την υποστήριξή σας.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Σημειώστε το με αστέρι στο Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Σημειώστε το με αστέρι στο GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Αξιολογήστε την εφαρμογή στο κατάστημα",

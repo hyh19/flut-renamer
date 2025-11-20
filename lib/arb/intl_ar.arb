@@ -135,6 +135,8 @@
   "caseSensitive": "حساسية لحالة الأحرف",
   "isRegex": "استخدام التعبيرات المنطقية",
   "language": "اللغة:",
+  "languageFollowSystem": "اتباع لغة النظام",
+  "languageEnglishOnly": "الإنجليزية",
   "indexOne": "الموقع الأول",
   "indexTwo": "الموقع الثاني",
   "toLast": "إلى الأخير",

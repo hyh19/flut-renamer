@@ -156,6 +156,8 @@
   "caseSensitive": "केस संवेदनशील",
   "isRegex": "रेगेक्स है",
   "language": "भाषा: ",
+  "languageFollowSystem": "सिस्टम भाषा का अनुसरण करें",
+  "languageEnglishOnly": "अंग्रेजी",
   "indexOne": "पहला वर्ण सूचकांक",
   "indexTwo": "दूसरा वर्ण सूचकांक",
   "toLast": "-से-अंतिम",

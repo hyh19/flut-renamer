@@ -232,6 +232,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Behåll tecken mellan dem",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Språk: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Engelska"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Följ systemets språk",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("gräns"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "batch-filnamnbyte assistent",
@@ -323,8 +327,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Gillar du vår app? Hjälp oss att växa genom att ge en snabb betyg i butiken eller på GitHub. Din feedback betyder mycket för oss! Tack för ditt stöd.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Stjärnmärk den på Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Stjärnmärk den på GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Betygsätt appen i butiken",

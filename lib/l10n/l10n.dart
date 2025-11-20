@@ -244,11 +244,11 @@ class L10n {
     );
   }
 
-  /// `Star it on Github`
-  String get ratingGithub {
+  /// `Star it on GitHub`
+  String get ratingGitHub {
     return Intl.message(
-      'Star it on Github',
-      name: 'ratingGithub',
+      'Star it on GitHub',
+      name: 'ratingGitHub',
       desc: '',
       args: [],
     );
@@ -1184,6 +1184,26 @@ class L10n {
     return Intl.message('Language: ', name: 'language', desc: '', args: []);
   }
 
+  /// `Follow system language`
+  String get languageFollowSystem {
+    return Intl.message(
+      'Follow system language',
+      name: 'languageFollowSystem',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `English`
+  String get languageEnglishOnly {
+    return Intl.message(
+      'English',
+      name: 'languageEnglishOnly',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `First character index`
   String get indexOne {
     return Intl.message(
@@ -1554,10 +1574,10 @@ class L10n {
     );
   }
 
-  /// `This is a dropdown button, current value is "{value}", double click to open the it and pick another value.`
+  /// `This is a dropdown button, current value is "{value}", double click to open it and pick another value.`
   String semanticsDropdownButton(String value) {
     return Intl.message(
-      'This is a dropdown button, current value is "$value", double click to open the it and pick another value.',
+      'This is a dropdown button, current value is "$value", double click to open it and pick another value.',
       name: 'semanticsDropdownButton',
       desc: '',
       args: [value],
@@ -1669,21 +1689,27 @@ class AppLocalizationDelegate extends LocalizationsDelegate<L10n> {
       Locale.fromSubtags(languageCode: 'el'),
       Locale.fromSubtags(languageCode: 'es'),
       Locale.fromSubtags(languageCode: 'fi'),
+      Locale.fromSubtags(languageCode: 'fil'),
       Locale.fromSubtags(languageCode: 'fr'),
+      Locale.fromSubtags(languageCode: 'ha'),
       Locale.fromSubtags(languageCode: 'he'),
       Locale.fromSubtags(languageCode: 'hi'),
+      Locale.fromSubtags(languageCode: 'hu'),
       Locale.fromSubtags(languageCode: 'id'),
       Locale.fromSubtags(languageCode: 'it'),
       Locale.fromSubtags(languageCode: 'ja'),
       Locale.fromSubtags(languageCode: 'ko'),
+      Locale.fromSubtags(languageCode: 'ms'),
       Locale.fromSubtags(languageCode: 'nl'),
       Locale.fromSubtags(languageCode: 'no'),
       Locale.fromSubtags(languageCode: 'pl'),
       Locale.fromSubtags(languageCode: 'pt'),
+      Locale.fromSubtags(languageCode: 'ro'),
       Locale.fromSubtags(languageCode: 'ru'),
       Locale.fromSubtags(languageCode: 'sv'),
       Locale.fromSubtags(languageCode: 'th'),
       Locale.fromSubtags(languageCode: 'tr'),
+      Locale.fromSubtags(languageCode: 'uk'),
       Locale.fromSubtags(languageCode: 'ur'),
       Locale.fromSubtags(languageCode: 'vi'),
       Locale.fromSubtags(languageCode: 'zh'),

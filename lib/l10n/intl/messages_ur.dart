@@ -234,6 +234,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "ان کے درمیان کریکٹرز رکھیں",
     ),
     "language": MessageLookupByLibrary.simpleMessage("زبان: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("انگریزی"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "نظام کی زبان کی پیروی کریں",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("حد"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "بیچ فائل نام تبدیل معاون",
@@ -323,8 +327,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "ہماری ایپ سے لطف اندوز ہو رہے ہیں؟ اسٹور یا GitHub پر ایک فوری درجہ بندی دے کر ہماری ترقی میں مدد کریں۔ آپ کی رائے ہمارے لیے بہت اہم ہے! آپ کی حمایت کا شکریہ۔",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Github پر اسے ستارہ دیں",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "GitHub پر اسے ستارہ دیں",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "اسٹور پر ایپ کی درجہ بندی کریں",

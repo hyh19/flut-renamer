@@ -236,6 +236,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Zachowaj znaki między nimi",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Język: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Angielski"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Używaj języka systemu",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("limit"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "asystent masowego zmieniania nazw plików",
@@ -329,8 +333,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Podoba Ci się nasza aplikacja? Pomóż nam rosnąć, dając szybką ocenę w sklepie lub na GitHub. Twoja opinia jest dla nas bardzo ważna! Dziękujemy za wsparcie.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Oznacz gwiazdką na Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Oznacz gwiazdką na GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Oceń aplikację w sklepie",

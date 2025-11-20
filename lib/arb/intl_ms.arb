@@ -156,6 +156,8 @@
   "caseSensitive": "Beza huruf besar kecil",
   "isRegex": "Gunakan regex",
   "language": "Bahasa: ",
+  "languageFollowSystem": "Ikuti bahasa sistem",
+  "languageEnglishOnly": "Bahasa Inggeris",
   "indexOne": "Indeks aksara pertama",
   "indexTwo": "Indeks aksara kedua",
   "toLast": "-hingga hujung",

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+enum LanguageMode { system, english }
+
 class Shared {
   static SharedPreferences? _pref;
 
@@ -13,7 +15,14 @@ class Shared {
     _ruleName = pref.getString(_ruleNameKey) ?? _ruleName;
     _doNotRemindAgain = pref.getBool(_doNotRemindAgainKey) ?? _doNotRemindAgain;
     _seedColorValue = pref.getInt(_seedColorKey) ?? _seedColorValue;
+    final storedModeName =
+        pref.getString(_languageModeKey) ?? LanguageMode.system.name;
+    _languageMode = LanguageMode.values.firstWhere(
+      (mode) => mode.name == storedModeName,
+      orElse: () => LanguageMode.system,
+    );
     seedColorNotifier.value = Color(_seedColorValue);
+    localeNotifier.value = _resolveLocale();
   }
 
   static SharedPreferences get pref => _pref!;
@@ -27,6 +36,7 @@ class Shared {
   static const _ruleNameKey = 'rule_name';
   static const _doNotRemindAgainKey = 'do_not_remind_again';
   static const _seedColorKey = 'seed_color';
+  static const _languageModeKey = 'language_mode';
 
   static String _fileOrDir = 'Files';
 
@@ -95,4 +105,37 @@ class Shared {
 
   static final ValueNotifier<Color> seedColorNotifier =
       ValueNotifier<Color>(Color(_seedColorValue));
+
+  static LanguageMode _languageMode = LanguageMode.system;
+
+  static LanguageMode get languageMode => _languageMode;
+
+  static set languageMode(LanguageMode value) {
+    if (_languageMode == value) {
+      return;
+    }
+    _languageMode = value;
+    pref.setString(_languageModeKey, value.name);
+    localeNotifier.value = _resolveLocale();
+  }
+
+  static Locale _systemLocale = const Locale('en');
+
+  static void updateSystemLocale(Locale locale) {
+    _systemLocale = locale;
+    if (_languageMode == LanguageMode.system) {
+      localeNotifier.value = _resolveLocale();
+    }
+  }
+
+  static Locale _resolveLocale() {
+    return _languageMode == LanguageMode.english
+        ? const Locale('en')
+        : _systemLocale;
+  }
+
+  static Locale get currentLocale => localeNotifier.value;
+
+  static final ValueNotifier<Locale> localeNotifier =
+      ValueNotifier<Locale>(_systemLocale);
 }

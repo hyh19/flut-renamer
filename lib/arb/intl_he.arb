@@ -156,6 +156,8 @@
   "caseSensitive": "רגיש לאותיות גדולות/קטנות",
   "isRegex": "הוא regex",
   "language": "שפה: ",
+  "languageFollowSystem": "ביצוע אחר שפת המערכת",
+  "languageEnglishOnly": "אנגלית",
   "indexOne": "אינדקס התו הראשון",
   "indexTwo": "אינדקס התו השני",
   "toLast": "-לאחרון",

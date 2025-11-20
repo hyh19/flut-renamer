@@ -156,6 +156,8 @@
   "caseSensitive": "Skiftleggesensitiv",
   "isRegex": "Er regex",
   "language": "Språk: ",
+  "languageFollowSystem": "Følg systemets språk",
+  "languageEnglishOnly": "Engelsk",
   "indexOne": "Første tegnindeks",
   "indexTwo": "Andre tegnindeks",
   "toLast": "-til-siste",

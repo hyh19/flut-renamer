@@ -196,6 +196,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "isRegex": MessageLookupByLibrary.simpleMessage("정규 표현식 사용"),
     "keepCharacters": MessageLookupByLibrary.simpleMessage("두 문자 사이의 문자 유지"),
     "language": MessageLookupByLibrary.simpleMessage("언어:"),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("영어"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage("시스템 언어 따르기"),
     "limit": MessageLookupByLibrary.simpleMessage("제한"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage("파일 일괄 이름 변경 도우미"),
     "manualMode": MessageLookupByLibrary.simpleMessage("수동 모드"),
@@ -261,7 +263,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "우리 애플리케이션을 좋아하시나요? 앱 스토어에서 평가를 하거나 GitHub에서 스타를 눌러 성장하는 데 도움을 주세요. 여러분의 피드백은 우리에게 매우 중요합니다! 지원해 주셔서 감사합니다.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage("GitHub 저장소에 스타 누르기"),
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage("GitHub 저장소에 스타 누르기"),
     "ratingStore": MessageLookupByLibrary.simpleMessage("스토어에서 평가하기"),
     "ratingTitle": MessageLookupByLibrary.simpleMessage("우리 애플리케이션 평가하기"),
     "rearrange": MessageLookupByLibrary.simpleMessage("재정렬"),
@@ -290,6 +292,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("저장"),
     "select": MessageLookupByLibrary.simpleMessage("선택"),
     "selectAll": MessageLookupByLibrary.simpleMessage("모두 선택"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "처음부터와 끝부터의 계산 방향 전환",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

@@ -156,6 +156,8 @@
   "caseSensitive": "Sensibil la majuscule",
   "isRegex": "Regex",
   "language": "Limba: ",
+  "languageFollowSystem": "Urmează limba sistemului",
+  "languageEnglishOnly": "Engleză",
   "indexOne": "Index primul caracter",
   "indexTwo": "Index al doilea caracter",
   "toLast": "-până la final",

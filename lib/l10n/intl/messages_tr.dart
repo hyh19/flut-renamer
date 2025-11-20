@@ -48,6 +48,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static String m9(value) =>
       "Bu bir açılır düğmedir, şu anda seçili olan \'${value}\', başka bir değer seçmek için çift tıklayın.";
 
+  static String m10(last) => "Son değiştirilme zamanı ${last}.";
+
   static String m11(last, size) =>
       "En son değiştirilme zamanı ${last}, dosya boyutu ${size}";
 
@@ -241,6 +243,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "İki Konum Arasındaki Karakterleri Tut",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Dil:"),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("İngilizce"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Sistem dilini takip et",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("Sınır"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "toplu dosya yeniden adlandırma asistanı",
@@ -328,7 +334,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Uygulamamızı beğendiniz mi? Mağazada iyi bir puan vererek veya GitHub\'da beğenerek bize destek olun. Geri bildiriminiz bizim için çok önemlidir! Desteğiniz için teşekkür ederiz.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
       "GitHub Deposuna Beğeni Ver",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage("Mağazada Puan Ver"),
@@ -371,8 +377,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("Kaydet"),
     "select": MessageLookupByLibrary.simpleMessage("Seç"),
     "selectAll": MessageLookupByLibrary.simpleMessage("Tümünü Seç"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "Başlangıçtan ve sondan sayma yönünü değiştirme",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
+    "semanticsFileManagerDirSubtitle": m10,
     "semanticsFileManagerSubtitle": m11,
     "semanticsFileManagerTitle": m12,
     "semanticsFilesDropdownButton": MessageLookupByLibrary.simpleMessage(

@@ -233,6 +233,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "তাদের মধ্যে অক্ষর রাখুন",
     ),
     "language": MessageLookupByLibrary.simpleMessage("ভাষা: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("ইংরেজি"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "সিস্টেম ভাষা অনুসরণ করুন",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("সীমা"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "ব্যাচ ফাইল নাম পরিবর্তন সহায়ক",
@@ -322,8 +326,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "আমাদের অ্যাপ উপভোগ করছেন? স্টোরে বা GitHub-এ একটি দ্রুত রেটিং দিয়ে আমাদের বৃদ্ধিতে সাহায্য করুন। আপনার প্রতিক্রিয়া আমাদের কাছে অনেক গুরুত্বপূর্ণ! আপনার সমর্থনের জন্য ধন্যবাদ।",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Github-এ এটিকে স্টার করুন",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "GitHub-এ এটিকে স্টার করুন",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "স্টোরে অ্যাপ রেট করুন",

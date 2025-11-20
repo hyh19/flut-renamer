@@ -156,6 +156,8 @@
   "caseSensitive": "Phân biệt chữ hoa chữ thường",
   "isRegex": "Là regex",
   "language": "Ngôn ngữ: ",
+  "languageFollowSystem": "Theo ngôn ngữ hệ thống",
+  "languageEnglishOnly": "Tiếng Anh",
   "indexOne": "Chỉ số ký tự đầu tiên",
   "indexTwo": "Chỉ số ký tự thứ hai",
   "toLast": "-đến-cuối",

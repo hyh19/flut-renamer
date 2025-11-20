@@ -148,6 +148,23 @@ class _HomePageState extends State<HomePage> {
             icon: const Icon(Icons.palette),
             onPressed: showColorPickerDialog,
           ),
+          IconButton(
+            tooltip: Shared.languageMode == LanguageMode.system
+                ? L10n.current.languageFollowSystem
+                : L10n.current.languageEnglishOnly,
+            icon: Icon(
+              Shared.languageMode == LanguageMode.system
+                  ? Icons.language
+                  : Icons.abc,
+            ),
+            onPressed: () {
+              setState(() {
+                Shared.languageMode = Shared.languageMode == LanguageMode.system
+                    ? LanguageMode.english
+                    : LanguageMode.system;
+              });
+            },
+          ),
         ],
       ),
     );
@@ -317,7 +334,7 @@ class _HomeToolBarState extends State<HomeToolBar> {
               ),
             TextButton(
               onPressed: gotoGithub,
-              child: Text(L10n.current.ratingGithub),
+              child: Text(L10n.current.ratingGitHub),
             ),
           ],
         ),

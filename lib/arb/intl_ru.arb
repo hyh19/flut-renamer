@@ -156,6 +156,8 @@
   "caseSensitive": "Учитывать регистр",
   "isRegex": "Является регулярным выражением",
   "language": "Язык: ",
+  "languageFollowSystem": "Следовать языку системы",
+  "languageEnglishOnly": "Английский",
   "indexOne": "Индекс первого символа",
   "indexTwo": "Индекс второго символа",
   "toLast": "-с конца",

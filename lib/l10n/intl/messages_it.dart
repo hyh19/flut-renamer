@@ -241,6 +241,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Mantieni i caratteri tra i due",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Lingua:"),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Inglese"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Segui lingua di sistema",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("Limite"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "assistente di rinomina file in batch",
@@ -338,7 +342,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Ti piace la nostra app? Aiutaci a crescere lasciando una valutazione positiva sullo store o mettendo un like su GitHub. Il tuo feedback è estremamente importante per noi! Grazie per il supporto.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
       "Metti un like su GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage("Valuta su Store"),
@@ -379,6 +383,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "save": MessageLookupByLibrary.simpleMessage("Salva"),
     "select": MessageLookupByLibrary.simpleMessage("Seleziona"),
     "selectAll": MessageLookupByLibrary.simpleMessage("Seleziona tutto"),
+    "semanticNumberWithDirection": MessageLookupByLibrary.simpleMessage(
+      "Cambio della direzione di conteggio tra dall\'inizio e dalla fine",
+    ),
     "semanticSwitchNumberToStartAndToEnd": m8,
     "semanticsDropdownButton": m9,
     "semanticsFileManagerDirSubtitle": m10,

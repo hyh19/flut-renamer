@@ -135,6 +135,8 @@
   "caseSensitive": "Groß-/Kleinschreibung beachten",
   "isRegex": "Regulären Ausdruck verwenden",
   "language": "Sprache:",
+  "languageFollowSystem": "Systemsprache verwenden",
+  "languageEnglishOnly": "Englisch",
   "indexOne": "Erste Stelle",
   "indexTwo": "Zweite Stelle",
   "toLast": "Letzte Stelle",

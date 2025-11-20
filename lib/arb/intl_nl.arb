@@ -156,6 +156,8 @@
   "caseSensitive": "Hoofdlettergevoelig",
   "isRegex": "Is regex",
   "language": "Taal: ",
+  "languageFollowSystem": "Systeemtaal volgen",
+  "languageEnglishOnly": "Engels",
   "indexOne": "Eerste tekenindex",
   "indexTwo": "Tweede tekenindex",
   "toLast": "-tot-laatste",

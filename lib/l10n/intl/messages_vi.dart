@@ -228,6 +228,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Giữ các ký tự giữa chúng",
     ),
     "language": MessageLookupByLibrary.simpleMessage("Ngôn ngữ: "),
+    "languageEnglishOnly": MessageLookupByLibrary.simpleMessage("Tiếng Anh"),
+    "languageFollowSystem": MessageLookupByLibrary.simpleMessage(
+      "Theo ngôn ngữ hệ thống",
+    ),
     "limit": MessageLookupByLibrary.simpleMessage("giới hạn"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
       "trợ lý đổi tên file hàng loạt",
@@ -315,8 +319,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "ratingContent": MessageLookupByLibrary.simpleMessage(
       "Thích ứng dụng của chúng tôi? Hãy giúp chúng tôi phát triển bằng cách cho một đánh giá nhanh trên cửa hàng hoặc GitHub. Phản hồi của bạn rất quan trọng đối với chúng tôi! Cảm ơn sự hỗ trợ của bạn.",
     ),
-    "ratingGithub": MessageLookupByLibrary.simpleMessage(
-      "Đánh dấu sao trên Github",
+    "ratingGitHub": MessageLookupByLibrary.simpleMessage(
+      "Đánh dấu sao trên GitHub",
     ),
     "ratingStore": MessageLookupByLibrary.simpleMessage(
       "Đánh giá ứng dụng trên cửa hàng",
