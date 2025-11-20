@@ -17,7 +17,25 @@ import 'widget/custom_dialog.dart';
 
 Locale _getLocale() {
   final localeNames = Platform.localeName.split(RegExp('[_-]'));
-  return Locale(localeNames[0], localeNames.length > 1 ? localeNames[1] : null);
+  if (localeNames.isEmpty) {
+    return const Locale('en');
+  }
+  
+  final languageCode = localeNames[0];
+  
+  // 查找国家代码（通常是 2 个字母，如 HK、TW、MO）
+  // 跳过脚本代码（通常是 4 个字母，如 Hant、Hans）
+  String? countryCode;
+  for (int i = 1; i < localeNames.length; i++) {
+    final part = localeNames[i];
+    // 国家代码通常是 2 个字母
+    if (part.length == 2) {
+      countryCode = part;
+      break;
+    }
+  }
+  
+  return Locale(languageCode, countryCode);
 }
 
 void main([List<String> arguments = const []]) async {
