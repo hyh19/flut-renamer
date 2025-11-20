@@ -187,10 +187,10 @@
   "insertToString": "Chèn \"{insert}\" tại ký tự {insertIndex}{ordinal, select, o1{thứ} o2{thứ} o3{thứ} other{thứ}}{toEnd, select, true{-đến-cuối} false{} other{}}.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Cắt ngắn: {keepType, select, true{chỉ giữ} false{xóa} other{}} các ký tự giữa ký tự {iOne}{iTwoOrdinal, select, o1{thứ} o2{thứ} o3{thứ} other{thứ}}{iOneToEnd, select, true{-đến-cuối} false{} other{}} và {iTwo}{iOneOrdinal, select, o1{thứ} o2{thứ} o3{thứ} other{thứ}}{iTwoToEnd, select, true{-đến-cuối} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Đã chọn} false{Chưa chọn} other{}} {entityType, select, File{Tệp} Directory{Thư mục} Link{Liên kết} other{Thực thể hệ thống file}}, tên file là {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Chế độ tối",
   "themeModeSystem": "Theo hệ thống"
 }
-

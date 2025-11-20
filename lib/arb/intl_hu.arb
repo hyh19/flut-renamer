@@ -187,10 +187,10 @@
   "insertToString": "Szúrd be: \"{insert}\" a(z) {insertIndex}. karakterhez{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-tól a végéig} false{} other{}}.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Csonkítás: {keepType, select, true{csak tartsd meg} false{távolítsd el} other{}} a(z) {iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-tól a végéig} false{} other{}} és {iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-tól a végéig} false{} other{}} karakter között.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Kijelölve} false{Nincs kijelölve} other{}} {entityType, select, File{Fájl} Directory{Mappa} Link{Hivatkozás} other{Elem}}, fájlnév: {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Sötét mód",
   "themeModeSystem": "Követi a rendszert"
 }
-

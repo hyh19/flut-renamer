@@ -187,10 +187,10 @@
   "insertToString": "Saka \"{insert}\" a harafi na {insertIndex}{ordinal, select, o1{st} o2{nd} o3{rd} other{th}}{toEnd, select, true{-zuwa-ƙarshe} false{} other{}}.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Takaice: {keepType, select, true{kawai ajiye} false{cire} other{}} haruffa tsakanin harafi na {iOne}{iTwoOrdinal, select, o1{st} o2{nd} o3{rd} other{th}}{iOneToEnd, select, true{-zuwa-ƙarshe} false{} other{}} da harafi na {iTwo}{iOneOrdinal, select, o1{st} o2{nd} o3{rd} other{th}}{iTwoToEnd, select, true{-zuwa-ƙarshe} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{An zaɓa} false{Ba a zaɓa ba} other{}} {entityType, select, File{Fayil} Directory{Kundin} Link{Hanyar} other{Abin tsarin fayil}}, sunan fayil ɗin {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Yanayin duhu",
   "themeModeSystem": "Bi tsarin"
 }
-

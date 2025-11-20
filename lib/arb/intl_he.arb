@@ -187,10 +187,10 @@
   "insertToString": "הכנס \"{insert}\" בתו {insertIndex}{ordinal, select, o1{ה} o2{ה} o3{ה} other{ה}}{toEnd, select, true{-לסוף} false{} other{}}.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "קיצוץ: {keepType, select, true{שמור רק} false{הסר} other{}} תווים בין {iOne}{iTwoOrdinal, select, o1{ה} o2{ה} o3{ה} other{ה}}{iOneToEnd, select, true{-לסוף} false{} other{}} תו ל-{iTwo}{iOneOrdinal, select, o1{ה} o2{ה} o3{ה} other{ה}}{iTwoToEnd, select, true{-לסוף} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{נבחר} false{לא נבחר} other{}} {entityType, select, File{קובץ} Directory{תיקייה} Link{קישור} other{יישות מערכת קבצים}}, שם הקובץ הוא {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "מצב כהה",
   "themeModeSystem": "עקוב אחר המערכת"
 }
-

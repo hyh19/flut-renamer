@@ -187,10 +187,10 @@
   "insertToString": "Вставити «{insert}» у {insertIndex}{ordinal, select, o1{-й} o2{-й} o3{-й} other{-й}} символ{toEnd, select, true{-з-кінця} false{} other{}}.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Обрізання: {keepType, select, true{залишити лише} false{видалити} other{}} символи між {iOne}{iTwoOrdinal, select, o1{-м} o2{-м} o3{-м} other{-м}} символом{iOneToEnd, select, true{-з-кінця} false{} other{}} і {iTwo}{iOneOrdinal, select, o1{-м} o2{-м} o3{-м} other{-м}} символом{iTwoToEnd, select, true{-з-кінця} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Вибрано} false{Не вибрано} other{}} {entityType, select, File{Файл} Directory{Тека} Link{Посилання} other{Об’єкт}}, назва {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Темний режим",
   "themeModeSystem": "Слідувати системі"
 }
-

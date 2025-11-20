@@ -187,10 +187,10 @@
   "insertToString": "\"{insert}\" को {insertIndex}{ordinal, select, o1{वें} o2{वें} o3{वें} other{वें}}{toEnd, select, true{-से-अंत} false{} other{}} वर्ण पर डालें।",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "काटें: {keepType, select, true{केवल रखें} false{हटाएं} other{}} {iOne}{iTwoOrdinal, select, o1{वें} o2{वें} o3{वें} other{वें}}{iOneToEnd, select, true{-से-अंत} false{} other{}} वर्ण और {iTwo}{iOneOrdinal, select, o1{वें} o2{वें} o3{वें} other{वें}}{iTwoToEnd, select, true{-से-अंत} false{} other{}} के बीच के वर्ण।",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{चयनित} false{अचयनित} other{}} {entityType, select, File{फ़ाइल} Directory{फ़ोल्डर} Link{लिंक} other{फ़ाइल सिस्टम इकाई}}, फ़ाइल नाम {filename} है, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "डार्क मोड",
   "themeModeSystem": "सिस्टम का अनुसरण करें"
 }
-

@@ -187,10 +187,10 @@
   "insertToString": "Wstaw \"{insert}\" na {insertIndex}{ordinal, select, o1{-szym} o2{-gim} o3{-cim} other{-tym}}{toEnd, select, true{-do-końca} false{} other{}} znaku.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Obetnij: {keepType, select, true{zachowaj tylko} false{usuń} other{}} znaki między {iOne}{iTwoOrdinal, select, o1{-szym} o2{-gim} o3{-cim} other{-tym}}{iOneToEnd, select, true{-do-końca} false{} other{}} znakiem a {iTwo}{iOneOrdinal, select, o1{-szym} o2{-gim} o3{-cim} other{-tym}}{iTwoToEnd, select, true{-do-końca} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Wybrany} false{Niewybrany} other{}} {entityType, select, File{Plik} Directory{Folder} Link{Link} other{Encja systemu plików}}, nazwa pliku to {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Tryb ciemny",
   "themeModeSystem": "Zgodnie z systemem"
 }
-

@@ -187,10 +187,10 @@
   "insertToString": "Inserează „{insert}” la caracterul {insertIndex}{ordinal, select, o1{-lea} o2{-lea} o3{-lea} other{-lea}}{toEnd, select, true{-până-la-final} false{} other{}}.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Trunchiază: {keepType, select, true{păstrează doar} false{elimină} other{}} caracterele dintre caracterul {iOne}{iTwoOrdinal, select, o1{-lea} o2{-lea} o3{-lea} other{-lea}}{iOneToEnd, select, true{-până-la-final} false{} other{}} și caracterul {iTwo}{iOneOrdinal, select, o1{-lea} o2{-lea} o3{-lea} other{-lea}}{iTwoToEnd, select, true{-până-la-final} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Selectat} false{Neselectat} other{}} {entityType, select, File{Fișier} Directory{Director} Link{Link} other{Entitate}}, nume: {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Mod întunecat",
   "themeModeSystem": "Urmează sistemul"
 }
-

@@ -187,10 +187,10 @@
   "insertToString": "{insertIndex}{ordinal, select, o1{তম} o2{য়} o3{য়} other{তম}}{toEnd, select, true{-শেষ পর্যন্ত} false{} other{}} অক্ষরে \"{insert}\" সন্নিবেশ করুন।",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "ছাঁটাই: {keepType, select, true{শুধুমাত্র রাখুন} false{সরান} other{}} {iOne}{iTwoOrdinal, select, o1{তম} o2{য়} o3{য়} other{তম}}{iOneToEnd, select, true{-শেষ পর্যন্ত} false{} other{}} অক্ষর এবং {iTwo}{iOneOrdinal, select, o1{তম} o2{য়} o3{য়} other{তম}}{iTwoToEnd, select, true{-শেষ পর্যন্ত} false{} other{}} এর মধ্যে অক্ষর।",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{নির্বাচিত} false{নির্বাচিত নয়} other{}} {entityType, select, File{ফাইল} Directory{ফোল্ডার} Link{লিঙ্ক} other{ফাইল সিস্টেম এনটিটি}}, ফাইলের নাম হল {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "ডার্ক মোড",
   "themeModeSystem": "সিস্টেম অনুসরণ করুন"
 }
-

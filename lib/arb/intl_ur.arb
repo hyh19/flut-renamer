@@ -187,10 +187,10 @@
   "insertToString": "{insertIndex}{ordinal, select, o1{ویں} o2{ویں} o3{ویں} other{ویں}}{toEnd, select, true{-آخر تک} false{} other{}} کریکٹر میں \"{insert}\" داخل کریں۔",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "کاٹ دیں: {keepType, select, true{صرف رکھیں} false{ہٹائیں} other{}} {iOne}{iTwoOrdinal, select, o1{ویں} o2{ویں} o3{ویں} other{ویں}}{iOneToEnd, select, true{-آخر تک} false{} other{}} کریکٹر اور {iTwo}{iOneOrdinal, select, o1{ویں} o2{ویں} o3{ویں} other{ویں}}{iTwoToEnd, select, true{-آخر تک} false{} other{}} کے درمیان کریکٹرز۔",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{منتخب شدہ} false{غیر منتخب شدہ} other{}} {entityType, select, File{فائل} Directory{فولڈر} Link{لنک} other{فائل سسٹم انٹیٹی}}, فائل کا نام {filename} ہے، ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "اندھیرا موڈ",
   "themeModeSystem": "سسٹم کی پیروی کریں"
 }
-

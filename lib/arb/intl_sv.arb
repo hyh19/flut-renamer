@@ -187,10 +187,10 @@
   "insertToString": "Infoga \"{insert}\" vid {insertIndex}{ordinal, select, o1{:a} o2{:a} o3{:e} other{:e}}{toEnd, select, true{-till-slut} false{} other{}} tecknet.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Klipp av: {keepType, select, true{behåll endast} false{ta bort} other{}} tecken mellan {iOne}{iTwoOrdinal, select, o1{:a} o2{:a} o3{:e} other{:e}}{iOneToEnd, select, true{-till-slut} false{} other{}} tecknet och {iTwo}{iOneOrdinal, select, o1{:a} o2{:a} o3{:e} other{:e}}{iTwoToEnd, select, true{-till-slut} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Vald} false{Inte vald} other{}} {entityType, select, File{Fil} Directory{Mapp} Link{Länk} other{Filsystementitet}}, filnamn är {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Mörkt läge",
   "themeModeSystem": "Följ system"
 }
-

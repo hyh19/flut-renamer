@@ -187,10 +187,10 @@
   "insertToString": "Sett inn \"{insert}\" ved {insertIndex}{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-til-slutt} false{} other{}} tegnet.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Kutt av: {keepType, select, true{behold kun} false{fjern} other{}} tegn mellom {iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-til-slutt} false{} other{}} tegnet og {iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-til-slutt} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Valgt} false{Ikke valgt} other{}} {entityType, select, File{Fil} Directory{Mappe} Link{Lenke} other{Filsystemenhet}}, filnavn er {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Mørk modus",
   "themeModeSystem": "Følg system"
 }
-

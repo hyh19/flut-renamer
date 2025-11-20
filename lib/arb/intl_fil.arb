@@ -187,10 +187,10 @@
   "insertToString": "Ipasok ang \"{insert}\" sa {insertIndex}{ordinal, select, o1{st} o2{nd} o3{rd} other{th}}{toEnd, select, true{-hanggang-dulo} false{} other{}} na karakter.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Truncate: {keepType, select, true{panatilihin lang} false{tanggalin} other{}} ang mga karakter sa pagitan ng {iOne}{iTwoOrdinal, select, o1{st} o2{nd} o3{rd} other{th}}{iOneToEnd, select, true{-hanggang-dulo} false{} other{}} na karakter at {iTwo}{iOneOrdinal, select, o1{st} o2{nd} o3{rd} other{th}}{iTwoToEnd, select, true{-hanggang-dulo} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Napili} false{Hindi napili} other{}} {entityType, select, File{File} Directory{Folder} Link{Link} other{Entity ng file system}}, pangalan ng file ay {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Dark mode",
   "themeModeSystem": "Sundin ang system"
 }
-

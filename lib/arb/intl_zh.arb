@@ -281,19 +281,19 @@
   },
   "@truncateToString": {
     "placeholders": {
-      "iOneToEnd": {
+      "keepType": {
         "type": "String"
       },
-      "iOneOrdinal": {
+      "iOneToEnd": {
         "type": "String"
       },
       "iTwoToEnd": {
         "type": "String"
       },
-      "iTwoOrdinal": {
+      "iOneOrdinal": {
         "type": "String"
       },
-      "keepType": {
+      "iTwoOrdinal": {
         "type": "String"
       },
       "iOne": {
@@ -306,10 +306,10 @@
   },
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {

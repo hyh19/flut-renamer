@@ -147,12 +147,12 @@
   "metadataParserNotProvided": "Metadatentags vorhanden, aber kein Metadatenparser bereitgestellt.",
   "replaceToString": "Ersetzen: \"{targetString}\" durch \"{replacementString}\" ersetzen.",
   "removeToString": "Entfernen: \"{targetString}\"",
-  "insertToString": "Einfügen: \"{insert}\" an Position {insertIndex}{toEnd, select, true{ von hinten} other{}}.",
+  "insertToString": "Einfügen: \"{insert}\" an Position {insertIndex}{toEnd, select, true{ von hinten} false{} other{}}.",
   "incrementToString": "Inkrementieren: {prefix}-Index",
   "rearrangeToString": "Neu anordnen: Trennzeichen: {delimiter}, Reihenfolge: {order}.",
   "transliterateToString": "Transliteration: {type}.",
   "transliterateToStringCyrillic": "Transliteration: Von {langName} {type}.",
-  "truncateToString": "Kürzen: {keepType, select, true{Behalten nur} false{Entfernen} other{}} vom {iOneToEnd, select, true{Ende} other{Anfang}} bei {iOne} bis {iTwoToEnd, select, true{Ende} other{Anfang}} bei {iTwo}.",
+  "truncateToString": "Kürzen: {keepType, select, true{Behalten nur} false{Entfernen} other{}} vom {iOneToEnd, select, true{Ende} false{} other{Anfang}} bei {iOne} bis {iTwoToEnd, select, true{Ende} false{} other{Anfang}} bei {iTwo}.",
   "descriptionReplace": "Ersetzen Sie den angegebenen Text durch den angegebenen Ersatztext.",
   "descriptionRemove": "Entfernen Sie den angegebenen Text aus dem Dateinamen.",
   "descriptionInsert": "Fügen Sie den angegebenen Text an der angegebenen Position in den Dateinamen ein.",
@@ -281,6 +281,9 @@
   },
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -293,9 +296,6 @@
       "iTwoOrdinal": {
         "type": "String"
       },
-      "keepType": {
-        "type": "String"
-      },
       "iOne": {
         "type": "num"
       },
@@ -306,10 +306,10 @@
   },
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {

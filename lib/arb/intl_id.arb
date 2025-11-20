@@ -187,10 +187,10 @@
   "insertToString": "Sisipkan \"{insert}\" pada karakter {insertIndex}{ordinal, select, o1{ke-} o2{ke-} o3{ke-} other{ke-}}{toEnd, select, true{-ke-akhir} false{} other{}}.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Potong: {keepType, select, true{pertahankan hanya} false{hapus} other{}} karakter antara karakter {iOne}{iTwoOrdinal, select, o1{ke-} o2{ke-} o3{ke-} other{ke-}}{iOneToEnd, select, true{-ke-akhir} false{} other{}} dan {iTwo}{iOneOrdinal, select, o1{ke-} o2{ke-} o3{ke-} other{ke-}}{iTwoToEnd, select, true{-ke-akhir} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Dipilih} false{Tidak dipilih} other{}} {entityType, select, File{File} Directory{Folder} Link{Tautan} other{Entitas sistem file}}, nama file adalah {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Mode gelap",
   "themeModeSystem": "Ikuti sistem"
 }
-

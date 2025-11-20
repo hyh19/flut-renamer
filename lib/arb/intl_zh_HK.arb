@@ -281,6 +281,9 @@
   },
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -293,9 +296,6 @@
       "iTwoOrdinal": {
         "type": "String"
       },
-      "keepType": {
-        "type": "String"
-      },
       "iOne": {
         "type": "num"
       },
@@ -306,10 +306,10 @@
   },
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {

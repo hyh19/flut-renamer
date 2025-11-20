@@ -187,10 +187,10 @@
   "insertToString": "Εισαγωγή \"{insert}\" στο {insertIndex}{ordinal, select, o1{ο} o2{ο} o3{ο} other{ο}}{toEnd, select, true{-προς-τέλος} false{} other{}} χαρακτήρα.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Περικοπή: {keepType, select, true{διατήρηση μόνο} false{αφαίρεση} other{}} χαρακτήρες μεταξύ {iOne}{iTwoOrdinal, select, o1{ου} o2{ου} o3{ου} other{ου}}{iOneToEnd, select, true{-προς-τέλος} false{} other{}} χαρακτήρα και {iTwo}{iOneOrdinal, select, o1{ου} o2{ου} o3{ου} other{ου}}{iTwoToEnd, select, true{-προς-τέλος} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Επιλεγμένο} false{Μη επιλεγμένο} other{}} {entityType, select, File{Αρχείο} Directory{Φάκελος} Link{Σύνδεσμος} other{Οντότητα συστήματος αρχείων}}, το όνομα αρχείου είναι {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Σκοτεινή λειτουργία",
   "themeModeSystem": "Ακολούθηση συστήματος"
 }
-

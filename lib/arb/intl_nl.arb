@@ -187,10 +187,10 @@
   "insertToString": "Voeg \"{insert}\" in op het {insertIndex}{ordinal, select, o1{e} o2{e} o3{e} other{e}}{toEnd, select, true{-tot-einde} false{} other{}} teken.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Afkappen: {keepType, select, true{behoud alleen} false{verwijder} other{}} tekens tussen het {iOne}{iTwoOrdinal, select, o1{e} o2{e} o3{e} other{e}}{iOneToEnd, select, true{-tot-einde} false{} other{}} teken en het {iTwo}{iOneOrdinal, select, o1{e} o2{e} o3{e} other{e}}{iTwoToEnd, select, true{-tot-einde} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Geselecteerd} false{Niet geselecteerd} other{}} {entityType, select, File{Bestand} Directory{Map} Link{Link} other{Bestandssysteementiteit}}, bestandsnaam is {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Donkere modus",
   "themeModeSystem": "Volg systeem"
 }
-

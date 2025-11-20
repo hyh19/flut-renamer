@@ -187,10 +187,10 @@
   "insertToString": "Vložit \"{insert}\" na {insertIndex}{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-do-konce} false{} other{}} znak.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Zkrátit: {keepType, select, true{zachovat pouze} false{odstranit} other{}} znaky mezi {iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-do-konce} false{} other{}} znakem a {iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-do-konce} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Vybraný} false{Nevybraný} other{}} {entityType, select, File{Soubor} Directory{Složka} Link{Odkaz} other{Entita systému souborů}}, název souboru je {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Tmavý režim",
   "themeModeSystem": "Sledovat systém"
 }
-

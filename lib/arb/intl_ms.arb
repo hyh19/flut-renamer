@@ -187,10 +187,10 @@
   "insertToString": "Sisip \"{insert}\" pada aksara ke-{insertIndex}{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-hingga-akhir} false{} other{}}.",
   "@insertToString": {
     "placeholders": {
-      "toEnd": {
+      "ordinal": {
         "type": "String"
       },
-      "ordinal": {
+      "toEnd": {
         "type": "String"
       },
       "insert": {
@@ -242,6 +242,9 @@
   "truncateToString": "Potong: {keepType, select, true{simpan sahaja} false{buang} other{}} aksara antara aksara ke-{iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-hingga-akhir} false{} other{}} dan aksara ke-{iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-hingga-akhir} false{} other{}}.",
   "@truncateToString": {
     "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
       "iOneToEnd": {
         "type": "String"
       },
@@ -252,9 +255,6 @@
         "type": "String"
       },
       "iTwoOrdinal": {
-        "type": "String"
-      },
-      "keepType": {
         "type": "String"
       },
       "iOne": {
@@ -289,10 +289,10 @@
   "semanticsFileManagerTitle": "{selectStatus, select, true{Dipilih} false{Tidak dipilih} other{}} {entityType, select, File{Fail} Directory{Folder} Link{Pautan} other{Entiti}}, nama fail {filename}, ",
   "@semanticsFileManagerTitle": {
     "placeholders": {
-      "entityType": {
+      "selectStatus": {
         "type": "String"
       },
-      "selectStatus": {
+      "entityType": {
         "type": "String"
       },
       "filename": {
@@ -348,4 +348,3 @@
   "themeModeDark": "Mod gelap",
   "themeModeSystem": "Ikut sistem"
 }
-
