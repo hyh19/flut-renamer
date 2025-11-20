@@ -111,7 +111,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "appError": MessageLookupByLibrary.simpleMessage("Uygulama Hatası"),
     "appInfo": MessageLookupByLibrary.simpleMessage("Uygulama Bilgileri"),
-    "appName": MessageLookupByLibrary.simpleMessage("Flut Renamer"),
+    "appName": MessageLookupByLibrary.simpleMessage(
+      "Toplu Dosya Yeniden Adlandırma Asistanı",
+    ),
     "bg": MessageLookupByLibrary.simpleMessage("Bulgarca"),
     "cancel": MessageLookupByLibrary.simpleMessage("İptal"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("Tümünü İptal Et"),
@@ -240,7 +242,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "language": MessageLookupByLibrary.simpleMessage("Dil:"),
     "limit": MessageLookupByLibrary.simpleMessage("Sınır"),
-    "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
+      "toplu dosya yeniden adlandırma asistanı",
+    ),
     "manualMode": MessageLookupByLibrary.simpleMessage("Manuel Mod"),
     "me": MessageLookupByLibrary.simpleMessage("Karadağca"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(

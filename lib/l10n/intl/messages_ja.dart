@@ -100,7 +100,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage("ディレクトリのリネーム"),
     "appError": MessageLookupByLibrary.simpleMessage("アプリケーションエラー"),
     "appInfo": MessageLookupByLibrary.simpleMessage("アプリ情報"),
-    "appName": MessageLookupByLibrary.simpleMessage("Flut Renamer"),
+    "appName": MessageLookupByLibrary.simpleMessage("ファイル一括リネームアシスタント"),
     "bg": MessageLookupByLibrary.simpleMessage("ブルガリア語"),
     "cancel": MessageLookupByLibrary.simpleMessage("キャンセル"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("すべてキャンセル"),
@@ -199,7 +199,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "keepCharacters": MessageLookupByLibrary.simpleMessage("両方の文字を保持"),
     "language": MessageLookupByLibrary.simpleMessage("言語："),
     "limit": MessageLookupByLibrary.simpleMessage("回数制限"),
-    "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
+      "ファイル一括リネームアシスタント",
+    ),
     "manualMode": MessageLookupByLibrary.simpleMessage("手動モード"),
     "me": MessageLookupByLibrary.simpleMessage("モンテネグロ語"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(

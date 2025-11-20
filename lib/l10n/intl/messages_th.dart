@@ -109,7 +109,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "appError": MessageLookupByLibrary.simpleMessage("ข้อผิดพลาดของแอป"),
     "appInfo": MessageLookupByLibrary.simpleMessage("ข้อมูลแอป"),
-    "appName": MessageLookupByLibrary.simpleMessage("Flut Renamer"),
+    "appName": MessageLookupByLibrary.simpleMessage(
+      "ผู้ช่วยเปลี่ยนชื่อไฟล์แบบกลุ่ม",
+    ),
     "bg": MessageLookupByLibrary.simpleMessage("ภาษาบัลแกเรีย"),
     "cancel": MessageLookupByLibrary.simpleMessage("ยกเลิก"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("ยกเลิกทั้งหมด"),
@@ -228,7 +230,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "language": MessageLookupByLibrary.simpleMessage("ภาษา:"),
     "limit": MessageLookupByLibrary.simpleMessage("จำกัด"),
-    "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
+      "ผู้ช่วยเปลี่ยนชื่อไฟล์แบบกลุ่ม",
+    ),
     "manualMode": MessageLookupByLibrary.simpleMessage("โหมดแมนนวล"),
     "me": MessageLookupByLibrary.simpleMessage("เมอร์เซเดีย"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(

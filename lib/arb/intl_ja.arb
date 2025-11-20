@@ -1,7 +1,7 @@
 {
   "@@locale": "ja",
-  "appName": "Flut Renamer",
-  "lowercaseAppName": "flut renamer",
+  "appName": "ファイル一括リネームアシスタント",
+  "lowercaseAppName": "ファイル一括リネームアシスタント",
   "ok": "OK",
   "cancel": "キャンセル",
   "exit": "終了",

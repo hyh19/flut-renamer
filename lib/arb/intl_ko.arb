@@ -1,7 +1,7 @@
 {
   "@@locale": "ko",
-  "appName": "Flut Renamer",
-  "lowercaseAppName": "flut renamer",
+  "appName": "파일 일괄 이름 변경 도우미",
+  "lowercaseAppName": "파일 일괄 이름 변경 도우미",
   "ok": "확인",
   "cancel": "취소",
   "exit": "나가기",

@@ -1,7 +1,7 @@
 {
   "@@locale": "de",
-  "appName": "Flut Renamer",
-  "lowercaseAppName": "flut renamer",
+  "appName": "Batch-Dateiumbenennungsassistent",
+  "lowercaseAppName": "batch-dateiumbenennungsassistent",
   "ok": "OK",
   "cancel": "Abbrechen",
   "exit": "Beenden",

@@ -54,15 +54,20 @@ class L10n {
     return Localizations.of<L10n>(context, L10n);
   }
 
-  /// `Flut Renamer`
+  /// `Batch File Rename Assistant`
   String get appName {
-    return Intl.message('Flut Renamer', name: 'appName', desc: '', args: []);
+    return Intl.message(
+      'Batch File Rename Assistant',
+      name: 'appName',
+      desc: '',
+      args: [],
+    );
   }
 
-  /// `flut renamer`
+  /// `batch file rename assistant`
   String get lowercaseAppName {
     return Intl.message(
-      'flut renamer',
+      'batch file rename assistant',
       name: 'lowercaseAppName',
       desc: '',
       args: [],

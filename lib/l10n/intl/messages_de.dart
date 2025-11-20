@@ -110,7 +110,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "appError": MessageLookupByLibrary.simpleMessage("App-Fehler"),
     "appInfo": MessageLookupByLibrary.simpleMessage("App-Information"),
-    "appName": MessageLookupByLibrary.simpleMessage("Flut Renamer"),
+    "appName": MessageLookupByLibrary.simpleMessage(
+      "Batch-Dateiumbenennungsassistent",
+    ),
     "bg": MessageLookupByLibrary.simpleMessage("Bulgarisch"),
     "cancel": MessageLookupByLibrary.simpleMessage("Abbrechen"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("Alle abbrechen"),
@@ -245,7 +247,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "language": MessageLookupByLibrary.simpleMessage("Sprache:"),
     "limit": MessageLookupByLibrary.simpleMessage("Limit"),
-    "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
+      "batch-dateiumbenennungsassistent",
+    ),
     "manualMode": MessageLookupByLibrary.simpleMessage("Manueller Modus"),
     "me": MessageLookupByLibrary.simpleMessage("Montenegrinisch"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(

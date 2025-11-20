@@ -114,7 +114,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "appInfo": MessageLookupByLibrary.simpleMessage(
       "Informations sur l\'application",
     ),
-    "appName": MessageLookupByLibrary.simpleMessage("Flut Renamer"),
+    "appName": MessageLookupByLibrary.simpleMessage(
+      "Assistant de Renommage de Fichiers par Lots",
+    ),
     "bg": MessageLookupByLibrary.simpleMessage("Bulgare"),
     "cancel": MessageLookupByLibrary.simpleMessage("Annuler"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("Tout annuler"),
@@ -249,7 +251,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "language": MessageLookupByLibrary.simpleMessage("Langue :"),
     "limit": MessageLookupByLibrary.simpleMessage("Limite"),
-    "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
+      "assistant de renommage de fichiers par lots",
+    ),
     "manualMode": MessageLookupByLibrary.simpleMessage("Mode manuel"),
     "me": MessageLookupByLibrary.simpleMessage("Monténégrin"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(

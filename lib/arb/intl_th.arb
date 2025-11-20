@@ -1,7 +1,7 @@
 {
   "@@locale": "th",
-  "appName": "Flut Renamer",
-  "lowercaseAppName": "flut renamer",
+  "appName": "ผู้ช่วยเปลี่ยนชื่อไฟล์แบบกลุ่ม",
+  "lowercaseAppName": "ผู้ช่วยเปลี่ยนชื่อไฟล์แบบกลุ่ม",
   "ok": "ตกลง",
   "cancel": "ยกเลิก",
   "exit": "ออก",

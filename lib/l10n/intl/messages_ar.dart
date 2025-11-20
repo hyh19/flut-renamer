@@ -109,7 +109,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "appError": MessageLookupByLibrary.simpleMessage("خطأ في التطبيق"),
     "appInfo": MessageLookupByLibrary.simpleMessage("معلومات التطبيق"),
-    "appName": MessageLookupByLibrary.simpleMessage("Flut Renamer"),
+    "appName": MessageLookupByLibrary.simpleMessage(
+      "مساعد إعادة تسمية الملفات الدُفعات",
+    ),
     "bg": MessageLookupByLibrary.simpleMessage("البلغارية"),
     "cancel": MessageLookupByLibrary.simpleMessage("إلغاء"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("إلغاء الكل"),
@@ -228,7 +230,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "language": MessageLookupByLibrary.simpleMessage("اللغة:"),
     "limit": MessageLookupByLibrary.simpleMessage("الحد"),
-    "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
+      "مساعد إعادة تسمية الملفات الدُفعات",
+    ),
     "manualMode": MessageLookupByLibrary.simpleMessage("الوضع اليدوي"),
     "me": MessageLookupByLibrary.simpleMessage("المونتينيغرين"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(

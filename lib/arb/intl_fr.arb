@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
-  "appName": "Flut Renamer",
-  "lowercaseAppName": "flut renamer",
+  "appName": "Assistant de Renommage de Fichiers par Lots",
+  "lowercaseAppName": "assistant de renommage de fichiers par lots",
   "ok": "OK",
   "cancel": "Annuler",
   "exit": "Quitter",

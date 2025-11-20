@@ -102,7 +102,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage("디렉터리 이름 변경"),
     "appError": MessageLookupByLibrary.simpleMessage("애플리케이션 오류"),
     "appInfo": MessageLookupByLibrary.simpleMessage("애플리케이션 정보"),
-    "appName": MessageLookupByLibrary.simpleMessage("Flut Renamer"),
+    "appName": MessageLookupByLibrary.simpleMessage("파일 일괄 이름 변경 도우미"),
     "bg": MessageLookupByLibrary.simpleMessage("불가리아어"),
     "cancel": MessageLookupByLibrary.simpleMessage("취소"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("모두 취소"),
@@ -197,7 +197,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "keepCharacters": MessageLookupByLibrary.simpleMessage("두 문자 사이의 문자 유지"),
     "language": MessageLookupByLibrary.simpleMessage("언어:"),
     "limit": MessageLookupByLibrary.simpleMessage("제한"),
-    "lowercaseAppName": MessageLookupByLibrary.simpleMessage("flut renamer"),
+    "lowercaseAppName": MessageLookupByLibrary.simpleMessage("파일 일괄 이름 변경 도우미"),
     "manualMode": MessageLookupByLibrary.simpleMessage("수동 모드"),
     "me": MessageLookupByLibrary.simpleMessage("몬테네그로어"),
     "metadataParserNotProvided": MessageLookupByLibrary.simpleMessage(

@@ -1,7 +1,7 @@
 {
   "@@locale": "pt",
-  "appName": "Flut Renamer",
-  "lowercaseAppName": "flut renamer",
+  "appName": "Assistente de Renomeação de Arquivos em Lote",
+  "lowercaseAppName": "assistente de renomeação de arquivos em lote",
   "ok": "OK",
   "cancel": "Cancelar",
   "exit": "Sair",
