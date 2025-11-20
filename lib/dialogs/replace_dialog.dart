@@ -72,6 +72,7 @@ class _ReplaceDialogState extends State<ReplaceDialog> {
       content: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(remove
                 ? L10n.current.descriptionRemove

@@ -58,6 +58,7 @@ class _IncrementDialogState extends State<IncrementDialog> {
       content: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(L10n.current.descriptionIncrement),
             TextFormField(

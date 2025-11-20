@@ -55,7 +55,7 @@ class _InsertDialogState extends State<InsertDialog> {
       content: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(L10n.current.descriptionInsert),
             TextFormField(
