@@ -1,0 +1,346 @@
+{
+  "@@locale": "hu",
+  "appName": "Batch fájlátnevező asszisztens",
+  "lowercaseAppName": "batch fájlátnevező asszisztens",
+  "ok": "OK",
+  "cancel": "Mégse",
+  "exit": "Kilépés",
+  "save": "Mentés",
+  "add": "Hozzáadás",
+  "permissionTitle": "Hozzáférés a külső tárhelyhez",
+  "permissionContent": "Ahhoz, hogy fájlátnevezési szolgáltatást nyújthassunk, engedélyezned kell számunkra a külső tárhely kezelését. Így férünk hozzá, és tudjuk átnevezni az eszközödön tárolt fájlokat. Engedély nélkül az alkalmazás nem látja a teljes elérési utat, ezért nem tud átnevezni. Biztosítunk róla, hogy az adataid védelme az elsődleges, és csak átnevezés céljából férünk hozzá a fájlokhoz.",
+  "exitTitle": "Nem érhető el a külső tárhely",
+  "exitContent": "A külső tárhely kezelési engedélye teszi lehetővé, hogy hozzáférjünk az eszközödön lévő fájlokhoz és átnevezzük azokat. Enélkül az alkalmazás nem látja a fájlok teljes útvonalát, így nem tud átnevezni. Lépj be a Beállításokba, és add meg manuálisan az engedélyt, különben nem tudunk szolgáltatást nyújtani.",
+  "iosRemindTitle": "Fájl kiválasztása iOS rendszeren",
+  "iosRemindContent": "iOS-en először válaszd ki azt a könyvtárat, ahol a fájlok találhatók. Ezután a mappán belül jelöld ki az átnevezendő fájlokat. Az iOS korlátozásai miatt kétlépéses folyamatot alkalmazunk a biztonságos kezelés érdekében. Kezdjük is!",
+  "androidRemindTitle": "Könyvtár átnevezése",
+  "androidRemindContent": "A Flut Renamer segítségével nemcsak fájlokat, hanem mappákat is átnevezhetsz. Tartsd hosszan lenyomva a könyvtárat a kijelöléshez, majd a bal felső sarokban válts a legördülőben „Files & Dirs” módra, hogy engedélyezd a könyvtárátnevezést. Biztonsági okokból bizonyos rendszermappák nem választhatók.",
+  "doNotRemindAgain": "Rendben, többé ne figyelmeztessen.",
+  "rename": "Átnevezés",
+  "appInfo": "Alkalmazásinformáció",
+  "aboutContent": "Az alkalmazást azért készítettük, hogy segítsen a felhasználóknak fájlokat átnevezni. Flutterre épül, így több platformon is elérhető. Teljesen nyílt forráskódú, ezért bárki ellenőrizheti vagy hozzájárulhat.",
+  "rating": "Alkalmazás értékelése",
+  "ratingTitle": "Értékeld az appot",
+  "ratingContent": "Tetszik az alkalmazás? Segíts a fejlődésben: adj gyors értékelést az áruházban vagy a GitHubon. A visszajelzésed sokat jelent. Köszönjük a támogatást!",
+  "ratingStore": "Értékelés az áruházban",
+  "ratingGithub": "Csillagozd GitHubon",
+  "sourceCode": "Forráskód",
+  "collapseOptions": "Beállítások összecsukása",
+  "expandOptions": "Beállítások lenyitása",
+  "onlySelected": "Csak a kijelöltek",
+  "removeRenamed": "Átnevezett fájlok eltávolítása",
+  "removeRule": "Szabály eltávolítása",
+  "removeRules": "Szabályok törlése átnevezés után",
+  "addRule": "Szabály hozzáadása",
+  "removeAll": "Összes eltávolítása",
+  "replace": "Csere",
+  "remove": "Eltávolítás",
+  "insert": "Beszúrás",
+  "increment": "Sorszámozás",
+  "rearrange": "Átrendezés",
+  "transliterate": "Átírás",
+  "truncate": "Csonkítás",
+  "cancelAll": "Összes megszakítása",
+  "select": "Kiválasztás",
+  "selectAll": "Összes kijelölése",
+  "currentName": "Jelenlegi név",
+  "newName": "Új név",
+  "fileNotExist": "A fájl nem létezik",
+  "files": "Fájlok",
+  "directories": "Könyvtárak",
+  "filesDirs": "Fájlok és könyvtárak",
+  "filter": "Szűrő",
+  "addFile": "Fájl hozzáadása",
+  "addFiles": "Fájlok hozzáadása",
+  "dragToAdd": "Fogd és vidd ide a fájlokat.",
+  "dropToAdd": "Húzd ide és engedd el a fájlokat.",
+  "dragNotSupported": "Rendszerbiztonsági okokból ebből az alkalmazásból nem támogatott a fájlok húzása.",
+  "fileAlreadyExists": "A fájlnevet már használja másik fájl",
+  "renameFailed": "Sikertelen átnevezés",
+  "aiRenameTitle": "AI átnevezés",
+  "aiRenameRequirementsLabel": "Átnevezési utasítás",
+  "aiRenameRequirementsHint": "Írd le, hogyan szeretnéd átnevezni a fájlokat.",
+  "aiRenameSubmit": "Küldés",
+  "aiRenameSnackbarEmptyRequirements": "Adj meg átnevezési utasítást",
+  "aiRenameSnackbarNoSelection": "Nincs kijelölt fájl",
+  "aiRenameLoading": "Az AI elemzi a kérésed, kérlek várj…",
+  "aiRenameSuccess": "AI szabály létrehozva. {count} fájl kerül átnevezésre.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI átnevezés sikertelen: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI átnevezés: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "A szabályok sorrendben futnak. Kattints egy szabályra a szerkesztéshez, tartsd lenyomva a bal oldali „=” gombot és húzd a sorrend módosításához.",
+  "noSysDir": "Ne nevezz át rendszer által fenntartott könyvtárat.",
+  "fileSortName": "Név",
+  "fileSortSize": "Méret",
+  "fileSortDate": "Dátum",
+  "fileSortType": "Típus",
+  "transliterateUpper": "Latin betűk nagybetűssé",
+  "transliterateLower": "Latin betűk kisbetűssé",
+  "transliterateTraditional": "Kínai írás hagyományossá",
+  "transliterateSimplified": "Kínai írás egyszerűsítetté",
+  "transliteratePinyin": "Kínai írás pinyinre",
+  "transliterateCyrillic2Latin": "Cirill betűk latinra",
+  "transliterateLatin2Cyrillic": "Latin betűk cirillre",
+  "insertTagInsideAnother": "Ne illessz be címkét egy másik címkébe.",
+  "appError": "Alkalmazáshiba",
+  "errorDetails": "Hiba részletei",
+  "ifFileNotShown": "Ha nem látszanak a fájlok a listában, töröld a listát és folytasd.",
+  "metadataTags": "Metaadat címkék",
+  "osTodayDate": "Mai dátum",
+  "osNowTime": "Jelenlegi idő",
+  "fileSize": "Fájlméret",
+  "fileCreateDate": "Létrehozás dátuma",
+  "fileCreateTime": "Létrehozás ideje",
+  "fileModifyDate": "Módosítás dátuma",
+  "fileModifyTime": "Módosítás ideje",
+  "photoDate": "Felvétel dátuma (EXIF)",
+  "photoTime": "Felvétel ideje (EXIF)",
+  "photoCamName": "Kamera neve (EXIF)",
+  "photoLensName": "Objektív neve (EXIF)",
+  "photoFocalLength": "Gyújtótávolság (EXIF)",
+  "photoAperture": "Rekeszérték (EXIF)",
+  "photoShutter": "Záridő (EXIF)",
+  "photoISO": "ISO érték (EXIF)",
+  "photoLongitude": "GPS hosszúság (EXIF)",
+  "photoLatitude": "GPS szélesség (EXIF)",
+  "photoAltitude": "GPS magasság (EXIF)",
+  "photoPhotographer": "Fotós neve (EXIF)",
+  "photoCopyright": "Jogtulajdonos neve (EXIF)",
+  "musicAlbumName": "Album neve",
+  "musicAlbumArtist": "Album előadója",
+  "musicAlbumLength": "Számok száma az albumban",
+  "musicYear": "Megjelenés éve",
+  "musicTrackDuration": "Szám hossza",
+  "musicTrackName": "Szám címe",
+  "musicTrackArtist": "Előadók nevei",
+  "musicTrackNumber": "Sorszám az albumban",
+  "musicDiscNumber": "Lemez sorszáma",
+  "musicGenres": "Zenei műfaj",
+  "musicAuthor": "Szám szerzője",
+  "musicWriter": "Szövegíró",
+  "prefix": "Előtag",
+  "startIndex": "Kezdő index",
+  "indexIncrementalStep": "Lépésköz",
+  "omitDash": "Kötőjel kihagyása",
+  "ignoreExtension": "Kiterjesztés kihagyása",
+  "insertedText": "Beillesztendő szöveg",
+  "insertIndex": "Beszúrás pozíciója",
+  "fromStart": "Elejétől számítva",
+  "insertBeforeIndex": "Beszúrás a pozíció elé",
+  "rearrangeDelimiter": "Elválasztó",
+  "rearrangeOrderLabel": "Átrendezési sorrend",
+  "rearrangeOrderHint": "Számok, vesszővel elválasztva",
+  "target": "Cél",
+  "replacement": "Csereérték",
+  "limit": "Korlát",
+  "caseSensitive": "Kis- és nagybetű érzékeny",
+  "isRegex": "Reguláris kifejezés",
+  "language": "Nyelv: ",
+  "indexOne": "Első karakter indexe",
+  "indexTwo": "Második karakter indexe",
+  "toLast": "-tól a végéig",
+  "goingForward": "Előrefelé",
+  "keepCharacters": "Karakterek megtartása közöttük",
+  "removeCharacters": "Karakterek eltávolítása közöttük",
+  "metadataParserNotProvided": "Metaadat címkét tartalmaz, de nincs MetadataParser biztosítva.",
+  "replaceToString": "Cseréld le a(z) \"{targetString}\" szöveget erre: \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Távolítsd el: \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Szúrd be: \"{insert}\" a(z) {insertIndex}. karakterhez{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-tól a végéig} false{} other{}}.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Növekvő átnevezés: {prefix}-index",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Átrendezés: elválasztó {delimiter}, sorrend {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Átírás: {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Átírás: {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Csonkítás: {keepType, select, true{csak tartsd meg} false{távolítsd el} other{}} a(z) {iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-tól a végéig} false{} other{}} és {iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-tól a végéig} false{} other{}} karakter között.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Cseréld a megadott szöveget a megadott értékre.",
+  "descriptionRemove": "Távolítsd el a megadott szöveget a fájlnévből.",
+  "descriptionInsert": "Illeszd be a megadott szöveget a kívánt pozícióra.",
+  "descriptionIncrement": "Növeld a fájlneveket, pl. Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Darabold fel a fájlnevet a megadott elválasztó szerint, és rendezd át a meghatározott sorrendbe.",
+  "descriptionTransliterate": "Írd át a karaktereket az előre megadott szabályok szerint, például kis- vagy nagybetűssé, más íráselemmé vagy fonetikus alakra.",
+  "descriptionTruncate": "Távolítsd el vagy tartsd meg a fájlnév megadott részét két pozíció között.",
+  "bg": "bolgár",
+  "me": "montenegrói",
+  "mk": "macedón",
+  "mn": "mongol",
+  "ru": "orosz",
+  "sr": "szerb",
+  "tj": "tádzsik",
+  "ua": "ukrán",
+  "fileManagerSortButton": "Rendezés",
+  "fileManagerStorageButton": "Tárhely kiválasztása",
+  "fileManagerSaveButton": "Kijelöltek hozzáadása a listához",
+  "fileManagerBackButton": "Vissza",
+  "showHiddenFiles": "Rejtett fájlok mutatása",
+  "hideHiddenFiles": "Rejtett fájlok elrejtése",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Kijelölve} false{Nincs kijelölve} other{}} {entityType, select, File{Fájl} Directory{Mappa} Link{Hivatkozás} other{Elem}}, fájlnév: {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "utolsó módosítás: {last}, méret: {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "utolsó módosítás: {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Ez egy legördülő gomb, jelenlegi értéke \"{value}\". Duplán koppints a megnyitáshoz és válassz másik értéket.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Válaszd ki, majd nyomd meg a \"Szabály hozzáadása\" gombot e szabály felvételéhez.",
+  "semanticsFilesDropdownButton": ". Válaszd ki ezt az elemet, hogy korlátozd az átnevezés célját.",
+  "semanticsReorderableList": "Ez a szabálylista. Jelenleg üres. Nyomd meg a „Szabály hozzáadása” gombot egy szabály felvételéhez. A szabályok sorrendben futnak. A lista átrendezhető; mozgathatod a szabályokat fel, le, tetejére vagy aljára. Ha a kurzor egy szabályon áll, függőleges mozdulattal válthatsz a műveletek között, duplakoppintással futtathatod a kiválasztott műveletet.",
+  "semanticsOpenMetadataDialog": "Duplán koppints a metaadat címke kiválasztásához.",
+  "semanticsMultipleActionsHint": ", függőleges mozdulattal válts műveletet",
+  "semanticNumberWithDirection": "Váltás az elejétől és a végétől számolás között",
+  "semanticSwitchNumberToStartAndToEnd": "Váltás az elejétől vagy a végétől számolás között, jelenleg: {toEnd, select, true{végéről} false{elejéről} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Színválasztó",
+  "manualMode": "Kézi mód",
+  "aiMode": "AI mód"
+}
+

@@ -1,0 +1,346 @@
+{
+  "@@locale": "uk",
+  "appName": "Помічник масового перейменування файлів",
+  "lowercaseAppName": "помічник масового перейменування файлів",
+  "ok": "OK",
+  "cancel": "Скасувати",
+  "exit": "Вийти",
+  "save": "Зберегти",
+  "add": "Додати",
+  "permissionTitle": "Дозвіл на зовнішнє сховище",
+  "permissionContent": "Щоб надавати послугу перейменування файлів, нам потрібен дозвіл на керування зовнішнім сховищем. Це дозволяє отримувати доступ та перейменовувати файли на вашому пристрої. Без цього доступу застосунок не побачить повні шляхи до файлів і не зможе їх перейменувати. Ми гарантуємо, що ваша приватність і безпека для нас на першому місці, і ми торкаємося файлів лише з метою перейменування.",
+  "exitTitle": "Неможливо отримати доступ до зовнішнього сховища",
+  "exitContent": "Дозвіл на керування зовнішнім сховищем дозволяє нам отримувати доступ та перейменовувати файли на вашому пристрої. Без нього застосунок не побачить повні шляхи і не зможе перейменовувати файли. Перейдіть у «Налаштування» та надайте дозвіл вручну, інакше ми не зможемо надати сервіс.",
+  "iosRemindTitle": "Як вибрати файли на iOS",
+  "iosRemindContent": "Щоб вибрати файли на iOS, спочатку оберіть теку, де вони зберігаються. Потім у вибраній теці позначте файли, які потрібно перейменувати. Через обмеження iOS ми застосовуємо двоетапний процес, що гарантує безпечну роботу з файлами. Почнімо!",
+  "androidRemindTitle": "Перейменування тек",
+  "androidRemindContent": "З Flut Renamer ви можете перейменовувати не лише файли, а й теки. Затисніть теку, щоб вибрати її, а потім у випадному списку вгорі зліва оберіть «Files & Dirs», щоб увімкнути перейменування тек. Із міркувань безпеки деякі системні теки недоступні.",
+  "doNotRemindAgain": "Добре, більше не нагадувати.",
+  "rename": "Перейменувати",
+  "appInfo": "Про застосунок",
+  "aboutContent": "Цей застосунок створено, щоб допомогти користувачам перейменовувати файли. Він побудований на Flutter, тому доступний і на інших ОС. Проєкт повністю відкритий для перегляду та внеску.",
+  "rating": "Оцінити застосунок",
+  "ratingTitle": "Оцініть наш застосунок",
+  "ratingContent": "Подобається застосунок? Допоможіть нам розвиватися, залишивши коротку оцінку в магазині або на GitHub. Ваша думка для нас дуже важлива! Дякуємо за підтримку.",
+  "ratingStore": "Оцініть у магазині",
+  "ratingGithub": "Поставте зірку в GitHub",
+  "sourceCode": "Вихідний код",
+  "collapseOptions": "Згорнути параметри",
+  "expandOptions": "Розгорнути параметри",
+  "onlySelected": "Лише вибрані",
+  "removeRenamed": "Вилучати перейменовані файли",
+  "removeRule": "Видалити це правило",
+  "removeRules": "Видаляти правила після перейменування",
+  "addRule": "Додати правило",
+  "removeAll": "Видалити все",
+  "replace": "Замінити",
+  "remove": "Вилучити",
+  "insert": "Вставити",
+  "increment": "Наростити",
+  "rearrange": "Переставити",
+  "transliterate": "Транслітерація",
+  "truncate": "Обрізати",
+  "cancelAll": "Скасувати все",
+  "select": "Вибрати",
+  "selectAll": "Вибрати все",
+  "currentName": "Поточна назва",
+  "newName": "Нова назва",
+  "fileNotExist": "Файл не існує",
+  "files": "Файли",
+  "directories": "Теки",
+  "filesDirs": "Файли й теки",
+  "filter": "Фільтр",
+  "addFile": "Додати файл",
+  "addFiles": "Додати файли",
+  "dragToAdd": "Перетягніть файли, щоб додати.",
+  "dropToAdd": "Відпустіть тут, щоб додати файли.",
+  "dragNotSupported": "Через системні обмеження безпеки перетягування з цього застосунку не підтримується.",
+  "fileAlreadyExists": "Назву вже використано іншим файлом",
+  "renameFailed": "Не вдалося перейменувати",
+  "aiRenameTitle": "AI-перейменування",
+  "aiRenameRequirementsLabel": "Інструкції для перейменування",
+  "aiRenameRequirementsHint": "Опишіть, як потрібно перейменувати файли.",
+  "aiRenameSubmit": "Надіслати",
+  "aiRenameSnackbarEmptyRequirements": "Введіть інструкції з перейменування",
+  "aiRenameSnackbarNoSelection": "Не вибрано жодного файла",
+  "aiRenameLoading": "AI аналізує ваш запит, зачекайте…",
+  "aiRenameSuccess": "Створено правило AI. Буде перейменовано {count} файлів.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "Збій AI-перейменування: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI-перейменування: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Правила виконуються послідовно. Натисніть правило, щоб редагувати. Утримуйте кнопку «=» зліва та перетягуйте для зміни порядку.",
+  "noSysDir": "Не перейменовуйте системні теки.",
+  "fileSortName": "Назва",
+  "fileSortSize": "Розмір",
+  "fileSortDate": "Дата",
+  "fileSortType": "Тип",
+  "transliterateUpper": "Латинські літери у верхній регістр",
+  "transliterateLower": "Латинські літери у нижній регістр",
+  "transliterateTraditional": "Китайські ієрогліфи в традиційні",
+  "transliterateSimplified": "Китайські ієрогліфи в спрощені",
+  "transliteratePinyin": "Китайські ієрогліфи в піньїнь",
+  "transliterateCyrillic2Latin": "Кирилиця → латиниця",
+  "transliterateLatin2Cyrillic": "Латиниця → кирилиця",
+  "insertTagInsideAnother": "Не вставляйте тег усередину іншого тега.",
+  "appError": "Помилка застосунку",
+  "errorDetails": "Подробиці помилки",
+  "ifFileNotShown": "Якщо файли не відображаються у списку, очистьте все й продовжуйте.",
+  "metadataTags": "Теги метаданих",
+  "osTodayDate": "Сьогоднішня дата",
+  "osNowTime": "Поточний час",
+  "fileSize": "Розмір файла",
+  "fileCreateDate": "Дата створення",
+  "fileCreateTime": "Час створення",
+  "fileModifyDate": "Дата зміни",
+  "fileModifyTime": "Час зміни",
+  "photoDate": "Дата знімка з EXIF",
+  "photoTime": "Час знімка з EXIF",
+  "photoCamName": "Назва камери з EXIF",
+  "photoLensName": "Назва об'єктива з EXIF",
+  "photoFocalLength": "Фокусна відстань з EXIF",
+  "photoAperture": "Діафрагма з EXIF",
+  "photoShutter": "Витримка з EXIF",
+  "photoISO": "ISO з EXIF",
+  "photoLongitude": "GPS-довгота з EXIF",
+  "photoLatitude": "GPS-широта з EXIF",
+  "photoAltitude": "GPS-висота з EXIF",
+  "photoPhotographer": "Ім'я фотографа з EXIF",
+  "photoCopyright": "Правовласник з EXIF",
+  "musicAlbumName": "Назва альбому",
+  "musicAlbumArtist": "Ім'я виконавця альбому",
+  "musicAlbumLength": "Кількість треків в альбомі",
+  "musicYear": "Рік випуску треку",
+  "musicTrackDuration": "Тривалість треку",
+  "musicTrackName": "Назва треку",
+  "musicTrackArtist": "Виконавці треку",
+  "musicTrackNumber": "Номер треку в альбомі",
+  "musicDiscNumber": "Номер диска",
+  "musicGenres": "Жанри",
+  "musicAuthor": "Автор треку",
+  "musicWriter": "Автор тексту",
+  "prefix": "Префікс",
+  "startIndex": "Початковий індекс",
+  "indexIncrementalStep": "Крок нарощування",
+  "omitDash": "Пропустити дефіс",
+  "ignoreExtension": "Ігнорувати розширення",
+  "insertedText": "Текст для вставки",
+  "insertIndex": "Позиція вставки",
+  "fromStart": "Від початку",
+  "insertBeforeIndex": "Вставити перед позицією",
+  "rearrangeDelimiter": "Роздільник",
+  "rearrangeOrderLabel": "Порядок перестановки",
+  "rearrangeOrderHint": "числа, розділені комами",
+  "target": "Ціль",
+  "replacement": "Замінник",
+  "limit": "Обмеження",
+  "caseSensitive": "З урахуванням регістру",
+  "isRegex": "Використовувати regex",
+  "language": "Мова: ",
+  "indexOne": "Індекс першого символу",
+  "indexTwo": "Індекс другого символу",
+  "toLast": "-до кінця",
+  "goingForward": "Уперед",
+  "keepCharacters": "Залишити символи між ними",
+  "removeCharacters": "Вилучити символи між ними",
+  "metadataParserNotProvided": "Містить тег метаданих, але MetadataParser не надано.",
+  "replaceToString": "Замінити «{targetString}» на «{replacementString}».",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Вилучити «{targetString}»",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Вставити «{insert}» у {insertIndex}{ordinal, select, o1{-й} o2{-й} o3{-й} other{-й}} символ{toEnd, select, true{-з-кінця} false{} other{}}.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Наростальне перейменування: {prefix}-індекс",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Перестановка: роздільник {delimiter}, порядок {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Транслітерація: перетворити {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Транслітерація: перетворити {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Обрізання: {keepType, select, true{залишити лише} false{видалити} other{}} символи між {iOne}{iTwoOrdinal, select, o1{-м} o2{-м} o3{-м} other{-м}} символом{iOneToEnd, select, true{-з-кінця} false{} other{}} і {iTwo}{iOneOrdinal, select, o1{-м} o2{-м} o3{-м} other{-м}} символом{iTwoToEnd, select, true{-з-кінця} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Замінює вказаний текст іншим текстом.",
+  "descriptionRemove": "Вилучає вказаний текст із назви файла.",
+  "descriptionInsert": "Вставляє вказаний текст у потрібну позицію.",
+  "descriptionIncrement": "Нарощувально перейменовує файли, наприклад Фото-1, Фото-2, Фото-3.",
+  "descriptionRearrange": "Розбиває назву файлу заданим роздільником і переставляє частини у визначеному порядку.",
+  "descriptionTransliterate": "Транслітерує символи за правилами: регістр, писемність або фонетичний запис.",
+  "descriptionTruncate": "Видаляє або залишає частину назви між двома позиціями.",
+  "bg": "болгарська",
+  "me": "чорногорська",
+  "mk": "македонська",
+  "mn": "монгольська",
+  "ru": "російська",
+  "sr": "сербська",
+  "tj": "таджицька",
+  "ua": "українська",
+  "fileManagerSortButton": "Сортувати за",
+  "fileManagerStorageButton": "Вибрати сховище",
+  "fileManagerSaveButton": "Додати обране до списку",
+  "fileManagerBackButton": "Назад",
+  "showHiddenFiles": "Показати приховані файли",
+  "hideHiddenFiles": "Сховати приховані файли",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Вибрано} false{Не вибрано} other{}} {entityType, select, File{Файл} Directory{Тека} Link{Посилання} other{Об’єкт}}, назва {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "останнє редагування {last}, розмір {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "останнє редагування {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Це випадаюча кнопка, поточне значення «{value}». Двічі натисніть, щоб відкрити й вибрати інше значення.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Виберіть і натисніть «Додати правило», щоб додати його.",
+  "semanticsFilesDropdownButton": ". Виберіть цей елемент, щоб обмежити цілі перейменування.",
+  "semanticsReorderableList": "Це список правил, зараз він порожній. Натисніть «Додати правило», щоб створити перше. Правила виконуються послідовно. Список можна переставляти: рухайте правило вгору, вниз або на край списку. Коли курсор на правилі, проведіть вертикально, щоб змінити дію, і двічі натисніть для виконання вибраної дії.",
+  "semanticsOpenMetadataDialog": "Двічі натисніть, щоб відкрити діалог і вибрати тег метаданих для вставки.",
+  "semanticsMultipleActionsHint": ", проведіть вертикально, щоб перемикати дії",
+  "semanticNumberWithDirection": "Перемикання підрахунку з початку або з кінця",
+  "semanticSwitchNumberToStartAndToEnd": "Перемкнути підрахунок між початком і кінцем, зараз: {toEnd, select, true{з кінця} false{з початку} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Палітра кольорів",
+  "manualMode": "Ручний режим",
+  "aiMode": "Режим AI"
+}
+

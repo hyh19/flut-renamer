@@ -1,0 +1,346 @@
+{
+  "@@locale": "ro",
+  "appName": "Asistent de redenumire în lot",
+  "lowercaseAppName": "asistent de redenumire în lot",
+  "ok": "OK",
+  "cancel": "Anulare",
+  "exit": "Ieșire",
+  "save": "Salvează",
+  "add": "Adaugă",
+  "permissionTitle": "Permisiune pentru stocarea externă",
+  "permissionContent": "Pentru a vă oferi serviciul nostru de redenumire a fișierelor, avem nevoie de permisiunea de a gestiona stocarea externă. Astfel putem accesa și redenumi fișierele de pe dispozitivul dumneavoastră. Fără această permisiune, aplicația nu vede calea completă și nu poate redenumi fișierele. Vă asigurăm că protecția datelor este prioritatea noastră, iar accesul are loc exclusiv în scopul redenumirii.",
+  "exitTitle": "Stocarea externă nu poate fi accesată",
+  "exitContent": "Permisiunea de gestionare a stocării externe ne permite să accesăm și să redenumim fișierele stocate pe dispozitiv. Fără ea, aplicația nu poate vedea căile complete și nu poate redenumi fișiere. Accesați pagina Settings și acordați permisiunea manual; altfel nu putem furniza serviciul.",
+  "iosRemindTitle": "Despre selectarea fișierelor pe iOS",
+  "iosRemindContent": "Pentru a selecta fișiere pe iOS, alegeți mai întâi directorul în care se află fișierele. Apoi, în folderul selectat, alegeți fișierele pe care doriți să le redenumiți. Din cauza restricțiilor iOS, folosim un proces în doi pași pentru o gestionare sigură. Să începem!",
+  "androidRemindTitle": "Redenumirea directoarelor",
+  "androidRemindContent": "Cu Flut Renamer puteți redenumi nu doar fișiere, ci și directoare. Țineți apăsat un director pentru a-l selecta, apoi alegeți „Files & Dirs” din meniul derulant din stânga sus pentru a activa redenumirea directoarelor. Din motive de securitate, anumite directoare ale sistemului nu pot fi selectate.",
+  "doNotRemindAgain": "În regulă. Nu mai afișa.",
+  "rename": "Redenumește",
+  "appInfo": "Informații aplicație",
+  "aboutContent": "Această aplicație îi ajută pe utilizatori să-și redenumească fișierele. Este construită cu Flutter, deci rulează pe mai multe sisteme. Este open-source și poate fi inspectată sau la care se poate contribui.",
+  "rating": "Evaluare aplicație",
+  "ratingTitle": "Evaluează aplicația",
+  "ratingContent": "Îți place aplicația? Ajută-ne să creștem lăsând o evaluare rapidă în store sau pe GitHub. Feedback-ul tău contează enorm! Mulțumim pentru sprijin.",
+  "ratingStore": "Evaluează în store",
+  "ratingGithub": "Acordă o stea pe GitHub",
+  "sourceCode": "Cod sursă",
+  "collapseOptions": "Restrânge opțiunile",
+  "expandOptions": "Extinde opțiunile",
+  "onlySelected": "Numai selecția",
+  "removeRenamed": "Elimină fișierele redenumite",
+  "removeRule": "Elimină această regulă",
+  "removeRules": "Elimină regulile după redenumire",
+  "addRule": "Adaugă regulă",
+  "removeAll": "Elimină tot",
+  "replace": "Înlocuiește",
+  "remove": "Elimină",
+  "insert": "Inserează",
+  "increment": "Numerotează",
+  "rearrange": "Rearanjează",
+  "transliterate": "Transliterează",
+  "truncate": "Trunchiază",
+  "cancelAll": "Anulează tot",
+  "select": "Selectează",
+  "selectAll": "Selectează tot",
+  "currentName": "Nume curent",
+  "newName": "Nume nou",
+  "fileNotExist": "Fișierul nu există",
+  "files": "Fișiere",
+  "directories": "Directoare",
+  "filesDirs": "Fișiere și directoare",
+  "filter": "Filtru",
+  "addFile": "Adaugă fișier",
+  "addFiles": "Adaugă fișiere",
+  "dragToAdd": "Trage și plasează pentru a adăuga fișiere.",
+  "dropToAdd": "Plasează aici pentru a adăuga fișiere.",
+  "dragNotSupported": "Din cauza restricțiilor de securitate ale sistemului, drag & drop din această aplicație nu este permis.",
+  "fileAlreadyExists": "Numele este deja folosit",
+  "renameFailed": "Redenumirea a eșuat",
+  "aiRenameTitle": "Redenumire cu AI",
+  "aiRenameRequirementsLabel": "Instrucțiuni de redenumire",
+  "aiRenameRequirementsHint": "Descrie cum dorești să redenumești fișierele.",
+  "aiRenameSubmit": "Trimite",
+  "aiRenameSnackbarEmptyRequirements": "Introduceți instrucțiunile de redenumire",
+  "aiRenameSnackbarNoSelection": "Niciun fișier selectat",
+  "aiRenameLoading": "AI analizează cererea, vă rugăm așteptați...",
+  "aiRenameSuccess": "Regula AI a fost creată. {count} fișiere vor fi redenumite.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "Redenumirea AI a eșuat: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "Redenumire AI: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Regulile se execută pe rând. Apasă pe regulă pentru a o edita. Ține apăsat butonul „=” din stânga și trage pentru a modifica ordinea.",
+  "noSysDir": "Nu redenumi directoare rezervate sistemului.",
+  "fileSortName": "Nume",
+  "fileSortSize": "Dimensiune",
+  "fileSortDate": "Dată",
+  "fileSortType": "Tip",
+  "transliterateUpper": "Transformă literele latine în majuscule",
+  "transliterateLower": "Transformă literele latine în minuscule",
+  "transliterateTraditional": "Transformă caracterele chinezești în tradiționale",
+  "transliterateSimplified": "Transformă caracterele chinezești în simplificate",
+  "transliteratePinyin": "Transformă caracterele chinezești în pinyin",
+  "transliterateCyrillic2Latin": "Transformă caracterele chirilice în latine",
+  "transliterateLatin2Cyrillic": "Transformă caracterele latine în chirilice",
+  "insertTagInsideAnother": "Nu introduce o etichetă în interiorul altei etichete.",
+  "appError": "Eroare aplicație",
+  "errorDetails": "Detalii eroare",
+  "ifFileNotShown": "Dacă fișierele nu apar în listă, golește totul și continuă.",
+  "metadataTags": "Etichete metadata",
+  "osTodayDate": "Data de azi",
+  "osNowTime": "Ora curentă",
+  "fileSize": "Dimensiunea fișierului",
+  "fileCreateDate": "Data creării",
+  "fileCreateTime": "Ora creării",
+  "fileModifyDate": "Data modificării",
+  "fileModifyTime": "Ora modificării",
+  "photoDate": "Data fotografiei din EXIF",
+  "photoTime": "Ora fotografiei din EXIF",
+  "photoCamName": "Numele camerei din EXIF",
+  "photoLensName": "Numele obiectivului din EXIF",
+  "photoFocalLength": "Distanța focală din EXIF",
+  "photoAperture": "Valoarea diafragmei din EXIF",
+  "photoShutter": "Timpul de expunere din EXIF",
+  "photoISO": "Valoarea ISO din EXIF",
+  "photoLongitude": "Longitudinea GPS din EXIF",
+  "photoLatitude": "Latitudinea GPS din EXIF",
+  "photoAltitude": "Altitudinea GPS din EXIF",
+  "photoPhotographer": "Numele fotografului din EXIF",
+  "photoCopyright": "Numele deținătorului dreptului de autor din EXIF",
+  "musicAlbumName": "Nume album",
+  "musicAlbumArtist": "Artistul albumului",
+  "musicAlbumLength": "Numărul de piese din album",
+  "musicYear": "Anul lansării piesei",
+  "musicTrackDuration": "Durata piesei",
+  "musicTrackName": "Numele piesei",
+  "musicTrackArtist": "Numele artiștilor piesei",
+  "musicTrackNumber": "Poziția piesei în album",
+  "musicDiscNumber": "Numărul discului",
+  "musicGenres": "Genuri muzicale",
+  "musicAuthor": "Autorul piesei",
+  "musicWriter": "Textierul piesei",
+  "prefix": "Prefix",
+  "startIndex": "Index de start",
+  "indexIncrementalStep": "Pas incremental",
+  "omitDash": "Omitere cratimă",
+  "ignoreExtension": "Ignoră extensia",
+  "insertedText": "Text de inserat",
+  "insertIndex": "Poziție de inserare",
+  "fromStart": "De la început",
+  "insertBeforeIndex": "Inserează înainte de poziție",
+  "rearrangeDelimiter": "Delimitator",
+  "rearrangeOrderLabel": "Ordinea rearanjării",
+  "rearrangeOrderHint": "numere separate prin virgulă",
+  "target": "Țintă",
+  "replacement": "Înlocuitor",
+  "limit": "Limită",
+  "caseSensitive": "Sensibil la majuscule",
+  "isRegex": "Regex",
+  "language": "Limba: ",
+  "indexOne": "Index primul caracter",
+  "indexTwo": "Index al doilea caracter",
+  "toLast": "-până la final",
+  "goingForward": "Înainte",
+  "keepCharacters": "Păstrează caracterele dintre ele",
+  "removeCharacters": "Elimină caracterele dintre ele",
+  "metadataParserNotProvided": "Conține etichetă metadata, dar MetadataParser lipsește.",
+  "replaceToString": "Înlocuiește „{targetString}” cu „{replacementString}”.",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Elimină „{targetString}”",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Inserează „{insert}” la caracterul {insertIndex}{ordinal, select, o1{-lea} o2{-lea} o3{-lea} other{-lea}}{toEnd, select, true{-până-la-final} false{} other{}}.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Redenumire incrementală: {prefix}-index",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Rearanjează: delimitator {delimiter}, ordine {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transliterează: convertește {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transliterează: convertește {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Trunchiază: {keepType, select, true{păstrează doar} false{elimină} other{}} caracterele dintre caracterul {iOne}{iTwoOrdinal, select, o1{-lea} o2{-lea} o3{-lea} other{-lea}}{iOneToEnd, select, true{-până-la-final} false{} other{}} și caracterul {iTwo}{iOneOrdinal, select, o1{-lea} o2{-lea} o3{-lea} other{-lea}}{iTwoToEnd, select, true{-până-la-final} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Înlocuiește textul specificat cu noul text.",
+  "descriptionRemove": "Elimină textul specificat din numele fișierului.",
+  "descriptionInsert": "Inserează textul specificat la poziția dorită.",
+  "descriptionIncrement": "Numerotează fișierele, de exemplu Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Împarte numele după delimitatorul definit și rearanjează segmentele conform ordinii.",
+  "descriptionTransliterate": "Transliterează caracterele conform regulilor: majuscule/minuscule, seturi de caractere sau transcriere fonetică.",
+  "descriptionTruncate": "Elimină sau păstrează o porțiune de nume între două poziții.",
+  "bg": "bulgară",
+  "me": "muntenegreană",
+  "mk": "macedoneană",
+  "mn": "mongolă",
+  "ru": "rusă",
+  "sr": "sârbă",
+  "tj": "tadjică",
+  "ua": "ucraineană",
+  "fileManagerSortButton": "Sortează după",
+  "fileManagerStorageButton": "Selectează stocarea",
+  "fileManagerSaveButton": "Adaugă selecțiile în listă",
+  "fileManagerBackButton": "Înapoi",
+  "showHiddenFiles": "Arată fișiere ascunse",
+  "hideHiddenFiles": "Ascunde fișiere ascunse",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Selectat} false{Neselectat} other{}} {entityType, select, File{Fișier} Directory{Director} Link{Link} other{Entitate}}, nume: {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "ultima modificare: {last}, dimensiune: {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "ultima modificare: {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Acesta este un buton dropdown, valoarea curentă este „{value}”. Dublu click pentru a deschide și alege altă valoare.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Selectați și apoi apăsați „Adaugă regulă” pentru a o adăuga.",
+  "semanticsFilesDropdownButton": ". Selectați acest element pentru a limita țintele redenumirii.",
+  "semanticsReorderableList": "Aceasta este lista de reguli, momentan goală. Apăsați „Adaugă regulă” pentru a adăuga una. Regulile rulează în ordine. Lista poate fi rearanjată; mutați regulile în sus, jos, sus de tot sau jos de tot. Când cursorul se află pe o regulă, glisați vertical pentru a schimba acțiunile și faceți dublu click pentru a executa acțiunea selectată.",
+  "semanticsOpenMetadataDialog": "Dublu click pentru a deschide dialogul și a selecta o etichetă metadata.",
+  "semanticsMultipleActionsHint": ", glisați vertical pentru a comuta acțiunea",
+  "semanticNumberWithDirection": "Comută numărarea între început și final",
+  "semanticSwitchNumberToStartAndToEnd": "Comută numărarea între început și final, în prezent: {toEnd, select, true{de la final} false{de la început} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Selector de culoare",
+  "manualMode": "Mod manual",
+  "aiMode": "Mod AI"
+}
+

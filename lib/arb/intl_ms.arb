@@ -1,0 +1,346 @@
+{
+  "@@locale": "ms",
+  "appName": "Pembantu Menamakan Fail Pukal",
+  "lowercaseAppName": "pembantu menamakan fail pukal",
+  "ok": "OK",
+  "cancel": "Batal",
+  "exit": "Keluar",
+  "save": "Simpan",
+  "add": "Tambah",
+  "permissionTitle": "Kebenaran storan luaran",
+  "permissionContent": "Untuk membolehkan kami menamakan semula fail, kami memerlukan kebenaran anda untuk mengurus storan luaran. Ini membolehkan kami mengakses dan menamakan semula fail yang tersimpan pada peranti anda. Tanpa kebenaran ini, aplikasi tidak boleh mengakses laluan penuh fail dan tidak boleh menamakan semula fail. Kami menjamin bahawa privasi serta keselamatan anda adalah keutamaan kami, dan kami hanya mengakses fail bagi tujuan penamaan semula.",
+  "exitTitle": "Tidak boleh mengakses storan luaran",
+  "exitContent": "Kebenaran mengurus storan luaran membolehkan kami mengakses dan menamakan semula fail pada peranti anda. Tanpa kebenaran ini, aplikasi tidak boleh melihat laluan penuh fail dan tidak boleh menamakan semula fail. Sila ke halaman Tetapan dan berikan kebenaran tersebut secara manual; jika tidak, kami tidak dapat menyediakan sebarang perkhidmatan.",
+  "iosRemindTitle": "Mengenai pemilihan fail di iOS",
+  "iosRemindContent": "Untuk memilih fail di iOS, pilih dahulu direktori yang mengandungi fail anda. Kemudian, dalam folder tersebut, pilih fail yang ingin dinamakan semula. Disebabkan batasan iOS, proses dua langkah diperlukan demi pengurusan fail yang selamat. Jom mulakan!",
+  "androidRemindTitle": "Namakan semula direktori",
+  "androidRemindContent": "Dengan Flut Renamer, anda boleh menamakan semula bukan sahaja fail malah direktori. Tekan lama pada direktori untuk memilihnya, kemudian pilih 'Files & Dirs' melalui butang lungsur di kiri atas untuk membenarkan penamaan semula direktori. Demi keselamatan, sesetengah direktori sistem tidak boleh dipilih.",
+  "doNotRemindAgain": "Baik. Jangan ingatkan lagi.",
+  "rename": "Namakan semula",
+  "appInfo": "Maklumat aplikasi",
+  "aboutContent": "Aplikasi ini direka untuk membantu pengguna menamakan semula fail mereka. Ia dibina menggunakan Flutter, jadi tersedia pada pelbagai sistem operasi. Projek ini sumber terbuka sepenuhnya dan dialu-alukan untuk disemak atau disumbangkan.",
+  "rating": "Penilaian aplikasi",
+  "ratingTitle": "Nilai Aplikasi Kami",
+  "ratingContent": "Suka aplikasi kami? Bantu kami berkembang dengan memberikan penilaian pantas di stor atau GitHub. Maklum balas anda amat bernilai. Terima kasih atas sokongan anda.",
+  "ratingStore": "Nilai aplikasi di stor",
+  "ratingGithub": "Berikan bintang di GitHub",
+  "sourceCode": "Kod sumber",
+  "collapseOptions": "Sembunyikan pilihan",
+  "expandOptions": "Kembangkan pilihan",
+  "onlySelected": "Hanya yang dipilih",
+  "removeRenamed": "Buang fail yang sudah dinamakan semula",
+  "removeRule": "Buang peraturan ini",
+  "removeRules": "Buang peraturan selepas siap",
+  "addRule": "Tambah peraturan",
+  "removeAll": "Buang semua",
+  "replace": "Ganti",
+  "remove": "Padam",
+  "insert": "Sisip",
+  "increment": "Tambah nombor",
+  "rearrange": "Susun semula",
+  "transliterate": "Transliterasi",
+  "truncate": "Potong",
+  "cancelAll": "Batal semua",
+  "select": "Pilih",
+  "selectAll": "Pilih semua",
+  "currentName": "Nama semasa",
+  "newName": "Nama baharu",
+  "fileNotExist": "Fail tiada",
+  "files": "Fail",
+  "directories": "Direktori",
+  "filesDirs": "Fail & Direktori",
+  "filter": "Tapis",
+  "addFile": "Tambah fail",
+  "addFiles": "Tambah fail-fail",
+  "dragToAdd": "Seret dan lepas untuk menambah fail.",
+  "dropToAdd": "Lepaskan di sini untuk menambah fail.",
+  "dragNotSupported": "Disebabkan sekatan keselamatan sistem, seret-lepas dari aplikasi ini tidak disokong.",
+  "fileAlreadyExists": "Nama fail telah digunakan",
+  "renameFailed": "Penamaan semula gagal",
+  "aiRenameTitle": "AI Namakan Semula",
+  "aiRenameRequirementsLabel": "Arahan penamaan semula",
+  "aiRenameRequirementsHint": "Terangkan cara anda mahu menamakan semula fail-fail ini.",
+  "aiRenameSubmit": "Hantar",
+  "aiRenameSnackbarEmptyRequirements": "Masukkan arahan penamaan semula",
+  "aiRenameSnackbarNoSelection": "Tiada fail dipilih",
+  "aiRenameLoading": "AI sedang menganalisis permintaan anda, sila tunggu...",
+  "aiRenameSuccess": "Peraturan AI berjaya dicipta. {count} fail akan dinamakan semula.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI gagal menamakan semula: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI namakan semula: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Peraturan dilaksanakan ikut turutan. Klik peraturan untuk sunting. Tekan dan tahan butang '=' di kiri lalu seret untuk menyusun semula.",
+  "noSysDir": "Jangan namakan semula direktori sistem.",
+  "fileSortName": "Nama",
+  "fileSortSize": "Saiz",
+  "fileSortDate": "Tarikh",
+  "fileSortType": "Jenis",
+  "transliterateUpper": "Huruf Latin ke huruf besar",
+  "transliterateLower": "Huruf Latin ke huruf kecil",
+  "transliterateTraditional": "Tukarkan aksara Cina ke tradisional",
+  "transliterateSimplified": "Tukarkan aksara Cina ke ringkas",
+  "transliteratePinyin": "Tukarkan aksara Cina ke pinyin",
+  "transliterateCyrillic2Latin": "Huruf Cyrillic ke Latin",
+  "transliterateLatin2Cyrillic": "Huruf Latin ke Cyrillic",
+  "insertTagInsideAnother": "Jangan sisip tag di dalam tag lain.",
+  "appError": "Ralat aplikasi",
+  "errorDetails": "Butiran ralat",
+  "ifFileNotShown": "Jika fail tidak muncul, kosongkan senarai dan teruskan.",
+  "metadataTags": "Tag metadata",
+  "osTodayDate": "Tarikh hari ini",
+  "osNowTime": "Masa sekarang",
+  "fileSize": "Saiz fail",
+  "fileCreateDate": "Tarikh ciptaan fail",
+  "fileCreateTime": "Masa ciptaan fail",
+  "fileModifyDate": "Tarikh ubah suai fail",
+  "fileModifyTime": "Masa ubah suai fail",
+  "photoDate": "Tarikh foto dari EXIF",
+  "photoTime": "Masa foto dari EXIF",
+  "photoCamName": "Nama kamera dari EXIF",
+  "photoLensName": "Nama lensa dari EXIF",
+  "photoFocalLength": "Panjang fokus dari EXIF",
+  "photoAperture": "Nilai aperture dari EXIF",
+  "photoShutter": "Kelajuan shutter dari EXIF",
+  "photoISO": "Nilai ISO dari EXIF",
+  "photoLongitude": "Longitud GPS dari EXIF",
+  "photoLatitude": "Latitud GPS dari EXIF",
+  "photoAltitude": "Altitud GPS dari EXIF",
+  "photoPhotographer": "Nama jurufoto dari EXIF",
+  "photoCopyright": "Nama pemegang hak cipta dari EXIF",
+  "musicAlbumName": "Nama album",
+  "musicAlbumArtist": "Nama artis album",
+  "musicAlbumLength": "Bilangan trek dalam album",
+  "musicYear": "Tahun keluaran trek",
+  "musicTrackDuration": "Tempoh trek",
+  "musicTrackName": "Nama trek",
+  "musicTrackArtist": "Nama artis pada trek",
+  "musicTrackNumber": "Kedudukan trek dalam album",
+  "musicDiscNumber": "Nombor cakera",
+  "musicGenres": "Jenis muzik",
+  "musicAuthor": "Pengarang trek",
+  "musicWriter": "Penulis trek",
+  "prefix": "Awalan",
+  "startIndex": "Indeks mula",
+  "indexIncrementalStep": "Langkah kenaikan",
+  "omitDash": "Buang tanda sengkang",
+  "ignoreExtension": "Abaikan sambungan",
+  "insertedText": "Teks untuk disisip",
+  "insertIndex": "Indeks sisip",
+  "fromStart": "Dari mula",
+  "insertBeforeIndex": "Sisip sebelum indeks",
+  "rearrangeDelimiter": "Pemisah",
+  "rearrangeOrderLabel": "Susunan semula",
+  "rearrangeOrderHint": "nombor dipisah dengan koma",
+  "target": "Sasaran",
+  "replacement": "Pengganti",
+  "limit": "Had",
+  "caseSensitive": "Beza huruf besar kecil",
+  "isRegex": "Gunakan regex",
+  "language": "Bahasa: ",
+  "indexOne": "Indeks aksara pertama",
+  "indexTwo": "Indeks aksara kedua",
+  "toLast": "-hingga hujung",
+  "goingForward": "Ke hadapan",
+  "keepCharacters": "Kekalkan aksara di antaranya",
+  "removeCharacters": "Buang aksara di antaranya",
+  "metadataParserNotProvided": "Mengandungi tag metadata tetapi MetadataParser tiada.",
+  "replaceToString": "Ganti \"{targetString}\" dengan \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Buang \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Sisip \"{insert}\" pada aksara ke-{insertIndex}{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-hingga-akhir} false{} other{}}.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Penamaan semula bertambah: {prefix}-indeks",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Susun semula: pemisah {delimiter}, susunan {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transliterasi: tukar {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transliterasi: tukar {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Potong: {keepType, select, true{simpan sahaja} false{buang} other{}} aksara antara aksara ke-{iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-hingga-akhir} false{} other{}} dan aksara ke-{iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-hingga-akhir} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Gantikan teks yang ditentukan dengan teks baharu.",
+  "descriptionRemove": "Buang teks yang ditentukan daripada nama fail.",
+  "descriptionInsert": "Sisipkan teks yang ditentukan pada kedudukan yang dikehendaki.",
+  "descriptionIncrement": "Namakan fail secara bertambah, contohnya Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Pisahkan nama fail mengikut pemisah yang ditetapkan dan susun semula segmen mengikut turutan yang diberi.",
+  "descriptionTransliterate": "Transliterasikan aksara mengikut peraturan, termasuk menukar huruf besar/kecil, sistem tulisan atau bentuk fonetik.",
+  "descriptionTruncate": "Buang atau simpan bahagian nama fail di antara dua kedudukan.",
+  "bg": "Bulgaria",
+  "me": "Montenegro",
+  "mk": "Macedonia",
+  "mn": "Mongolia",
+  "ru": "Rusia",
+  "sr": "Serbia",
+  "tj": "Tajikistan",
+  "ua": "Ukraine",
+  "fileManagerSortButton": "Isih ikut",
+  "fileManagerStorageButton": "Pilih storan",
+  "fileManagerSaveButton": "Tambah pilihan ke senarai",
+  "fileManagerBackButton": "Kembali",
+  "showHiddenFiles": "Tunjuk fail tersembunyi",
+  "hideHiddenFiles": "Sembunyi fail tersembunyi",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Dipilih} false{Tidak dipilih} other{}} {entityType, select, File{Fail} Directory{Folder} Link{Pautan} other{Entiti}}, nama fail {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "terakhir diubah pada {last}, berukuran {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "terakhir diubah pada {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Ini adalah butang lungsur, nilai semasa \"{value}\", dwi-klik untuk membuka dan memilih nilai lain.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Pilih dan klik butang \"Tambah peraturan\" untuk menambah peraturan ini.",
+  "semanticsFilesDropdownButton": ". Pilih item ini untuk mengehadkan sasaran penamaan semula.",
+  "semanticsReorderableList": "Ini ialah senarai peraturan; kini kosong. Klik butang 'Tambah peraturan' untuk menambah satu. Peraturan dijalankan mengikut turutan. Senarai ini boleh disusun semula; anda boleh gerakkan peraturan ke atas, ke bawah atau ke hujung. Apabila kursor berada pada peraturan, leret menegak untuk menukar tindakan, dan dwi-klik untuk melaksanakan tindakan terpilih.",
+  "semanticsOpenMetadataDialog": "Dwi-klik untuk membuka dialog dan pilih tag metadata yang disisipkan.",
+  "semanticsMultipleActionsHint": ", leret menegak untuk bertukar tindakan",
+  "semanticNumberWithDirection": "Tukar kiraan antara dari mula dan dari akhir",
+  "semanticSwitchNumberToStartAndToEnd": "Tukar kiraan antara dari mula dan dari hujung, kini: {toEnd, select, true{dari hujung} false{dari mula} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Pemilih warna",
+  "manualMode": "Mod manual",
+  "aiMode": "Mod AI"
+}
+

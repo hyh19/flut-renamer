@@ -1,0 +1,346 @@
+{
+  "@@locale": "fil",
+  "appName": "Katulong sa Batch na Pag-rename ng File",
+  "lowercaseAppName": "katulong sa batch na pag-rename ng file",
+  "ok": "OK",
+  "cancel": "Kanselahin",
+  "exit": "Lumabas",
+  "save": "I-save",
+  "add": "Idagdag",
+  "permissionTitle": "Pahintulot para sa panlabas na imbakan",
+  "permissionContent": "Para maibigay namin ang serbisyo sa pag-rename ng file, kailangan namin ng pahintulot mong pamahalaan ang panlabas na imbakan. Sa ganitong paraan maa-access at ma-rerename namin ang mga file sa iyong device. Kung walang pahintulot, hindi namin mababasa ang kumpletong mga path kaya hindi rin namin ma-rerename ang mga ito. Tinitiyak namin na ang iyong privacy at seguridad ang pangunahing prayoridad, at ginagamit lang namin ang access para sa pag-rename.",
+  "exitTitle": "Hindi ma-access ang panlabas na imbakan",
+  "exitContent": "Pinapayagan ng pahintulot na pamahalaan ang panlabas na imbakan na ma-access at ma-rerename namin ang mga file sa iyong device. Kung wala ito, hindi namin maaabot ang kumpletong mga path kaya hindi namin maibibigay ang serbisyo. Pakipuntahan ang Settings at manu-manong ibigay ang pahintulot, kung hindi ay hindi kami makakatulong.",
+  "iosRemindTitle": "Tungkol sa pagpili ng file sa iOS",
+  "iosRemindContent": "Para pumili ng mga file sa iOS, piliin muna ang direktoryo kung saan nakalagay ang iyong mga file. Pagkatapos, sa loob ng napiling folder, piliin ang mga file na gusto mong i-rename. Dahil sa mga limitasyon ng iOS, kailangan namin ng dalawang hakbang para matiyak ang ligtas na pamamahala ng file. Simulan na natin!",
+  "androidRemindTitle": "Direktoryo para i-rename",
+  "androidRemindContent": "Gamit ang Flut Renamer, maaari mong i-rename hindi lang mga file kundi pati mga direktoryo. I-long press ang isang direktoryo para piliin ito, at piliin ang 'Files & Dirs' mula sa dropdown sa itaas na kaliwa para paganahin ang pag-rename ng direktoryo. Para sa kaligtasan, may ilang direktoryo ng sistema na hindi puwedeng piliin.",
+  "doNotRemindAgain": "OK. Huwag mo na akong paalalahanan.",
+  "rename": "Palitan ang pangalan",
+  "appInfo": "Impormasyon ng app",
+  "aboutContent": "Dinisenyo ang app na ito upang tulungan ang mga user na palitan ang pangalan ng kanilang mga file. Nakabatay ito sa Flutter, isang multi-platform framework, kaya magagamit din sa iba pang operating system. Bukas na bukas ang pinagmulan nito at maaaring repasuhin o ambagan.",
+  "rating": "Pag-rate sa app",
+  "ratingTitle": "I-rate ang aming app",
+  "ratingContent": "Nag-e-enjoy ka ba sa app? Tulungan mo kaming lumago sa pamamagitan ng mabilis na rating sa store o sa GitHub. Malaki ang halaga ng iyong feedback! Salamat sa suporta.",
+  "ratingStore": "I-rate ang app sa store",
+  "ratingGithub": "Bigyan ng star sa GitHub",
+  "sourceCode": "Pinagmulan ng code",
+  "collapseOptions": "Itago ang mga opsyon",
+  "expandOptions": "Palawakin ang mga opsyon",
+  "onlySelected": "Mga napili lang",
+  "removeRenamed": "Alisin ang mga na-rename",
+  "removeRule": "Alisin ang rule na ito",
+  "removeRules": "Tanggalin ang mga rule pagkatapos mag-rename",
+  "addRule": "Magdagdag ng Rule",
+  "removeAll": "Alisin lahat",
+  "replace": "Palitan",
+  "remove": "Tanggalin",
+  "insert": "Ipasok",
+  "increment": "Dagdagan",
+  "rearrange": "Ayusin muli",
+  "transliterate": "Transliterasyon",
+  "truncate": "Putulin",
+  "cancelAll": "Kanselahin lahat",
+  "select": "Piliin",
+  "selectAll": "Piliin lahat",
+  "currentName": "Kasalukuyang pangalan",
+  "newName": "Bagong pangalan",
+  "fileNotExist": "Walang ganoong file",
+  "files": "Mga file",
+  "directories": "Mga direktoryo",
+  "filesDirs": "Mga file at direktoryo",
+  "filter": "I-filter",
+  "addFile": "Magdagdag ng file",
+  "addFiles": "Magdagdag ng mga file",
+  "dragToAdd": "I-drag at i-drop para magdagdag ng mga file.",
+  "dropToAdd": "I-drop para magdagdag ng mga file.",
+  "dragNotSupported": "Dahil sa limitasyong pang-seguridad ng sistema, hindi suportado ang pag-drag ng mga file palabas ng app na ito.",
+  "fileAlreadyExists": "May ibang file na may ganitong pangalan",
+  "renameFailed": "Bigo ang pag-rename",
+  "aiRenameTitle": "AI na Pag-rename",
+  "aiRenameRequirementsLabel": "Mga tagubilin sa pag-rename",
+  "aiRenameRequirementsHint": "Ilarawan kung paano mo gustong palitan ang pangalan ng mga file.",
+  "aiRenameSubmit": "Isumite",
+  "aiRenameSnackbarEmptyRequirements": "Ilagay ang mga tagubilin sa pag-rename",
+  "aiRenameSnackbarNoSelection": "Walang napiling file",
+  "aiRenameLoading": "Sinusuri ng AI ang iyong kahilingan, pakihintay...",
+  "aiRenameSuccess": "Nagawa ang AI rename rule. {count} na file ang papalitan ang pangalan.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "Nabigo ang AI rename: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI rename: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Sunod-sunod na isinasagawa ang mga rule. I-click ang isang rule para i-edit ito. Hawakan ang '=' na button sa kaliwa at i-drag para baguhin ang pagkakasunod-sunod.",
+  "noSysDir": "Huwag mag-rename ng direktoryong nakalaan sa sistema.",
+  "fileSortName": "Pangalan",
+  "fileSortSize": "Laki",
+  "fileSortDate": "Petsa",
+  "fileSortType": "Uri",
+  "transliterateUpper": "Mga karakter na Latin sa malaking titik",
+  "transliterateLower": "Mga karakter na Latin sa maliit na titik",
+  "transliterateTraditional": "Mga karakter na Tsino tungo sa tradisyonal na Tsino",
+  "transliterateSimplified": "Mga karakter na Tsino tungo sa pinasimpleng Tsino",
+  "transliteratePinyin": "Mga karakter na Tsino tungo sa pinyin",
+  "transliterateCyrillic2Latin": "Mga karakter na Cyrillic tungo sa Latin",
+  "transliterateLatin2Cyrillic": "Mga karakter na Latin tungo sa Cyrillic",
+  "insertTagInsideAnother": "Huwag magpasok ng isang tag sa loob ng ibang tag.",
+  "appError": "Error ng application",
+  "errorDetails": "Detalye ng error",
+  "ifFileNotShown": "Kung hindi lumalabas ang mga file sa listahan, pakilinis lahat at magpatuloy.",
+  "metadataTags": "Mga metadata tag",
+  "osTodayDate": "Petsa ngayon",
+  "osNowTime": "Oras ngayon",
+  "fileSize": "Laki ng file",
+  "fileCreateDate": "Petsa ng pagkakagawa ng file",
+  "fileCreateTime": "Oras ng pagkakagawa ng file",
+  "fileModifyDate": "Petsa ng pag-edit ng file",
+  "fileModifyTime": "Oras ng pag-edit ng file",
+  "photoDate": "Petsa ng larawan mula sa EXIF",
+  "photoTime": "Oras ng larawan mula sa EXIF",
+  "photoCamName": "Pangalan ng kamera mula sa EXIF",
+  "photoLensName": "Pangalan ng lente mula sa EXIF",
+  "photoFocalLength": "Haba ng pokus mula sa EXIF",
+  "photoAperture": "Halaga ng aperture mula sa EXIF",
+  "photoShutter": "Bilis ng shutter mula sa EXIF",
+  "photoISO": "Halagang ISO mula sa EXIF",
+  "photoLongitude": "Haba ng photo GPS mula sa EXIF",
+  "photoLatitude": "Latitud ng photo GPS mula sa EXIF",
+  "photoAltitude": "Altitud ng photo GPS mula sa EXIF",
+  "photoPhotographer": "Pangalan ng potograpo mula sa EXIF",
+  "photoCopyright": "Pangalan ng may hawak ng copyright mula sa EXIF",
+  "musicAlbumName": "Pangalan ng album",
+  "musicAlbumArtist": "Pangalan ng artist ng album",
+  "musicAlbumLength": "Bilang ng mga track sa album",
+  "musicYear": "Taon ng paglabas ng track",
+  "musicTrackDuration": "Haba ng track",
+  "musicTrackName": "Pangalan ng track",
+  "musicTrackArtist": "Mga artist na tumugtog sa track",
+  "musicTrackNumber": "Posisyon ng track sa album",
+  "musicDiscNumber": "Posisyon ng disc",
+  "musicGenres": "Uri ng sining ng musika",
+  "musicAuthor": "May-akda ng track",
+  "musicWriter": "Manunulat ng track",
+  "prefix": "Unlapi",
+  "startIndex": "Panimulang index",
+  "indexIncrementalStep": "Hakbang ng pagdagdag sa index",
+  "omitDash": "Tanggalin ang gitling",
+  "ignoreExtension": "Huwag isama ang extension",
+  "insertedText": "Text na ipapasok",
+  "insertIndex": "Index ng pagpasok",
+  "fromStart": "Mula simula",
+  "insertBeforeIndex": "Ipasok bago ang index",
+  "rearrangeDelimiter": "Delimiter para ayusin muli",
+  "rearrangeOrderLabel": "Ayusin muli ang pagkakasunod",
+  "rearrangeOrderHint": "mga numero na hinihiwalay ng kuwit",
+  "target": "Target",
+  "replacement": "Kapalit",
+  "limit": "limitasyon",
+  "caseSensitive": "Iniintindi ang malaki/maliit na titik",
+  "isRegex": "Regex ba",
+  "language": "Wika: ",
+  "indexOne": "Index ng unang karakter",
+  "indexTwo": "Index ng pangalawang karakter",
+  "toLast": "-hanggang-huli",
+  "goingForward": "Pasulong",
+  "keepCharacters": "Panatilihin ang mga karakter sa pagitan",
+  "removeCharacters": "Tanggalin ang mga karakter sa pagitan",
+  "metadataParserNotProvided": "May kasamang metadata tag ngunit walang ibinigay na MetadataParser.",
+  "replaceToString": "Palitan ang \"{targetString}\" ng \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Tanggalin ang \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Ipasok ang \"{insert}\" sa {insertIndex}{ordinal, select, o1{st} o2{nd} o3{rd} other{th}}{toEnd, select, true{-hanggang-dulo} false{} other{}} na karakter.",
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Sunod-sunod na pag-rename: {prefix}-index",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Ayusin muli: delimiter: {delimiter}, order: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transliterasyon: i-convert ang {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transliterasyon: i-convert ang {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Truncate: {keepType, select, true{panatilihin lang} false{tanggalin} other{}} ang mga karakter sa pagitan ng {iOne}{iTwoOrdinal, select, o1{st} o2{nd} o3{rd} other{th}}{iOneToEnd, select, true{-hanggang-dulo} false{} other{}} na karakter at {iTwo}{iOneOrdinal, select, o1{st} o2{nd} o3{rd} other{th}}{iTwoToEnd, select, true{-hanggang-dulo} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Palitan ang partikular na text ng ibinigay na kapalit.",
+  "descriptionRemove": "Tanggalin ang tinukoy na text mula sa pangalan ng file.",
+  "descriptionInsert": "Ipasok ang tinukoy na text sa itinakdang posisyon.",
+  "descriptionIncrement": "Dagdagan ang pangalan ng file, hal. Photo-1, Photo-2, Photo-3.",
+  "descriptionRearrange": "Hatiin ang pangalan ng file gamit ang delimiter na itinakda ng user at ayusin muli ang mga bahagi ayon sa pagkakasunod na ibinigay.",
+  "descriptionTransliterate": "I-transliterate ang mga karakter ayon sa itinakdang panuntunan, kabilang ang pag-convert sa malaking/maliit na titik, pagpapalit ng hanay ng karakter, o pagbago sa mga tunog.",
+  "descriptionTruncate": "Tanggalin o panatilihin ang bahagi ng pangalan ng file mula sa isang posisyon patungo sa isa pa.",
+  "bg": "Bulgarian",
+  "me": "Montenegrin",
+  "mk": "Macedonian",
+  "mn": "Mongolian",
+  "ru": "Russian",
+  "sr": "Serbian",
+  "tj": "Tajik",
+  "ua": "Ukrainian",
+  "fileManagerSortButton": "Isaayos ayon sa",
+  "fileManagerStorageButton": "Piliin ang imbakan",
+  "fileManagerSaveButton": "Idagdag ang mga napili sa listahan",
+  "fileManagerBackButton": "Bumalik",
+  "showHiddenFiles": "Ipakita ang mga nakatagong file",
+  "hideHiddenFiles": "Itago ang mga nakatagong file",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Napili} false{Hindi napili} other{}} {entityType, select, File{File} Directory{Folder} Link{Link} other{Entity ng file system}}, pangalan ng file ay {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "huling binago noong {last}, laki {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "huling binago noong {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Ito ay dropdown button, kasalukuyang halaga ay \"{value}\", i-double tap para buksan at pumili ng ibang halaga.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Piliin at i-click ang \"Magdagdag ng Rule\" upang idagdag ito.",
+  "semanticsFilesDropdownButton": ". Piliin ito para limitahan ang target ng pag-rename.",
+  "semanticsReorderableList": "Ito ang listahan ng mga rule, kasalukuyang walang laman. I-click ang 'Magdagdag ng rule' para magdagdag. Sunod-sunod na isinasagawa ang mga rule. Maari mong ilipat ang isang rule pataas, pababa, o hanggang dulo. Kapag nasa isang rule ang cursor, gumamit ng patayong swipe para magpalit ng aksyon at double click para isagawa ito.",
+  "semanticsOpenMetadataDialog": "I-double tap para magbukas ng dialog at pumili ng metadata tag na ipapasok.",
+  "semanticsMultipleActionsHint": ", magpalit ng aksyon gamit ang patayong swipe",
+  "semanticNumberWithDirection": "Pagpalit ng direksyon ng pagbibilang mula sa simula o mula sa dulo",
+  "semanticSwitchNumberToStartAndToEnd": "Pagpalit ng direksyon ng pagbibilang mula sa simula o sa dulo, kasalukuyang binibilang mula {toEnd, select, true{sa dulo} false{sa simula} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Tagapili ng kulay",
+  "manualMode": "Paraan na manwal",
+  "aiMode": "Mode ng AI"
+}
+
