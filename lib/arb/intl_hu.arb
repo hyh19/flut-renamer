@@ -23,7 +23,7 @@
   "ratingTitle": "Értékeld az appot",
   "ratingContent": "Tetszik az alkalmazás? Segíts a fejlődésben: adj gyors értékelést az áruházban vagy a GitHubon. A visszajelzésed sokat jelent. Köszönjük a támogatást!",
   "ratingStore": "Értékelés az áruházban",
-  "ratingGithub": "Csillagozd GitHubon",
+  "ratingGitHub": "Csillagozd GitHubon",
   "sourceCode": "Forráskód",
   "collapseOptions": "Beállítások összecsukása",
   "expandOptions": "Beállítások lenyitása",

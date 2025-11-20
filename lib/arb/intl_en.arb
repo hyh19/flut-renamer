@@ -23,7 +23,7 @@
   "ratingTitle": "Rate Our App",
   "ratingContent": "Enjoying our app? Help us grow by giving it a quick rating on the store or GitHub. Your feedback means the world to us! Thanks for your support.",
   "ratingStore": "Rate the app on store",
-  "ratingGithub": "Star it on Github",
+  "ratingGitHub": "Star it on GitHub",
   "sourceCode": "Source code",
   "collapseOptions": "Collapse options",
   "expandOptions": "Expand options",
@@ -317,7 +317,7 @@
       }
     }
   },
-  "semanticsDropdownButton": "This is a dropdown button, current value is \"{value}\", double click to open the it and pick another value.",
+  "semanticsDropdownButton": "This is a dropdown button, current value is \"{value}\", double click to open it and pick another value.",
   "@semanticsDropdownButton": {
     "placeholders": {
       "value": {

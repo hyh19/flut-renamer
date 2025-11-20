@@ -23,7 +23,7 @@
   "ratingTitle": "ให้คะแนนแอปของเรา",
   "ratingContent": "ชอบแอปของเราหรือไม่? โปรดให้คะแนนดี ๆ ใน App Store หรือกดไลค์ใน GitHub เพื่อช่วยเราในการ成⻑ ความคิดเห็นของคุณมีความสำคัญอย่างยิ่งสำหรับเรา! ขอบคุณสำหรับการสนับสนุนของคุณ",
   "ratingStore": "ให้คะแนนใน Store",
-  "ratingGithub": "กดไลค์บน GitHub",
+  "ratingGitHub": "กดไลค์บน GitHub",
   "sourceCode": "โค้ดต้นฉบับ",
   "collapseOptions": "ยุบตัวเลือก",
   "expandOptions": "ขยายตัวเลือก",
@@ -184,5 +184,163 @@
   "semanticSwitchNumberToStartAndToEnd": "สลับทิศทางการนับระหว่างจากจุดเริ่มต้นและจากจุดสิ้นสุด ณ ปัจจุบันกำลังนับจาก {toEnd, select, true{จุดสิ้นสุด} false{จุดเริ่มต้น} other{}}",
   "colorPicker": "ตัวเลือกสี",
   "manualMode": "โหมดแมนนวล",
-  "aiMode": "โหมด AI"
+  "aiMode": "โหมด AI",
+  "semanticNumberWithDirection": "สลับทิศทางการนับระหว่างจากจุดเริ่มต้นและจากจุดสิ้นสุด",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  }
 }

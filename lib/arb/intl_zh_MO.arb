@@ -11,19 +11,19 @@
   "permissionContent": "為了提供檔案重新命名服務，我們需要您授權我們管理外部儲存。這樣我們才能存取並重新命名您裝置上儲存的檔案。如果沒有此權限，應用程式將無法存取檔案的完整路徑，從而無法進行重新命名操作。我們向您保證，我們非常重視您的私隱和安全，我們只會在重新命名目的下存取檔案。",
   "exitTitle": "無法存取外部儲存",
   "exitContent": "管理外部儲存的權限允許我們存取和重新命名您裝置上儲存的檔案。如果沒有此權限，應用程式將無法存取檔案的完整路徑，從而無法進行重新命名操作。請前往設定頁面手動授予權限，否則我們將無法提供任何服務。",
-  "iosRemindTitle": "關於在iOS上選取檔案",
-  "iosRemindContent": "要在iOS上選取檔案，首先選擇一個包含您的檔案的資料夾。然後，在選定的資料夾中，選擇您要重新命名的檔案。由於iOS的限制，我們必須採取這兩個步驟，這可以確保安全的檔案存取。讓我們開始吧！",
+  "iosRemindTitle": "關於在 iOS 上選取檔案",
+  "iosRemindContent": "要在 iOS 上選取檔案，首先選擇一個包含您的檔案的資料夾。然後，在選定的資料夾中，選擇您要重新命名的檔案。由於 iOS 的限制，我們必須採取這兩個步驟，這可以確保安全的檔案存取。讓我們開始吧！",
   "androidRemindTitle": "重新命名目錄",
-  "androidRemindContent": "使用Flut Renamer，您不僅可以重新命名檔案，還可以重新命名目錄。長按目錄將其選中，然後在左上角下拉按鈕中選擇「檔案和目錄」即可啟用目錄重新命名功能。出於安全考慮，某些系統保留目錄不可選。",
+  "androidRemindContent": "使用 Flut Renamer，您不僅可以重新命名檔案，還可以重新命名目錄。長按目錄將其選中，然後在左上角下拉按鈕中選擇「檔案和目錄」即可啟用目錄重新命名功能。出於安全考慮，某些系統保留目錄不可選。",
   "doNotRemindAgain": "確定，不再提醒",
   "rename": "重新命名",
   "appInfo": "應用程式資訊",
-  "aboutContent": "此應用程式旨在幫助使用者重新命名檔案。它使用Flutter框架開發，因此也適用於其他作業系統。它是完全開源的，可以進行審查和貢獻。",
+  "aboutContent": "此應用程式旨在幫助使用者重新命名檔案。它使用 Flutter 框架開發，因此也適用於其他作業系統。它是完全開源的，可以進行審查和貢獻。",
   "rating": "應用程式評分",
   "ratingTitle": "評價我們的應用程式",
-  "ratingContent": "喜歡我們的應用程式嗎？在應用程式商店給個好評或在GitHub上點讚來幫助我們成長。您的回饋對我們非常重要！感謝您的支持。",
+  "ratingContent": "喜歡我們的應用程式嗎？在應用程式商店給個好評或在 GitHub 上按讚來幫助我們成長。您的回饋對我們非常重要！感謝您的支持。",
   "ratingStore": "去商店評分",
-  "ratingGithub": "給GitHub儲存庫點讚",
+  "ratingGitHub": "在 GitHub 儲存庫按讚",
   "sourceCode": "原始碼",
   "collapseOptions": "收起選項",
   "expandOptions": "展開選項",
@@ -92,19 +92,19 @@
   "fileCreateTime": "檔案建立時間",
   "fileModifyDate": "檔案修改日期",
   "fileModifyTime": "檔案修改時間",
-  "photoDate": "照片拍攝日期（來自exif）",
-  "photoTime": "照片拍攝時間（來自exif）",
-  "photoCamName": "相機名稱（來自exif）",
-  "photoLensName": "鏡頭名稱（來自exif）",
-  "photoFocalLength": "焦距（來自exif）",
-  "photoAperture": "光圈數值（來自exif）",
-  "photoShutter": "快門速度（來自exif）",
-  "photoISO": "ISO數值（來自exif）",
-  "photoLongitude": "照片GPS經度（來自exif）",
-  "photoLatitude": "照片GPS緯度（來自exif）",
-  "photoAltitude": "照片GPS海拔（來自exif）",
-  "photoPhotographer": "攝影師姓名（來自exif）",
-  "photoCopyright": "版權所有者姓名（來自exif）",
+  "photoDate": "照片拍攝日期（來自 EXIF）",
+  "photoTime": "照片拍攝時間（來自 EXIF）",
+  "photoCamName": "相機名稱（來自 EXIF）",
+  "photoLensName": "鏡頭名稱（來自 EXIF）",
+  "photoFocalLength": "焦距（來自 EXIF）",
+  "photoAperture": "光圈數值（來自 EXIF）",
+  "photoShutter": "快門速度（來自 EXIF）",
+  "photoISO": "ISO 數值（來自 EXIF）",
+  "photoLongitude": "照片 GPS 經度（來自 EXIF）",
+  "photoLatitude": "照片 GPS 緯度（來自 EXIF）",
+  "photoAltitude": "照片 GPS 海拔（來自 EXIF）",
+  "photoPhotographer": "攝影師姓名（來自 EXIF）",
+  "photoCopyright": "版權所有者姓名（來自 EXIF）",
   "musicAlbumName": "專輯名稱",
   "musicAlbumArtist": "專輯藝術家姓名",
   "musicAlbumLength": "專輯中的曲目數",
@@ -184,6 +184,163 @@
   "semanticSwitchNumberToStartAndToEnd": "切換計數方式為從開頭計數或從末尾計數，目前從{toEnd, select, true{末尾} false{開頭} other{}}計數。",
   "colorPicker": "顏色選擇器",
   "manualMode": "手動模式",
-  "aiMode": "AI 模式"
+  "aiMode": "AI 模式",
+  "semanticNumberWithDirection": "切換計數方式為從開頭計數或從末尾計數",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "@truncateToString": {
+    "placeholders": {
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "keepType": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "entityType": {
+        "type": "String"
+      },
+      "selectStatus": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  }
 }
-
