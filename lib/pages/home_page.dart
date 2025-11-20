@@ -148,23 +148,25 @@ class _HomePageState extends State<HomePage> {
             icon: const Icon(Icons.palette),
             onPressed: showColorPickerDialog,
           ),
-          IconButton(
-            tooltip: Shared.languageMode == LanguageMode.system
-                ? L10n.current.languageFollowSystem
-                : L10n.current.languageEnglishOnly,
-            icon: Icon(
-              Shared.languageMode == LanguageMode.system
-                  ? Icons.language
-                  : Icons.abc,
+          if (Shared.systemLocale.languageCode != 'en')
+            IconButton(
+              tooltip: Shared.languageMode == LanguageMode.system
+                  ? L10n.current.languageFollowSystem
+                  : L10n.current.languageEnglishOnly,
+              icon: Icon(
+                Shared.languageMode == LanguageMode.system
+                    ? Icons.language
+                    : Icons.abc,
+              ),
+              onPressed: () {
+                setState(() {
+                  Shared.languageMode =
+                      Shared.languageMode == LanguageMode.system
+                          ? LanguageMode.english
+                          : LanguageMode.system;
+                });
+              },
             ),
-            onPressed: () {
-              setState(() {
-                Shared.languageMode = Shared.languageMode == LanguageMode.system
-                    ? LanguageMode.english
-                    : LanguageMode.system;
-              });
-            },
-          ),
         ],
       ),
     );

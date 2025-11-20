@@ -121,6 +121,8 @@ class Shared {
 
   static Locale _systemLocale = const Locale('en');
 
+  static Locale get systemLocale => _systemLocale;
+
   static void updateSystemLocale(Locale locale) {
     _systemLocale = locale;
     if (_languageMode == LanguageMode.system) {
