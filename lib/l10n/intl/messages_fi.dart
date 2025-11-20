@@ -102,7 +102,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "AI Uudelleennimeäminen",
     ),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Flut Renamerin avulla voit nimetä uudelleen paitsi tiedostoja myös hakemistoja. Paina pitkään hakemistoa valitaksesi sen ja valitse \'Tiedostot ja hakemistot\' avattavasta painikkeesta vasemmassa yläkulmassa ottaaksesi hakemistojen uudelleennimeämisen käyttöön. Turvallisuussyistä jotkin järjestelmän varatut hakemistot eivät ole valittavissa.",
+      "Tiedostojen Massanimeämisen Avustajain avulla voit nimetä uudelleen paitsi tiedostoja myös hakemistoja. Paina pitkään hakemistoa valitaksesi sen ja valitse \'Tiedostot ja hakemistot\' avattavasta painikkeesta vasemmassa yläkulmassa ottaaksesi hakemistojen uudelleennimeämisen käyttöön. Turvallisuussyistä jotkin järjestelmän varatut hakemistot eivät ole valittavissa.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Nimeä hakemisto uudelleen",

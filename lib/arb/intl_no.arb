@@ -14,7 +14,7 @@
   "iosRemindTitle": "Om å velge filer på iOS",
   "iosRemindContent": "For å velge filer på iOS, velg først katalogen der filene dine befinner seg. Deretter, i den valgte mappen, velg filene du vil endre navn på. På grunn av iOS-begrensninger må vi bruke en to-trinns prosess, som sikrer trygg filhåndtering. La oss begynne!",
   "androidRemindTitle": "Endre katalognavn",
-  "androidRemindContent": "Ved å bruke Flut Renamer kan du endre navn på ikke bare filer, men også kataloger. Hold inne en katalog for å velge den, og velg 'Filer & Kataloger' fra rullegardin-knappen i øvre venstre hjørne for å aktivere katalognavnendring. Av sikkerhetshensyn er noen systemreserverte kataloger ikke valgbare.",
+  "androidRemindContent": "Ved å bruke Batch Filnavn Endring Assistent kan du endre navn på ikke bare filer, men også kataloger. Hold inne en katalog for å velge den, og velg 'Filer & Kataloger' fra rullegardin-knappen i øvre venstre hjørne for å aktivere katalognavnendring. Av sikkerhetshensyn er noen systemreserverte kataloger ikke valgbare.",
   "doNotRemindAgain": "OK. Ikke påminn meg igjen.",
   "rename": "Endre navn",
   "appInfo": "App-informasjon",

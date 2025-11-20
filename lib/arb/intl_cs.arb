@@ -14,7 +14,7 @@
   "iosRemindTitle": "O výběru souborů v iOS",
   "iosRemindContent": "Pro výběr souborů v iOS nejprve zvolte adresář, kde se vaše soubory nacházejí. Poté v vybrané složce vyberte soubory, které chcete přejmenovat. Kvůli omezením iOS musíme použít dvoustupňový proces, který zajišťuje bezpečnou správu souborů. Začněme!",
   "androidRemindTitle": "Přejmenovat adresář",
-  "androidRemindContent": "Pomocí Flut Renamer můžete přejmenovávat nejen soubory, ale také adresáře. Dlouhým stiskem vyberte adresář a poté vyberte 'Soubory a adresáře' z rozbalovacího tlačítka v levém horním rohu, abyste povolili přejmenování adresářů. Z bezpečnostních důvodů nejsou některé systémové rezervované adresáře vybratelné.",
+  "androidRemindContent": "Pomocí Asistent pro Hromadné Přejmenování Souborů můžete přejmenovávat nejen soubory, ale také adresáře. Dlouhým stiskem vyberte adresář a poté vyberte 'Soubory a adresáře' z rozbalovacího tlačítka v levém horním rohu, abyste povolili přejmenování adresářů. Z bezpečnostních důvodů nejsou některé systémové rezervované adresáře vybratelné.",
   "doNotRemindAgain": "OK. Už mi to nepřipomínej.",
   "rename": "Přejmenovat",
   "appInfo": "Informace o aplikaci",

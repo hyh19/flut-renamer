@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("Đổi tên AI"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Sử dụng Flut Renamer, bạn không chỉ có thể đổi tên file mà còn cả thư mục. Nhấn giữ một thư mục để chọn nó, và chọn \'File & Thư mục\' từ nút thả xuống ở góc trên bên trái để bật tính năng đổi tên thư mục. Vì lý do bảo mật, một số thư mục dành riêng của hệ thống không thể chọn.",
+      "Sử dụng Trợ lý Đổi tên File Hàng loạt, bạn không chỉ có thể đổi tên file mà còn cả thư mục. Nhấn giữ một thư mục để chọn nó, và chọn \'File & Thư mục\' từ nút thả xuống ở góc trên bên trái để bật tính năng đổi tên thư mục. Vì lý do bảo mật, một số thư mục dành riêng của hệ thống không thể chọn.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Đổi tên thư mục",

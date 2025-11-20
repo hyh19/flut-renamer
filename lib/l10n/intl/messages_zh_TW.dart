@@ -96,7 +96,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI 重新命名"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "使用 Flut Renamer，您不僅可以重新命名檔案，還可以重新命名目錄。長按目錄將其選中，然後在左上角下拉按鈕中選擇「檔案和目錄」即可啟用目錄重新命名功能。出於安全考慮，某些系統保留目錄不可選。",
+      "使用檔案批次重新命名助手，您不僅可以重新命名檔案，還可以重新命名目錄。長按目錄將其選中，然後在左上角下拉按鈕中選擇「檔案和目錄」即可啟用目錄重新命名功能。出於安全考慮，某些系統保留目錄不可選。",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage("重新命名目錄"),
     "appError": MessageLookupByLibrary.simpleMessage("應用程式錯誤"),

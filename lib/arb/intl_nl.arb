@@ -14,7 +14,7 @@
   "iosRemindTitle": "Over het selecteren van bestanden op iOS",
   "iosRemindContent": "Om bestanden op iOS te selecteren, kies eerst de map waar uw bestanden zich bevinden. Selecteer vervolgens binnen de geselecteerde map de bestanden die u wilt hernoemen. Vanwege de beperkingen van iOS moeten we een tweestapsproces gebruiken, wat veilig bestandsbeheer garandeert. Laten we beginnen!",
   "androidRemindTitle": "Map hernoemen",
-  "androidRemindContent": "Met Flut Renamer kunt u niet alleen bestanden maar ook mappen hernoemen. Houd een map lang ingedrukt om deze te selecteren en selecteer 'Bestanden & Mappen' vanuit de vervolgkeuzeknop in de linkerbovenhoek om het hernoemen van mappen in te schakelen. Om veiligheidsredenen zijn sommige systeemgereserveerde mappen niet selecteerbaar.",
+  "androidRemindContent": "Met Batch Bestandsnaam Wijzigen Assistent kunt u niet alleen bestanden maar ook mappen hernoemen. Houd een map lang ingedrukt om deze te selecteren en selecteer 'Bestanden & Mappen' vanuit de vervolgkeuzeknop in de linkerbovenhoek om het hernoemen van mappen in te schakelen. Om veiligheidsredenen zijn sommige systeemgereserveerde mappen niet selecteerbaar.",
   "doNotRemindAgain": "OK. Herinner me niet meer.",
   "rename": "Hernoemen",
   "appInfo": "App-informatie",

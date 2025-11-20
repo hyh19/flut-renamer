@@ -14,7 +14,7 @@
   "iosRemindTitle": "Despre selectarea fișierelor pe iOS",
   "iosRemindContent": "Pentru a selecta fișiere pe iOS, alegeți mai întâi directorul în care se află fișierele. Apoi, în folderul selectat, alegeți fișierele pe care doriți să le redenumiți. Din cauza restricțiilor iOS, folosim un proces în doi pași pentru o gestionare sigură. Să începem!",
   "androidRemindTitle": "Redenumirea directoarelor",
-  "androidRemindContent": "Cu Flut Renamer puteți redenumi nu doar fișiere, ci și directoare. Țineți apăsat un director pentru a-l selecta, apoi alegeți „Files & Dirs” din meniul derulant din stânga sus pentru a activa redenumirea directoarelor. Din motive de securitate, anumite directoare ale sistemului nu pot fi selectate.",
+  "androidRemindContent": "Cu Asistent de redenumire în lot puteți redenumi nu doar fișiere, ci și directoare. Țineți apăsat un director pentru a-l selecta, apoi alegeți „Files & Dirs” din meniul derulant din stânga sus pentru a activa redenumirea directoarelor. Din motive de securitate, anumite directoare ale sistemului nu pot fi selectate.",
   "doNotRemindAgain": "În regulă. Nu mai afișa.",
   "rename": "Redenumește",
   "appInfo": "Informații aplicație",

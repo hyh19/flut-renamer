@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI-перейменування"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "З Flut Renamer ви можете перейменовувати не лише файли, а й теки. Затисніть теку, щоб вибрати її, а потім у випадному списку вгорі зліва оберіть «Files & Dirs», щоб увімкнути перейменування тек. Із міркувань безпеки деякі системні теки недоступні.",
+      "З Помічник масового перейменування файлів ви можете перейменовувати не лише файли, а й теки. Затисніть теку, щоб вибрати її, а потім у випадному списку вгорі зліва оберіть «Files & Dirs», щоб увімкнути перейменування тек. Із міркувань безпеки деякі системні теки недоступні.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Перейменування тек",

@@ -14,7 +14,7 @@
   "iosRemindTitle": "Tentang memilih file di iOS",
   "iosRemindContent": "Untuk memilih file di iOS, pertama-tama pilih direktori tempat file Anda berada. Kemudian, dalam folder yang dipilih, pilih file yang ingin Anda ganti namanya. Karena pembatasan iOS, kami harus menggunakan proses dua langkah, yang memastikan manajemen file yang aman. Mari kita mulai!",
   "androidRemindTitle": "Ganti nama direktori",
-  "androidRemindContent": "Menggunakan Flut Renamer, Anda tidak hanya dapat mengganti nama file tetapi juga direktori. Tekan lama pada direktori untuk memilihnya, dan pilih 'File & Direktori' dari tombol dropdown di sudut kiri atas untuk mengaktifkan penggantian nama direktori. Untuk alasan keamanan, beberapa direktori yang dicadangkan sistem tidak dapat dipilih.",
+  "androidRemindContent": "Menggunakan Asisten Pengganti Nama File Batch, Anda tidak hanya dapat mengganti nama file tetapi juga direktori. Tekan lama pada direktori untuk memilihnya, dan pilih 'File & Direktori' dari tombol dropdown di sudut kiri atas untuk mengaktifkan penggantian nama direktori. Untuk alasan keamanan, beberapa direktori yang dicadangkan sistem tidak dapat dipilih.",
   "doNotRemindAgain": "OK. Jangan ingatkan saya lagi.",
   "rename": "Ganti Nama",
   "appInfo": "Info aplikasi",

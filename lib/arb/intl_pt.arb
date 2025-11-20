@@ -14,7 +14,7 @@
   "iosRemindTitle": "Sobre a seleção de arquivos no iOS",
   "iosRemindContent": "Para selecionar arquivos no iOS, primeiro selecione uma pasta que contenha seus arquivos. Em seguida, dentro da pasta selecionada, escolha os arquivos que deseja renomear. Devido às limitações do iOS, precisamos seguir essas duas etapas para garantir o acesso seguro aos arquivos. Vamos começar!",
   "androidRemindTitle": "Renomear diretórios",
-  "androidRemindContent": "Usando o Flut Renamer, você pode renomear não apenas arquivos, mas também diretórios. Pressione e segure um diretório para selecioná-lo e, em seguida, selecione 'Arquivos e diretórios' no botão suspenso no canto superior esquerdo para habilitar a renomeação de diretórios. Por motivos de segurança, alguns diretórios reservados pelo sistema não são selecionáveis.",
+  "androidRemindContent": "Usando o Assistente de Renomeação de Arquivos em Lote, você pode renomear não apenas arquivos, mas também diretórios. Pressione e segure um diretório para selecioná-lo e, em seguida, selecione 'Arquivos e diretórios' no botão suspenso no canto superior esquerdo para habilitar a renomeação de diretórios. Por motivos de segurança, alguns diretórios reservados pelo sistema não são selecionáveis.",
   "doNotRemindAgain": "Não mostrar novamente",
   "rename": "Renomear",
   "appInfo": "Informações do aplicativo",

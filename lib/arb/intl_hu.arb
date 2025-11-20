@@ -14,7 +14,7 @@
   "iosRemindTitle": "Fájl kiválasztása iOS rendszeren",
   "iosRemindContent": "iOS-en először válaszd ki azt a könyvtárat, ahol a fájlok találhatók. Ezután a mappán belül jelöld ki az átnevezendő fájlokat. Az iOS korlátozásai miatt kétlépéses folyamatot alkalmazunk a biztonságos kezelés érdekében. Kezdjük is!",
   "androidRemindTitle": "Könyvtár átnevezése",
-  "androidRemindContent": "A Flut Renamer segítségével nemcsak fájlokat, hanem mappákat is átnevezhetsz. Tartsd hosszan lenyomva a könyvtárat a kijelöléshez, majd a bal felső sarokban válts a legördülőben „Files & Dirs” módra, hogy engedélyezd a könyvtárátnevezést. Biztonsági okokból bizonyos rendszermappák nem választhatók.",
+  "androidRemindContent": "A Batch fájlátnevező asszisztens segítségével nemcsak fájlokat, hanem mappákat is átnevezhetsz. Tartsd hosszan lenyomva a könyvtárat a kijelöléshez, majd a bal felső sarokban válts a legördülőben „Files & Dirs” módra, hogy engedélyezd a könyvtárátnevezést. Biztonsági okokból bizonyos rendszermappák nem választhatók.",
   "doNotRemindAgain": "Rendben, többé ne figyelmeztessen.",
   "rename": "Átnevezés",
   "appInfo": "Alkalmazásinformáció",

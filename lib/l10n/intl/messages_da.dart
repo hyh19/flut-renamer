@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI Omnavngivning"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Ved at bruge Flut Renamer kan du omnavngive ikke kun filer, men også mapper. Tryk længe på en mappe for at vælge den, og vælg \'Filer & Mapper\' fra rullemenuknappen i øverste venstre hjørne for at aktivere mappeomnavngivning. Af sikkerhedsmæssige årsager er nogle systemreserverede mapper ikke valgbare.",
+      "Ved at bruge Batch Filnavn Omnavngivning Assistent kan du omnavngive ikke kun filer, men også mapper. Tryk længe på en mappe for at vælge den, og vælg \'Filer & Mapper\' fra rullemenuknappen i øverste venstre hjørne for at aktivere mappeomnavngivning. Af sikkerhedsmæssige årsager er nogle systemreserverede mapper ikke valgbare.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Omnavngiv mappe",

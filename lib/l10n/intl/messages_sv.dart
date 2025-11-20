@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI Namnbyte"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Med Flut Renamer kan du byta namn på inte bara filer utan också kataloger. Tryck länge på en katalog för att välja den och välj sedan \'Filer & Kataloger\' från rullgardinsknappen i övre vänstra hörnet för att aktivera katalognamnsbyte. Av säkerhetsskäl är vissa systemreserverade kataloger inte valbara.",
+      "Med Batch-filnamnbyte Assistent kan du byta namn på inte bara filer utan också kataloger. Tryck länge på en katalog för att välja den och välj sedan \'Filer & Kataloger\' från rullgardinsknappen i övre vänstra hörnet för att aktivera katalognamnsbyte. Av säkerhetsskäl är vissa systemreserverade kataloger inte valbara.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Byt namn på katalog",

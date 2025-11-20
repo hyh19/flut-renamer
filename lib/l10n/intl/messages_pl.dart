@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("Zmiana nazwy AI"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Używając Flut Renamer, możesz zmieniać nazwy nie tylko plików, ale także katalogów. Naciśnij i przytrzymaj katalog, aby go wybrać, a następnie wybierz \'Pliki i katalogi\' z przycisku rozwijanego w lewym górnym rogu, aby włączyć zmianę nazw katalogów. Ze względów bezpieczeństwa niektóre zarezerwowane katalogi systemowe nie są wybieralne.",
+      "Używając Asystent Masowego Zmieniania Nazw Plików, możesz zmieniać nazwy nie tylko plików, ale także katalogów. Naciśnij i przytrzymaj katalog, aby go wybrać, a następnie wybierz \'Pliki i katalogi\' z przycisku rozwijanego w lewym górnym rogu, aby włączyć zmianę nazw katalogów. Ze względów bezpieczeństwa niektóre zarezerwowane katalogi systemowe nie są wybieralne.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Zmień nazwę katalogu",

@@ -99,7 +99,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI átnevezés"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "A Flut Renamer segítségével nemcsak fájlokat, hanem mappákat is átnevezhetsz. Tartsd hosszan lenyomva a könyvtárat a kijelöléshez, majd a bal felső sarokban válts a legördülőben „Files & Dirs” módra, hogy engedélyezd a könyvtárátnevezést. Biztonsági okokból bizonyos rendszermappák nem választhatók.",
+      "A Batch fájlátnevező asszisztens segítségével nemcsak fájlokat, hanem mappákat is átnevezhetsz. Tartsd hosszan lenyomva a könyvtárat a kijelöléshez, majd a bal felső sarokban válts a legördülőben „Files & Dirs” módra, hogy engedélyezd a könyvtárátnevezést. Biztonsági okokból bizonyos rendszermappák nem választhatók.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Könyvtár átnevezése",

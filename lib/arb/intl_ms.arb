@@ -14,7 +14,7 @@
   "iosRemindTitle": "Mengenai pemilihan fail di iOS",
   "iosRemindContent": "Untuk memilih fail di iOS, pilih dahulu direktori yang mengandungi fail anda. Kemudian, dalam folder tersebut, pilih fail yang ingin dinamakan semula. Disebabkan batasan iOS, proses dua langkah diperlukan demi pengurusan fail yang selamat. Jom mulakan!",
   "androidRemindTitle": "Namakan semula direktori",
-  "androidRemindContent": "Dengan Flut Renamer, anda boleh menamakan semula bukan sahaja fail malah direktori. Tekan lama pada direktori untuk memilihnya, kemudian pilih 'Files & Dirs' melalui butang lungsur di kiri atas untuk membenarkan penamaan semula direktori. Demi keselamatan, sesetengah direktori sistem tidak boleh dipilih.",
+  "androidRemindContent": "Dengan Pembantu Menamakan Fail Pukal, anda boleh menamakan semula bukan sahaja fail malah direktori. Tekan lama pada direktori untuk memilihnya, kemudian pilih 'Files & Dirs' melalui butang lungsur di kiri atas untuk membenarkan penamaan semula direktori. Demi keselamatan, sesetengah direktori sistem tidak boleh dipilih.",
   "doNotRemindAgain": "Baik. Jangan ingatkan lagi.",
   "rename": "Namakan semula",
   "appInfo": "Maklumat aplikasi",

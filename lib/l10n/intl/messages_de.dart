@@ -103,7 +103,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI-Umbenennung"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Mit dem Flut Renamer können Sie nicht nur Dateien, sondern auch Verzeichnisse umbenennen. Drücken Sie lange auf ein Verzeichnis, um es auszuwählen, und wählen Sie dann \'Dateien & Verzeichnisse\' aus dem Dropdown-Button in der oberen linken Ecke, um die Umbenennung von Verzeichnissen zu aktivieren. Aus Sicherheitsgründen sind einige systemreservierte Verzeichnisse nicht auswählbar.",
+      "Mit dem Batch-Dateiumbenennungsassistent können Sie nicht nur Dateien, sondern auch Verzeichnisse umbenennen. Drücken Sie lange auf ein Verzeichnis, um es auszuwählen, und wählen Sie dann \'Dateien & Verzeichnisse\' aus dem Dropdown-Button in der oberen linken Ecke, um die Umbenennung von Verzeichnissen zu aktivieren. Aus Sicherheitsgründen sind einige systemreservierte Verzeichnisse nicht auswählbar.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Verzeichnis umbenennen",

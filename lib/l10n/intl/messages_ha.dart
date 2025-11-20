@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI Sake suna"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Ta amfani da Flut Renamer, za ku iya sake suna fayiloli da kundin adireshi. Riƙe kundin adireshi na dogon lokaci don zaɓa shi, sannan ku zaɓi \'Files & Dirs\' daga maɓallin ja saukar da ke hagu sama don kunna sake suna kundin. Domin tsaro, wasu kundin ajiyar tsarin ba za a iya zaɓa ba.",
+      "Ta amfani da Mataimakin Sake Suna Fayil da yawa, za ku iya sake suna fayiloli da kundin adireshi. Riƙe kundin adireshi na dogon lokaci don zaɓa shi, sannan ku zaɓi \'Files & Dirs\' daga maɓallin ja saukar da ke hagu sama don kunna sake suna kundin. Domin tsaro, wasu kundin ajiyar tsarin ba za a iya zaɓa ba.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Sake suna kundin adireshi",

@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("Redenumire cu AI"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Cu Flut Renamer puteți redenumi nu doar fișiere, ci și directoare. Țineți apăsat un director pentru a-l selecta, apoi alegeți „Files & Dirs” din meniul derulant din stânga sus pentru a activa redenumirea directoarelor. Din motive de securitate, anumite directoare ale sistemului nu pot fi selectate.",
+      "Cu Asistent de redenumire în lot puteți redenumi nu doar fișiere, ci și directoare. Țineți apăsat un director pentru a-l selecta, apoi alegeți „Files & Dirs” din meniul derulant din stânga sus pentru a activa redenumirea directoarelor. Din motive de securitate, anumite directoare ale sistemului nu pot fi selectate.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Redenumirea directoarelor",

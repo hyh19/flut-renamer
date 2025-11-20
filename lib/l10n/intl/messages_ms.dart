@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI Namakan Semula"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Dengan Flut Renamer, anda boleh menamakan semula bukan sahaja fail malah direktori. Tekan lama pada direktori untuk memilihnya, kemudian pilih \'Files & Dirs\' melalui butang lungsur di kiri atas untuk membenarkan penamaan semula direktori. Demi keselamatan, sesetengah direktori sistem tidak boleh dipilih.",
+      "Dengan Pembantu Menamakan Fail Pukal, anda boleh menamakan semula bukan sahaja fail malah direktori. Tekan lama pada direktori untuk memilihnya, kemudian pilih \'Files & Dirs\' melalui butang lungsur di kiri atas untuk membenarkan penamaan semula direktori. Demi keselamatan, sesetengah direktori sistem tidak boleh dipilih.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Namakan semula direktori",

@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("Ganti Nama AI"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Menggunakan Flut Renamer, Anda tidak hanya dapat mengganti nama file tetapi juga direktori. Tekan lama pada direktori untuk memilihnya, dan pilih \'File & Direktori\' dari tombol dropdown di sudut kiri atas untuk mengaktifkan penggantian nama direktori. Untuk alasan keamanan, beberapa direktori yang dicadangkan sistem tidak dapat dipilih.",
+      "Menggunakan Asisten Pengganti Nama File Batch, Anda tidak hanya dapat mengganti nama file tetapi juga direktori. Tekan lama pada direktori untuk memilihnya, dan pilih \'File & Direktori\' dari tombol dropdown di sudut kiri atas untuk mengaktifkan penggantian nama direktori. Untuk alasan keamanan, beberapa direktori yang dicadangkan sistem tidak dapat dipilih.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Ganti nama direktori",

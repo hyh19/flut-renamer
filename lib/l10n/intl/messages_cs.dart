@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI Přejmenování"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Pomocí Flut Renamer můžete přejmenovávat nejen soubory, ale také adresáře. Dlouhým stiskem vyberte adresář a poté vyberte \'Soubory a adresáře\' z rozbalovacího tlačítka v levém horním rohu, abyste povolili přejmenování adresářů. Z bezpečnostních důvodů nejsou některé systémové rezervované adresáře vybratelné.",
+      "Pomocí Asistent pro Hromadné Přejmenování Souborů můžete přejmenovávat nejen soubory, ale také adresáře. Dlouhým stiskem vyberte adresář a poté vyberte \'Soubory a adresáře\' z rozbalovacího tlačítka v levém horním rohu, abyste povolili přejmenování adresářů. Z bezpečnostních důvodů nejsou některé systémové rezervované adresáře vybratelné.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Přejmenovat adresář",

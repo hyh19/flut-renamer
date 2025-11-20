@@ -95,7 +95,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI リネーム"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Flut Renamerを使用すると、ファイルだけでなくディレクトリも名前を変更できます。ディレクトリを長押しして選択し、左上隅のドロップダウンボタンから「ファイルとディレクトリ」を選択してディレクトリの名前を変更できます。セキュリティ上の理由から、一部のシステム予約ディレクトリは選択できません。",
+      "ファイル一括リネームアシスタントを使用すると、ファイルだけでなくディレクトリも名前を変更できます。ディレクトリを長押しして選択し、左上隅のドロップダウンボタンから「ファイルとディレクトリ」を選択してディレクトリの名前を変更できます。セキュリティ上の理由から、一部のシステム予約ディレクトリは選択できません。",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage("ディレクトリのリネーム"),
     "appError": MessageLookupByLibrary.simpleMessage("アプリケーションエラー"),

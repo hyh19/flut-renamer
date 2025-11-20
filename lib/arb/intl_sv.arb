@@ -14,7 +14,7 @@
   "iosRemindTitle": "Om att välja filer på iOS",
   "iosRemindContent": "För att välja filer på iOS, välj först katalogen där dina filer finns. Sedan, inom den valda mappen, välj de filer du vill byta namn på. På grund av iOS-begränsningar måste vi använda en tvåstegsprocess, vilket säkerställer säker filhantering. Låt oss börja!",
   "androidRemindTitle": "Byt namn på katalog",
-  "androidRemindContent": "Med Flut Renamer kan du byta namn på inte bara filer utan också kataloger. Tryck länge på en katalog för att välja den och välj sedan 'Filer & Kataloger' från rullgardinsknappen i övre vänstra hörnet för att aktivera katalognamnsbyte. Av säkerhetsskäl är vissa systemreserverade kataloger inte valbara.",
+  "androidRemindContent": "Med Batch-filnamnbyte Assistent kan du byta namn på inte bara filer utan också kataloger. Tryck länge på en katalog för att välja den och välj sedan 'Filer & Kataloger' från rullgardinsknappen i övre vänstra hörnet för att aktivera katalognamnsbyte. Av säkerhetsskäl är vissa systemreserverade kataloger inte valbara.",
   "doNotRemindAgain": "OK. Påminn mig inte igen.",
   "rename": "Byt namn",
   "appInfo": "App-information",

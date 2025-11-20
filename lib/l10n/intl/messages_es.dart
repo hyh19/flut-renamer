@@ -103,7 +103,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("Renombrado con IA"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Con el Flut Renamer, puede cambiar el nombre no solo de los archivos, sino también de los directorios. Mantenga presionado un directorio para seleccionarlo y luego seleccione \'Archivos y directorios\' en el botón desplegable de la esquina superior izquierda para habilitar el cambio de nombre de directorios. Por razones de seguridad, algunos directorios reservados por el sistema no se pueden seleccionar.",
+      "Con el Asistente de Renombrado de Archivos por Lotes, puede cambiar el nombre no solo de los archivos, sino también de los directorios. Mantenga presionado un directorio para seleccionarlo y luego seleccione \'Archivos y directorios\' en el botón desplegable de la esquina superior izquierda para habilitar el cambio de nombre de directorios. Por razones de seguridad, algunos directorios reservados por el sistema no se pueden seleccionar.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Renombrar directorios",

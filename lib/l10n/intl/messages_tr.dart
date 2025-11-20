@@ -106,7 +106,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Yapay Zekâ ile Yeniden Adlandırma",
     ),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Flut Renamer\'ı kullanarak sadece dosyaların değil, dizinlerin de adını değiştirebilirsiniz. Bir dizini seçmek için uzun basın, ardından dizin yeniden adlandırmayı etkinleştirmek için sol üst köşedeki açılır düğmeden \'Dosyalar ve Dizinler\'i seçin. Güvenlik nedeniyle, bazı sistem ayrılmış dizinler seçilemez.",
+      "Toplu Dosya Yeniden Adlandırma Asistanı\'ı kullanarak sadece dosyaların değil, dizinlerin de adını değiştirebilirsiniz. Bir dizini seçmek için uzun basın, ardından dizin yeniden adlandırmayı etkinleştirmek için sol üst köşedeki açılır düğmeden \'Dosyalar ve Dizinler\'i seçin. Güvenlik nedeniyle, bazı sistem ayrılmış dizinler seçilemez.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Klasör Yeniden Adlandırma",

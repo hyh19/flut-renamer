@@ -14,7 +14,7 @@
   "iosRemindTitle": "Om at vælge filer på iOS",
   "iosRemindContent": "For at vælge filer på iOS, vælg først den mappe, hvor dine filer er placeret. Derefter, i den valgte mappe, vælg de filer, du vil omnavngive. På grund af iOS-begrænsninger skal vi bruge en to-trins proces, hvilket sikrer sikker filhåndtering. Lad os komme i gang!",
   "androidRemindTitle": "Omnavngiv mappe",
-  "androidRemindContent": "Ved at bruge Flut Renamer kan du omnavngive ikke kun filer, men også mapper. Tryk længe på en mappe for at vælge den, og vælg 'Filer & Mapper' fra rullemenuknappen i øverste venstre hjørne for at aktivere mappeomnavngivning. Af sikkerhedsmæssige årsager er nogle systemreserverede mapper ikke valgbare.",
+  "androidRemindContent": "Ved at bruge Batch Filnavn Omnavngivning Assistent kan du omnavngive ikke kun filer, men også mapper. Tryk længe på en mappe for at vælge den, og vælg 'Filer & Mapper' fra rullemenuknappen i øverste venstre hjørne for at aktivere mappeomnavngivning. Af sikkerhedsmæssige årsager er nogle systemreserverede mapper ikke valgbare.",
   "doNotRemindAgain": "OK. Påmind mig ikke igen.",
   "rename": "Omnavngiv",
   "appInfo": "App-information",
@@ -348,4 +348,3 @@
   "themeModeDark": "Mørk tilstand",
   "themeModeSystem": "Følg system"
 }
-

@@ -14,7 +14,7 @@
   "iosRemindTitle": "O wybieraniu plików w iOS",
   "iosRemindContent": "Aby wybrać pliki w iOS, najpierw wybierz katalog, w którym znajdują się Twoje pliki. Następnie w wybranym folderze wybierz pliki, które chcesz zmienić nazwę. Ze względu na ograniczenia iOS musimy użyć procesu dwuetapowego, co zapewnia bezpieczne zarządzanie plikami. Zacznijmy!",
   "androidRemindTitle": "Zmień nazwę katalogu",
-  "androidRemindContent": "Używając Flut Renamer, możesz zmieniać nazwy nie tylko plików, ale także katalogów. Naciśnij i przytrzymaj katalog, aby go wybrać, a następnie wybierz 'Pliki i katalogi' z przycisku rozwijanego w lewym górnym rogu, aby włączyć zmianę nazw katalogów. Ze względów bezpieczeństwa niektóre zarezerwowane katalogi systemowe nie są wybieralne.",
+  "androidRemindContent": "Używając Asystent Masowego Zmieniania Nazw Plików, możesz zmieniać nazwy nie tylko plików, ale także katalogów. Naciśnij i przytrzymaj katalog, aby go wybrać, a następnie wybierz 'Pliki i katalogi' z przycisku rozwijanego w lewym górnym rogu, aby włączyć zmianę nazw katalogów. Ze względów bezpieczeństwa niektóre zarezerwowane katalogi systemowe nie są wybieralne.",
   "doNotRemindAgain": "OK. Nie przypominaj mi ponownie.",
   "rename": "Zmień nazwę",
   "appInfo": "Informacje o aplikacji",

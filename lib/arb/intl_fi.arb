@@ -14,7 +14,7 @@
   "iosRemindTitle": "Tiedostojen valitsemisesta iOS:llä",
   "iosRemindContent": "Valitaksesi tiedostoja iOS:llä, valitse ensin hakemisto, jossa tiedostosi sijaitsevat. Valitse sitten valitusta kansiosta ne tiedostot, joiden nimeä haluat muuttaa. iOS:n rajoitusten vuoksi meidän on käytettävä kaksivaiheista prosessia, mikä varmistaa turvallisen tiedostojen hallinnan. Aloitetaan!",
   "androidRemindTitle": "Nimeä hakemisto uudelleen",
-  "androidRemindContent": "Flut Renamerin avulla voit nimetä uudelleen paitsi tiedostoja myös hakemistoja. Paina pitkään hakemistoa valitaksesi sen ja valitse 'Tiedostot ja hakemistot' avattavasta painikkeesta vasemmassa yläkulmassa ottaaksesi hakemistojen uudelleennimeämisen käyttöön. Turvallisuussyistä jotkin järjestelmän varatut hakemistot eivät ole valittavissa.",
+  "androidRemindContent": "Tiedostojen Massanimeämisen Avustajain avulla voit nimetä uudelleen paitsi tiedostoja myös hakemistoja. Paina pitkään hakemistoa valitaksesi sen ja valitse 'Tiedostot ja hakemistot' avattavasta painikkeesta vasemmassa yläkulmassa ottaaksesi hakemistojen uudelleennimeämisen käyttöön. Turvallisuussyistä jotkin järjestelmän varatut hakemistot eivät ole valittavissa.",
   "doNotRemindAgain": "OK. Älä muistuta minua uudelleen.",
   "rename": "Nimeä uudelleen",
   "appInfo": "Sovelluksen tiedot",

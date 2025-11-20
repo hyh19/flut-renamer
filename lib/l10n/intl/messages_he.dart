@@ -99,7 +99,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("שינוי שם AI"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "באמצעות Flut Renamer, אתה יכול לשנות את שמות לא רק קבצים אלא גם תיקיות. לחץ לחיצה ארוכה על תיקייה כדי לבחור אותה, ובחר \'קבצים ותיקיות\' מהכפתור הנפתח בפינה השמאלית העליונה כדי לאפשר שינוי שם תיקיות. מסיבות אבטחה, חלק מהתיקיות השמורות של המערכת אינן ניתנות לבחירה.",
+      "באמצעות עוזר שינוי שם קבצים אצווה, אתה יכול לשנות את שמות לא רק קבצים אלא גם תיקיות. לחץ לחיצה ארוכה על תיקייה כדי לבחור אותה, ובחר \'קבצים ותיקיות\' מהכפתור הנפתח בפינה השמאלית העליונה כדי לאפשר שינוי שם תיקיות. מסיבות אבטחה, חלק מהתיקיות השמורות של המערכת אינן ניתנות לבחירה.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "שינוי שם תיקייה",

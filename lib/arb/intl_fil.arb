@@ -14,7 +14,7 @@
   "iosRemindTitle": "Tungkol sa pagpili ng file sa iOS",
   "iosRemindContent": "Para pumili ng mga file sa iOS, piliin muna ang direktoryo kung saan nakalagay ang iyong mga file. Pagkatapos, sa loob ng napiling folder, piliin ang mga file na gusto mong i-rename. Dahil sa mga limitasyon ng iOS, kailangan namin ng dalawang hakbang para matiyak ang ligtas na pamamahala ng file. Simulan na natin!",
   "androidRemindTitle": "Direktoryo para i-rename",
-  "androidRemindContent": "Gamit ang Flut Renamer, maaari mong i-rename hindi lang mga file kundi pati mga direktoryo. I-long press ang isang direktoryo para piliin ito, at piliin ang 'Files & Dirs' mula sa dropdown sa itaas na kaliwa para paganahin ang pag-rename ng direktoryo. Para sa kaligtasan, may ilang direktoryo ng sistema na hindi puwedeng piliin.",
+  "androidRemindContent": "Gamit ang Katulong sa Batch na Pag-rename ng File, maaari mong i-rename hindi lang mga file kundi pati mga direktoryo. I-long press ang isang direktoryo para piliin ito, at piliin ang 'Files & Dirs' mula sa dropdown sa itaas na kaliwa para paganahin ang pag-rename ng direktoryo. Para sa kaligtasan, may ilang direktoryo ng sistema na hindi puwedeng piliin.",
   "doNotRemindAgain": "OK. Huwag mo na akong paalalahanan.",
   "rename": "Palitan ang pangalan",
   "appInfo": "Impormasyon ng app",

@@ -100,7 +100,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI Rename"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Using the Flut Renamer, you can rename not only files but also directories. Long-press a directory to select it, and select \'Files & Dirs\' from the dropdown button in the upper-left corner to enable directory renaming. For security reasons, some system reserved directories are not selectable.",
+      "Using the Batch File Rename Assistant, you can rename not only files but also directories. Long-press a directory to select it, and select \'Files & Dirs\' from the dropdown button in the upper-left corner to enable directory renaming. For security reasons, some system reserved directories are not selectable.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Rename directory",

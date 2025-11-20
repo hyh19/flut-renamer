@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI Hernoemen"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Met Flut Renamer kunt u niet alleen bestanden maar ook mappen hernoemen. Houd een map lang ingedrukt om deze te selecteren en selecteer \'Bestanden & Mappen\' vanuit de vervolgkeuzeknop in de linkerbovenhoek om het hernoemen van mappen in te schakelen. Om veiligheidsredenen zijn sommige systeemgereserveerde mappen niet selecteerbaar.",
+      "Met Batch Bestandsnaam Wijzigen Assistent kunt u niet alleen bestanden maar ook mappen hernoemen. Houd een map lang ingedrukt om deze te selecteren en selecteer \'Bestanden & Mappen\' vanuit de vervolgkeuzeknop in de linkerbovenhoek om het hernoemen van mappen in te schakelen. Om veiligheidsredenen zijn sommige systeemgereserveerde mappen niet selecteerbaar.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage("Map hernoemen"),
     "appError": MessageLookupByLibrary.simpleMessage("Applicatiefout"),

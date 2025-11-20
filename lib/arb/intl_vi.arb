@@ -14,7 +14,7 @@
   "iosRemindTitle": "Về việc chọn file trên iOS",
   "iosRemindContent": "Để chọn file trên iOS, trước tiên hãy chọn thư mục nơi file của bạn được đặt. Sau đó, trong thư mục đã chọn, chọn các file bạn muốn đổi tên. Do các hạn chế của iOS, chúng tôi phải sử dụng quy trình hai bước, điều này đảm bảo quản lý file an toàn. Hãy bắt đầu!",
   "androidRemindTitle": "Đổi tên thư mục",
-  "androidRemindContent": "Sử dụng Flut Renamer, bạn không chỉ có thể đổi tên file mà còn cả thư mục. Nhấn giữ một thư mục để chọn nó, và chọn 'File & Thư mục' từ nút thả xuống ở góc trên bên trái để bật tính năng đổi tên thư mục. Vì lý do bảo mật, một số thư mục dành riêng của hệ thống không thể chọn.",
+  "androidRemindContent": "Sử dụng Trợ lý Đổi tên File Hàng loạt, bạn không chỉ có thể đổi tên file mà còn cả thư mục. Nhấn giữ một thư mục để chọn nó, và chọn 'File & Thư mục' từ nút thả xuống ở góc trên bên trái để bật tính năng đổi tên thư mục. Vì lý do bảo mật, một số thư mục dành riêng của hệ thống không thể chọn.",
   "doNotRemindAgain": "OK. Không nhắc lại.",
   "rename": "Đổi tên",
   "appInfo": "Thông tin ứng dụng",
