@@ -187,6 +187,9 @@
   "colorPicker": "색상 선택기",
   "manualMode": "수동 모드",
   "aiMode": "AI 모드",
+  "themeModeLight": "라이트 모드",
+  "themeModeDark": "다크 모드",
+  "themeModeSystem": "시스템 따르기",
   "semanticNumberWithDirection": "처음부터와 끝부터의 계산 방향 전환",
   "@aiRenameSuccess": {
     "placeholders": {

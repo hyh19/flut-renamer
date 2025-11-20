@@ -404,6 +404,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("سربین"),
     "startIndex": MessageLookupByLibrary.simpleMessage("شروع انڈیکس"),
     "target": MessageLookupByLibrary.simpleMessage("ہدف"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage("اندھیرا موڈ"),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage("روشن موڈ"),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "سسٹم کی پیروی کریں",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("تاجک"),
     "toLast": MessageLookupByLibrary.simpleMessage("-آخری تک"),
     "transliterate": MessageLookupByLibrary.simpleMessage("حرفی نقل"),

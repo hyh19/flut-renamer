@@ -343,6 +343,9 @@
   },
   "colorPicker": "রঙ নির্বাচক",
   "manualMode": "ম্যানুয়াল মোড",
-  "aiMode": "AI মোড"
+  "aiMode": "AI মোড",
+  "themeModeLight": "লাইট মোড",
+  "themeModeDark": "ডার্ক মোড",
+  "themeModeSystem": "সিস্টেম অনুসরণ করুন"
 }
 

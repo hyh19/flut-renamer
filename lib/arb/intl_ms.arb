@@ -343,6 +343,9 @@
   },
   "colorPicker": "Pemilih warna",
   "manualMode": "Mod manual",
-  "aiMode": "Mod AI"
+  "aiMode": "Mod AI",
+  "themeModeLight": "Mod terang",
+  "themeModeDark": "Mod gelap",
+  "themeModeSystem": "Ikut sistem"
 }
 

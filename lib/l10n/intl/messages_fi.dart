@@ -419,6 +419,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("Serbialainen"),
     "startIndex": MessageLookupByLibrary.simpleMessage("Aloitusindeksi"),
     "target": MessageLookupByLibrary.simpleMessage("kohde"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage("Tumma tila"),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage("Vaalea tila"),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "Seuraa järjestelmää",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("Tadžikistanilainen"),
     "toLast": MessageLookupByLibrary.simpleMessage("-viimeiseen"),
     "transliterate": MessageLookupByLibrary.simpleMessage("Transkriboi"),

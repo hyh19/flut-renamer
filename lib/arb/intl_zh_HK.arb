@@ -187,6 +187,9 @@
   "colorPicker": "顏色選擇器",
   "manualMode": "手動模式",
   "aiMode": "AI 模式",
+  "themeModeLight": "白天模式",
+  "themeModeDark": "夜晚模式",
+  "themeModeSystem": "跟隨系統",
   "semanticNumberWithDirection": "切換計數方式為從開頭計數或從末尾計數",
   "@aiRenameSuccess": {
     "placeholders": {

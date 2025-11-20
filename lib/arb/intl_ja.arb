@@ -187,6 +187,9 @@
   "colorPicker": "カラーピッカー",
   "manualMode": "手動モード",
   "aiMode": "AI モード",
+  "themeModeLight": "ライトモード",
+  "themeModeDark": "ダークモード",
+  "themeModeSystem": "システムに従う",
   "semanticNumberWithDirection": "最初からと最後からのカウント方向の切り替え",
   "@aiRenameSuccess": {
     "placeholders": {

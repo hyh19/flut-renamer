@@ -343,6 +343,9 @@
   },
   "colorPicker": "Выбор цвета",
   "manualMode": "Ручной режим",
-  "aiMode": "Режим ИИ"
+  "aiMode": "Режим ИИ",
+  "themeModeLight": "Светлый режим",
+  "themeModeDark": "Темный режим",
+  "themeModeSystem": "Следовать системе"
 }
 

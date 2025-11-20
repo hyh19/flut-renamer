@@ -58,95 +58,100 @@ class RenamerApp extends StatelessWidget {
         return ValueListenableBuilder<Locale>(
           valueListenable: Shared.localeNotifier,
           builder: (context, locale, __) {
-            return MaterialApp(
-              title: L10n.current.appName,
-              themeMode: ThemeMode.system,
-              locale: locale,
-              debugShowCheckedModeBanner: false,
+            return ValueListenableBuilder<ThemeMode>(
+              valueListenable: Shared.themeModeNotifier,
+              builder: (context, themeMode, ___) {
+                return MaterialApp(
+                  title: L10n.current.appName,
+                  themeMode: themeMode,
+                  locale: locale,
+                  debugShowCheckedModeBanner: false,
 
-              /// The following code should automatically set the right direction for
-              /// rtl languages, while audio_metadata_reader 0.0.4 (depends on intl
-              /// 0.18.1) is incompatible with flutter_localizations from the flutter
-              /// SDK (depends on 0.19.0), therefore, I have to implement it manually
-              /// using `Directionality` widget.
+                  /// The following code should automatically set the right direction for
+                  /// rtl languages, while audio_metadata_reader 0.0.4 (depends on intl
+                  /// 0.18.1) is incompatible with flutter_localizations from the flutter
+                  /// SDK (depends on 0.19.0), therefore, I have to implement it manually
+                  /// using `Directionality` widget.
 
-              localizationsDelegates: const [
+                  localizationsDelegates: const [
                 L10n.delegate,
                 GlobalCupertinoLocalizations.delegate,
                 GlobalMaterialLocalizations.delegate,
                 GlobalWidgetsLocalizations.delegate,
               ],
-              supportedLocales: const [
-                Locale("en"),
-                // place English at the beginning to set it as the default fallback for unsupported languages
-                Locale("ar"),
-                Locale("de"),
-                Locale("es"),
-                Locale("fr"),
-                Locale("it"),
-                Locale("ja"),
-                Locale("ko"),
-                Locale("pt"),
-                Locale("th"),
-                Locale("tr"),
-                Locale("zh"),
-                Locale("zh", "HK"),
-                Locale("zh", "TW"),
-                Locale("zh", "MO"),
-                Locale("ru"),
-                Locale("hi"),
-                Locale("id"),
-                Locale("vi"),
-                Locale("nl"),
-                Locale("pl"),
-                Locale("sv"),
-                Locale("no"),
-                Locale("da"),
-                Locale("fi"),
-                Locale("cs"),
-                Locale("el"),
-                Locale("he"),
-                Locale("bn"),
-                Locale("ur"),
-              ],
-              theme: ThemeData(
-                // fixed Chinese font rendering error on Windows
-                fontFamily: Platform.isWindows ? "微软雅黑" : null,
-                colorScheme: ColorScheme.fromSeed(
-                  brightness: Brightness.light,
-                  seedColor: seedColor,
-                ),
-                brightness: Brightness.light,
-                useMaterial3: true,
-                // extensions: <ThemeExtension<dynamic>>[
-                //   FileListColors(
-                //     primaryColor: Colors.white,
-                //     secondaryColor: Colors.grey.shade100,
-                //   ),
-                // ],
-              ),
-              darkTheme: ThemeData(
-                // fixed Chinese font rendering error on Windows
-                fontFamily: Platform.isWindows ? "微软雅黑" : null,
-                colorScheme: ColorScheme.fromSeed(
-                  brightness: Brightness.dark,
-                  seedColor: seedColor,
-                ),
-                brightness: Brightness.dark,
-                useMaterial3: true,
-                // extensions: <ThemeExtension<dynamic>>[
-                //   FileListColors(
-                //     primaryColor: Colors.grey.shade900,
-                //     secondaryColor: Colors.grey.shade800,
-                //   ),
-                // ],
-              ),
-              home: Directionality(
-                textDirection: Bidi.isRtlLanguage(locale.languageCode)
-                    ? TextDirection.rtl
-                    : TextDirection.ltr,
-                child: const AppPage(),
-              ),
+                  supportedLocales: const [
+                    Locale("en"),
+                    // place English at the beginning to set it as the default fallback for unsupported languages
+                    Locale("ar"),
+                    Locale("de"),
+                    Locale("es"),
+                    Locale("fr"),
+                    Locale("it"),
+                    Locale("ja"),
+                    Locale("ko"),
+                    Locale("pt"),
+                    Locale("th"),
+                    Locale("tr"),
+                    Locale("zh"),
+                    Locale("zh", "HK"),
+                    Locale("zh", "TW"),
+                    Locale("zh", "MO"),
+                    Locale("ru"),
+                    Locale("hi"),
+                    Locale("id"),
+                    Locale("vi"),
+                    Locale("nl"),
+                    Locale("pl"),
+                    Locale("sv"),
+                    Locale("no"),
+                    Locale("da"),
+                    Locale("fi"),
+                    Locale("cs"),
+                    Locale("el"),
+                    Locale("he"),
+                    Locale("bn"),
+                    Locale("ur"),
+                  ],
+                  theme: ThemeData(
+                    // fixed Chinese font rendering error on Windows
+                    fontFamily: Platform.isWindows ? "微软雅黑" : null,
+                    colorScheme: ColorScheme.fromSeed(
+                      brightness: Brightness.light,
+                      seedColor: seedColor,
+                    ),
+                    brightness: Brightness.light,
+                    useMaterial3: true,
+                    // extensions: <ThemeExtension<dynamic>>[
+                    //   FileListColors(
+                    //     primaryColor: Colors.white,
+                    //     secondaryColor: Colors.grey.shade100,
+                    //   ),
+                    // ],
+                  ),
+                  darkTheme: ThemeData(
+                    // fixed Chinese font rendering error on Windows
+                    fontFamily: Platform.isWindows ? "微软雅黑" : null,
+                    colorScheme: ColorScheme.fromSeed(
+                      brightness: Brightness.dark,
+                      seedColor: seedColor,
+                    ),
+                    brightness: Brightness.dark,
+                    useMaterial3: true,
+                    // extensions: <ThemeExtension<dynamic>>[
+                    //   FileListColors(
+                    //     primaryColor: Colors.grey.shade900,
+                    //     secondaryColor: Colors.grey.shade800,
+                    //   ),
+                    // ],
+                  ),
+                  home: Directionality(
+                    textDirection: Bidi.isRtlLanguage(locale.languageCode)
+                        ? TextDirection.rtl
+                        : TextDirection.ltr,
+                    child: const AppPage(),
+                  ),
+                );
+              },
             );
           },
         );

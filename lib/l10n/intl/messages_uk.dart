@@ -384,6 +384,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("сербська"),
     "startIndex": MessageLookupByLibrary.simpleMessage("Початковий індекс"),
     "target": MessageLookupByLibrary.simpleMessage("Ціль"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage("Темний режим"),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage("Світлий режим"),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "Слідувати системі",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("таджицька"),
     "toLast": MessageLookupByLibrary.simpleMessage("-до кінця"),
     "transliterate": MessageLookupByLibrary.simpleMessage("Транслітерація"),

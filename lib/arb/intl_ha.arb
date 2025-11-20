@@ -343,6 +343,9 @@
   },
   "colorPicker": "Zaɓin launi",
   "manualMode": "Yanayin hannu",
-  "aiMode": "Yanayin AI"
+  "aiMode": "Yanayin AI",
+  "themeModeLight": "Yanayin haske",
+  "themeModeDark": "Yanayin duhu",
+  "themeModeSystem": "Bi tsarin"
 }
 

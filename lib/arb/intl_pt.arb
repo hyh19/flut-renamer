@@ -187,6 +187,9 @@
   "colorPicker": "Seletor de cores",
   "manualMode": "Modo manual",
   "aiMode": "Modo IA",
+  "themeModeLight": "Modo claro",
+  "themeModeDark": "Modo escuro",
+  "themeModeSystem": "Seguir sistema",
   "semanticNumberWithDirection": "Alternar direção de contagem entre do início e do fim",
   "@aiRenameSuccess": {
     "placeholders": {

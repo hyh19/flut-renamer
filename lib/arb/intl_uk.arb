@@ -343,6 +343,9 @@
   },
   "colorPicker": "Палітра кольорів",
   "manualMode": "Ручний режим",
-  "aiMode": "Режим AI"
+  "aiMode": "Режим AI",
+  "themeModeLight": "Світлий режим",
+  "themeModeDark": "Темний режим",
+  "themeModeSystem": "Слідувати системі"
 }
 

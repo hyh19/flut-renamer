@@ -343,5 +343,8 @@
   },
   "colorPicker": "Color picker",
   "manualMode": "Manual Mode",
-  "aiMode": "AI Mode"
+  "aiMode": "AI Mode",
+  "themeModeLight": "Light mode",
+  "themeModeDark": "Dark mode",
+  "themeModeSystem": "Follow system"
 }

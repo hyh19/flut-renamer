@@ -187,6 +187,9 @@
   "colorPicker": "منتقي الألوان",
   "manualMode": "الوضع اليدوي",
   "aiMode": "وضع الذكاء الاصطناعي",
+  "themeModeLight": "الوضع الفاتح",
+  "themeModeDark": "الوضع الداكن",
+  "themeModeSystem": "اتباع النظام",
   "semanticNumberWithDirection": "التبديل بين اتجاه العد من البداية ومن النهاية",
   "@aiRenameSuccess": {
     "placeholders": {

@@ -343,6 +343,9 @@
   },
   "colorPicker": "Bộ chọn màu",
   "manualMode": "Chế độ Thủ công",
-  "aiMode": "Chế độ AI"
+  "aiMode": "Chế độ AI",
+  "themeModeLight": "Chế độ sáng",
+  "themeModeDark": "Chế độ tối",
+  "themeModeSystem": "Theo hệ thống"
 }
 

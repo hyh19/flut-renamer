@@ -21,8 +21,15 @@ class Shared {
       (mode) => mode.name == storedModeName,
       orElse: () => LanguageMode.system,
     );
+    final storedThemeModeName =
+        pref.getString(_themeModeKey) ?? ThemeMode.system.name;
+    _themeMode = ThemeMode.values.firstWhere(
+      (mode) => mode.name == storedThemeModeName,
+      orElse: () => ThemeMode.system,
+    );
     seedColorNotifier.value = Color(_seedColorValue);
     localeNotifier.value = _resolveLocale();
+    themeModeNotifier.value = _themeMode;
   }
 
   static SharedPreferences get pref => _pref!;
@@ -37,6 +44,7 @@ class Shared {
   static const _doNotRemindAgainKey = 'do_not_remind_again';
   static const _seedColorKey = 'seed_color';
   static const _languageModeKey = 'language_mode';
+  static const _themeModeKey = 'theme_mode';
 
   static String _fileOrDir = 'Files';
 
@@ -140,4 +148,20 @@ class Shared {
 
   static final ValueNotifier<Locale> localeNotifier =
       ValueNotifier<Locale>(_systemLocale);
+
+  static ThemeMode _themeMode = ThemeMode.system;
+
+  static ThemeMode get themeMode => _themeMode;
+
+  static set themeMode(ThemeMode value) {
+    if (_themeMode == value) {
+      return;
+    }
+    _themeMode = value;
+    pref.setString(_themeModeKey, value.name);
+    themeModeNotifier.value = value;
+  }
+
+  static final ValueNotifier<ThemeMode> themeModeNotifier =
+      ValueNotifier<ThemeMode>(ThemeMode.system);
 }

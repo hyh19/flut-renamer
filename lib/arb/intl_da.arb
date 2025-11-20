@@ -343,6 +343,9 @@
   },
   "colorPicker": "Farvevælger",
   "manualMode": "Manuel Tilstand",
-  "aiMode": "AI Tilstand"
+  "aiMode": "AI Tilstand",
+  "themeModeLight": "Lys tilstand",
+  "themeModeDark": "Mørk tilstand",
+  "themeModeSystem": "Følg system"
 }
 

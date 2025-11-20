@@ -343,6 +343,9 @@
   },
   "colorPicker": "Επιλογέας χρώματος",
   "manualMode": "Χειροκίνητη Λειτουργία",
-  "aiMode": "Λειτουργία AI"
+  "aiMode": "Λειτουργία AI",
+  "themeModeLight": "Φωτεινή λειτουργία",
+  "themeModeDark": "Σκοτεινή λειτουργία",
+  "themeModeSystem": "Ακολούθηση συστήματος"
 }
 

@@ -1673,6 +1673,31 @@ class L10n {
   String get aiMode {
     return Intl.message('AI Mode', name: 'aiMode', desc: '', args: []);
   }
+
+  /// `Light mode`
+  String get themeModeLight {
+    return Intl.message(
+      'Light mode',
+      name: 'themeModeLight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dark mode`
+  String get themeModeDark {
+    return Intl.message('Dark mode', name: 'themeModeDark', desc: '', args: []);
+  }
+
+  /// `Follow system`
+  String get themeModeSystem {
+    return Intl.message(
+      'Follow system',
+      name: 'themeModeSystem',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<L10n> {

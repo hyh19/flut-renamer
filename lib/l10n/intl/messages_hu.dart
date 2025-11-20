@@ -378,6 +378,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("szerb"),
     "startIndex": MessageLookupByLibrary.simpleMessage("Kezdő index"),
     "target": MessageLookupByLibrary.simpleMessage("Cél"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage("Sötét mód"),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage("Világos mód"),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "Követi a rendszert",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("tádzsik"),
     "toLast": MessageLookupByLibrary.simpleMessage("-tól a végéig"),
     "transliterate": MessageLookupByLibrary.simpleMessage("Átírás"),

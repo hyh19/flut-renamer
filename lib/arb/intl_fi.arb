@@ -343,6 +343,9 @@
   },
   "colorPicker": "Värien valitsin",
   "manualMode": "Manuaalinen Tila",
-  "aiMode": "AI Tila"
+  "aiMode": "AI Tila",
+  "themeModeLight": "Vaalea tila",
+  "themeModeDark": "Tumma tila",
+  "themeModeSystem": "Seuraa järjestelmää"
 }
 

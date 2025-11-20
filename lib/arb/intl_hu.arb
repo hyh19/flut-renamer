@@ -343,6 +343,9 @@
   },
   "colorPicker": "Színválasztó",
   "manualMode": "Kézi mód",
-  "aiMode": "AI mód"
+  "aiMode": "AI mód",
+  "themeModeLight": "Világos mód",
+  "themeModeDark": "Sötét mód",
+  "themeModeSystem": "Követi a rendszert"
 }
 

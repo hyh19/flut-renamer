@@ -343,6 +343,9 @@
   },
   "colorPicker": "Fargevelger",
   "manualMode": "Manuell Modus",
-  "aiMode": "AI Modus"
+  "aiMode": "AI Modus",
+  "themeModeLight": "Lys modus",
+  "themeModeDark": "Mørk modus",
+  "themeModeSystem": "Følg system"
 }
 

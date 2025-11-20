@@ -343,6 +343,9 @@
   },
   "colorPicker": "Kleurenkiezer",
   "manualMode": "Handmatige Modus",
-  "aiMode": "AI Modus"
+  "aiMode": "AI Modus",
+  "themeModeLight": "Lichte modus",
+  "themeModeDark": "Donkere modus",
+  "themeModeSystem": "Volg systeem"
 }
 

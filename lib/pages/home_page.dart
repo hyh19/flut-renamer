@@ -148,6 +148,46 @@ class _HomePageState extends State<HomePage> {
             icon: const Icon(Icons.palette),
             onPressed: showColorPickerDialog,
           ),
+          ValueListenableBuilder<ThemeMode>(
+            valueListenable: Shared.themeModeNotifier,
+            builder: (context, themeMode, _) {
+              IconData iconData;
+              String tooltipText;
+              switch (themeMode) {
+                case ThemeMode.light:
+                  iconData = Icons.light_mode;
+                  tooltipText = L10n.current.themeModeLight;
+                  break;
+                case ThemeMode.dark:
+                  iconData = Icons.dark_mode;
+                  tooltipText = L10n.current.themeModeDark;
+                  break;
+                case ThemeMode.system:
+                  iconData = Icons.brightness_auto;
+                  tooltipText = L10n.current.themeModeSystem;
+                  break;
+              }
+              return IconButton(
+                tooltip: tooltipText,
+                icon: Icon(iconData),
+                onPressed: () {
+                  setState(() {
+                    switch (Shared.themeMode) {
+                      case ThemeMode.system:
+                        Shared.themeMode = ThemeMode.light;
+                        break;
+                      case ThemeMode.light:
+                        Shared.themeMode = ThemeMode.dark;
+                        break;
+                      case ThemeMode.dark:
+                        Shared.themeMode = ThemeMode.system;
+                        break;
+                    }
+                  });
+                },
+              );
+            },
+          ),
           if (Shared.systemLocale.languageCode != 'en')
             IconButton(
               tooltip: Shared.languageMode == LanguageMode.system

@@ -430,6 +430,15 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("Σερβικά"),
     "startIndex": MessageLookupByLibrary.simpleMessage("Αρχικός δείκτης"),
     "target": MessageLookupByLibrary.simpleMessage("στόχος"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage(
+      "Σκοτεινή λειτουργία",
+    ),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage(
+      "Φωτεινή λειτουργία",
+    ),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "Ακολούθηση συστήματος",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("Τατζικικά"),
     "toLast": MessageLookupByLibrary.simpleMessage("-προς-τελευταίο"),
     "transliterate": MessageLookupByLibrary.simpleMessage("Μεταγραφή"),

@@ -343,6 +343,9 @@
   },
   "colorPicker": "Tagapili ng kulay",
   "manualMode": "Paraan na manwal",
-  "aiMode": "Mode ng AI"
+  "aiMode": "Mode ng AI",
+  "themeModeLight": "Light mode",
+  "themeModeDark": "Dark mode",
+  "themeModeSystem": "Sundin ang system"
 }
 

@@ -343,6 +343,9 @@
   },
   "colorPicker": "رنگ منتخب کنندہ",
   "manualMode": "دستی موڈ",
-  "aiMode": "AI موڈ"
+  "aiMode": "AI موڈ",
+  "themeModeLight": "روشن موڈ",
+  "themeModeDark": "اندھیرا موڈ",
+  "themeModeSystem": "سسٹم کی پیروی کریں"
 }
 

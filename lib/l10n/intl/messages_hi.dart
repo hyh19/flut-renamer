@@ -395,6 +395,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("सर्बियाई"),
     "startIndex": MessageLookupByLibrary.simpleMessage("प्रारंभिक सूचकांक"),
     "target": MessageLookupByLibrary.simpleMessage("लक्ष्य"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage("डार्क मोड"),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage("लाइट मोड"),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "सिस्टम का अनुसरण करें",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("ताजिक"),
     "toLast": MessageLookupByLibrary.simpleMessage("-से-अंतिम"),
     "transliterate": MessageLookupByLibrary.simpleMessage("लिप्यंतरण"),

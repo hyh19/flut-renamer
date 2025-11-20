@@ -343,6 +343,9 @@
   },
   "colorPicker": "Färgväljare",
   "manualMode": "Manuellt Läge",
-  "aiMode": "AI Läge"
+  "aiMode": "AI Läge",
+  "themeModeLight": "Ljust läge",
+  "themeModeDark": "Mörkt läge",
+  "themeModeSystem": "Följ system"
 }
 

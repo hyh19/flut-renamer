@@ -401,6 +401,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("সার্বিয়ান"),
     "startIndex": MessageLookupByLibrary.simpleMessage("শুরু সূচক"),
     "target": MessageLookupByLibrary.simpleMessage("লক্ষ্য"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage("ডার্ক মোড"),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage("লাইট মোড"),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "সিস্টেম অনুসরণ করুন",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("তাজিক"),
     "toLast": MessageLookupByLibrary.simpleMessage("-শেষ পর্যন্ত"),
     "transliterate": MessageLookupByLibrary.simpleMessage("ট্রান্সলিটারেট"),

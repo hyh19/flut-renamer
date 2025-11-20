@@ -343,6 +343,9 @@
   },
   "colorPicker": "בוחר צבעים",
   "manualMode": "מצב ידני",
-  "aiMode": "מצב AI"
+  "aiMode": "מצב AI",
+  "themeModeLight": "מצב בהיר",
+  "themeModeDark": "מצב כהה",
+  "themeModeSystem": "עקוב אחר המערכת"
 }
 

@@ -343,6 +343,9 @@
   },
   "colorPicker": "Selector de culoare",
   "manualMode": "Mod manual",
-  "aiMode": "Mod AI"
+  "aiMode": "Mod AI",
+  "themeModeLight": "Mod deschis",
+  "themeModeDark": "Mod întunecat",
+  "themeModeSystem": "Urmează sistemul"
 }
 

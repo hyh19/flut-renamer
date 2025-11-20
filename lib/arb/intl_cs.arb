@@ -343,6 +343,9 @@
   },
   "colorPicker": "Výběr barvy",
   "manualMode": "Manuální Režim",
-  "aiMode": "AI Režim"
+  "aiMode": "AI Režim",
+  "themeModeLight": "Světlý režim",
+  "themeModeDark": "Tmavý režim",
+  "themeModeSystem": "Sledovat systém"
 }
 

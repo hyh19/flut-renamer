@@ -408,6 +408,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("Serbski"),
     "startIndex": MessageLookupByLibrary.simpleMessage("Indeks początkowy"),
     "target": MessageLookupByLibrary.simpleMessage("cel"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage("Tryb ciemny"),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage("Tryb jasny"),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "Zgodnie z systemem",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("Tadżycki"),
     "toLast": MessageLookupByLibrary.simpleMessage("-do-ostatniego"),
     "transliterate": MessageLookupByLibrary.simpleMessage("Transliteruj"),

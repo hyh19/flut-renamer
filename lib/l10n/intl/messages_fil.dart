@@ -417,6 +417,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "sr": MessageLookupByLibrary.simpleMessage("Serbian"),
     "startIndex": MessageLookupByLibrary.simpleMessage("Panimulang index"),
     "target": MessageLookupByLibrary.simpleMessage("Target"),
+    "themeModeDark": MessageLookupByLibrary.simpleMessage("Dark mode"),
+    "themeModeLight": MessageLookupByLibrary.simpleMessage("Light mode"),
+    "themeModeSystem": MessageLookupByLibrary.simpleMessage(
+      "Sundin ang system",
+    ),
     "tj": MessageLookupByLibrary.simpleMessage("Tajik"),
     "toLast": MessageLookupByLibrary.simpleMessage("-hanggang-huli"),
     "transliterate": MessageLookupByLibrary.simpleMessage("Transliterasyon"),

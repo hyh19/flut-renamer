@@ -343,6 +343,9 @@
   },
   "colorPicker": "Wybór koloru",
   "manualMode": "Tryb Ręczny",
-  "aiMode": "Tryb AI"
+  "aiMode": "Tryb AI",
+  "themeModeLight": "Tryb jasny",
+  "themeModeDark": "Tryb ciemny",
+  "themeModeSystem": "Zgodnie z systemem"
 }
 
