@@ -214,7 +214,7 @@ class FilesPageState extends State<FilesPage> {
         semanticsLabel: text.toFilenameSemanticLabel(),
         style: TextStyle(
           fontSize: Platform.isAndroid ? 12 : 16,
-          color: error != null ? Colors.red : null,
+          color: error != null ? Theme.of(context).colorScheme.error : null,
         ),
         maxLines: 3,
         overflow: TextOverflow.ellipsis,

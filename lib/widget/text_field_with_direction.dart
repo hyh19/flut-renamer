@@ -22,11 +22,11 @@ class DirectionTextField extends StatefulWidget {
 class _DirectionTextFieldState extends State<DirectionTextField> {
   @override
   Widget build(BuildContext context) {
-    return _getRow(widget.con, widget.toEnd, widget.labelText);
+    return _getRow(context, widget.con, widget.toEnd, widget.labelText);
   }
 
-  Widget _getRow(TextEditingController con, ValueNotifier<bool> toEnd,
-          String labelText) =>
+  Widget _getRow(BuildContext context, TextEditingController con,
+          ValueNotifier<bool> toEnd, String labelText) =>
       Row(
         children: [
           Expanded(
@@ -45,7 +45,9 @@ class _DirectionTextFieldState extends State<DirectionTextField> {
               semanticsLabel: L10n.current
                   .semanticSwitchNumberToStartAndToEnd(toEnd.value.toString()),
               style: TextStyle(
-                color: toEnd.value ? null : Colors.grey,
+                color: toEnd.value
+                    ? null
+                    : Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.38),
               ),
             ),
             onPressed: () {

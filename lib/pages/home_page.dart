@@ -297,9 +297,9 @@ class _HomeToolBarState extends State<HomeToolBar> {
               children: [
                 Text(L10n.current.aboutContent),
                 InkWell(
-                  child: const Text(
+                  child: Text(
                     'Localized text is generated using machine translation, if you find any errors please help us fix it.',
-                    style: TextStyle(color: Colors.blue),
+                    style: TextStyle(color: Theme.of(context).colorScheme.primary),
                   ),
                   onTap: () {
                     launchUrl(Uri.parse(

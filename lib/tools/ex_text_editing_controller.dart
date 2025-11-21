@@ -19,8 +19,8 @@ extension ExTextEditingController on TextEditingController {
         } else {
           toastification.show(
             context: context,
-            backgroundColor: Theme.of(context).primaryColor,
-            foregroundColor: Colors.white,
+            backgroundColor: Theme.of(context).colorScheme.primary,
+            foregroundColor: Theme.of(context).colorScheme.onPrimary,
             title: const Text('Do not insert a tag inside another tag.'),
             autoCloseDuration: const Duration(seconds: 5),
           );

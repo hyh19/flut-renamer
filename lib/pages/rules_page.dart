@@ -337,7 +337,7 @@ class _AiRenameContentState extends State<AiRenameContent> {
             content: Text(
               L10n.current.aiRenameError('$e'),
             ),
-            backgroundColor: Colors.red,
+            backgroundColor: Theme.of(context).colorScheme.error,
           ),
         );
       }
