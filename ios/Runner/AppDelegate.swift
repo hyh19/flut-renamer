@@ -10,7 +10,7 @@ import UniformTypeIdentifiers
     ) -> Bool {
         GeneratedPluginRegistrant.register(with: self)
         let controller: FlutterViewController = window?.rootViewController as! FlutterViewController
-        let filePickerChannel = FlutterMethodChannel(name: "net.sunjiao.renamer/picker",
+        let filePickerChannel = FlutterMethodChannel(name: "eth.hyh.batchfilerenameassistant/picker",
                                                      binaryMessenger: controller.binaryMessenger)
         filePickerChannel.setMethodCallHandler({
             [weak self] (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in

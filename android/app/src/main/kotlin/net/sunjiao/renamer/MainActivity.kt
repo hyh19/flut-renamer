@@ -1,4 +1,4 @@
-package net.sunjiao.renamer
+package eth.hyh.batchfilerenameassistant
 
 import android.content.Context
 import android.database.Cursor
@@ -10,7 +10,7 @@ import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 
 class MainActivity: FlutterActivity() {
-    private val CHANNEL = "net.sunjiao.renamer/picker"
+    private val CHANNEL = "eth.hyh.batchfilerenameassistant/picker"
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
@@ -46,7 +46,7 @@ class MainActivity: FlutterActivity() {
 
             result.error("Cannot get absolute path", null, null)
         } catch (e: Exception) {
-            Log.e("net.sunjiao.renamer", "getRealPathFromURI Exception : $e")
+            Log.e("eth.hyh.batchfilerenameassistant", "getRealPathFromURI Exception : $e")
             result.error(e.message.toString(), e.localizedMessage, null)
         } finally {
             cursor?.close()

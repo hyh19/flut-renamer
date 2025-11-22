@@ -2,7 +2,7 @@ import 'package:flutter/services.dart';
 
 class PlatformFilePicker {
   static const MethodChannel _channel =
-      MethodChannel('net.sunjiao.renamer/picker');
+      MethodChannel('eth.hyh.batchfilerenameassistant/picker');
 
   static Future<List<Object?>?> dirAccess() async {
     try {

@@ -14,31 +14,37 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=sun-jiao/flut-renamer&type=Date)](https://star-history.com/#sun-jiao/flut-renamer&Date)
 
 ## Install
+
 ### Android
 
-<a href="https://play.google.com/store/apps/details?id=net.sunjiao.renamer"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height=60px /></a>
+<a href="https://play.google.com/store/apps/details?id=eth.hyh.batchfilerenameassistant"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height=60px /></a>
 
 Install from the Google Play Store or download the *.apk from [releases].
 
 ### Linux
-Download the *.AppImage or *.tar.gz from [releases].
+
+Download the *.AppImage or*.tar.gz from [releases].
 
 For Arch Linux users, just run:
+
 ```shell
 yay -S flut-renamer # build from source code
 yay -S flut-renamer-bin # binary version
 ```
 
 ### Windows
+
 Download the *.exe from [releases].
 
 ### macOS
+
 Download the *.dmg from [releases].
 
 ### iOS
+
 Download the *.ipa from [releases] and install it using AltStore or other tools.
 
-## Known issues or limitations 
+## Known issues or limitations
 
 ### Android
 
@@ -52,44 +58,50 @@ Drag-and-drop works fine with Solid Explorer and OnePlus File Explorer.
 
 There are two steps to pick files on iOS, first choose the directory where your files are located. Then, within the selected folder, pick the files you want to rename. Due to the system restrictions, we have to use the two-step process. Otherwise, Flut Renamer can not rename picked files.
 
-The [`desktop_drop`](https://pub.dev/packages/desktop_drop) library does not have iOS support yet, so drag-and-drop is not available on iOS. 
+The [`desktop_drop`](https://pub.dev/packages/desktop_drop) library does not have iOS support yet, so drag-and-drop is not available on iOS.
 
 I tried a few other libraries, such as [`super_drag_and_drop`](https://pub.dev/packages/super_drag_and_drop), which fails to provide the path to the dropped file, and [`native_drag_n_drop`](https://pub.dev/packages/native_drag_n_drop), which copies the file into the app's sandbox directory. None of them provide the path to the original file, so renaming dropped files is impossible.
 
 (In fact, I have no Apple development experience at all, and I don’t even know the Swift language. The iOS and macOS native code were completed with the following links as references: [Writing custom platform-specific code](https://docs.flutter.dev/platform-integration/platform-channels?tab=type-mappings-swift-tab#type-mappings-swift-tab), [Providing access to directories](https://developer.apple.com/documentation/uikit/view_controllers/providing_access_to_directories), [juanmartin/renamerApp-ios](https://github.com/juanmartin/renamerApp-ios). Therefore, if there are any errors in the Swift code, please feel free to point them out by opening an issue or a pull request. I'll be very grateful to you.)
 
-## todo:
+## todo
+
 - ~~Duplicate name check.~~ (Done.)
-- ~~Convert, including case conversion, Chinese Simplified/Traditional/Pinyin conversion, and Latin/Cyrillic script transliteration.~~ (Done.)
-- ~~Incremental renaming: for example, RenamerFile-1, RenamerFile-2, RenamerFile-3, RenamerFile-4, ...~~ (Done.)
-- ~~Rules re-editing.~~ (Done.)
-- ~~Implement iOS renamer with specific code and Platform channel.~~ (Done.)
+* ~~Convert, including case conversion, Chinese Simplified/Traditional/Pinyin conversion, and Latin/Cyrillic script transliteration.~~ (Done.)
+* ~~Incremental renaming: for example, RenamerFile-1, RenamerFile-2, RenamerFile-3, RenamerFile-4, ...~~ (Done.)
+* ~~Rules re-editing.~~ (Done.)
+* ~~Implement iOS renamer with specific code and Platform channel.~~ (Done.)
 
 # Screenshots
+
 ## Desktop
+
 | ![Desktop-0](/screenshots/Desktop-0.png?raw=true) | ![Desktop-1](/screenshots/Desktop-1.png?raw=true) |
 |:--------------------------------------------------|:--------------------------------------------------|
 | ![Desktop-2](/screenshots/Desktop-2.png?raw=true) | ![Desktop-3](/screenshots/Desktop-3.png?raw=true) |
 
 ## Phone
+
 | ![Phone-0](/screenshots/Phone-0.png?raw=true) | ![Phone-1](/screenshots/Phone-1.png?raw=true) | ![Phone-2](/screenshots/Phone-2.png?raw=true) | ![Phone-3](/screenshots/Phone-3.png?raw=true) | ![Phone-4](/screenshots/Phone-4.png?raw=true) |
 |:----------------------------------------------|:----------------------------------------------|:----------------------------------------------|:----------------------------------------------|:----------------------------------------------|
 
 ## Seven-inch Tablet
+
 | ![Seven-inch_Tablet-0](/screenshots/Seven-inch_Tablet-0.png?raw=true) | ![Seven-inch_Tablet-1](/screenshots/Seven-inch_Tablet-1.png?raw=true) |
 |:----------------------------------------------------------------------|:----------------------------------------------------------------------|
 | ![Seven-inch_Tablet-2](/screenshots/Seven-inch_Tablet-2.png?raw=true) | ![Seven-inch_Tablet-3](/screenshots/Seven-inch_Tablet-3.png?raw=true) |
 
 ## Ten-inch Tablet
+
 | ![Ten-inch_Tablet-0](/screenshots/Ten-inch_Tablet-0.png?raw=true) | ![Ten-inch_Tablet-1](/screenshots/Ten-inch_Tablet-1.png?raw=true) |
 |:------------------------------------------------------------------|:------------------------------------------------------------------|
 | ![Ten-inch_Tablet-2](/screenshots/Ten-inch_Tablet-2.png?raw=true) | ![Ten-inch_Tablet-3](/screenshots/Ten-inch_Tablet-3.png?raw=true) |
 
 # Credit
-- Thanks to [m040601](https://aur.archlinux.org/account/m040601) for suggesting a new name for this application. "flut renamer" is inspired by their suggestion "renamer-flutter"
-- Thanks to [LinuxLinks](https://www.linuxlinks.com) for recommending this application in [their article](https://www.linuxlinks.com/flut-renamer-bulk-file-renamer/).
-- Thanks to [HowToMen](https://www.youtube.com/@howtomen) for recommending this application in [their video](https://www.youtube.com/watch?v=ekUuJyX3ITk).
-- Thanks to [Andy](https://www.justgeek.fr/author/andy/) for recommending this application in [their article](https://www.justgeek.fr/flut-renamer-125392/).
 
+- Thanks to [m040601](https://aur.archlinux.org/account/m040601) for suggesting a new name for this application. "flut renamer" is inspired by their suggestion "renamer-flutter"
+* Thanks to [LinuxLinks](https://www.linuxlinks.com) for recommending this application in [their article](https://www.linuxlinks.com/flut-renamer-bulk-file-renamer/).
+* Thanks to [HowToMen](https://www.youtube.com/@howtomen) for recommending this application in [their video](https://www.youtube.com/watch?v=ekUuJyX3ITk).
+* Thanks to [Andy](https://www.justgeek.fr/author/andy/) for recommending this application in [their article](https://www.justgeek.fr/flut-renamer-125392/).
 
 [releases]: https://github.com/sun-jiao/renamer/releases

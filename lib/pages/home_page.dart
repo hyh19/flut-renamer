@@ -375,7 +375,7 @@ class _HomeToolBarState extends State<HomeToolBar> {
             if (Platform.isAndroid)
               TextButton(
                 onPressed: () {
-                  const appId = 'net.sunjiao.renamer';
+                  const appId = 'eth.hyh.batchfilerenameassistant';
                   final url = Uri.parse("market://details?id=$appId");
                   launchUrl(
                     url,
