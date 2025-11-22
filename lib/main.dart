@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:args/args.dart';
 import 'package:device_info_plus/device_info_plus.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -9,6 +10,7 @@ import 'package:intl/intl.dart' hide TextDirection;
 import 'package:permission_handler/permission_handler.dart';
 
 import 'entity/sharedpref.dart';
+import 'firebase_options.dart';
 import 'l10n/l10n.dart';
 import 'pages/files_page.dart';
 import 'pages/home_page.dart';
@@ -40,6 +42,9 @@ Locale _getLocale() {
 
 void main([List<String> arguments = const []]) async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   final systemLocale = _getLocale();
   Shared.updateSystemLocale(systemLocale);
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
