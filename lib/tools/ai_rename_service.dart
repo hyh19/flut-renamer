@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:langchain/langchain.dart';
 import 'package:langchain_openai/langchain_openai.dart';
@@ -88,7 +90,6 @@ class AiRenameService {
       print('API Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}');
       print('Model: $model');
       print('Base URL: $baseUrl');
-      print('==========================');
 
       // 创建 ChatOpenAI 实例
       final chatModel = ChatOpenAI(
@@ -137,15 +138,13 @@ original_file3.jpg: new_name3.jpg
       };
 
       print('开始调用 AI 进行批量重命名...');
-      print('文件列表:\n${fileList.map((file) => '  $file').join('\n')}');
+      print('=== 文件列表 ===\n${fileList.map((file) => '  $file').join('\n')}');
       print('用户需求: $userRequirements');
-      print('---');
 
       // 调用 AI
       final response = await chain.invoke(input);
 
-      print('AI 原始响应:\n$response');
-      print('---');
+      print('=== AI 原始响应 ===\n$response');
 
       // 提取 YAML 内容（去除代码块标记）
       String yamlContent = response.toString();
@@ -157,8 +156,7 @@ original_file3.jpg: new_name3.jpg
         }
       }
 
-      print('提取的 YAML 内容:\n$yamlContent');
-      print('---');
+      print('=== 提取的 YAML 内容 ===\n$yamlContent');
 
       // 解析 YAML 为 Map
       final yamlMap = loadYaml(yamlContent) as Map<dynamic, dynamic>;
@@ -169,7 +167,7 @@ original_file3.jpg: new_name3.jpg
         renameMap[key.toString()] = value.toString();
       });
 
-      print('解析后的重命名映射:\n${renameMap.toString()}');
+      print('=== 解析后的重命名映射 ===\n${JsonEncoder.withIndent('  ').convert(renameMap)}');
 
       return renameMap;
     } catch (e) {
