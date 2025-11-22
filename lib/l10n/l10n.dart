@@ -1698,6 +1698,31 @@ class L10n {
       args: [],
     );
   }
+
+  /// `Remove file`
+  String get removeFile {
+    return Intl.message('Remove file', name: 'removeFile', desc: '', args: []);
+  }
+
+  /// `Add metadata tag`
+  String get addMetadataTag {
+    return Intl.message(
+      'Add metadata tag',
+      name: 'addMetadataTag',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Copy error stack`
+  String get copyErrorStack {
+    return Intl.message(
+      'Copy error stack',
+      name: 'copyErrorStack',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<L10n> {

@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Přidat"),
     "addFile": MessageLookupByLibrary.simpleMessage("Přidat soubor"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Přidat soubory"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Přidat tag metadat",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Přidat Pravidlo"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI Režim"),
     "aiRenameError": m0,
@@ -119,6 +122,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Sbalit možnosti"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Výběr barvy"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Kopírovat zásobník chyb",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Současný název"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Zvýšit název souboru, např. Foto-1, Foto-2, Foto-3.",
@@ -354,6 +360,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Odstranit znaky mezi nimi",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Odebrat soubor"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Odstranit přejmenované soubory",
     ),

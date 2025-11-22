@@ -77,6 +77,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("যোগ করুন"),
     "addFile": MessageLookupByLibrary.simpleMessage("ফাইল যোগ করুন"),
     "addFiles": MessageLookupByLibrary.simpleMessage("ফাইল যোগ করুন"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "মেটাডেটা ট্যাগ যোগ করুন",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("নিয়ম যোগ করুন"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI মোড"),
     "aiRenameError": m0,
@@ -118,6 +121,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "বিকল্পগুলি সংকুচিত করুন",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("রঙ নির্বাচক"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "ত্রুটি স্ট্যাক কপি করুন",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("বর্তমান নাম"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "ফাইলের নাম বৃদ্ধি করুন, উদাহরণস্বরূপ, ফটো-1, ফটো-2, ফটো-3।",
@@ -351,6 +357,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "তাদের মধ্যে অক্ষর সরান",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("ফাইল সরান"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "নাম পরিবর্তিত ফাইলগুলি সরান",
     ),

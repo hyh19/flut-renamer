@@ -346,5 +346,8 @@
   "aiMode": "AI মোড",
   "themeModeLight": "লাইট মোড",
   "themeModeDark": "ডার্ক মোড",
-  "themeModeSystem": "সিস্টেম অনুসরণ করুন"
+  "themeModeSystem": "সিস্টেম অনুসরণ করুন",
+  "removeFile": "ফাইল সরান",
+  "addMetadataTag": "মেটাডেটা ট্যাগ যোগ করুন",
+  "copyErrorStack": "ত্রুটি স্ট্যাক কপি করুন"
 }

@@ -190,6 +190,9 @@
   "themeModeLight": "โหมดสว่าง",
   "themeModeDark": "โหมดมืด",
   "themeModeSystem": "ตามระบบ",
+  "removeFile": "ลบไฟล์",
+  "addMetadataTag": "เพิ่มแท็กเมตาดาต้า",
+  "copyErrorStack": "คัดลอกสแตกข้อผิดพลาด",
   "semanticNumberWithDirection": "สลับทิศทางการนับระหว่างจากจุดเริ่มต้นและจากจุดสิ้นสุด",
   "@aiRenameSuccess": {
     "placeholders": {

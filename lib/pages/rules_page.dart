@@ -491,6 +491,7 @@ class _ManualRulesContentState extends State<ManualRulesContent> {
                     child: const Icon(Icons.drag_handle),
                   ),
                   trailing: IconButton(
+                    tooltip: L10n.current.removeRule,
                     onPressed: () {
                       setState(() {
                         _rules.removeAt(index);

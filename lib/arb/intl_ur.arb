@@ -346,5 +346,8 @@
   "aiMode": "AI موڈ",
   "themeModeLight": "روشن موڈ",
   "themeModeDark": "اندھیرا موڈ",
-  "themeModeSystem": "سسٹم کی پیروی کریں"
+  "themeModeSystem": "سسٹم کی پیروی کریں",
+  "removeFile": "فائل ہٹائیں",
+  "addMetadataTag": "میٹا ڈیٹا ٹیگ شامل کریں",
+  "copyErrorStack": "خرابی کا اسٹیک کاپی کریں"
 }

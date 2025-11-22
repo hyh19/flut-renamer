@@ -77,6 +77,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Idagdag"),
     "addFile": MessageLookupByLibrary.simpleMessage("Magdagdag ng file"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Magdagdag ng mga file"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Magdagdag ng metadata tag",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Magdagdag ng Rule"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Mode ng AI"),
     "aiRenameError": m0,
@@ -120,6 +123,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Itago ang mga opsyon",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Tagapili ng kulay"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Kopyahin ang error stack",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage(
       "Kasalukuyang pangalan",
     ),
@@ -365,6 +371,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Tanggalin ang mga karakter sa pagitan",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Alisin ang file"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Alisin ang mga na-rename",
     ),

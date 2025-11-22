@@ -77,6 +77,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Legg til"),
     "addFile": MessageLookupByLibrary.simpleMessage("Legg til fil"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Legg til filer"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Legg til metadatatagg",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Legg til Regel"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI Modus"),
     "aiRenameError": m0,
@@ -118,6 +121,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Skjul alternativer",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Fargevelger"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage("Kopier feilstabel"),
     "currentName": MessageLookupByLibrary.simpleMessage("Nåværende navn"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Øk filnavnet, f.eks. Foto-1, Foto-2, Foto-3.",
@@ -357,6 +361,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Fjern tegn mellom dem",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Fjern fil"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Fjern omdøpte filer",
     ),

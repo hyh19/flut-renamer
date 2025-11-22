@@ -346,5 +346,8 @@
   "aiMode": "Tryb AI",
   "themeModeLight": "Tryb jasny",
   "themeModeDark": "Tryb ciemny",
-  "themeModeSystem": "Zgodnie z systemem"
+  "themeModeSystem": "Zgodnie z systemem",
+  "removeFile": "Usuń plik",
+  "addMetadataTag": "Dodaj tag metadanych",
+  "copyErrorStack": "Kopiuj stos błędów"
 }

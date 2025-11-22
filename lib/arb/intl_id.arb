@@ -346,5 +346,8 @@
   "aiMode": "Mode AI",
   "themeModeLight": "Mode terang",
   "themeModeDark": "Mode gelap",
-  "themeModeSystem": "Ikuti sistem"
+  "themeModeSystem": "Ikuti sistem",
+  "removeFile": "Hapus file",
+  "addMetadataTag": "Tambahkan tag metadata",
+  "copyErrorStack": "Salin tumpukan kesalahan"
 }

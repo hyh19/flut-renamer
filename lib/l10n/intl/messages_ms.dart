@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Tambah"),
     "addFile": MessageLookupByLibrary.simpleMessage("Tambah fail"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Tambah fail-fail"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Tambah tag metadata",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Tambah peraturan"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Mod AI"),
     "aiRenameError": m0,
@@ -121,6 +124,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Sembunyikan pilihan",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Pemilih warna"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Salin timbunan ralat",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Nama semasa"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Namakan fail secara bertambah, contohnya Foto-1, Foto-2, Foto-3.",
@@ -346,6 +352,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Buang aksara di antaranya",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Buang fail"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Buang fail yang sudah dinamakan semula",
     ),

@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Додати"),
     "addFile": MessageLookupByLibrary.simpleMessage("Додати файл"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Додати файли"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Додати тег метаданих",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Додати правило"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Режим AI"),
     "aiRenameError": m0,
@@ -121,6 +124,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Згорнути параметри",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Палітра кольорів"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Копіювати стек помилок",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Поточна назва"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Нарощувально перейменовує файли, наприклад Фото-1, Фото-2, Фото-3.",
@@ -332,6 +338,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Вилучити символи між ними",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Видалити файл"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Вилучати перейменовані файли",
     ),

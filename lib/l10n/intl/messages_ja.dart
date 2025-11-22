@@ -74,6 +74,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("追加"),
     "addFile": MessageLookupByLibrary.simpleMessage("ファイルを追加"),
     "addFiles": MessageLookupByLibrary.simpleMessage("ファイルを追加してください。"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage("メタデータタグを追加"),
     "addRule": MessageLookupByLibrary.simpleMessage("ルールを追加"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI モード"),
     "aiRenameError": m0,
@@ -107,6 +108,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "caseSensitive": MessageLookupByLibrary.simpleMessage("大文字と小文字を区別する"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("オプションを折りたたむ"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("カラーピッカー"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage("エラースタックをコピー"),
     "currentName": MessageLookupByLibrary.simpleMessage("現在のファイル名"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "ファイル名を増分します。例：写真-1、写真-2、写真-3。",
@@ -268,6 +270,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "remove": MessageLookupByLibrary.simpleMessage("削除"),
     "removeAll": MessageLookupByLibrary.simpleMessage("すべて削除"),
     "removeCharacters": MessageLookupByLibrary.simpleMessage("両方の文字を削除"),
+    "removeFile": MessageLookupByLibrary.simpleMessage("ファイルを削除"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage("リネーム済みファイルを削除"),
     "removeRule": MessageLookupByLibrary.simpleMessage("このルールを削除"),
     "removeRules": MessageLookupByLibrary.simpleMessage("リネーム後にすべてのルールを削除"),

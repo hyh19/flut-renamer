@@ -346,5 +346,8 @@
   "aiMode": "Mod AI",
   "themeModeLight": "Mod deschis",
   "themeModeDark": "Mod întunecat",
-  "themeModeSystem": "Urmează sistemul"
+  "themeModeSystem": "Urmează sistemul",
+  "removeFile": "Elimină fișierul",
+  "addMetadataTag": "Adaugă etichetă de metadate",
+  "copyErrorStack": "Copiază stiva de erori"
 }

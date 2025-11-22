@@ -76,6 +76,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Hozzáadás"),
     "addFile": MessageLookupByLibrary.simpleMessage("Fájl hozzáadása"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Fájlok hozzáadása"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Metaadat-címke hozzáadása",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Szabály hozzáadása"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI mód"),
     "aiRenameError": m0,
@@ -119,6 +122,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Beállítások összecsukása",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Színválasztó"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Hibakészlet másolása",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Jelenlegi név"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Növeld a fájlneveket, pl. Foto-1, Foto-2, Foto-3.",
@@ -326,6 +332,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Karakterek eltávolítása közöttük",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Fájl eltávolítása"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Átnevezett fájlok eltávolítása",
     ),

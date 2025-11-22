@@ -190,6 +190,9 @@
   "themeModeLight": "ライトモード",
   "themeModeDark": "ダークモード",
   "themeModeSystem": "システムに従う",
+  "removeFile": "ファイルを削除",
+  "addMetadataTag": "メタデータタグを追加",
+  "copyErrorStack": "エラースタックをコピー",
   "semanticNumberWithDirection": "最初からと最後からのカウント方向の切り替え",
   "@aiRenameSuccess": {
     "placeholders": {

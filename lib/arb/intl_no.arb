@@ -346,5 +346,8 @@
   "aiMode": "AI Modus",
   "themeModeLight": "Lys modus",
   "themeModeDark": "Mørk modus",
-  "themeModeSystem": "Følg system"
+  "themeModeSystem": "Følg system",
+  "removeFile": "Fjern fil",
+  "addMetadataTag": "Legg til metadatatagg",
+  "copyErrorStack": "Kopier feilstabel"
 }

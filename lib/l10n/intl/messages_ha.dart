@@ -78,6 +78,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Ƙara"),
     "addFile": MessageLookupByLibrary.simpleMessage("Ƙara fayil"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Ƙara fayiloli"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage("Add metadata tag"),
     "addRule": MessageLookupByLibrary.simpleMessage("Ƙara ƙa\'ida"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Yanayin AI"),
     "aiRenameError": m0,
@@ -119,6 +120,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Rufe zaɓuɓɓuka"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Zaɓin launi"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage("Copy error stack"),
     "currentName": MessageLookupByLibrary.simpleMessage("Sunan yanzu"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Ƙara lamba a sunayen fayiloli, misali Hoto-1, Hoto-2, Hoto-3.",
@@ -348,6 +350,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Cire haruffan da ke tsakaninsu",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Remove file"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Cire fayilolin da aka sake suna",
     ),

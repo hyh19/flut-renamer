@@ -259,6 +259,7 @@ class FilesPageState extends State<FilesPage> {
           _rowTextCell(filteredList[index], isNew: true),
           TableCell(
             child: IconButton(
+              tooltip: L10n.current.removeFile,
               onPressed: () {
                 setState(() {
                   _files.removeWhere(

@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Lägg till"),
     "addFile": MessageLookupByLibrary.simpleMessage("Lägg till fil"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Lägg till filer"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Lägg till metadatatagg",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Lägg till Regel"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI Läge"),
     "aiRenameError": m0,
@@ -117,6 +120,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "caseSensitive": MessageLookupByLibrary.simpleMessage("Skiftlägeskänslig"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Dölj alternativ"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Färgväljare"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage("Kopiera felstack"),
     "currentName": MessageLookupByLibrary.simpleMessage("Nuvarande namn"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Öka filnamnet, t.ex. Foto-1, Foto-2, Foto-3.",
@@ -350,6 +354,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Ta bort tecken mellan dem",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Ta bort fil"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Ta bort omdöpta filer",
     ),

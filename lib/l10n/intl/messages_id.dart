@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Tambah"),
     "addFile": MessageLookupByLibrary.simpleMessage("Tambah file"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Tambah file"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Tambahkan tag metadata",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Tambah Aturan"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Mode AI"),
     "aiRenameError": m0,
@@ -119,6 +122,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Ciutkan opsi"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Pemilih warna"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Salin tumpukan kesalahan",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Nama saat ini"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Tingkatkan nama file, misalnya, Foto-1, Foto-2, Foto-3.",
@@ -354,6 +360,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Hapus karakter di antara mereka",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Hapus file"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Hapus file yang sudah diganti namanya",
     ),

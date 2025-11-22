@@ -39,6 +39,7 @@ Future<FileSystemEntity?> rename(
                 title: Text(L10n.current.errorDetails + e.toString()),
                 subtitle: Text(s.toString()),
                 trailing: IconButton(
+                  tooltip: L10n.current.copyErrorStack,
                   onPressed: () async {
                     await Clipboard.setData(
                       ClipboardData(

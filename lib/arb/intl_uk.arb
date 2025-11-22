@@ -346,5 +346,8 @@
   "aiMode": "Режим AI",
   "themeModeLight": "Світлий режим",
   "themeModeDark": "Темний режим",
-  "themeModeSystem": "Слідувати системі"
+  "themeModeSystem": "Слідувати системі",
+  "removeFile": "Видалити файл",
+  "addMetadataTag": "Додати тег метаданих",
+  "copyErrorStack": "Копіювати стек помилок"
 }

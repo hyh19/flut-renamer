@@ -218,7 +218,7 @@ class _AndroidFilePickerState extends State<AndroidFilePicker> {
           height: 24,
         );
       } else {
-        return const Icon(Icons.feed);
+        return const Icon(Icons.insert_drive_file);
       }
     }
     return const Icon(Icons.folder);

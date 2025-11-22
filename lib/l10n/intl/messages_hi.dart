@@ -77,6 +77,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("जोड़ें"),
     "addFile": MessageLookupByLibrary.simpleMessage("फ़ाइल जोड़ें"),
     "addFiles": MessageLookupByLibrary.simpleMessage("फ़ाइलें जोड़ें"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "मेटाडेटा टैग जोड़ें",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("नियम जोड़ें"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI मोड"),
     "aiRenameError": m0,
@@ -118,6 +121,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "विकल्प संकुचित करें",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("रंग चयनकर्ता"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "त्रुटि स्टैक कॉपी करें",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("वर्तमान नाम"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "फ़ाइल नाम बढ़ाएं, उदाहरण के लिए, फोटो-1, फोटो-2, फोटो-3।",
@@ -345,6 +351,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "उनके बीच के वर्ण हटाएं",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("फ़ाइल हटाएं"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "नाम बदली गई फ़ाइलें हटाएं",
     ),

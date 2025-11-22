@@ -190,6 +190,9 @@
   "themeModeLight": "白天模式",
   "themeModeDark": "夜晚模式",
   "themeModeSystem": "跟隨系統",
+  "removeFile": "移除檔案",
+  "addMetadataTag": "新增元資料標籤",
+  "copyErrorStack": "複製錯誤堆疊",
   "semanticNumberWithDirection": "切換計數方式為從開頭計數或從末尾計數",
   "@aiRenameSuccess": {
     "placeholders": {

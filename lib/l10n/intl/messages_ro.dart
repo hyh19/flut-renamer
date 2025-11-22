@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Adaugă"),
     "addFile": MessageLookupByLibrary.simpleMessage("Adaugă fișier"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Adaugă fișiere"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Adaugă etichetă de metadate",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Adaugă regulă"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Mod AI"),
     "aiRenameError": m0,
@@ -121,6 +124,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Restrânge opțiunile",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Selector de culoare"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Copiază stiva de erori",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Nume curent"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Numerotează fișierele, de exemplu Foto-1, Foto-2, Foto-3.",
@@ -342,6 +348,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Elimină caracterele dintre ele",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Elimină fișierul"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Elimină fișierele redenumite",
     ),

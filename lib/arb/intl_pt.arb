@@ -190,6 +190,9 @@
   "themeModeLight": "Modo claro",
   "themeModeDark": "Modo escuro",
   "themeModeSystem": "Seguir sistema",
+  "removeFile": "Remover arquivo",
+  "addMetadataTag": "Adicionar tag de metadados",
+  "copyErrorStack": "Copiar pilha de erros",
   "semanticNumberWithDirection": "Alternar direção de contagem entre do início e do fim",
   "@aiRenameSuccess": {
     "placeholders": {

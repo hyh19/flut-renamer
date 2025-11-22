@@ -190,6 +190,9 @@
   "themeModeLight": "الوضع الفاتح",
   "themeModeDark": "الوضع الداكن",
   "themeModeSystem": "اتباع النظام",
+  "removeFile": "إزالة الملف",
+  "addMetadataTag": "إضافة علامة البيانات الوصفية",
+  "copyErrorStack": "نسخ مكدس الأخطاء",
   "semanticNumberWithDirection": "التبديل بين اتجاه العد من البداية ومن النهاية",
   "@aiRenameSuccess": {
     "placeholders": {

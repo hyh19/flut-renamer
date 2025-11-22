@@ -74,6 +74,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("추가"),
     "addFile": MessageLookupByLibrary.simpleMessage("파일 추가"),
     "addFiles": MessageLookupByLibrary.simpleMessage("파일을 추가하세요."),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage("메타데이터 태그 추가"),
     "addRule": MessageLookupByLibrary.simpleMessage("규칙 추가"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI 모드"),
     "aiRenameError": m0,
@@ -109,6 +110,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "caseSensitive": MessageLookupByLibrary.simpleMessage("대소문자 구분"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("옵션 축소"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("색상 선택기"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage("오류 스택 복사"),
     "currentName": MessageLookupByLibrary.simpleMessage("현재 파일 이름"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "파일 이름을 증가시킵니다. 예: 사진-1, 사진-2, 사진-3.",
@@ -276,6 +278,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "remove": MessageLookupByLibrary.simpleMessage("제거"),
     "removeAll": MessageLookupByLibrary.simpleMessage("모두 제거"),
     "removeCharacters": MessageLookupByLibrary.simpleMessage("두 문자 사이의 문자 제거"),
+    "removeFile": MessageLookupByLibrary.simpleMessage("파일 제거"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage("이름이 변경된 파일 제거"),
     "removeRule": MessageLookupByLibrary.simpleMessage("이 규칙 제거"),
     "removeRules": MessageLookupByLibrary.simpleMessage("이름 변경 후 모든 규칙 제거"),

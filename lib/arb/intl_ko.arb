@@ -190,6 +190,9 @@
   "themeModeLight": "라이트 모드",
   "themeModeDark": "다크 모드",
   "themeModeSystem": "시스템 따르기",
+  "removeFile": "파일 제거",
+  "addMetadataTag": "메타데이터 태그 추가",
+  "copyErrorStack": "오류 스택 복사",
   "semanticNumberWithDirection": "처음부터와 끝부터의 계산 방향 전환",
   "@aiRenameSuccess": {
     "placeholders": {

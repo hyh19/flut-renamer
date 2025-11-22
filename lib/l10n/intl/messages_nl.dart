@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Toevoegen"),
     "addFile": MessageLookupByLibrary.simpleMessage("Bestand toevoegen"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Bestanden toevoegen"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Metadatatag toevoegen",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Regel Toevoegen"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI Modus"),
     "aiRenameError": m0,
@@ -117,6 +120,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Opties inklappen"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Kleurenkiezer"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Foutstack kopiëren",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Huidige naam"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Verhoog de bestandsnaam, bijvoorbeeld Foto-1, Foto-2, Foto-3.",
@@ -362,6 +368,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Verwijder tekens tussen hen",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Bestand verwijderen"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Hernoemde bestanden verwijderen",
     ),

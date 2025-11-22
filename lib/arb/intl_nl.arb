@@ -346,5 +346,8 @@
   "aiMode": "AI Modus",
   "themeModeLight": "Lichte modus",
   "themeModeDark": "Donkere modus",
-  "themeModeSystem": "Volg systeem"
+  "themeModeSystem": "Volg systeem",
+  "removeFile": "Bestand verwijderen",
+  "addMetadataTag": "Metadatatag toevoegen",
+  "copyErrorStack": "Foutstack kopiëren"
 }

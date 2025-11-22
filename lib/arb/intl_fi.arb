@@ -346,5 +346,8 @@
   "aiMode": "AI Tila",
   "themeModeLight": "Vaalea tila",
   "themeModeDark": "Tumma tila",
-  "themeModeSystem": "Seuraa järjestelmää"
+  "themeModeSystem": "Seuraa järjestelmää",
+  "removeFile": "Poista tiedosto",
+  "addMetadataTag": "Lisää metatietotunniste",
+  "copyErrorStack": "Kopioi virhepinosta"
 }

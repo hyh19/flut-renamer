@@ -63,6 +63,7 @@ class MetadataDialog extends StatelessWidget {
                   title: Text(e.key),
                   subtitle: Text(e.value),
                   trailing: IconButton(
+                    tooltip: L10n.current.addMetadataTag,
                     icon: const Icon(Icons.add),
                     onPressed: () {
                       onInsert.call('{${e.key}}');

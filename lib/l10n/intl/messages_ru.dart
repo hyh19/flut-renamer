@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Добавить"),
     "addFile": MessageLookupByLibrary.simpleMessage("Добавить файл"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Добавить файлы"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Добавить тег метаданных",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Добавить правило"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Режим ИИ"),
     "aiRenameError": m0,
@@ -117,6 +120,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "caseSensitive": MessageLookupByLibrary.simpleMessage("Учитывать регистр"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Свернуть опции"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Выбор цвета"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Копировать стек ошибок",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Текущее имя"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Увеличить имя файла, например, Фото-1, Фото-2, Фото-3.",
@@ -358,6 +364,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Удалить символы между ними",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Удалить файл"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Удалить переименованные файлы",
     ),

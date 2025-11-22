@@ -346,5 +346,8 @@
   "aiMode": "Λειτουργία AI",
   "themeModeLight": "Φωτεινή λειτουργία",
   "themeModeDark": "Σκοτεινή λειτουργία",
-  "themeModeSystem": "Ακολούθηση συστήματος"
+  "themeModeSystem": "Ακολούθηση συστήματος",
+  "removeFile": "Αφαίρεση αρχείου",
+  "addMetadataTag": "Προσθήκη ετικέτας μεταδεδομένων",
+  "copyErrorStack": "Αντιγραφή στοίβας σφαλμάτων"
 }

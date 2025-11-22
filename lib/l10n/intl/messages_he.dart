@@ -76,6 +76,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("הוספה"),
     "addFile": MessageLookupByLibrary.simpleMessage("הוסף קובץ"),
     "addFiles": MessageLookupByLibrary.simpleMessage("הוסף קבצים"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "הוסף תגית מטא-נתונים",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("הוסף כלל"),
     "aiMode": MessageLookupByLibrary.simpleMessage("מצב AI"),
     "aiRenameError": m0,
@@ -117,6 +120,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("צמצם אפשרויות"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("בוחר צבעים"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "העתק מחסנית שגיאות",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("שם נוכחי"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "הגדל את שם הקובץ, למשל תמונה-1, תמונה-2, תמונה-3.",
@@ -324,6 +330,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "הסר תווים ביניהם",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("הסר קובץ"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "הסר קבצים ששמם שונה",
     ),

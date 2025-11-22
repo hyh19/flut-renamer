@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("شامل کریں"),
     "addFile": MessageLookupByLibrary.simpleMessage("فائل شامل کریں"),
     "addFiles": MessageLookupByLibrary.simpleMessage("فائلیں شامل کریں"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "میٹا ڈیٹا ٹیگ شامل کریں",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("قاعدہ شامل کریں"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI موڈ"),
     "aiRenameError": m0,
@@ -117,6 +120,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "اختیارات کو سکیڑیں",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("رنگ منتخب کنندہ"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "خرابی کا اسٹیک کاپی کریں",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("موجودہ نام"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "فائل کا نام بڑھائیں، مثال کے طور پر، فوٹو-1، فوٹو-2، فوٹو-3۔",
@@ -352,6 +358,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "ان کے درمیان کریکٹرز ہٹائیں",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("فائل ہٹائیں"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "نام تبدیل شدہ فائلیں ہٹائیں",
     ),

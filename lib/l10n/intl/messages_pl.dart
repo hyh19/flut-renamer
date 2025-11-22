@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Dodaj"),
     "addFile": MessageLookupByLibrary.simpleMessage("Dodaj plik"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Dodaj pliki"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Dodaj tag metadanych",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Dodaj Regułę"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Tryb AI"),
     "aiRenameError": m0,
@@ -119,6 +122,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Zwiń opcje"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Wybór koloru"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Kopiuj stos błędów",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Bieżąca nazwa"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Zwiększ nazwę pliku, np. Zdjęcie-1, Zdjęcie-2, Zdjęcie-3.",
@@ -356,6 +362,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Usuń znaki między nimi",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Usuń plik"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Usuń zmienione nazwy plików",
     ),

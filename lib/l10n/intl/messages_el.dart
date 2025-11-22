@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Προσθήκη"),
     "addFile": MessageLookupByLibrary.simpleMessage("Προσθήκη αρχείου"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Προσθήκη αρχείων"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Προσθήκη ετικέτας μεταδεδομένων",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Προσθήκη Κανόνα"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Λειτουργία AI"),
     "aiRenameError": m0,
@@ -121,6 +124,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Σύμπτυξη επιλογών",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Επιλογέας χρώματος"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Αντιγραφή στοίβας σφαλμάτων",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Τρέχον όνομα"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Αύξηση του ονόματος αρχείου, π.χ. Φωτο-1, Φωτο-2, Φωτο-3.",
@@ -376,6 +382,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Αφαίρεση χαρακτήρων μεταξύ τους",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Αφαίρεση αρχείου"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Αφαίρεση μετονομασμένων αρχείων",
     ),

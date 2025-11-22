@@ -77,6 +77,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("เพิ่ม"),
     "addFile": MessageLookupByLibrary.simpleMessage("เพิ่มไฟล์"),
     "addFiles": MessageLookupByLibrary.simpleMessage("โปรดเพิ่มไฟล์"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "เพิ่มแท็กเมตาดาต้า",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("เพิ่มกฏ"),
     "aiMode": MessageLookupByLibrary.simpleMessage("โหมด AI"),
     "aiRenameError": m0,
@@ -120,6 +123,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("ยุบตัวเลือก"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("ตัวเลือกสี"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "คัดลอกสแตกข้อผิดพลาด",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("ชื่อไฟล์ปัจจุบัน"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "เพิ่มเลขดัชนีในชื่อไฟล์ (เช่น รูปภาพ-1, รูปภาพ-2, รูปภาพ-3)",
@@ -339,6 +345,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "ลบอักขระที่อยู่ระหว่าง",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("ลบไฟล์"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "ลบไฟล์ที่เปลี่ยนชื่อแล้ว",
     ),

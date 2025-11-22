@@ -346,5 +346,8 @@
   "aiMode": "Chế độ AI",
   "themeModeLight": "Chế độ sáng",
   "themeModeDark": "Chế độ tối",
-  "themeModeSystem": "Theo hệ thống"
+  "themeModeSystem": "Theo hệ thống",
+  "removeFile": "Xóa tệp",
+  "addMetadataTag": "Thêm thẻ siêu dữ liệu",
+  "copyErrorStack": "Sao chép ngăn xếp lỗi"
 }

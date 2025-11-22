@@ -80,6 +80,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFiles": MessageLookupByLibrary.simpleMessage(
       "Veuillez ajouter des fichiers.",
     ),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Ajouter une balise de métadonnées",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Ajouter une règle"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Mode IA"),
     "aiRenameError": m0,
@@ -127,6 +130,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Réduire les options",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Sélecteur de couleur"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Copier la pile d\'erreurs",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Nom actuel"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Incrémenter le nom de fichier, par exemple, Photo-1, Photo-2, Photo-3.",
@@ -374,6 +380,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Supprimer les caractères entre les deux positions",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Supprimer le fichier"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Supprimer les éléments renommés",
     ),

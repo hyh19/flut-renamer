@@ -346,5 +346,8 @@
   "aiMode": "Yanayin AI",
   "themeModeLight": "Yanayin haske",
   "themeModeDark": "Yanayin duhu",
-  "themeModeSystem": "Bi tsarin"
+  "themeModeSystem": "Bi tsarin",
+  "removeFile": "Remove file",
+  "addMetadataTag": "Add metadata tag",
+  "copyErrorStack": "Copy error stack"
 }

@@ -77,6 +77,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Add"),
     "addFile": MessageLookupByLibrary.simpleMessage("Add file"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Add files"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage("Add metadata tag"),
     "addRule": MessageLookupByLibrary.simpleMessage("Add Rule"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI Mode"),
     "aiRenameError": m0,
@@ -116,6 +117,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "caseSensitive": MessageLookupByLibrary.simpleMessage("Case sensitive"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Collapse options"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Color picker"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage("Copy error stack"),
     "currentName": MessageLookupByLibrary.simpleMessage("Current name"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Increment the filename, e.g., Photo-1, Photo-2, Photo-3.",
@@ -347,6 +349,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Remove characters between them",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Remove file"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Remove renamed files",
     ),

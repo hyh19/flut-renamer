@@ -77,6 +77,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Lisää"),
     "addFile": MessageLookupByLibrary.simpleMessage("Lisää tiedosto"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Lisää tiedostoja"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Lisää metatietotunniste",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Lisää Sääntö"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI Tila"),
     "aiRenameError": m0,
@@ -118,6 +121,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "caseSensitive": MessageLookupByLibrary.simpleMessage("Kirjainkokoherkkä"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Sulje asetukset"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Värien valitsin"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Kopioi virhepinosta",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Nykyinen nimi"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Kasvata tiedostonimeä, esim. Kuva-1, Kuva-2, Kuva-3.",
@@ -367,6 +373,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Poista merkit niiden välillä",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Poista tiedosto"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Poista uudelleennimettyjä tiedostoja",
     ),

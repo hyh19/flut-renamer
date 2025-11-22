@@ -346,5 +346,8 @@
   "aiMode": "AI Läge",
   "themeModeLight": "Ljust läge",
   "themeModeDark": "Mörkt läge",
-  "themeModeSystem": "Följ system"
+  "themeModeSystem": "Följ system",
+  "removeFile": "Ta bort fil",
+  "addMetadataTag": "Lägg till metadatatagg",
+  "copyErrorStack": "Kopiera felstack"
 }

@@ -73,6 +73,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("添加"),
     "addFile": MessageLookupByLibrary.simpleMessage("添加文件"),
     "addFiles": MessageLookupByLibrary.simpleMessage("请添加文件。"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage("添加元数据标签"),
     "addRule": MessageLookupByLibrary.simpleMessage("添加规则"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI 模式"),
     "aiRenameError": m0,
@@ -108,6 +109,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "caseSensitive": MessageLookupByLibrary.simpleMessage("区分大小写"),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("收起选项"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("颜色选择器"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage("复制错误堆栈"),
     "currentName": MessageLookupByLibrary.simpleMessage("当前文件名"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "递增文件名，例如 照片-1、照片-2、照片-3。",
@@ -253,6 +255,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "remove": MessageLookupByLibrary.simpleMessage("删除"),
     "removeAll": MessageLookupByLibrary.simpleMessage("移除全部"),
     "removeCharacters": MessageLookupByLibrary.simpleMessage("移除二者之间的字符"),
+    "removeFile": MessageLookupByLibrary.simpleMessage("移除文件"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage("移除已重命名文件"),
     "removeRule": MessageLookupByLibrary.simpleMessage("移除该规则"),
     "removeRules": MessageLookupByLibrary.simpleMessage("重命名后移除所有规则"),

@@ -189,6 +189,9 @@
   "themeModeLight": "Açık mod",
   "themeModeDark": "Koyu mod",
   "themeModeSystem": "Sistemi takip et",
+  "removeFile": "Dosyayı kaldır",
+  "addMetadataTag": "Metadata etiketi ekle",
+  "copyErrorStack": "Hata yığınını kopyala",
   "semanticNumberWithDirection": "Başlangıçtan ve sondan sayma yönünü değiştirme",
   "semanticsFileManagerDirSubtitle": "Son değiştirilme zamanı {last}.",
   "@semanticsFileManagerDirSubtitle": {

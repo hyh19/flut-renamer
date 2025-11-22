@@ -346,5 +346,8 @@
   "aiMode": "מצב AI",
   "themeModeLight": "מצב בהיר",
   "themeModeDark": "מצב כהה",
-  "themeModeSystem": "עקוב אחר המערכת"
+  "themeModeSystem": "עקוב אחר המערכת",
+  "removeFile": "הסר קובץ",
+  "addMetadataTag": "הוסף תגית מטא-נתונים",
+  "copyErrorStack": "העתק מחסנית שגיאות"
 }

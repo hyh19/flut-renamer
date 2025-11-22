@@ -78,6 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("Thêm"),
     "addFile": MessageLookupByLibrary.simpleMessage("Thêm file"),
     "addFiles": MessageLookupByLibrary.simpleMessage("Thêm file"),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Thêm thẻ siêu dữ liệu",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Thêm Quy tắc"),
     "aiMode": MessageLookupByLibrary.simpleMessage("Chế độ AI"),
     "aiRenameError": m0,
@@ -119,6 +122,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("Thu gọn tùy chọn"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Bộ chọn màu"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Sao chép ngăn xếp lỗi",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Tên hiện tại"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Tăng tên file, ví dụ: Ảnh-1, Ảnh-2, Ảnh-3.",
@@ -344,6 +350,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "Xóa các ký tự giữa chúng",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Xóa tệp"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Xóa file đã đổi tên",
     ),

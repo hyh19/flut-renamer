@@ -346,5 +346,8 @@
   "aiMode": "Mod AI",
   "themeModeLight": "Mod terang",
   "themeModeDark": "Mod gelap",
-  "themeModeSystem": "Ikut sistem"
+  "themeModeSystem": "Ikut sistem",
+  "removeFile": "Buang fail",
+  "addMetadataTag": "Tambah tag metadata",
+  "copyErrorStack": "Salin timbunan ralat"
 }

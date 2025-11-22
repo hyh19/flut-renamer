@@ -346,5 +346,8 @@
   "aiMode": "AI mód",
   "themeModeLight": "Világos mód",
   "themeModeDark": "Sötét mód",
-  "themeModeSystem": "Követi a rendszert"
+  "themeModeSystem": "Követi a rendszert",
+  "removeFile": "Fájl eltávolítása",
+  "addMetadataTag": "Metaadat-címke hozzáadása",
+  "copyErrorStack": "Hibakészlet másolása"
 }

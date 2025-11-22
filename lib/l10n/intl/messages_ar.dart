@@ -77,6 +77,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "add": MessageLookupByLibrary.simpleMessage("إضافة"),
     "addFile": MessageLookupByLibrary.simpleMessage("إضافة ملف"),
     "addFiles": MessageLookupByLibrary.simpleMessage("الرجاء إضافة ملفات."),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "إضافة علامة البيانات الوصفية",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("إضافة قاعدة"),
     "aiMode": MessageLookupByLibrary.simpleMessage("وضع الذكاء الاصطناعي"),
     "aiRenameError": m0,
@@ -120,6 +123,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "collapseOptions": MessageLookupByLibrary.simpleMessage("طي الخيارات"),
     "colorPicker": MessageLookupByLibrary.simpleMessage("منتقي الألوان"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage("نسخ مكدس الأخطاء"),
     "currentName": MessageLookupByLibrary.simpleMessage("الاسم الحالي"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "زيادة في تسمية الملفات، على سبيل المثال: ملف-1، ملف-2، ملف-3.",
@@ -345,6 +349,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "إزالة الأحرف بينهما",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("إزالة الملف"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "إزالة الملفات التي تمت إعادة تسميتها",
     ),

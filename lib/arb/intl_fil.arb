@@ -346,5 +346,8 @@
   "aiMode": "Mode ng AI",
   "themeModeLight": "Light mode",
   "themeModeDark": "Dark mode",
-  "themeModeSystem": "Sundin ang system"
+  "themeModeSystem": "Sundin ang system",
+  "removeFile": "Alisin ang file",
+  "addMetadataTag": "Magdagdag ng metadata tag",
+  "copyErrorStack": "Kopyahin ang error stack"
 }

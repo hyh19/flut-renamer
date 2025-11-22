@@ -81,6 +81,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "addFiles": MessageLookupByLibrary.simpleMessage(
       "Lütfen dosyalar ekleyin.",
     ),
+    "addMetadataTag": MessageLookupByLibrary.simpleMessage(
+      "Metadata etiketi ekle",
+    ),
     "addRule": MessageLookupByLibrary.simpleMessage("Kural Ekle"),
     "aiMode": MessageLookupByLibrary.simpleMessage("AI Modu"),
     "aiRenameError": m0,
@@ -126,6 +129,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Seçenekleri Daralt",
     ),
     "colorPicker": MessageLookupByLibrary.simpleMessage("Renk seçici"),
+    "copyErrorStack": MessageLookupByLibrary.simpleMessage(
+      "Hata yığınını kopyala",
+    ),
     "currentName": MessageLookupByLibrary.simpleMessage("Mevcut Dosya Adı"),
     "descriptionIncrement": MessageLookupByLibrary.simpleMessage(
       "Dosya adını artırın, örneğin Fotoğraf-1, Fotoğraf-2, Fotoğraf-3.",
@@ -355,6 +361,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeCharacters": MessageLookupByLibrary.simpleMessage(
       "İki Konum Arasındaki Karakterleri Kaldır",
     ),
+    "removeFile": MessageLookupByLibrary.simpleMessage("Dosyayı kaldır"),
     "removeRenamed": MessageLookupByLibrary.simpleMessage(
       "Yeniden Adlandırılan Dosyaları Kaldır",
     ),

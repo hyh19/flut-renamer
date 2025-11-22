@@ -346,5 +346,8 @@
   "aiMode": "AI Režim",
   "themeModeLight": "Světlý režim",
   "themeModeDark": "Tmavý režim",
-  "themeModeSystem": "Sledovat systém"
+  "themeModeSystem": "Sledovat systém",
+  "removeFile": "Odebrat soubor",
+  "addMetadataTag": "Přidat tag metadat",
+  "copyErrorStack": "Kopírovat zásobník chyb"
 }

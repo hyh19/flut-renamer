@@ -346,5 +346,8 @@
   "aiMode": "AI Mode",
   "themeModeLight": "Light mode",
   "themeModeDark": "Dark mode",
-  "themeModeSystem": "Follow system"
+  "themeModeSystem": "Follow system",
+  "removeFile": "Remove file",
+  "addMetadataTag": "Add metadata tag",
+  "copyErrorStack": "Copy error stack"
 }
