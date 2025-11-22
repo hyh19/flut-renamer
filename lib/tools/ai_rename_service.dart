@@ -14,6 +14,7 @@ class AiRenameService {
   static String? _cachedApiKey;
   static String? _cachedModel;
   static String? _cachedBaseUrl;
+  static int? _cachedMaxTokens;
   static bool _configInitialized = false;
 
   /// 从 Firebase Remote Config 读取配置
@@ -26,6 +27,7 @@ class AiRenameService {
     String? apiKey;
     String? model;
     String? baseUrl;
+    int? maxTokens;
     String source = '';
 
     // 第一级：尝试从 Remote Config 读取
@@ -34,47 +36,66 @@ class AiRenameService {
       apiKey = remoteConfig.getString(AiConfig.keyApiKey);
       model = remoteConfig.getString(AiConfig.keyModel);
       baseUrl = remoteConfig.getString(AiConfig.keyBaseUrl);
+      final maxTokensValue = remoteConfig.getInt(AiConfig.keyMaxTokens);
 
-      // 检查值是否有效（非空字符串）
-      if (apiKey.isNotEmpty && model.isNotEmpty && baseUrl.isNotEmpty) {
+      // 检查 maxTokens 是否有效（> 0，因为 getInt 在 key 不存在时返回 0）
+      if (maxTokensValue > 0) {
+        maxTokens = maxTokensValue;
+      }
+
+      // 检查值是否有效（非空字符串，maxTokens 必须有效）
+      if (apiKey.isNotEmpty &&
+          model.isNotEmpty &&
+          baseUrl.isNotEmpty &&
+          maxTokens != null) {
         source = 'Remote Config';
         // 保存到本地缓存（异步执行，不阻塞）
         AiConfig.saveToCache(
           apiKey: apiKey,
           model: model,
           baseUrl: baseUrl,
+          maxTokens: maxTokens,
         ).catchError((e) {
           debugPrint('保存配置到本地缓存失败: $e');
         });
       } else {
-        // 值为空，视为无效，继续下一级
+        // 值为空或无效，视为无效，继续下一级
         apiKey = null;
         model = null;
         baseUrl = null;
+        maxTokens = null;
       }
     } catch (e) {
       debugPrint('从 Remote Config 读取配置失败: $e');
       apiKey = null;
       model = null;
       baseUrl = null;
+      maxTokens = null;
     }
 
     // 第二级：如果 Remote Config 失败或无效，从本地缓存读取
-    if (apiKey == null || model == null || baseUrl == null) {
+    if (apiKey == null || model == null || baseUrl == null || maxTokens == null) {
       final cache = AiConfig.loadFromCache();
       if (cache != null) {
-        apiKey = cache['apiKey'];
-        model = cache['model'];
-        baseUrl = cache['baseUrl'];
-        source = '本地缓存';
+        apiKey = cache['apiKey'] as String?;
+        model = cache['model'] as String?;
+        baseUrl = cache['baseUrl'] as String?;
+        final cachedMaxTokensValue = cache['maxTokens'] as int?;
+        if (cachedMaxTokensValue != null && cachedMaxTokensValue > 0) {
+          maxTokens = cachedMaxTokensValue;
+        }
+        if (apiKey != null && model != null && baseUrl != null && maxTokens != null) {
+          source = '本地缓存';
+        }
       }
     }
 
     // 第三级：如果本地缓存也没有，使用硬编码默认值
-    if (apiKey == null || model == null || baseUrl == null) {
+    if (apiKey == null || model == null || baseUrl == null || maxTokens == null) {
       apiKey = AiConfig.getDefaultApiKey();
       model = AiConfig.getDefaultModel();
       baseUrl = AiConfig.getDefaultBaseUrl();
+      maxTokens = AiConfig.getDefaultMaxTokens();
       source = '硬编码默认值';
     }
 
@@ -82,10 +103,11 @@ class AiRenameService {
     _cachedApiKey = apiKey;
     _cachedModel = model;
     _cachedBaseUrl = baseUrl;
+    _cachedMaxTokens = maxTokens;
     _configInitialized = true;
 
     debugPrint(
-      '=== AI 服务配置已加载（来源: $source） ===\nAPI Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}\nModel: $model\nBase URL: $baseUrl',
+      '=== AI 服务配置已加载（来源: $source） ===\nAPI Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}\nModel: $model\nBase URL: $baseUrl\nMax Tokens: $maxTokens',
     );
   }
 
@@ -118,6 +140,13 @@ class AiRenameService {
     return _cachedBaseUrl ?? '';
   }
 
+  static int get _maxTokens {
+    if (!_configInitialized) {
+      _loadConfig();
+    }
+    return _cachedMaxTokens ?? AiConfig.getDefaultMaxTokens();
+  }
+
   /// 调用 AI 进行批量重命名
   ///
   /// [fileList] 需要重命名的文件列表
@@ -133,10 +162,11 @@ class AiRenameService {
       final apiKey = _apiKey;
       final model = _model;
       final baseUrl = _baseUrl;
+      final maxTokens = _maxTokens;
 
       // 记录使用的配置信息
       debugPrint(
-        '=== AI 重命名服务配置信息 ===\nAPI Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}\nModel: $model\nBase URL: $baseUrl',
+        '=== AI 重命名服务配置信息 ===\nAPI Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}\nModel: $model\nBase URL: $baseUrl\nMax Tokens: $maxTokens',
       );
 
       // 创建 ChatOpenAI 实例
@@ -145,7 +175,7 @@ class AiRenameService {
         baseUrl: baseUrl,
         defaultOptions: ChatOpenAIOptions(
           model: model,
-          maxTokens: 2000,
+          maxTokens: maxTokens,
         ),
       );
 

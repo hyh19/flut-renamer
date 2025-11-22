@@ -84,13 +84,19 @@ Future<void> _saveRemoteConfigToCache() async {
     final apiKey = remoteConfig.getString(AiConfig.keyApiKey);
     final model = remoteConfig.getString(AiConfig.keyModel);
     final baseUrl = remoteConfig.getString(AiConfig.keyBaseUrl);
+    final maxTokens = remoteConfig.getInt(AiConfig.keyMaxTokens);
 
-    // 只有当值不为空时才保存到缓存（空字符串视为无效）
-    if (apiKey.isNotEmpty && model.isNotEmpty && baseUrl.isNotEmpty) {
+    // 只有当值不为空时才保存到缓存（空字符串视为无效，maxTokens 必须 > 0）
+    // getInt 在 key 不存在时返回 0，所以 <= 0 视为无效
+    if (apiKey.isNotEmpty &&
+        model.isNotEmpty &&
+        baseUrl.isNotEmpty &&
+        maxTokens > 0) {
       await AiConfig.saveToCache(
         apiKey: apiKey,
         model: model,
         baseUrl: baseUrl,
+        maxTokens: maxTokens,
       );
       print('Remote Config 配置已保存到本地缓存');
     }
