@@ -17,27 +17,76 @@ class AiRenameService {
   static bool _configInitialized = false;
 
   /// 从 Firebase Remote Config 读取配置
+  ///
+  /// 实现三级加载策略：
+  /// 1. 优先从 Remote Config 读取
+  /// 2. 如果 Remote Config 失败或返回空值，从本地缓存读取
+  /// 3. 如果本地缓存也没有，使用硬编码默认值
   static void _loadConfig() {
+    String? apiKey;
+    String? model;
+    String? baseUrl;
+    String source = '';
+
+    // 第一级：尝试从 Remote Config 读取
     try {
       final remoteConfig = FirebaseRemoteConfig.instance;
-      _cachedApiKey = remoteConfig.getString(AiConfig.keyApiKey);
-      _cachedModel = remoteConfig.getString(AiConfig.keyModel);
-      _cachedBaseUrl = remoteConfig.getString(AiConfig.keyBaseUrl);
-      _configInitialized = true;
+      apiKey = remoteConfig.getString(AiConfig.keyApiKey);
+      model = remoteConfig.getString(AiConfig.keyModel);
+      baseUrl = remoteConfig.getString(AiConfig.keyBaseUrl);
 
-      debugPrint(
-        '=== AI 服务配置已加载 ===\nAPI Key: $_cachedApiKey\nModel: $_cachedModel\nBase URL: $_cachedBaseUrl',
-      );
+      // 检查值是否有效（非空字符串）
+      if (apiKey.isNotEmpty && model.isNotEmpty && baseUrl.isNotEmpty) {
+        source = 'Remote Config';
+        // 保存到本地缓存（异步执行，不阻塞）
+        AiConfig.saveToCache(
+          apiKey: apiKey,
+          model: model,
+          baseUrl: baseUrl,
+        ).catchError((e) {
+          debugPrint('保存配置到本地缓存失败: $e');
+        });
+      } else {
+        // 值为空，视为无效，继续下一级
+        apiKey = null;
+        model = null;
+        baseUrl = null;
+      }
     } catch (e) {
       debugPrint('从 Remote Config 读取配置失败: $e');
-      // 如果读取失败，使用默认值
-      if (!_configInitialized) {
-        _cachedApiKey = AiConfig.getDefaultApiKey();
-        _cachedModel = AiConfig.getDefaultModel();
-        _cachedBaseUrl = AiConfig.getDefaultBaseUrl();
-        _configInitialized = true;
+      apiKey = null;
+      model = null;
+      baseUrl = null;
+    }
+
+    // 第二级：如果 Remote Config 失败或无效，从本地缓存读取
+    if (apiKey == null || model == null || baseUrl == null) {
+      final cache = AiConfig.loadFromCache();
+      if (cache != null) {
+        apiKey = cache['apiKey'];
+        model = cache['model'];
+        baseUrl = cache['baseUrl'];
+        source = '本地缓存';
       }
     }
+
+    // 第三级：如果本地缓存也没有，使用硬编码默认值
+    if (apiKey == null || model == null || baseUrl == null) {
+      apiKey = AiConfig.getDefaultApiKey();
+      model = AiConfig.getDefaultModel();
+      baseUrl = AiConfig.getDefaultBaseUrl();
+      source = '硬编码默认值';
+    }
+
+    // 设置缓存值
+    _cachedApiKey = apiKey;
+    _cachedModel = model;
+    _cachedBaseUrl = baseUrl;
+    _configInitialized = true;
+
+    debugPrint(
+      '=== AI 服务配置已加载（来源: $source） ===\nAPI Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}\nModel: $model\nBase URL: $baseUrl',
+    );
   }
 
   /// 配置更新回调（由 main.dart 中的监听器调用）

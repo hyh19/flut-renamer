@@ -1,11 +1,18 @@
+import '../entity/sharedpref.dart';
+
 /// AI 配置管理类
-/// 
+///
 /// 统一管理 AI 服务的配置参数，包括 Remote Config 的 key 名称和默认值
 class AiConfig {
   // Remote Config 的 key 名称常量
   static const String keyApiKey = 'ai_api_key';
   static const String keyModel = 'ai_model';
   static const String keyBaseUrl = 'ai_base_url';
+
+  // 本地缓存的 key 名称常量（用于 SharedPreferences）
+  static const String _cacheKeyApiKey = 'ai_cache_api_key';
+  static const String _cacheKeyModel = 'ai_cache_model';
+  static const String _cacheKeyBaseUrl = 'ai_cache_base_url';
 
   // 默认配置值
   static const String defaultApiKey =
@@ -30,5 +37,55 @@ class AiConfig {
 
   /// 获取默认 Base URL
   static String getDefaultBaseUrl() => defaultBaseUrl;
-}
 
+  /// 保存配置到本地缓存
+  ///
+  /// [apiKey] API Key 值
+  /// [model] Model 值
+  /// [baseUrl] Base URL 值
+  static Future<void> saveToCache({
+    required String apiKey,
+    required String model,
+    required String baseUrl,
+  }) async {
+    if (!Shared.initialed) {
+      return;
+    }
+    try {
+      await Future.wait([
+        Shared.pref.setString(_cacheKeyApiKey, apiKey),
+        Shared.pref.setString(_cacheKeyModel, model),
+        Shared.pref.setString(_cacheKeyBaseUrl, baseUrl),
+      ]);
+    } catch (e) {
+      // 忽略保存失败，不影响主流程
+    }
+  }
+
+  /// 从本地缓存读取配置
+  ///
+  /// 返回包含 apiKey、model、baseUrl 的 Map，如果缓存不存在则返回 null
+  static Map<String, String>? loadFromCache() {
+    if (!Shared.initialed) {
+      return null;
+    }
+    try {
+      final apiKey = Shared.pref.getString(_cacheKeyApiKey);
+      final model = Shared.pref.getString(_cacheKeyModel);
+      final baseUrl = Shared.pref.getString(_cacheKeyBaseUrl);
+
+      // 如果任何一个值为 null，则认为缓存不存在
+      if (apiKey == null || model == null || baseUrl == null) {
+        return null;
+      }
+
+      return {
+        'apiKey': apiKey,
+        'model': model,
+        'baseUrl': baseUrl,
+      };
+    } catch (e) {
+      return null;
+    }
+  }
+}

@@ -26,9 +26,9 @@ Locale _getLocale() {
   if (localeNames.isEmpty) {
     return const Locale('en');
   }
-  
+
   final languageCode = localeNames[0];
-  
+
   // 查找国家代码（通常是 2 个字母，如 HK、TW、MO）
   // 跳过脚本代码（通常是 4 个字母，如 Hant、Hans）
   String? countryCode;
@@ -40,7 +40,7 @@ Locale _getLocale() {
       break;
     }
   }
-  
+
   return Locale(languageCode, countryCode);
 }
 
@@ -77,6 +77,28 @@ void main([List<String> arguments = const []]) async {
   runApp(const RenamerApp());
 }
 
+/// 从 Remote Config 读取配置并保存到本地缓存
+Future<void> _saveRemoteConfigToCache() async {
+  try {
+    final remoteConfig = FirebaseRemoteConfig.instance;
+    final apiKey = remoteConfig.getString(AiConfig.keyApiKey);
+    final model = remoteConfig.getString(AiConfig.keyModel);
+    final baseUrl = remoteConfig.getString(AiConfig.keyBaseUrl);
+
+    // 只有当值不为空时才保存到缓存（空字符串视为无效）
+    if (apiKey.isNotEmpty && model.isNotEmpty && baseUrl.isNotEmpty) {
+      await AiConfig.saveToCache(
+        apiKey: apiKey,
+        model: model,
+        baseUrl: baseUrl,
+      );
+      print('Remote Config 配置已保存到本地缓存');
+    }
+  } catch (e) {
+    print('保存 Remote Config 到本地缓存失败: $e');
+  }
+}
+
 /// 初始化 Firebase Remote Config 并设置实时监听
 Future<void> _initializeRemoteConfig() async {
   try {
@@ -96,10 +118,16 @@ Future<void> _initializeRemoteConfig() async {
     // 获取并激活远程配置
     await remoteConfig.fetchAndActivate();
 
+    // 保存配置到本地缓存
+    await _saveRemoteConfigToCache();
+
     // 设置实时监听配置更新
     remoteConfig.onConfigUpdated.listen((event) async {
       // 激活新的配置值
       await remoteConfig.activate();
+
+      // 保存更新后的配置到本地缓存
+      await _saveRemoteConfigToCache();
 
       // 通知 AI 服务配置已更新
       AiRenameService.onConfigUpdated();
@@ -142,11 +170,11 @@ class RenamerApp extends StatelessWidget {
                   /// using `Directionality` widget.
 
                   localizationsDelegates: const [
-                L10n.delegate,
-                GlobalCupertinoLocalizations.delegate,
-                GlobalMaterialLocalizations.delegate,
-                GlobalWidgetsLocalizations.delegate,
-              ],
+                    L10n.delegate,
+                    GlobalCupertinoLocalizations.delegate,
+                    GlobalMaterialLocalizations.delegate,
+                    GlobalWidgetsLocalizations.delegate,
+                  ],
                   supportedLocales: const [
                     Locale("en"),
                     // place English at the beginning to set it as the default fallback for unsupported languages
