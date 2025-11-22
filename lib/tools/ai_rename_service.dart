@@ -1,14 +1,70 @@
+import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:langchain/langchain.dart';
 import 'package:langchain_openai/langchain_openai.dart';
 import 'package:yaml/yaml.dart';
 
 /// AI 重命名服务
 class AiRenameService {
-  // OpenAI 配置（硬编码）
-  static const String _apiKey =
-      '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';
-  static const String _model = 'google/gemini-2.5-flash';
-  static const String _baseUrl = 'https://openrouter.ai/api/v1';
+  // 配置缓存
+  static String? _cachedApiKey;
+  static String? _cachedModel;
+  static String? _cachedBaseUrl;
+  static bool _configInitialized = false;
+
+  /// 从 Firebase Remote Config 读取配置
+  static void _loadConfig() {
+    try {
+      final remoteConfig = FirebaseRemoteConfig.instance;
+      _cachedApiKey = remoteConfig.getString('ai_api_key');
+      _cachedModel = remoteConfig.getString('ai_model');
+      _cachedBaseUrl = remoteConfig.getString('ai_base_url');
+      _configInitialized = true;
+
+      print('AI 服务配置已加载:');
+      print('  API Key: ${_cachedApiKey?.substring(0, 20)}...');
+      print('  Model: $_cachedModel');
+      print('  Base URL: $_cachedBaseUrl');
+    } catch (e) {
+      print('从 Remote Config 读取配置失败: $e');
+      // 如果读取失败，使用默认值
+      if (!_configInitialized) {
+        _cachedApiKey =
+            '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';
+        _cachedModel = 'google/gemini-2.5-flash';
+        _cachedBaseUrl = 'https://openrouter.ai/api/v1';
+        _configInitialized = true;
+      }
+    }
+  }
+
+  /// 配置更新回调（由 main.dart 中的监听器调用）
+  static void onConfigUpdated() {
+    print('AI 服务配置更新通知，重新加载配置...');
+    _configInitialized = false;
+    _loadConfig();
+  }
+
+  /// 获取配置值（如果未初始化则先加载）
+  static String get _apiKey {
+    if (!_configInitialized) {
+      _loadConfig();
+    }
+    return _cachedApiKey ?? '';
+  }
+
+  static String get _model {
+    if (!_configInitialized) {
+      _loadConfig();
+    }
+    return _cachedModel ?? '';
+  }
+
+  static String get _baseUrl {
+    if (!_configInitialized) {
+      _loadConfig();
+    }
+    return _cachedBaseUrl ?? '';
+  }
 
   /// 调用 AI 进行批量重命名
   ///

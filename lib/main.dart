@@ -1,8 +1,10 @@
+import 'dart:async';
 import 'dart:io';
 
 import 'package:args/args.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -14,6 +16,7 @@ import 'firebase_options.dart';
 import 'l10n/l10n.dart';
 import 'pages/files_page.dart';
 import 'pages/home_page.dart';
+import 'tools/ai_rename_service.dart';
 import 'tools/ex_file.dart';
 import 'widget/custom_dialog.dart';
 
@@ -45,6 +48,10 @@ void main([List<String> arguments = const []]) async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  // 初始化 Firebase Remote Config
+  await _initializeRemoteConfig();
+
   final systemLocale = _getLocale();
   Shared.updateSystemLocale(systemLocale);
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
@@ -67,6 +74,48 @@ void main([List<String> arguments = const []]) async {
   }
   await L10n.load(Shared.currentLocale);
   runApp(const RenamerApp());
+}
+
+/// 初始化 Firebase Remote Config 并设置实时监听
+Future<void> _initializeRemoteConfig() async {
+  try {
+    final remoteConfig = FirebaseRemoteConfig.instance;
+
+    // 设置配置参数
+    await remoteConfig.setConfigSettings(
+      RemoteConfigSettings(
+        fetchTimeout: const Duration(seconds: 10),
+        minimumFetchInterval: const Duration(hours: 1),
+      ),
+    );
+
+    // 设置默认值（包含 AI 服务的三个配置参数）
+    await remoteConfig.setDefaults(<String, dynamic>{
+      'ai_api_key':
+          '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',
+      'ai_model': 'google/gemini-2.5-flash',
+      'ai_base_url': 'https://openrouter.ai/api/v1',
+    });
+
+    // 获取并激活远程配置
+    await remoteConfig.fetchAndActivate();
+
+    // 设置实时监听配置更新
+    remoteConfig.onConfigUpdated.listen((event) async {
+      // 激活新的配置值
+      await remoteConfig.activate();
+
+      // 通知 AI 服务配置已更新
+      AiRenameService.onConfigUpdated();
+
+      print('Remote Config 已更新，更新的 keys: ${event.updatedKeys}');
+    });
+
+    print('Firebase Remote Config 初始化成功');
+  } catch (e) {
+    print('Firebase Remote Config 初始化失败: $e');
+    // 即使初始化失败，应用仍可继续运行，使用默认值
+  }
 }
 
 class RenamerApp extends StatelessWidget {
