@@ -145,7 +145,6 @@ class AiRenameService {
         baseUrl: baseUrl,
         defaultOptions: ChatOpenAIOptions(
           model: model,
-          temperature: 0.7,
           maxTokens: 2000,
         ),
       );
