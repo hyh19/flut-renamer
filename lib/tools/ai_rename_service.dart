@@ -24,10 +24,8 @@ class AiRenameService {
       _cachedBaseUrl = remoteConfig.getString(AiConfig.keyBaseUrl);
       _configInitialized = true;
 
-      print('AI 服务配置已加载:');
-      print('  API Key: $_cachedApiKey');
-      print('  Model: $_cachedModel');
-      print('  Base URL: $_cachedBaseUrl');
+      print(
+          '=== AI 服务配置已加载 ===\nAPI Key: $_cachedApiKey\nModel: $_cachedModel\nBase URL: $_cachedBaseUrl');
     } catch (e) {
       print('从 Remote Config 读取配置失败: $e');
       // 如果读取失败，使用默认值
@@ -86,10 +84,8 @@ class AiRenameService {
       final baseUrl = _baseUrl;
 
       // 记录使用的配置信息
-      print('=== AI 重命名服务配置信息 ===');
-      print('API Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}');
-      print('Model: $model');
-      print('Base URL: $baseUrl');
+      print(
+          '=== AI 重命名服务配置信息 ===\nAPI Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}\nModel: $model\nBase URL: $baseUrl');
 
       // 创建 ChatOpenAI 实例
       final chatModel = ChatOpenAI(
@@ -138,7 +134,7 @@ original_file3.jpg: new_name3.jpg
       };
 
       print('开始调用 AI 进行批量重命名...');
-      print('=== 文件列表 ===\n${fileList.map((file) => '  $file').join('\n')}');
+      print('=== 文件列表 ===\n${fileList.map((file) => file).join('\n')}');
       print('用户需求: $userRequirements');
 
       // 调用 AI
@@ -167,7 +163,8 @@ original_file3.jpg: new_name3.jpg
         renameMap[key.toString()] = value.toString();
       });
 
-      print('=== 解析后的重命名映射 ===\n${JsonEncoder.withIndent('  ').convert(renameMap)}');
+      print(
+          '=== 解析后的重命名映射 ===\n${JsonEncoder.withIndent('  ').convert(renameMap)}');
 
       return renameMap;
     } catch (e) {
