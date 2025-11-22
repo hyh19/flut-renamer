@@ -16,8 +16,8 @@ class AiConfig {
 
   // 默认配置值
   static const String defaultApiKey =
-      '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';
-  static const String defaultModel = 'google/gemini-2.5-flash';
+      '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';
+  static const String defaultModel = 'google/gemini-2.0-flash-lite-001';
   static const String defaultBaseUrl = 'https://openrouter.ai/api/v1';
 
   /// 获取默认配置值的 Map，用于 Firebase Remote Config 的 setDefaults
