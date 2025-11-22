@@ -3,6 +3,8 @@ import 'package:langchain/langchain.dart';
 import 'package:langchain_openai/langchain_openai.dart';
 import 'package:yaml/yaml.dart';
 
+import 'ai_config.dart';
+
 /// AI 重命名服务
 class AiRenameService {
   // 配置缓存
@@ -15,9 +17,9 @@ class AiRenameService {
   static void _loadConfig() {
     try {
       final remoteConfig = FirebaseRemoteConfig.instance;
-      _cachedApiKey = remoteConfig.getString('ai_api_key');
-      _cachedModel = remoteConfig.getString('ai_model');
-      _cachedBaseUrl = remoteConfig.getString('ai_base_url');
+      _cachedApiKey = remoteConfig.getString(AiConfig.keyApiKey);
+      _cachedModel = remoteConfig.getString(AiConfig.keyModel);
+      _cachedBaseUrl = remoteConfig.getString(AiConfig.keyBaseUrl);
       _configInitialized = true;
 
       print('AI 服务配置已加载:');
@@ -28,10 +30,9 @@ class AiRenameService {
       print('从 Remote Config 读取配置失败: $e');
       // 如果读取失败，使用默认值
       if (!_configInitialized) {
-        _cachedApiKey =
-            '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';
-        _cachedModel = 'google/gemini-2.5-flash';
-        _cachedBaseUrl = 'https://openrouter.ai/api/v1';
+        _cachedApiKey = AiConfig.getDefaultApiKey();
+        _cachedModel = AiConfig.getDefaultModel();
+        _cachedBaseUrl = AiConfig.getDefaultBaseUrl();
         _configInitialized = true;
       }
     }

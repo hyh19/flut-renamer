@@ -16,6 +16,7 @@ import 'firebase_options.dart';
 import 'l10n/l10n.dart';
 import 'pages/files_page.dart';
 import 'pages/home_page.dart';
+import 'tools/ai_config.dart';
 import 'tools/ai_rename_service.dart';
 import 'tools/ex_file.dart';
 import 'widget/custom_dialog.dart';
@@ -90,12 +91,7 @@ Future<void> _initializeRemoteConfig() async {
     );
 
     // 设置默认值（包含 AI 服务的三个配置参数）
-    await remoteConfig.setDefaults(<String, dynamic>{
-      'ai_api_key':
-          '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',
-      'ai_model': 'google/gemini-2.5-flash',
-      'ai_base_url': 'https://openrouter.ai/api/v1',
-    });
+    await remoteConfig.setDefaults(AiConfig.getDefaultValues());
 
     // 获取并激活远程配置
     await remoteConfig.fetchAndActivate();
