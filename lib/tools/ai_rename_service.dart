@@ -23,7 +23,7 @@ class AiRenameService {
       _configInitialized = true;
 
       print('AI 服务配置已加载:');
-      print('  API Key: ${_cachedApiKey?.substring(0, 20)}...');
+      print('  API Key: $_cachedApiKey');
       print('  Model: $_cachedModel');
       print('  Base URL: $_cachedBaseUrl');
     } catch (e) {
@@ -78,12 +78,24 @@ class AiRenameService {
     String userRequirements,
   ) async {
     try {
+      // 获取配置值（用于日志）
+      final apiKey = _apiKey;
+      final model = _model;
+      final baseUrl = _baseUrl;
+
+      // 记录使用的配置信息
+      print('=== AI 重命名服务配置信息 ===');
+      print('API Key: ${apiKey.isNotEmpty ? apiKey : "(空)"}');
+      print('Model: $model');
+      print('Base URL: $baseUrl');
+      print('==========================');
+
       // 创建 ChatOpenAI 实例
       final chatModel = ChatOpenAI(
-        apiKey: _apiKey,
-        baseUrl: _baseUrl,
+        apiKey: apiKey,
+        baseUrl: baseUrl,
         defaultOptions: ChatOpenAIOptions(
-          model: _model,
+          model: model,
           temperature: 0.7,
           maxTokens: 2000,
         ),
