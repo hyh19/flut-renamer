@@ -137,15 +137,14 @@ original_file3.jpg: new_name3.jpg
       };
 
       print('开始调用 AI 进行批量重命名...');
-      print('文件列表: $fileList');
+      print('文件列表:\n${fileList.map((file) => '  $file').join('\n')}');
       print('用户需求: $userRequirements');
       print('---');
 
       // 调用 AI
       final response = await chain.invoke(input);
 
-      print('AI 原始响应:');
-      print(response);
+      print('AI 原始响应:\n$response');
       print('---');
 
       // 提取 YAML 内容（去除代码块标记）
@@ -158,8 +157,7 @@ original_file3.jpg: new_name3.jpg
         }
       }
 
-      print('提取的 YAML 内容:');
-      print(yamlContent);
+      print('提取的 YAML 内容:\n$yamlContent');
       print('---');
 
       // 解析 YAML 为 Map
@@ -171,10 +169,7 @@ original_file3.jpg: new_name3.jpg
         renameMap[key.toString()] = value.toString();
       });
 
-      print('解析后的重命名映射:');
-      renameMap.forEach((oldName, newName) {
-        print('$oldName -> $newName');
-      });
+      print('解析后的重命名映射:\n${renameMap.toString()}');
 
       return renameMap;
     } catch (e) {
