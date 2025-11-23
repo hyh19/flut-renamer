@@ -10,7 +10,7 @@ Narzędzie do zmiany nazw z AI
 
 ## 推广文本（最多 170 个字符）
 
-Potężne narzędzie do masowej zmiany nazw plików z funkcjami wstawiania, zastępowania, usuwania i przyrostowej zmiany nazw, plus inteligentna zmiana nazw oparta na AI dla efektywnego zarządzania plikami.
+Potężne narzędzie do masowej zmiany nazw plików z funkcjami wstawiania, zastępowania, usuwania i przyrostowej zmiany nazw oraz inteligentna zmiana nazw oparta na AI.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Zmienianie Nazw Plików oferuje intuicyjny interfejs i proste operacje, czyniąc
 
 ## 关键词（最多 100 个字符）
 
-zmiana nazwy pliku,masowa zmiana nazw,narzędzie zmiany nazw,AI zmiana nazw,organizator plików,przetwarzanie masowe,asystent plików
+zmiana nazw,masowa zmiana,narzędzie zmiany,AI zmiana,organizator,przetwarzanie,asystent
