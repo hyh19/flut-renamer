@@ -1,7 +1,7 @@
 {
   "@@locale": "hr",
-  "appName": "Asistent za grupno preimenovanje datoteka",
-  "lowercaseAppName": "asistent za grupno preimenovanje datoteka",
+  "appName": "Preimenovanje Datoteka",
+  "lowercaseAppName": "preimenovanje datoteka",
   "ok": "U redu",
   "cancel": "Odustani",
   "exit": "Izlaz",
@@ -14,7 +14,7 @@
   "iosRemindTitle": "O odabiru datoteka na iOS-u",
   "iosRemindContent": "Za odabir datoteka na iOS-u, prvo odaberite direktorij gdje se vaše datoteke nalaze. Zatim, unutar odabranog foldera, odaberite datoteke koje želite preimenovati. Zbog ograničenja iOS-a, moramo koristiti dvokorakni proces, što osigurava sigurno upravljanje datotekama. Počnimo!",
   "androidRemindTitle": "Preimenovanje direktorija",
-  "androidRemindContent": "Koristeći Asistent za grupno preimenovanje datoteka, možete preimenovati ne samo datoteke već i direktorije. Dugim pritiskom na direktorij odaberite ga, a zatim odaberite 'Datoteke i direktoriji' iz padajućeg gumba u gornjem lijevom kutu kako biste omogućili preimenovanje direktorija. Iz sigurnosnih razloga, neki sistemski rezervirani direktoriji nisu odabivi.",
+  "androidRemindContent": "Koristeći Preimenovanje Datoteka, možete preimenovati ne samo datoteke već i direktorije. Dugim pritiskom na direktorij odaberite ga, a zatim odaberite 'Datoteke i direktoriji' iz padajućeg gumba u gornjem lijevom kutu kako biste omogućili preimenovanje direktorija. Iz sigurnosnih razloga, neki sistemski rezervirani direktoriji nisu odabivi.",
   "doNotRemindAgain": "U redu. Ne podsjećaj me više.",
   "rename": "Preimenuj",
   "appInfo": "Informacije o aplikaciji",
