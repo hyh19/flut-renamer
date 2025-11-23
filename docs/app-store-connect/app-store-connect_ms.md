@@ -10,7 +10,7 @@ Alat penamaan semula dengan AI
 
 ## 推广文本（最多 170 个字符）
 
-Alat penamaan semula fail pukal yang berkuasa dengan ciri-ciri masukkan, ganti, padam dan penamaan semula berturutan, ditambah penamaan semula pintar berasaskan AI untuk pengurusan fail yang cekap.
+Alat penamaan semula fail pukal yang berkuasa dengan ciri masukkan, ganti, padam dan berturutan, ditambah penamaan semula berasaskan AI untuk pengurusan fail yang cekap.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Menamakan Fail Pukal menawarkan antara muka yang intuitif dan operasi mudah, men
 
 ## 关键词（最多 100 个字符）
 
-menamakan semula fail,penamaan semula pukal,alat penamaan semula,penamaan semula AI,pengatur fail,pemprosesan pukal,pembantu fail
+menamakan semula fail,penamaan semula pukal,alat penamaan semula,penamaan semula AI,pengatur fail

@@ -10,7 +10,7 @@ Renomeação com IA
 
 ## 推广文本（最多 170 个字符）
 
-Ferramenta poderosa de renomeação de arquivos em lote com funções de inserção, substituição, exclusão e renomeação incremental, além de renomeação inteligente baseada em IA para gerenciamento eficiente de arquivos.
+Ferramenta poderosa de renomeação em lote com inserção, substituição, exclusão e renomeação incremental, além de renomeação IA para gerenciamento eficiente.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Renomeação de Arquivos oferece uma interface intuitiva e operações simples, 
 
 ## 关键词（最多 100 个字符）
 
-renomeação arquivo,renomeação lote,ferramenta renomeação,renomeação IA,organizador arquivo,processamento lote,assistente arquivo
+renomear arquivo,renomear lote,ferramenta renomear,renomear IA,organizador,processamento,assistente

@@ -10,7 +10,7 @@ Renombrado con IA
 
 ## 推广文本（最多 170 个字符）
 
-Potente herramienta de renombrado de archivos por lotes con funciones de inserción, reemplazo, eliminación y renombrado incremental, además de renombrado inteligente basado en IA para una gestión eficiente de archivos.
+Potente herramienta de renombrado por lotes con inserción, reemplazo, eliminación y renombrado incremental, más renombrado inteligente con IA para gestión.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Renombrado de Archivos ofrece una interfaz intuitiva y operaciones simples, haci
 
 ## 关键词（最多 100 个字符）
 
-renombrado archivo,renombrado lote,herramienta renombrado,renombrado IA,organizador archivo,procesamiento lote,asistente archivo
+renombrado archivo,renombrado lote,herramienta,renombrado IA,organizador,procesamiento,asistente
