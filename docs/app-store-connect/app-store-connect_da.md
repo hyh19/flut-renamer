@@ -10,7 +10,7 @@ Omnavngivningsværktøj med AI
 
 ## 推广文本（最多 170 个字符）
 
-Kraftfuldt batch filnavn omnavngivningsværktøj med indsæt, erstat, slet og inkrementel omnavngivningsfunktioner, plus AI-drevet smart omnavngivning til effektiv filhåndtering.
+Kraftfuldt batch filnavn omnavngivningsværktøj med indsæt, erstat, slet og inkrementel omnavngivningsfunktioner, plus AI-drevet omnavngivning til effektiv filhåndtering.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Filnavn Omnavngivning tilbyder et intuitivt interface og simple operationer, hvi
 
 ## 关键词
 
-filnavn omnavngivning,batch omnavngivning,omnavngivningsværktøj,AI omnavngivning,filorganisator,batch behandling,fil assistent
+filnavn omnavngivning,batch omnavngivning,omnavngivningsværktøj,AI omnavngivning,batch behandling
