@@ -106,16 +106,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI-Umbenennung"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Mit dem Batch-Dateiumbenennungsassistent können Sie nicht nur Dateien, sondern auch Verzeichnisse umbenennen. Drücken Sie lange auf ein Verzeichnis, um es auszuwählen, und wählen Sie dann \'Dateien & Verzeichnisse\' aus dem Dropdown-Button in der oberen linken Ecke, um die Umbenennung von Verzeichnissen zu aktivieren. Aus Sicherheitsgründen sind einige systemreservierte Verzeichnisse nicht auswählbar.",
+      "Mit Batch-Umbenennung können Sie nicht nur Dateien, sondern auch Verzeichnisse umbenennen. Drücken Sie lange auf ein Verzeichnis, um es auszuwählen, und wählen Sie dann \'Dateien & Verzeichnisse\' aus dem Dropdown-Button in der oberen linken Ecke, um die Umbenennung von Verzeichnissen zu aktivieren. Aus Sicherheitsgründen sind einige systemreservierte Verzeichnisse nicht auswählbar.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Verzeichnis umbenennen",
     ),
     "appError": MessageLookupByLibrary.simpleMessage("App-Fehler"),
     "appInfo": MessageLookupByLibrary.simpleMessage("App-Information"),
-    "appName": MessageLookupByLibrary.simpleMessage(
-      "Batch-Dateiumbenennungsassistent",
-    ),
+    "appName": MessageLookupByLibrary.simpleMessage("Batch-Umbenennung"),
     "bg": MessageLookupByLibrary.simpleMessage("Bulgarisch"),
     "cancel": MessageLookupByLibrary.simpleMessage("Abbrechen"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("Alle abbrechen"),
@@ -258,7 +256,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "limit": MessageLookupByLibrary.simpleMessage("Limit"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
-      "batch-dateiumbenennungsassistent",
+      "batch-umbenennung",
     ),
     "manualMode": MessageLookupByLibrary.simpleMessage("Manueller Modus"),
     "me": MessageLookupByLibrary.simpleMessage("Montenegrinisch"),

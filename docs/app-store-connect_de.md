@@ -2,7 +2,7 @@
 
 ## 名称（最多 30 个字符）
 
-Batch-Dateiumbenennungsassistent
+Batch-Umbenennung
 
 ## 副标题（最多 30 个字符）
 
@@ -14,7 +14,7 @@ Batch-Dateiumbenennungstool mit Einfügen, Ersetzen, Löschen und inkrementeller
 
 ## 描述
 
-Batch-Dateiumbenennungsassistent ist ein leistungsstarkes und benutzerfreundliches Tool zur Batch-Umbenennung von Dateien, das Ihnen hilft, Dateien effizient zu verwalten und umzubenennen.
+Batch-Umbenennung ist ein leistungsstarkes und benutzerfreundliches Tool zur Batch-Umbenennung von Dateien, das Ihnen hilft, Dateien effizient zu verwalten und umzubenennen.
 
 **Hauptfunktionen:**
 
@@ -37,7 +37,7 @@ Batch-Dateiumbenennungsassistent ist ein leistungsstarkes und benutzerfreundlich
 - Fügen Sie fortlaufende Nummern oder Datumsangaben zu Dateien hinzu
 - Bereinigen Sie unnötige Zeichen in Dateinamen
 
-Batch-Dateiumbenennungsassistent bietet eine intuitive Benutzeroberfläche und einfache Bedienung, die die Dateiumbenennung einfach und effizient macht.
+Batch-Umbenennung bietet eine intuitive Benutzeroberfläche und einfache Bedienung, die die Dateiumbenennung einfach und effizient macht.
 
 ## 关键词
 
