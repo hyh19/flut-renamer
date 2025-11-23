@@ -10,7 +10,7 @@ Strumento di rinomina con IA
 
 ## 推广文本（最多 170 个字符）
 
-Potente strumento di rinomina file in batch con funzioni di inserimento, sostituzione, eliminazione e rinomina incrementale, oltre a una rinomina intelligente basata sull'IA per una gestione efficiente dei file.
+Potente strumento di rinomina file in batch con funzioni di inserimento, sostituzione, eliminazione e rinomina incrementale, oltre a rinomina intelligente basata sull'IA.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Rinomina File in Batch offre un'interfaccia intuitiva e operazioni semplici, ren
 
 ## 关键词（最多 100 个字符）
 
-rinomina file,rinomina batch,strumento rinomina,rinomina IA,organizzatore file,elaborazione batch,assistente file
+rinomina file,rinomina batch,strumento rinomina,rinomina IA,organizzatore file
