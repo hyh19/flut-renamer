@@ -18,6 +18,7 @@ import 'package:intl/src/intl_helpers.dart';
 
 import 'messages_ar.dart' as messages_ar;
 import 'messages_bn.dart' as messages_bn;
+import 'messages_ca.dart' as messages_ca;
 import 'messages_cs.dart' as messages_cs;
 import 'messages_da.dart' as messages_da;
 import 'messages_de.dart' as messages_de;
@@ -30,6 +31,7 @@ import 'messages_fr.dart' as messages_fr;
 import 'messages_ha.dart' as messages_ha;
 import 'messages_he.dart' as messages_he;
 import 'messages_hi.dart' as messages_hi;
+import 'messages_hr.dart' as messages_hr;
 import 'messages_hu.dart' as messages_hu;
 import 'messages_id.dart' as messages_id;
 import 'messages_it.dart' as messages_it;
@@ -42,6 +44,7 @@ import 'messages_pl.dart' as messages_pl;
 import 'messages_pt.dart' as messages_pt;
 import 'messages_ro.dart' as messages_ro;
 import 'messages_ru.dart' as messages_ru;
+import 'messages_sk.dart' as messages_sk;
 import 'messages_sv.dart' as messages_sv;
 import 'messages_th.dart' as messages_th;
 import 'messages_tr.dart' as messages_tr;
@@ -57,6 +60,7 @@ typedef Future<dynamic> LibraryLoader();
 Map<String, LibraryLoader> _deferredLibraries = {
   'ar': () => new SynchronousFuture(null),
   'bn': () => new SynchronousFuture(null),
+  'ca': () => new SynchronousFuture(null),
   'cs': () => new SynchronousFuture(null),
   'da': () => new SynchronousFuture(null),
   'de': () => new SynchronousFuture(null),
@@ -69,6 +73,7 @@ Map<String, LibraryLoader> _deferredLibraries = {
   'ha': () => new SynchronousFuture(null),
   'he': () => new SynchronousFuture(null),
   'hi': () => new SynchronousFuture(null),
+  'hr': () => new SynchronousFuture(null),
   'hu': () => new SynchronousFuture(null),
   'id': () => new SynchronousFuture(null),
   'it': () => new SynchronousFuture(null),
@@ -81,6 +86,7 @@ Map<String, LibraryLoader> _deferredLibraries = {
   'pt': () => new SynchronousFuture(null),
   'ro': () => new SynchronousFuture(null),
   'ru': () => new SynchronousFuture(null),
+  'sk': () => new SynchronousFuture(null),
   'sv': () => new SynchronousFuture(null),
   'th': () => new SynchronousFuture(null),
   'tr': () => new SynchronousFuture(null),
@@ -99,6 +105,8 @@ MessageLookupByLibrary? _findExact(String localeName) {
       return messages_ar.messages;
     case 'bn':
       return messages_bn.messages;
+    case 'ca':
+      return messages_ca.messages;
     case 'cs':
       return messages_cs.messages;
     case 'da':
@@ -123,6 +131,8 @@ MessageLookupByLibrary? _findExact(String localeName) {
       return messages_he.messages;
     case 'hi':
       return messages_hi.messages;
+    case 'hr':
+      return messages_hr.messages;
     case 'hu':
       return messages_hu.messages;
     case 'id':
@@ -147,6 +157,8 @@ MessageLookupByLibrary? _findExact(String localeName) {
       return messages_ro.messages;
     case 'ru':
       return messages_ru.messages;
+    case 'sk':
+      return messages_sk.messages;
     case 'sv':
       return messages_sv.messages;
     case 'th':
