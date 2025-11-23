@@ -1,0 +1,354 @@
+{
+  "@@locale": "ca",
+  "appName": "Canvi de Nom d'Arxius",
+  "lowercaseAppName": "canvi de nom d'arxius",
+  "ok": "D'acord",
+  "cancel": "Cancel·lar",
+  "exit": "Sortir",
+  "save": "Desar",
+  "add": "Afegir",
+  "permissionTitle": "Permís d'emmagatzematge extern",
+  "permissionContent": "Per oferir el servei de canviar el nom dels arxius, necessitem que ens autoritzeu a administrar l'emmagatzematge extern. D'aquesta manera, podrem accedir i canviar el nom dels arxius emmagatzemats al vostre dispositiu. Sense aquest permís, l'aplicació no podrà accedir a la ruta completa dels arxius, cosa que impedirà l'operació de canviar el nom. Us assegurem que valorem molt la vostra privacitat i seguretat, i només accedirem als arxius amb el propòsit de canviar-los el nom.",
+  "exitTitle": "No es pot accedir a l'emmagatzematge extern",
+  "exitContent": "El permís per administrar l'emmagatzematge extern ens permet accedir i canviar el nom dels arxius emmagatzemats al vostre dispositiu. Sense aquest permís, l'aplicació no podrà accedir a la ruta completa dels arxius, cosa que impedirà l'operació de canviar el nom. Si us plau, aneu a la pàgina de configuració i atorgueu el permís manualment, altrament no podrem oferir-vos cap servei.",
+  "iosRemindTitle": "Sobre la selecció d'arxius a iOS",
+  "iosRemindContent": "Per seleccionar arxius a iOS, primer trieu una carpeta que contingui els vostres arxius. Després, dins de la carpeta seleccionada, trieu els arxius que voleu canviar el nom. Degut a les limitacions d'iOS, hem de seguir aquests dos passos per garantir l'accés segur als arxius. Comencem!",
+  "androidRemindTitle": "Canviar el nom de directoris",
+  "androidRemindContent": "Amb Canvi de Nom d'Arxius, podeu canviar el nom no només dels arxius, sinó també dels directoris. Mantingueu premut un directori per seleccionar-lo i després seleccioneu 'Arxius i directoris' al botó desplegable de la cantonada superior esquerra per habilitar el canvi de nom de directoris. Per raons de seguretat, alguns directoris reservats pel sistema no es poden seleccionar.",
+  "doNotRemindAgain": "D'acord, no tornar a recordar",
+  "rename": "Canviar el nom",
+  "appInfo": "Informació de l'aplicació",
+  "aboutContent": "Aquesta aplicació està dissenyada per ajudar els usuaris a canviar el nom dels arxius. Està desenvolupada amb el framework Flutter, per la qual cosa també és compatible amb altres sistemes operatius. És completament de codi obert i pot ser revisada i contribuïda per qualsevol.",
+  "rating": "Qualificar l'aplicació",
+  "ratingTitle": "Qualifiqueu la nostra aplicació",
+  "ratingContent": "Us agrada la nostra aplicació? Ajudeu-nos a créixer qualificant-nos a la botiga d'aplicacions o donant-nos un like a GitHub. El vostre feedback és molt important per a nosaltres! Gràcies pel vostre suport.",
+  "ratingStore": "Qualificar a la botiga",
+  "ratingGitHub": "Donar like a GitHub",
+  "sourceCode": "Codi font",
+  "collapseOptions": "Contraure opcions",
+  "expandOptions": "Expandir opcions",
+  "onlySelected": "Canviar el nom només dels arxius seleccionats",
+  "removeRenamed": "Eliminar arxius ja canviats el nom",
+  "removeRule": "Eliminar aquesta regla",
+  "removeRules": "Eliminar totes les regles després de canviar el nom",
+  "addRule": "Afegir regla",
+  "removeAll": "Eliminar tot",
+  "replace": "Substituir",
+  "remove": "Eliminar",
+  "insert": "Inserir",
+  "increment": "Incrementar",
+  "rearrange": "Reorganitzar",
+  "transliterate": "Transliterar",
+  "truncate": "Truncar",
+  "cancelAll": "Cancel·lar tot",
+  "select": "Seleccionar",
+  "selectAll": "Seleccionar tot",
+  "currentName": "Nom actual",
+  "newName": "Nom nou",
+  "files": "Arxius",
+  "fileNotExist": "L'arxiu no existeix",
+  "directories": "Directoris",
+  "filesDirs": "Arxius i directoris",
+  "filter": "Filtrar",
+  "addFile": "Afegir arxiu",
+  "addFiles": "Si us plau, afegiu arxius.",
+  "dragToAdd": "Arrossegueu i deixeu anar arxius per afegir-los.",
+  "dropToAdd": "Deixeu anar arxius aquí per afegir-los.",
+  "dragNotSupported": "Degut a restriccions de seguretat del sistema, no s'admet arrossegar i deixar anar arxius des d'aquesta aplicació.",
+  "fileAlreadyExists": "El nom d'arxiu ja està en ús",
+  "renameFailed": "Error en canviar el nom",
+  "aiRenameTitle": "Canvi de nom amb IA",
+  "aiRenameRequirementsLabel": "Instruccions de canvi de nom",
+  "aiRenameRequirementsHint": "Descriu com voleu canviar el nom d'aquests arxius.",
+  "aiRenameSubmit": "Enviar",
+  "aiRenameSnackbarEmptyRequirements": "Introduïu les instruccions de canvi de nom",
+  "aiRenameSnackbarNoSelection": "No hi ha arxius seleccionats",
+  "aiRenameLoading": "La IA està analitzant la vostra sol·licitud, espereu...",
+  "aiRenameSuccess": "Regla de canvi de nom amb IA creada. Es canviaran el nom de {count} arxius.",
+  "aiRenameError": "Error en el canvi de nom amb IA: {error}",
+  "aiRenameRulePreview": "Canvi de nom amb IA: {requirements}",
+  "rulesSequentially": "Les regles s'executen seqüencialment. Feu clic en una regla per editar-la. Mantingueu premut el botó '=' a l'esquerra i arrossegueu-lo per ordenar les regles.",
+  "noSysDir": "No canvieu el nom de directoris reservats del sistema.",
+  "fileSortName": "Nom",
+  "fileSortSize": "Mida",
+  "fileSortDate": "Data",
+  "fileSortType": "Tipus",
+  "transliterateUpper": "Transliterar a caràcters llatins en majúscules",
+  "transliterateLower": "Transliterar a caràcters llatins en minúscules",
+  "transliterateTraditional": "Transliterar a xinès tradicional",
+  "transliterateSimplified": "Transliterar a xinès simplificat",
+  "transliteratePinyin": "Transliterar xinès a pinyin",
+  "transliterateCyrillic2Latin": "Transliterar de ciríl·lic a caràcters llatins",
+  "transliterateLatin2Cyrillic": "Transliterar de caràcters llatins a ciríl·lic",
+  "insertTagInsideAnother": "No insereixis una etiqueta dins d'una altra.",
+  "appError": "Error de l'aplicació",
+  "errorDetails": "Detalls de l'error",
+  "ifFileNotShown": "Si els arxius no es mostren a la llista, esborreu tot i continueu.",
+  "metadataTags": "Etiquetes de metadades",
+  "osTodayDate": "Data actual",
+  "osNowTime": "Hora actual",
+  "fileSize": "Mida de l'arxiu",
+  "fileCreateDate": "Data de creació de l'arxiu",
+  "fileCreateTime": "Hora de creació de l'arxiu",
+  "fileModifyDate": "Data de modificació de l'arxiu",
+  "fileModifyTime": "Hora de modificació de l'arxiu",
+  "photoDate": "Data de captura de la foto (EXIF)",
+  "photoTime": "Hora de captura de la foto (EXIF)",
+  "photoCamName": "Nom de la càmera (EXIF)",
+  "photoLensName": "Nom de l'objectiu (EXIF)",
+  "photoFocalLength": "Longitud focal (EXIF)",
+  "photoAperture": "Obertura (EXIF)",
+  "photoShutter": "Velocitat d'obturació (EXIF)",
+  "photoISO": "ISO (EXIF)",
+  "photoLongitude": "Longitud GPS de la foto (EXIF)",
+  "photoLatitude": "Latitud GPS de la foto (EXIF)",
+  "photoAltitude": "Altitud GPS de la foto (EXIF)",
+  "photoPhotographer": "Nom del fotògraf (EXIF)",
+  "photoCopyright": "Nom del propietari dels drets d'autor (EXIF)",
+  "musicAlbumName": "Nom de l'àlbum",
+  "musicAlbumArtist": "Nom de l'artista de l'àlbum",
+  "musicAlbumLength": "Quantitat de cançons a l'àlbum",
+  "musicYear": "Any de publicació",
+  "musicTrackDuration": "Durada de la cançó",
+  "musicTrackName": "Nom de la cançó",
+  "musicTrackArtist": "Nom de l'artista de la cançó",
+  "musicTrackNumber": "Número de la cançó a l'àlbum",
+  "musicDiscNumber": "Número del disc",
+  "musicGenres": "Gèneres de la cançó",
+  "musicAuthor": "Autor de la cançó",
+  "musicWriter": "Escriptor de la cançó",
+  "prefix": "Prefix",
+  "startIndex": "Índex inicial",
+  "indexIncrementalStep": "Increment d'índex",
+  "omitDash": "Ometre guió",
+  "ignoreExtension": "Ignorar extensió",
+  "insertedText": "Text inserit",
+  "insertIndex": "Índex d'inserció",
+  "fromStart": "Des del principi",
+  "insertBeforeIndex": "Inserir abans de l'índex",
+  "rearrangeDelimiter": "Delimitador",
+  "rearrangeOrderLabel": "Ordre de reorganització",
+  "rearrangeOrderHint": "Introduïu els números corresponents, separats per comes",
+  "target": "Objectiu",
+  "replacement": "Substitució",
+  "limit": "Límit",
+  "caseSensitive": "Sensible a majúscules",
+  "isRegex": "Utilitzar expressió regular",
+  "language": "Idioma:",
+  "languageFollowSystem": "Seguir idioma del sistema",
+  "languageEnglishOnly": "Anglès",
+  "indexOne": "Primera posició",
+  "indexTwo": "Segona posició",
+  "toLast": "Fins al final",
+  "selectionLength": "Longitud de la selecció",
+  "goingForward": "Avançar",
+  "keepCharacters": "Mantenir caràcters entre ambdós",
+  "removeCharacters": "Eliminar caràcters entre ambdós",
+  "metadataParserNotProvided": "S'inclouen etiquetes de metadades però no es proporciona un analitzador de metadades.",
+  "replaceToString": "Substituir \"{targetString}\" per \"{replacementString}\".",
+  "removeToString": "Eliminar \"{targetString}\"",
+  "insertToString": "Inserir \"{insert}\" a la posició {toEnd, select, true{final} false{inicial} other{}} a l'índex {insertIndex}.",
+  "incrementToString": "Incrementar amb \"{prefix}\" i índex",
+  "rearrangeToString": "Reorganitzar amb delimitador \"{delimiter}\" i ordre \"{order}\".",
+  "transliterateToString": "Transliterar a \"{type}\".",
+  "transliterateToStringCyrillic": "Transliterar a \"{type}\" en {langName}.",
+  "truncateToString": "Truncar: {keepType, select, true{Mantenir} false{Eliminar} other{}} entre els caràcters {iOne} i {iTwo}.",
+  "descriptionReplace": "Substituir text especificat amb el text de substitució especificat.",
+  "descriptionRemove": "Eliminar text especificat del nom de l'arxiu.",
+  "descriptionInsert": "Inserir text especificat a la posició especificada.",
+  "descriptionIncrement": "Incrementar el nom de l'arxiu, per exemple, Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Dividir el nom de l'arxiu en segments utilitzant el delimitador especificat i reorganitzar-los segons l'ordre proporcionat per l'usuari.",
+  "descriptionTransliterate": "Convertir caràcters segons les especificacions predefinides, inclosa la conversió a majúscules o minúscules, a diferents variants de text o a diferents sistemes d'escriptura.",
+  "descriptionTruncate": "Eliminar o mantenir una part del nom de l'arxiu, des d'un punt d'inici fins a un punt final especificats.",
+  "bg": "Búlgar",
+  "me": "Montenegrí",
+  "mk": "Macedoni",
+  "mn": "Mongol",
+  "ru": "Rus",
+  "sr": "Serbi",
+  "tj": "Tadjik",
+  "ua": "Ucraïnès",
+  "fileManagerSortButton": "Ordenar arxius",
+  "fileManagerStorageButton": "Seleccionar emmagatzematge",
+  "fileManagerSaveButton": "Afegir arxius seleccionats a la llista",
+  "fileManagerBackButton": "Tornar",
+  "showHiddenFiles": "Mostrar arxius ocults",
+  "hideHiddenFiles": "Ocultar arxius ocults",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Seleccionat} false{No seleccionat} other{}}{entityType, select, File{arxiu} Directory{directori} Link{enllaç} other{objecte del sistema d'arxius}} amb nom {filename},",
+  "semanticsFileManagerSubtitle": "Última modificació: {last}, Mida: {size}.",
+  "semanticsFileManagerDirSubtitle": "Última modificació: {last}.",
+  "semanticsDropdownButton": "Aquest és un botó desplegable. La selecció actual és \"{value}\". Feu doble clic per obrir el menú desplegable i seleccionar un altre valor.",
+  "semanticsRuleDropdownButton": ". Seleccioneu-lo i feu clic en \"Afegir regla\" per afegir aquesta regla.",
+  "semanticsFilesDropdownButton": ". Seleccioneu per limitar els objectius de canviar el nom a aquest rang.",
+  "semanticsReorderableList": "La llista de regles està actualment buida. Feu clic en \"Afegir regla\" per afegir-ne una. Les regles s'executen seqüencialment. Aquesta llista es pot reordenar per moure les regles cap amunt, cap avall, al principi o al final. Quan el cursor està sobre una regla, utilitzeu un gest de desplaçament vertical per alternar entre diferents accions i feu doble clic per executar l'acció seleccionada.",
+  "semanticsOpenMetadataDialog": "Feu doble clic per obrir un quadre de diàleg i seleccionar una etiqueta de metadades per inserir.",
+  "semanticsMultipleActionsHint": ", desplaceu-vos cap amunt i cap avall per canviar entre altres accions.",
+  "semanticSwitchNumberToStartAndToEnd": "Canviar la direcció de recompte entre des del principi i des del final, actualment comptant des de {toEnd, select, true{el final} false{el principi} other{}}",
+  "colorPicker": "Selector de color",
+  "manualMode": "Mode manual",
+  "aiMode": "Mode IA",
+  "themeModeLight": "Mode clar",
+  "themeModeDark": "Mode fosc",
+  "themeModeSystem": "Seguir sistema",
+  "removeFile": "Eliminar arxiu",
+  "addMetadataTag": "Afegir etiqueta de metadades",
+  "copyErrorStack": "Copiar pila d'errors",
+  "semanticNumberWithDirection": "Canviar la direcció de recompte entre des del principi i des del final",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "@insertToString": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      },
+      "ordinal": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "@truncateToString": {
+    "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "selectStatus": {
+        "type": "String"
+      },
+      "entityType": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  }
+}
