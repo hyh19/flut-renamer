@@ -41,4 +41,4 @@ A Fájlátnevezés intuitív felületet és egyszerű műveleteket kínál, így
 
 ## 关键词（最多 100 个字符）
 
-fájlátnevezés,batch átnevezés,átnevező eszköz,AI átnevezés,fájlszervező,batch feldolgozás,fájl asszisztens
+fájlátnevezés,batch átnevezés,átnevező eszköz,AI átnevezés,fájlszervező,feldolgozás
