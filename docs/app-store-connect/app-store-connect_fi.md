@@ -10,7 +10,7 @@ Nimeämistyökalu AI:lla
 
 ## 推广文本（最多 170 个字符）
 
-Tehokas massanimeämistyökalu tiedostoille, jossa on lisäys-, korvaus-, poisto- ja lisäysnimeämistoiminnot, sekä AI-pohjainen älykäs nimeäminen tehokkaaseen tiedostojen hallintaan.
+Tehokas massanimeämistyökalu tiedostoille, jossa on lisäys-, korvaus-, poisto- ja lisäysnimeäminen, sekä AI-pohjainen älykäs nimeäminen tiedostojen hallintaan.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Tiedostojen Nimeäminen tarjoaa intuitiivisen käyttöliittymän ja yksinkertais
 
 ## 关键词（最多 100 个字符）
 
-tiedoston nimeäminen,massanimeäminen,nimeämistyökalu,AI nimeäminen,tiedostojen järjestäjä,massakäsittely,tiedostoavustaja
+tiedoston nimeäminen,massanimeäminen,nimeämistyökalu,AI nimeäminen,massakäsittely

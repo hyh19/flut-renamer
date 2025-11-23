@@ -10,7 +10,7 @@ Hernoemtool met AI
 
 ## 推广文本（最多 170 个字符）
 
-Krachtige batch bestandsnaam hernoemtool met invoegen, vervangen, verwijderen en incrementele hernoemfuncties, plus AI-aangedreven slim hernoemen voor efficiënt bestandsbeheer.
+Krachtige batch bestandsnaam hernoemtool met invoegen, vervangen, verwijderen en incrementele hernoemfuncties, plus AI-aangedreven slim hernoemen voor efficiënt beheer.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Bestandsnaam Wijzigen biedt een intuïtieve interface en eenvoudige bewerkingen,
 
 ## 关键词（最多 100 个字符）
 
-bestandsnaam hernoemen,batch hernoemen,hernoemtool,AI hernoemen,bestandsorganisator,batch verwerking,bestandsassistent
+bestandsnaam hernoemen,batch hernoemen,hernoemtool,AI hernoemen,bestandsorganisator

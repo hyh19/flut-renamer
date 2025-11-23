@@ -10,7 +10,7 @@ Instrument redenumire cu AI
 
 ## 推广文本（最多 170 个字符）
 
-Instrument puternic de redenumire în lot a fișierelor cu funcții de inserare, înlocuire, ștergere și redenumire incrementală, plus redenumire inteligentă bazată pe AI pentru gestionare eficientă a fișierelor.
+Instrument puternic de redenumire în lot cu inserare, înlocuire, ștergere și redenumire incrementală, plus AI pentru gestionare eficientă.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Redenumire Fișiere oferă o interfață intuitivă și operațiuni simple, făc
 
 ## 关键词（最多 100 个字符）
 
-redenumire fișier,redenumire lot,instrument redenumire,redenumire AI,organizator fișiere,prelucrare lot,asistent fișiere
+redenumire fișier,redenumire lot,instrument redenumire,redenumire AI,organizator fișiere
