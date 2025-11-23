@@ -1,5 +1,13 @@
 # App Store Connect 内容 - 德文版本
 
+## 名称（最多 30 个字符）
+
+Batch-Dateiumbenennungsassistent
+
+## 副标题（最多 30 个字符）
+
+Batch-Umbenennung mit KI
+
 ## 推广文本（最多 170 个字符）
 
 Batch-Dateiumbenennungstool mit Einfügen, Ersetzen, Löschen und inkrementeller Umbenennung sowie KI-gestützter intelligenter Umbenennung.

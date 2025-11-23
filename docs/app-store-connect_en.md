@@ -1,5 +1,13 @@
 # App Store Connect 内容 - 英文版本
 
+## 名称（最多 30 个字符）
+
+Batch File Rename Assistant
+
+## 副标题（最多 30 个字符）
+
+Batch renaming tool with AI
+
 ## 推广文本（最多 170 个字符）
 
 Powerful batch file renaming tool with insert, replace, delete, and incremental renaming features, plus AI-powered smart renaming for efficient file management.
