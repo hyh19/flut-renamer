@@ -10,7 +10,7 @@ Alat pengganti nama dengan AI
 
 ## 推广文本（最多 170 个字符）
 
-Alat pengganti nama file batch yang kuat dengan fitur sisipkan, ganti, hapus dan penggantian nama bertahap, plus penggantian nama pintar berbasis AI untuk manajemen file yang efisien.
+Alat pengganti nama file batch dengan fitur sisipkan, ganti, hapus dan penggantian nama bertahap, penggantian nama pintar berbasis AI untuk manajemen file yang efisien.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Pengganti Nama File menawarkan antarmuka yang intuitif dan operasi sederhana, me
 
 ## 关键词（最多 100 个字符）
 
-pengganti nama file,penggantian nama batch,alat penggantian nama,penggantian nama AI,organisator file,pemrosesan batch,asisten file
+pengganti nama file,penggantian nama batch,penggantian nama AI,organisator file
