@@ -104,16 +104,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("ИИ переименование"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "Используя Помощник массового переименования файлов, вы можете переименовывать не только файлы, но и каталоги. Долгим нажатием выберите каталог, а затем выберите «Файлы и каталоги» из выпадающей кнопки в верхнем левом углу, чтобы включить переименование каталогов. По соображениям безопасности некоторые системные зарезервированные каталоги недоступны для выбора.",
+      "Используя Переименование файлов, вы можете переименовывать не только файлы, но и каталоги. Долгим нажатием выберите каталог, а затем выберите «Файлы и каталоги» из выпадающей кнопки в верхнем левом углу, чтобы включить переименование каталогов. По соображениям безопасности некоторые системные зарезервированные каталоги недоступны для выбора.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Переименование каталога",
     ),
     "appError": MessageLookupByLibrary.simpleMessage("Ошибка приложения"),
     "appInfo": MessageLookupByLibrary.simpleMessage("Информация о приложении"),
-    "appName": MessageLookupByLibrary.simpleMessage(
-      "Помощник массового переименования файлов",
-    ),
+    "appName": MessageLookupByLibrary.simpleMessage("Переименование файлов"),
     "bg": MessageLookupByLibrary.simpleMessage("Болгарский"),
     "cancel": MessageLookupByLibrary.simpleMessage("Отмена"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("Отменить все"),
@@ -248,7 +246,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "limit": MessageLookupByLibrary.simpleMessage("лимит"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
-      "помощник массового переименования файлов",
+      "переименование файлов",
     ),
     "manualMode": MessageLookupByLibrary.simpleMessage("Ручной режим"),
     "me": MessageLookupByLibrary.simpleMessage("Черногорский"),
