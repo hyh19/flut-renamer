@@ -41,4 +41,4 @@ Filnamnbyte erbjuder ett intuitivt gränssnitt och enkla operationer, vilket gö
 
 ## 关键词（最多 100 个字符）
 
-filnamnbyte,batch omdöpning,omdöpningsverktyg,AI omdöpning,filorganisatör,batch bearbetning,fil assistent
+filnamnbyte,batch omdöpning,omdöpningsverktyg,AI omdöpning,filorganisatör,batch bearbetning
