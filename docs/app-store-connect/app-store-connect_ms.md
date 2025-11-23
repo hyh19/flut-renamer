@@ -39,6 +39,6 @@ Menamakan Fail Pukal adalah alat penamaan semula fail pukal yang berkuasa dan mu
 
 Menamakan Fail Pukal menawarkan antara muka yang intuitif dan operasi mudah, menjadikan penamaan semula fail mudah dan cekap.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 menamakan semula fail,penamaan semula pukal,alat penamaan semula,penamaan semula AI,pengatur fail,pemprosesan pukal,pembantu fail

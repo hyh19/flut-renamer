@@ -39,6 +39,6 @@ Filnamnbyte är ett kraftfullt och lättanvänt batch filnamnbyte verktyg, desig
 
 Filnamnbyte erbjuder ett intuitivt gränssnitt och enkla operationer, vilket gör filnamnbyte enkelt och effektivt.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 filnamnbyte,batch omdöpning,omdöpningsverktyg,AI omdöpning,filorganisatör,batch bearbetning,fil assistent

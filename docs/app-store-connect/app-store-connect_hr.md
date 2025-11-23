@@ -39,6 +39,6 @@ Preimenovanje Datoteka je moćan i jednostavan alat za grupno preimenovanje dato
 
 Preimenovanje Datoteka nudi intuitivno sučelje i jednostavne operacije, čineći preimenovanje datoteka lakim i učinkovitim.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 preimenovanje datoteke,grupno preimenovanje,alat preimenovanje,AI preimenovanje,organizator datoteka,grupna obrada,asistent datoteka

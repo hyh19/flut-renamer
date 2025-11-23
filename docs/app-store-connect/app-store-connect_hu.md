@@ -39,6 +39,6 @@ Fájlátnevezés egy hatékony és könnyen használható batch fájlátnevező 
 
 A Fájlátnevezés intuitív felületet és egyszerű műveleteket kínál, így a fájlátnevezés könnyű és hatékony.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 fájlátnevezés,batch átnevezés,átnevező eszköz,AI átnevezés,fájlszervező,batch feldolgozás,fájl asszisztens

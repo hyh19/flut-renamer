@@ -39,6 +39,6 @@ Renommage de Fichiers est un outil puissant et facile à utiliser pour le renomm
 
 Renommage de Fichiers offre une interface intuitive et des opérations simples, rendant le renommage de fichiers facile et efficace.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 renommage fichier,renommage lot,outil renommage,renommage IA,organisateur fichier,traitement lot,assistant fichier

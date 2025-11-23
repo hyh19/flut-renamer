@@ -39,6 +39,6 @@ Rinomina File in Batch è uno strumento potente e facile da usare per la rinomin
 
 Rinomina File in Batch offre un'interfaccia intuitiva e operazioni semplici, rendendo la rinomina dei file facile ed efficiente.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 rinomina file,rinomina batch,strumento rinomina,rinomina IA,organizzatore file,elaborazione batch,assistente file

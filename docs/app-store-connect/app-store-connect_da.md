@@ -39,6 +39,6 @@ Filnavn Omnavngivning er et kraftfuldt og nemt at bruge batch filnavn omnavngivn
 
 Filnavn Omnavngivning tilbyder et intuitivt interface og simple operationer, hvilket gør filnavn omnavngivning nemt og effektivt.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 filnavn omnavngivning,batch omnavngivning,omnavngivningsværktøj,AI omnavngivning,batch behandling

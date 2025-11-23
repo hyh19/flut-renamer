@@ -39,6 +39,6 @@ Canvi de Nom d'Arxius és una eina potent i fàcil d'utilitzar per al canvi de n
 
 Canvi de Nom d'Arxius ofereix una interfície intuïtiva i operacions simples, fent que el canvi de nom d'arxius sigui fàcil i eficient.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 canvi nom arxiu,canvi nom lots,eina canvi nom,canvi nom IA,organitzador arxiu,processament lots,assistent arxiu

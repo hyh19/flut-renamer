@@ -39,6 +39,6 @@ Zmienianie Nazw Plików to potężne i łatwe w użyciu narzędzie do masowej zm
 
 Zmienianie Nazw Plików oferuje intuicyjny interfejs i proste operacje, czyniąc zmianę nazw plików łatwą i efektywną.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 zmiana nazwy pliku,masowa zmiana nazw,narzędzie zmiany nazw,AI zmiana nazw,organizator plików,przetwarzanie masowe,asystent plików

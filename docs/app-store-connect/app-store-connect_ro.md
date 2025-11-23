@@ -39,6 +39,6 @@ Redenumire Fișiere este un instrument puternic și ușor de utilizat pentru red
 
 Redenumire Fișiere oferă o interfață intuitivă și operațiuni simple, făcând redenumirea fișierelor ușoară și eficientă.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 redenumire fișier,redenumire lot,instrument redenumire,redenumire AI,organizator fișiere,prelucrare lot,asistent fișiere

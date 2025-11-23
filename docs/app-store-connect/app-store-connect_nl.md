@@ -39,7 +39,6 @@ Bestandsnaam Wijzigen is een krachtige en gebruiksvriendelijke batch bestandsnaa
 
 Bestandsnaam Wijzigen biedt een intuïtieve interface en eenvoudige bewerkingen, waardoor bestandsnaam hernoemen eenvoudig en efficiënt wordt.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 bestandsnaam hernoemen,batch hernoemen,hernoemtool,AI hernoemen,bestandsorganisator,batch verwerking,bestandsassistent
-

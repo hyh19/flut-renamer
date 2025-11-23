@@ -39,6 +39,6 @@ Batch-Umbenennung ist ein leistungsstarkes und benutzerfreundliches Tool zur Bat
 
 Batch-Umbenennung bietet eine intuitive Benutzeroberfläche und einfache Bedienung, die die Dateiumbenennung einfach und effizient macht.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 datei umbenennen,batch umbenennen,umbenennung tool,KI umbenennen,batch verarbeitung,datei assistent

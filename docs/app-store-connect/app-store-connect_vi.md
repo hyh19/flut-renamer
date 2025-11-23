@@ -39,6 +39,6 @@ Công cụ đổi tên file hàng loạt mạnh mẽ với các tính năng chè
 
 Đổi tên File Hàng loạt có giao diện trực quan và thao tác đơn giản, làm cho việc đổi tên file trở nên dễ dàng và hiệu quả.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 đổi tên file,đổi tên hàng loạt,công cụ đổi tên,đổi tên AI,tổ chức file,xử lý hàng loạt,trợ lý file

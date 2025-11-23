@@ -39,6 +39,6 @@ Tiedostojen Nimeäminen on tehokas ja helppokäyttöinen massanimeämistyökalu 
 
 Tiedostojen Nimeäminen tarjoaa intuitiivisen käyttöliittymän ja yksinkertaiset toiminnot, tehden tiedostojen nimeämisestä helpon ja tehokkaan.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 tiedoston nimeäminen,massanimeäminen,nimeämistyökalu,AI nimeäminen,tiedostojen järjestäjä,massakäsittely,tiedostoavustaja

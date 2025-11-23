@@ -39,6 +39,6 @@ Renomeação de Arquivos é uma ferramenta poderosa e fácil de usar para renome
 
 Renomeação de Arquivos oferece uma interface intuitiva e operações simples, tornando a renomeação de arquivos fácil e eficiente.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 renomeação arquivo,renomeação lote,ferramenta renomeação,renomeação IA,organizador arquivo,processamento lote,assistente arquivo

@@ -39,6 +39,6 @@ Přejmenování Souborů je výkonný a snadno použitelný nástroj pro hromadn
 
 Přejmenování Souborů nabízí intuitivní rozhraní a jednoduché operace, což činí přejmenování souborů snadným a efektivním.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 přejmenování souboru,hromadné přejmenování,nástroj přejmenování,AI přejmenování,organizátor souborů,hromadné zpracování,asistent souborů

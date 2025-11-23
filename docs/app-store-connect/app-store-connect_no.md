@@ -39,6 +39,6 @@ Filnavn Endring er et kraftig og enkelt å bruke batch filnavn endringsverktøy,
 
 Filnavn Endring tilbyr et intuitivt grensesnitt og enkle operasjoner, noe som gjør filnavn endring enkelt og effektivt.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 filnavn endring,batch endring,endringsverktøy,AI endring,filorganisator,batch behandling,fil assistent

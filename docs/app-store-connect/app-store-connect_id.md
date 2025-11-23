@@ -39,6 +39,6 @@ Pengganti Nama File adalah alat pengganti nama file batch yang kuat dan mudah di
 
 Pengganti Nama File menawarkan antarmuka yang intuitif dan operasi sederhana, membuat penggantian nama file mudah dan efisien.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 pengganti nama file,penggantian nama batch,alat penggantian nama,penggantian nama AI,organisator file,pemrosesan batch,asisten file

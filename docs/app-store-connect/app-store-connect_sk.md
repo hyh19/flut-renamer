@@ -39,6 +39,6 @@ Premenovanie Súborov je výkonný a ľahko použiteľný nástroj na hromadné 
 
 Premenovanie Súborov ponúka intuitívne rozhranie a jednoduché operácie, čím urobí premenovanie súborov ľahkým a efektívnym.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 premenovanie súboru,hromadné premenovanie,nástroj premenovanie,AI premenovanie,organizátor súborov,hromadné spracovanie,asistent súborov

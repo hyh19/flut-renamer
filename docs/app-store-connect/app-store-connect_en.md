@@ -39,6 +39,6 @@ Batch File Rename Assistant is a powerful yet easy-to-use batch file renaming to
 
 Batch File Rename Assistant features an intuitive interface and simple operations, making file renaming easy and efficient.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 file rename,batch rename,renaming tool,AI rename,file organizer,batch processing,file assistant

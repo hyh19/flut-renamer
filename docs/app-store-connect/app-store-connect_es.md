@@ -39,6 +39,6 @@ Renombrado de Archivos es una herramienta potente y fácil de usar para el renom
 
 Renombrado de Archivos ofrece una interfaz intuitiva y operaciones simples, haciendo que el renombrado de archivos sea fácil y eficiente.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 renombrado archivo,renombrado lote,herramienta renombrado,renombrado IA,organizador archivo,procesamiento lote,asistente archivo

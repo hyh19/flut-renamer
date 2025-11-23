@@ -39,6 +39,6 @@ Dosya Yeniden Adlandırma, dosyaları verimli bir şekilde yönetmenize ve yenid
 
 Dosya Yeniden Adlandırma, sezgisel bir arayüz ve basit işlemler sunarak dosya yeniden adlandırmayı kolay ve verimli hale getirir.
 
-## 关键词
+## 关键词（最多 100 个字符）
 
 dosya yeniden adlandırma,toplu yeniden adlandırma,yeniden adlandırma aracı,AI yeniden adlandırma,dosya düzenleyici,toplu işleme,dosya asistanı
