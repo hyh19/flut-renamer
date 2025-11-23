@@ -10,7 +10,7 @@ Outil de renommage avec IA
 
 ## 推广文本（最多 170 个字符）
 
-Outil puissant de renommage de fichiers par lots avec insertion, remplacement, suppression et renommage incrémental, plus un renommage intelligent basé sur l'IA pour une gestion efficace des fichiers.
+Outil de renommage de fichiers par lots avec insertion, remplacement, suppression et renommage incrémental, plus renommage intelligent par IA pour une gestion efficace.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Renommage de Fichiers offre une interface intuitive et des opérations simples, 
 
 ## 关键词（最多 100 个字符）
 
-renommage fichier,renommage lot,outil renommage,renommage IA,organisateur fichier,traitement lot,assistant fichier
+renommage fichier,renommage lot,outil renommage,renommage IA,organisateur,traitement lot,assistant
