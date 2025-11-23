@@ -10,7 +10,7 @@ Eina de canvi de nom amb IA
 
 ## 推广文本（最多 170 个字符）
 
-Eina potent de canvi de nom d'arxius per lots amb funcions d'inserció, substitució, eliminació i canvi de nom incremental, a més de canvi de nom intel·ligent basat en IA per a una gestió eficient d'arxius.
+Eina de canvi de nom d'arxius per lots amb inserció, substitució, eliminació i canvi de nom incremental, a més de canvi de nom intel·ligent basat en IA.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Canvi de Nom d'Arxius ofereix una interfície intuïtiva i operacions simples, f
 
 ## 关键词（最多 100 个字符）
 
-canvi nom arxiu,canvi nom lots,eina canvi nom,canvi nom IA,organitzador arxiu,processament lots,assistent arxiu
+canvi nom arxiu,canvi nom lots,eina canvi nom,canvi nom IA,organitzador arxiu,processament lots
