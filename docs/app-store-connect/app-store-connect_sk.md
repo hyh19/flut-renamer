@@ -10,7 +10,7 @@ Nástroj na premenovanie s AI
 
 ## 推广文本（最多 170 个字符）
 
-Výkonný nástroj na hromadné premenovanie súborov s funkciami vloženia, nahradenia, zmazania a prírastkového premenovania, plus inteligentné premenovanie s AI pre efektívnu správu súborov.
+Výkonný nástroj na hromadné premenovanie súborov s funkciami vloženia, nahradenia, zmazania a prírastkového, plus AI premenovanie pre efektívnu správu súborov.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Premenovanie Súborov ponúka intuitívne rozhranie a jednoduché operácie, č�
 
 ## 关键词（最多 100 个字符）
 
-premenovanie súboru,hromadné premenovanie,nástroj premenovanie,AI premenovanie,organizátor súborov,hromadné spracovanie,asistent súborov
+premenovanie súboru,hromadné premenovanie,AI premenovanie,nástroj premenovanie
