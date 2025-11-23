@@ -10,7 +10,7 @@ Nástroj pro přejmenování s AI
 
 ## 推广文本（最多 170 个字符）
 
-Výkonný nástroj pro hromadné přejmenování souborů s funkcemi vložení, nahrazení, smazání a přírůstkového přejmenování, plus inteligentní přejmenování s AI pro efektivní správu souborů.
+Výkonný nástroj pro hromadné přejmenování souborů s funkcemi vložení, nahrazení, smazání a přírůstkového přejmenování, plus AI přejmenování pro efektivní správu.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Přejmenování Souborů nabízí intuitivní rozhraní a jednoduché operace, c
 
 ## 关键词（最多 100 个字符）
 
-přejmenování souboru,hromadné přejmenování,nástroj přejmenování,AI přejmenování,organizátor souborů,hromadné zpracování,asistent souborů
+přejmenování souboru,hromadné přejmenování,nástroj přejmenování,AI přejmenování
