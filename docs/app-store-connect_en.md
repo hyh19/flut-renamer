@@ -33,4 +33,4 @@ Batch File Rename Assistant features an intuitive interface and simple operation
 
 ## 关键词
 
-file rename,batch rename,file manager,renaming tool,AI rename,file organizer,batch processing,file assistant
+file rename,batch rename,renaming tool,AI rename,file organizer,batch processing,file assistant
