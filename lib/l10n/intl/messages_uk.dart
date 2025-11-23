@@ -104,16 +104,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "aiRenameSuccess": m2,
     "aiRenameTitle": MessageLookupByLibrary.simpleMessage("AI-перейменування"),
     "androidRemindContent": MessageLookupByLibrary.simpleMessage(
-      "З Помічник масового перейменування файлів ви можете перейменовувати не лише файли, а й теки. Затисніть теку, щоб вибрати її, а потім у випадному списку вгорі зліва оберіть «Files & Dirs», щоб увімкнути перейменування тек. Із міркувань безпеки деякі системні теки недоступні.",
+      "З Перейменування файлів ви можете перейменовувати не лише файли, а й теки. Затисніть теку, щоб вибрати її, а потім у випадному списку вгорі зліва оберіть «Files & Dirs», щоб увімкнути перейменування тек. Із міркувань безпеки деякі системні теки недоступні.",
     ),
     "androidRemindTitle": MessageLookupByLibrary.simpleMessage(
       "Перейменування тек",
     ),
     "appError": MessageLookupByLibrary.simpleMessage("Помилка застосунку"),
     "appInfo": MessageLookupByLibrary.simpleMessage("Про застосунок"),
-    "appName": MessageLookupByLibrary.simpleMessage(
-      "Помічник масового перейменування файлів",
-    ),
+    "appName": MessageLookupByLibrary.simpleMessage("Перейменування файлів"),
     "bg": MessageLookupByLibrary.simpleMessage("болгарська"),
     "cancel": MessageLookupByLibrary.simpleMessage("Скасувати"),
     "cancelAll": MessageLookupByLibrary.simpleMessage("Скасувати все"),
@@ -244,7 +242,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "limit": MessageLookupByLibrary.simpleMessage("Обмеження"),
     "lowercaseAppName": MessageLookupByLibrary.simpleMessage(
-      "помічник масового перейменування файлів",
+      "перейменування файлів",
     ),
     "manualMode": MessageLookupByLibrary.simpleMessage("Ручний режим"),
     "me": MessageLookupByLibrary.simpleMessage("чорногорська"),
