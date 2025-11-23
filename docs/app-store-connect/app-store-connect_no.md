@@ -41,4 +41,4 @@ Filnavn Endring tilbyr et intuitivt grensesnitt og enkle operasjoner, noe som gj
 
 ## 关键词（最多 100 个字符）
 
-filnavn endring,batch endring,endringsverktøy,AI endring,filorganisator,batch behandling,fil assistent
+filnavn endring,batch endring,endringsverktøy,AI endring,filorganisator,batch behandling
