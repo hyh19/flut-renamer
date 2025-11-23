@@ -1,0 +1,354 @@
+{
+  "@@locale": "hr",
+  "appName": "Asistent za grupno preimenovanje datoteka",
+  "lowercaseAppName": "asistent za grupno preimenovanje datoteka",
+  "ok": "U redu",
+  "cancel": "Odustani",
+  "exit": "Izlaz",
+  "save": "Spremi",
+  "add": "Dodaj",
+  "permissionTitle": "Dozvola za vanjsku pohranu",
+  "permissionContent": "Kako bismo vam pružili našu uslugu preimenovanja datoteka, potrebna nam je vaša dozvola za upravljanje vanjskom pohranom. To nam omogućava pristup i preimenovanje datoteka pohranjenih na vašem uređaju. Bez ove dozvole, aplikacija neće moći pristupiti potpunim putanjama datoteka i stoga neće moći preimenovati datoteke. Uvjeravamo vas da su vaša privatnost i sigurnost naši glavni prioriteti, te da pristupamo datotekama samo u svrhu preimenovanja.",
+  "exitTitle": "Nije moguć pristup vanjskoj pohrani",
+  "exitContent": "Dozvola za upravljanje vanjskom pohranom omogućava nam pristup i preimenovanje datoteka pohranjenih na vašem uređaju. Bez ove dozvole, aplikacija neće moći pristupiti potpunim putanjama datoteka i stoga neće moći preimenovati datoteke. Molimo idite na stranicu Postavke i ručno odobrite dozvolu; inače ne možemo pružiti nikakvu uslugu.",
+  "iosRemindTitle": "O odabiru datoteka na iOS-u",
+  "iosRemindContent": "Za odabir datoteka na iOS-u, prvo odaberite direktorij gdje se vaše datoteke nalaze. Zatim, unutar odabranog foldera, odaberite datoteke koje želite preimenovati. Zbog ograničenja iOS-a, moramo koristiti dvokorakni proces, što osigurava sigurno upravljanje datotekama. Počnimo!",
+  "androidRemindTitle": "Preimenovanje direktorija",
+  "androidRemindContent": "Koristeći Asistent za grupno preimenovanje datoteka, možete preimenovati ne samo datoteke već i direktorije. Dugim pritiskom na direktorij odaberite ga, a zatim odaberite 'Datoteke i direktoriji' iz padajućeg gumba u gornjem lijevom kutu kako biste omogućili preimenovanje direktorija. Iz sigurnosnih razloga, neki sistemski rezervirani direktoriji nisu odabivi.",
+  "doNotRemindAgain": "U redu. Ne podsjećaj me više.",
+  "rename": "Preimenuj",
+  "appInfo": "Informacije o aplikaciji",
+  "aboutContent": "Ova aplikacija dizajnirana je da pomogne korisnicima u preimenovanju njihovih datoteka. Izgrađena je s Flutterom - višeplatformskim okvirom za aplikacije, te je stoga dostupna i na drugim operacijskim sustavima. Potpuno je otvoreni kod i može se pregledati ili doprinijeti.",
+  "rating": "Ocjenjivanje aplikacije",
+  "ratingTitle": "Ocijenite našu aplikaciju",
+  "ratingContent": "Uživate u našoj aplikaciji? Pomozite nam rasti tako što ćete joj dati brzu ocjenu u trgovini ili na GitHubu. Vaše povratne informacije su nam jako važne! Hvala vam na podršci.",
+  "ratingStore": "Ocijenite aplikaciju u trgovini",
+  "ratingGitHub": "Označite zvijezdom na GitHubu",
+  "sourceCode": "Izvorni kod",
+  "collapseOptions": "Sažmi opcije",
+  "expandOptions": "Proširi opcije",
+  "onlySelected": "Samo odabrano",
+  "removeRenamed": "Ukloni preimenovane datoteke",
+  "removeRule": "Ukloni ovu pravilo",
+  "removeRules": "Ukloni pravila nakon preimenovanja",
+  "addRule": "Dodaj pravilo",
+  "removeAll": "Ukloni sve",
+  "replace": "Zamijeni",
+  "remove": "Ukloni",
+  "insert": "Umetni",
+  "increment": "Povećaj",
+  "rearrange": "Preuredi",
+  "transliterate": "Transliteriraj",
+  "truncate": "Skrati",
+  "cancelAll": "Odustani od svega",
+  "select": "Odaberi",
+  "selectAll": "Odaberi sve",
+  "currentName": "Trenutno ime",
+  "newName": "Novo ime",
+  "fileNotExist": "Datoteka ne postoji",
+  "files": "Datoteke",
+  "directories": "Direktoriji",
+  "filesDirs": "Datoteke i direktoriji",
+  "filter": "Filtriraj",
+  "addFile": "Dodaj datoteku",
+  "addFiles": "Dodaj datoteke",
+  "dragToAdd": "Povuci i ispusti za dodavanje datoteka.",
+  "dropToAdd": "Ispusti za dodavanje datoteka.",
+  "dragNotSupported": "Zbog ograničenja sigurnosti sustava, povlačenje datoteka iz ove aplikacije nije podržano.",
+  "fileAlreadyExists": "Ime datoteke već koristi druga datoteka",
+  "renameFailed": "Preimenovanje nije uspjelo",
+  "aiRenameTitle": "AI preimenovanje",
+  "aiRenameRequirementsLabel": "Upute za preimenovanje",
+  "aiRenameRequirementsHint": "Opišite kako želite preimenovati ove datoteke.",
+  "aiRenameSubmit": "Pošalji",
+  "aiRenameSnackbarEmptyRequirements": "Unesite upute za preimenovanje",
+  "aiRenameSnackbarNoSelection": "Nema odabranih datoteka",
+  "aiRenameLoading": "AI analizira vaš zahtjev, molimo pričekajte...",
+  "aiRenameSuccess": "AI pravilo preimenovanja stvoreno. {count} datoteka će biti preimenovano.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI preimenovanje nije uspjelo: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI preimenovanje: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Pravila se izvršavaju uzastopno. Kliknite pravilo da biste ga uredili. Zadržite gumb '=' lijevo i povucite ga da biste sortirali pravila.",
+  "noSysDir": "Ne preimenuj sistemski rezervirani direktorij.",
+  "fileSortName": "Ime",
+  "fileSortSize": "Veličina",
+  "fileSortDate": "Datum",
+  "fileSortType": "Vrsta",
+  "transliterateUpper": "Latinički znakovi u velika slova",
+  "transliterateLower": "Latinički znakovi u mala slova",
+  "transliterateTraditional": "Kineski znakovi u tradicionalni kineski",
+  "transliterateSimplified": "Kineski znakovi u pojednostavljeni kineski",
+  "transliteratePinyin": "Kineski znakovi u pinyin",
+  "transliterateCyrillic2Latin": "Ćirilički znakovi u latinicu",
+  "transliterateLatin2Cyrillic": "Latinički znakovi u ćirilicu",
+  "insertTagInsideAnother": "Ne umetaj oznaku unutar druge oznake.",
+  "appError": "Greška aplikacije",
+  "errorDetails": "Detalji greške",
+  "ifFileNotShown": "Ako se datoteke ne prikazuju na popisu datoteka, molimo obrišite sve i nastavite.",
+  "metadataTags": "Oznake metapodataka",
+  "osTodayDate": "Današnji datum",
+  "osNowTime": "Trenutno vrijeme",
+  "fileSize": "Veličina datoteke",
+  "fileCreateDate": "Datum kreiranja datoteke",
+  "fileCreateTime": "Vrijeme kreiranja datoteke",
+  "fileModifyDate": "Datum izmjene datoteke",
+  "fileModifyTime": "Vrijeme izmjene datoteke",
+  "photoDate": "Datum fotografiranja iz exif",
+  "photoTime": "Vrijeme fotografiranja iz exif",
+  "photoCamName": "Ime kamere iz exif",
+  "photoLensName": "Ime objektiva iz exif",
+  "photoFocalLength": "Žarišna duljina iz exif",
+  "photoAperture": "Vrijednost otvora blende iz exif",
+  "photoShutter": "Brzina zatvarača iz exif",
+  "photoISO": "ISO vrijednost iz exif",
+  "photoLongitude": "Zemljopisna dužina GPS-a fotografije iz exif",
+  "photoLatitude": "Zemljopisna širina GPS-a fotografije iz exif",
+  "photoAltitude": "Nadmorska visina GPS-a fotografije iz exif",
+  "photoPhotographer": "Ime fotografa iz exif",
+  "photoCopyright": "Ime nositelja autorskih prava iz exif",
+  "musicAlbumName": "Naziv albuma",
+  "musicAlbumArtist": "Naziv izvođača albuma",
+  "musicAlbumLength": "Broj pjesama u albumu",
+  "musicYear": "Godina izdavanja pjesme",
+  "musicTrackDuration": "Trajanje pjesme",
+  "musicTrackName": "Naziv pjesme",
+  "musicTrackArtist": "Imena izvođača koji nastupaju u pjesmi",
+  "musicTrackNumber": "Pozicija pjesme u albumu",
+  "musicDiscNumber": "Pozicija diska",
+  "musicGenres": "Vrsta umjetnosti glazbe",
+  "musicAuthor": "Autor pjesme",
+  "musicWriter": "Autor teksta pjesme",
+  "prefix": "Prefiks",
+  "startIndex": "Početni indeks",
+  "indexIncrementalStep": "Korak povećanja indeksa",
+  "omitDash": "Izostavi crticu",
+  "ignoreExtension": "Zanemari proširenje",
+  "insertedText": "Tekst za umetanje",
+  "insertIndex": "Indeks umetanja",
+  "fromStart": "Od početka",
+  "insertBeforeIndex": "Umetni prije indeksa",
+  "rearrangeDelimiter": "Razdvojnik za preuređivanje",
+  "rearrangeOrderLabel": "Redoslijed preuređivanja",
+  "rearrangeOrderHint": "brojevi odvojeni zarezom",
+  "target": "cilj",
+  "replacement": "Zamjena",
+  "limit": "ograničenje",
+  "caseSensitive": "Razlikuj velika i mala slova",
+  "isRegex": "Je regex",
+  "language": "Jezik: ",
+  "languageFollowSystem": "Slijedi jezik sustava",
+  "languageEnglishOnly": "Engleski",
+  "indexOne": "Indeks prvog znaka",
+  "indexTwo": "Indeks drugog znaka",
+  "toLast": "-do-zadnjeg",
+  "goingForward": "Kreće naprijed",
+  "keepCharacters": "Zadrži znakove između njih",
+  "removeCharacters": "Ukloni znakove između njih",
+  "metadataParserNotProvided": "Sadrži oznaku metapodataka dok MetadataParser nije pružen.",
+  "replaceToString": "Zamijeni \"{targetString}\" s \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Ukloni \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Umetni \"{insert}\" na {insertIndex}{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-do-kraja} false{} other{}} znak.",
+  "@insertToString": {
+    "placeholders": {
+      "ordinal": {
+        "type": "String"
+      },
+      "toEnd": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Inkrementalno preimenovanje: {prefix}-indeks",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Preuredi: razdvojnik: {delimiter}, redoslijed: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transliteriraj: pretvori {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transliteriraj: pretvori {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Skrati: {keepType, select, true{zadrži samo} false{ukloni} other{}} znakove između {iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-do-kraja} false{} other{}} znaka i {iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-do-kraja} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Zamijeni navedeni tekst zadanom zamjenskom tekstom.",
+  "descriptionRemove": "Ukloni navedeni tekst iz imena datoteke.",
+  "descriptionInsert": "Umetni navedeni tekst na određenoj poziciji.",
+  "descriptionIncrement": "Povećaj ime datoteke, npr. Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Podijeli ime datoteke korisnički određenim razdvojnikom i preuredi segmente prema zadanom redoslijedu.",
+  "descriptionTransliterate": "Transliteriraj znakove prema unaprijed definiranim specifikacijama, uključujući pretvaranje znakova u velika ili mala slova, pretvaranje između skupova znakova ili pretvaranje znakova u fonetske ekvivalente.",
+  "descriptionTruncate": "Ukloni ili zadrži određeni dio imena datoteke, počevši od jedne određene pozicije do druge.",
+  "bg": "Bugarski",
+  "me": "Crnogorski",
+  "mk": "Makedonski",
+  "mn": "Mongolski",
+  "ru": "Ruski",
+  "sr": "Srpski",
+  "tj": "Tadžički",
+  "ua": "Ukrajinski",
+  "fileManagerSortButton": "Sortiraj po",
+  "fileManagerStorageButton": "Odaberi pohranu",
+  "fileManagerSaveButton": "Dodaj odabire na popis",
+  "fileManagerBackButton": "Natrag",
+  "showHiddenFiles": "Prikaži skrivene datoteke",
+  "hideHiddenFiles": "Sakrij skrivene datoteke",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Odabrano} false{Neodabrano} other{}} {entityType, select, File{Datoteka} Directory{Folder} Link{Poveznica} other{Entitet datotečnog sustava}}, ime datoteke je {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "selectStatus": {
+        "type": "String"
+      },
+      "entityType": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "zadnja izmjena {last}, veličina {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "zadnja izmjena {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Ovo je padajući gumb, trenutna vrijednost je \"{value}\", dvostrukim klikom otvorite ga i odaberite drugu vrijednost.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Odaberite i zatim kliknite gumb \"Dodaj pravilo\" da biste dodali ovo pravilo.",
+  "semanticsFilesDropdownButton": ". Odaberite ovu stavku da biste ograničili ciljeve preimenovanja.",
+  "semanticsReorderableList": "Ovo je popis pravila, sada je prazan. Kliknite gumb 'Dodaj pravilo' da biste dodali jedno. Pravila se izvršavaju uzastopno. Ovaj popis je moguće preuređivati, što vam omogućava pomicanje pravila gore, dolje, na vrh ili na dno. Kada je kursor na pravilu, koristite vertikalni pokret prema gore za prebacivanje između radnji, a dvostrukim klikom izvršite odabranu radnju.",
+  "semanticsOpenMetadataDialog": "Dvostrukim dodirivanjem otvorite dijaloški okvir i odaberite oznaku metapodataka koja će biti umetnuta.",
+  "semanticsMultipleActionsHint": ", prebacite između radnji vertikalnim pokretom prema gore",
+  "semanticNumberWithDirection": "Prebacivanje smjera brojanja između od početka i od kraja",
+  "semanticSwitchNumberToStartAndToEnd": "Prebacivanje smjera brojanja između od početka i od kraja, trenutno se broji od {toEnd, select, true{kraja} false{početka} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Birač boja",
+  "manualMode": "Ručni način",
+  "aiMode": "AI način",
+  "themeModeLight": "Svijetli način",
+  "themeModeDark": "Tamni način",
+  "themeModeSystem": "Slijedi sustav",
+  "removeFile": "Ukloni datoteku",
+  "addMetadataTag": "Dodaj oznaku metapodataka",
+  "copyErrorStack": "Kopiraj stog grešaka"
+}
+
