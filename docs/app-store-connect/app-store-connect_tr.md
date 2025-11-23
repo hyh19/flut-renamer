@@ -10,7 +10,7 @@ AI ile yeniden adlandırma
 
 ## 推广文本（最多 170 个字符）
 
-Ekleme, değiştirme, silme ve artırmalı yeniden adlandırma özelliklerine sahip güçlü toplu dosya yeniden adlandırma aracı, artı verimli dosya yönetimi için AI destekli akıllı yeniden adlandırma.
+Ekleme, değiştirme, silme ve sıralı yeniden adlandırma özelliklerine sahip toplu dosya yeniden adlandırma aracı, AI destekli akıllı yeniden adlandırma.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Dosya Yeniden Adlandırma, sezgisel bir arayüz ve basit işlemler sunarak dosya
 
 ## 关键词（最多 100 个字符）
 
-dosya yeniden adlandırma,toplu yeniden adlandırma,yeniden adlandırma aracı,AI yeniden adlandırma,dosya düzenleyici,toplu işleme,dosya asistanı
+dosya yeniden adlandırma,toplu yeniden adlandırma,AI yeniden adlandırma
