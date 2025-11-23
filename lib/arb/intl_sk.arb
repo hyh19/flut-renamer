@@ -1,0 +1,353 @@
+{
+  "@@locale": "sk",
+  "appName": "Premenovanie Súborov",
+  "lowercaseAppName": "premenovanie súborov",
+  "ok": "OK",
+  "cancel": "Zrušit",
+  "exit": "Ukončit",
+  "save": "Uložit",
+  "add": "Přidat",
+  "permissionTitle": "Oprávnění pro externí úložiště",
+  "permissionContent": "Abychom vám mohli poskytnout naši službu přejmenování souborů, potřebujeme vaše oprávnění ke správě externího úložiště. To nám umožňuje přístup k souborům uloženým na vašem zařízení a jejich přejmenování. Bez tohoto oprávnění nebude aplikace moci přistupovat k úplným cestám k souborům a proto nebude moci přejmenovávat soubory. Ujišťujeme vás, že vaše soukromí a bezpečnost jsou našimi nejvyššími prioritami a přistupujeme k souborům pouze za účelem přejmenování.",
+  "exitTitle": "Nelze přistupovat k externímu úložišti",
+  "exitContent": "Oprávnění ke správě externího úložiště nám umožňuje přístup k souborům uloženým na vašem zařízení a jejich přejmenování. Bez tohoto oprávnění nebude aplikace moci přistupovat k úplným cestám k souborům a proto nebude moci přejmenovávat soubory. Přejděte na stránku Nastavení a udělte oprávnění ručně; jinak nemůžeme poskytnout žádnou službu.",
+  "iosRemindTitle": "O výběru souborů v iOS",
+  "iosRemindContent": "Pro výběr souborů v iOS nejprve zvolte adresář, kde se vaše soubory nacházejí. Poté v vybrané složce vyberte soubory, které chcete přejmenovat. Kvůli omezením iOS musíme použít dvoustupňový proces, který zajišťuje bezpečnou správu souborů. Začněme!",
+  "androidRemindTitle": "Přejmenovat adresář",
+  "androidRemindContent": "Pomocou Premenovanie Súborov môžete premenovávať nielen súbory, ale aj adresáre. Dlhým stlačením vyberte adresár a potom vyberte 'Súbory a adresáre' z rozbaľovacieho tlačidla v ľavom hornom rohu, aby ste povolili premenovanie adresárov. Z bezpečnostných dôvodov nie sú niektoré systémové rezervované adresáre vyberateľné.",
+  "doNotRemindAgain": "OK. Už mi to nepřipomínej.",
+  "rename": "Přejmenovat",
+  "appInfo": "Informace o aplikaci",
+  "aboutContent": "Tato aplikace je navržena tak, aby pomáhala uživatelům přejmenovávat jejich soubory. Je postavena s Flutter - multi-platformním aplikačním rámcem, a proto je také dostupná na jiných operačních systémech. Je zcela open source a může být přezkoumána nebo přispěna.",
+  "rating": "Hodnocení aplikace",
+  "ratingTitle": "Ohodnoťte Naši Aplikaci",
+  "ratingContent": "Líbí se vám naše aplikace? Pomozte nám růst tím, že jí dáte rychlé hodnocení v obchodě nebo na GitHub. Vaše zpětná vazba pro nás znamená hodně! Děkujeme za vaši podporu.",
+  "ratingStore": "Ohodnoťte aplikaci v obchodě",
+  "ratingGitHub": "Označte ji hvězdičkou na GitHub",
+  "sourceCode": "Zdrojový kód",
+  "collapseOptions": "Sbalit možnosti",
+  "expandOptions": "Rozbalit možnosti",
+  "onlySelected": "Pouze vybrané",
+  "removeRenamed": "Odstranit přejmenované soubory",
+  "removeRule": "Odstranit toto pravidlo",
+  "removeRules": "Odstranit všechna pravidla po přejmenování",
+  "addRule": "Přidat Pravidlo",
+  "removeAll": "Odstranit vše",
+  "replace": "Nahradit",
+  "remove": "Odstranit",
+  "insert": "Vložit",
+  "increment": "Zvýšit",
+  "rearrange": "Přeuspořádat",
+  "transliterate": "Transliterovat",
+  "truncate": "Zkrátit",
+  "cancelAll": "Zrušit Vše",
+  "select": "Vybrat",
+  "selectAll": "Vybrat Vše",
+  "currentName": "Současný název",
+  "newName": "Nový název",
+  "fileNotExist": "Soubor neexistuje",
+  "files": "Soubory",
+  "directories": "Adresáře",
+  "filesDirs": "Soubory a adresáře",
+  "filter": "Filtr",
+  "addFile": "Přidat soubor",
+  "addFiles": "Přidat soubory",
+  "dragToAdd": "Přetáhněte a pusťte pro přidání souborů.",
+  "dropToAdd": "Pusťte pro přidání souborů.",
+  "dragNotSupported": "Kvůli omezením bezpečnosti systému není podporováno přetahování souborů z této aplikace.",
+  "fileAlreadyExists": "Název souboru je již používán jiným souborem",
+  "renameFailed": "Přejmenování selhalo",
+  "aiRenameTitle": "AI Přejmenování",
+  "aiRenameRequirementsLabel": "Instrukce pro přejmenování",
+  "aiRenameRequirementsHint": "Popište, jak chcete přejmenovat tyto soubory.",
+  "aiRenameSubmit": "Odeslat",
+  "aiRenameSnackbarEmptyRequirements": "Zadejte instrukce pro přejmenování",
+  "aiRenameSnackbarNoSelection": "Nevybrány žádné soubory",
+  "aiRenameLoading": "AI analyzuje váš požadavek, počkejte...",
+  "aiRenameSuccess": "Vytvořeno pravidlo AI přejmenování. {count} souborů bude přejmenováno.",
+  "@aiRenameSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRenameError": "AI přejmenování selhalo: {error}",
+  "@aiRenameError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRenameRulePreview": "AI přejmenování: {requirements}",
+  "@aiRenameRulePreview": {
+    "placeholders": {
+      "requirements": {
+        "type": "String"
+      }
+    }
+  },
+  "rulesSequentially": "Pravidla se provádějí sekvenčně. Klikněte na pravidlo pro jeho úpravu. Podržte tlačítko '=' vlevo a přetáhněte ho pro seřazení pravidel.",
+  "noSysDir": "Nepřejmenovávejte systémový rezervovaný adresář.",
+  "fileSortName": "Název",
+  "fileSortSize": "Velikost",
+  "fileSortDate": "Datum",
+  "fileSortType": "Typ",
+  "transliterateUpper": "Latinské znaky na velká písmena",
+  "transliterateLower": "Latinské znaky na malá písmena",
+  "transliterateTraditional": "Čínské znaky na tradiční čínštinu",
+  "transliterateSimplified": "Čínské znaky na zjednodušenou čínštinu",
+  "transliteratePinyin": "Čínské znaky na pinyin",
+  "transliterateCyrillic2Latin": "Cyrilské znaky na latinské",
+  "transliterateLatin2Cyrillic": "Latinské znaky na cyrilské",
+  "insertTagInsideAnother": "Nevkládejte tag do jiného tagu.",
+  "appError": "Chyba aplikace",
+  "errorDetails": "Podrobnosti chyby",
+  "ifFileNotShown": "Pokud se soubory nezobrazují v seznamu souborů, vymažte vše a pokračujte.",
+  "metadataTags": "Tagy metadat",
+  "osTodayDate": "Dnešní datum",
+  "osNowTime": "Současný čas",
+  "fileSize": "Velikost souboru",
+  "fileCreateDate": "Datum vytvoření souboru",
+  "fileCreateTime": "Čas vytvoření souboru",
+  "fileModifyDate": "Datum úpravy souboru",
+  "fileModifyTime": "Čas úpravy souboru",
+  "photoDate": "Datum fotografování z exif",
+  "photoTime": "Čas fotografování z exif",
+  "photoCamName": "Název fotoaparátu z exif",
+  "photoLensName": "Název objektivu z exif",
+  "photoFocalLength": "Ohnisková vzdálenost z exif",
+  "photoAperture": "Hodnota clony z exif",
+  "photoShutter": "Rychlost závěrky z exif",
+  "photoISO": "Hodnota ISO z exif",
+  "photoLongitude": "Zeměpisná délka GPS fotografie z exif",
+  "photoLatitude": "Zeměpisná šířka GPS fotografie z exif",
+  "photoAltitude": "Nadmořská výška GPS fotografie z exif",
+  "photoPhotographer": "Jméno fotografa z exif",
+  "photoCopyright": "Jméno držitele autorských práv z exif",
+  "musicAlbumName": "Název alba",
+  "musicAlbumArtist": "Jméno umělce alba",
+  "musicAlbumLength": "Počet skladeb v albu",
+  "musicYear": "Rok vydání skladby",
+  "musicTrackDuration": "Délka skladby",
+  "musicTrackName": "Název skladby",
+  "musicTrackArtist": "Jména umělců vystupujících ve skladbě",
+  "musicTrackNumber": "Pozice skladby v albu",
+  "musicDiscNumber": "Pozice disku",
+  "musicGenres": "Umělecký typ hudby",
+  "musicAuthor": "Autor skladby",
+  "musicWriter": "Spisovatel skladby",
+  "prefix": "Předpona",
+  "startIndex": "Počáteční index",
+  "indexIncrementalStep": "Krok přírůstku indexu",
+  "omitDash": "Vynechat pomlčku",
+  "ignoreExtension": "Ignorovat Příponu",
+  "insertedText": "Text k vložení",
+  "insertIndex": "Index vložení",
+  "fromStart": "Od začátku",
+  "insertBeforeIndex": "Vložit před index",
+  "rearrangeDelimiter": "Oddělovač přeuspořádání",
+  "rearrangeOrderLabel": "Pořadí přeuspořádání",
+  "rearrangeOrderHint": "čísla oddělená čárkou",
+  "target": "cíl",
+  "replacement": "Náhrada",
+  "limit": "limit",
+  "caseSensitive": "Rozlišovat velká a malá písmena",
+  "isRegex": "Je regex",
+  "language": "Jazyk: ",
+  "languageFollowSystem": "Použít jazyk systému",
+  "languageEnglishOnly": "Angličtina",
+  "indexOne": "Index prvního znaku",
+  "indexTwo": "Index druhého znaku",
+  "toLast": "-do-posledního",
+  "goingForward": "Jít dopředu",
+  "keepCharacters": "Zachovat znaky mezi nimi",
+  "removeCharacters": "Odstranit znaky mezi nimi",
+  "metadataParserNotProvided": "Obsahuje tag metadat, zatímco MetadataParser nebyl poskytnut.",
+  "replaceToString": "Nahradit \"{targetString}\" za \"{replacementString}\".",
+  "@replaceToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      },
+      "replacementString": {
+        "type": "String"
+      }
+    }
+  },
+  "removeToString": "Odstranit \"{targetString}\"",
+  "@removeToString": {
+    "placeholders": {
+      "targetString": {
+        "type": "String"
+      }
+    }
+  },
+  "insertToString": "Vložit \"{insert}\" na {insertIndex}{ordinal, select, o1{.} o2{.} o3{.} other{.}}{toEnd, select, true{-do-konce} false{} other{}} znak.",
+  "@insertToString": {
+    "placeholders": {
+      "ordinal": {
+        "type": "String"
+      },
+      "toEnd": {
+        "type": "String"
+      },
+      "insert": {
+        "type": "String"
+      },
+      "insertIndex": {
+        "type": "num"
+      }
+    }
+  },
+  "incrementToString": "Přírůstkové přejmenování: {prefix}-index",
+  "@incrementToString": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "rearrangeToString": "Přeuspořádat: oddělovač: {delimiter}, pořadí: {order}.",
+  "@rearrangeToString": {
+    "placeholders": {
+      "delimiter": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToString": "Transliterovat: převést {type}.",
+  "@transliterateToString": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "transliterateToStringCyrillic": "Transliterovat: převést {langName} {type}.",
+  "@transliterateToStringCyrillic": {
+    "placeholders": {
+      "langName": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "truncateToString": "Zkrátit: {keepType, select, true{zachovat pouze} false{odstranit} other{}} znaky mezi {iOne}{iTwoOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iOneToEnd, select, true{-do-konce} false{} other{}} znakem a {iTwo}{iOneOrdinal, select, o1{.} o2{.} o3{.} other{.}}{iTwoToEnd, select, true{-do-konce} false{} other{}}.",
+  "@truncateToString": {
+    "placeholders": {
+      "keepType": {
+        "type": "String"
+      },
+      "iOneToEnd": {
+        "type": "String"
+      },
+      "iOneOrdinal": {
+        "type": "String"
+      },
+      "iTwoToEnd": {
+        "type": "String"
+      },
+      "iTwoOrdinal": {
+        "type": "String"
+      },
+      "iOne": {
+        "type": "num"
+      },
+      "iTwo": {
+        "type": "num"
+      }
+    }
+  },
+  "descriptionReplace": "Nahradit zadaný text daným náhradním textem.",
+  "descriptionRemove": "Odstranit zadaný text z názvu souboru.",
+  "descriptionInsert": "Vložit zadaný text na zadanou pozici.",
+  "descriptionIncrement": "Zvýšit název souboru, např. Foto-1, Foto-2, Foto-3.",
+  "descriptionRearrange": "Rozdělit název souboru uživatelem zadaným oddělovačem a přeuspořádat segmenty podle zadaného pořadí.",
+  "descriptionTransliterate": "Transliterovat znaky podle předem definovaných specifikací, včetně převodu znaků na velká nebo malá písmena, převodu mezi znakovými sadami nebo převodu znaků na fonetické ekvivalenty.",
+  "descriptionTruncate": "Odstranit nebo zachovat zadanou část názvu souboru, počínaje jednou zadanou pozicí a konče druhou.",
+  "bg": "Bulharský",
+  "me": "Černohorský",
+  "mk": "Makedonský",
+  "mn": "Mongolský",
+  "ru": "Ruský",
+  "sr": "Srbský",
+  "tj": "Tádžický",
+  "ua": "Ukrajinský",
+  "fileManagerSortButton": "Seřadit podle",
+  "fileManagerStorageButton": "Vybrat úložiště",
+  "fileManagerSaveButton": "Přidat výběry do seznamu",
+  "fileManagerBackButton": "Zpět",
+  "showHiddenFiles": "Zobrazit skryté soubory",
+  "hideHiddenFiles": "Skrýt skryté soubory",
+  "semanticsFileManagerTitle": "{selectStatus, select, true{Vybraný} false{Nevybraný} other{}} {entityType, select, File{Soubor} Directory{Složka} Link{Odkaz} other{Entita systému souborů}}, název souboru je {filename}, ",
+  "@semanticsFileManagerTitle": {
+    "placeholders": {
+      "selectStatus": {
+        "type": "String"
+      },
+      "entityType": {
+        "type": "String"
+      },
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerSubtitle": "naposledy upraveno v {last}, velikost {size}.",
+  "@semanticsFileManagerSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFileManagerDirSubtitle": "naposledy upraveno v {last}.",
+  "@semanticsFileManagerDirSubtitle": {
+    "placeholders": {
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsDropdownButton": "Toto je rozbalovací tlačítko, aktuální hodnota je \"{value}\", dvojklikněte pro otevření a výběr jiné hodnoty.",
+  "@semanticsDropdownButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRuleDropdownButton": ". Vyberte a poté klikněte na tlačítko \"Přidat Pravidlo\" pro přidání tohoto pravidla.",
+  "semanticsFilesDropdownButton": ". Vyberte tuto položku pro omezení cílů přejmenování.",
+  "semanticsReorderableList": "Toto je seznam pravidel, je nyní prázdný. Klikněte na tlačítko 'Přidat pravidlo' pro přidání jednoho. Pravidla se provádějí sekvenčně. Tento seznam lze přeuspořádat, což vám umožní přesunout pravidlo nahoru, dolů a na vrchol nebo dno. Když je kurzor na pravidle, použijte vertikální gesto přejetí pro přepínání mezi akcemi a dvojklikněte pro provedení vybrané akce.",
+  "semanticsOpenMetadataDialog": "Dvakrát klepněte pro otevření dialogu a výběr tagu metadat k vložení.",
+  "semanticsMultipleActionsHint": ", přepínejte mezi akcemi pomocí vertikálního gesta přejetí",
+  "semanticNumberWithDirection": "Přepínání směru počítání mezi od začátku a od konce",
+  "semanticSwitchNumberToStartAndToEnd": "Přepínání směru počítání mezi od začátku a od konce, aktuálně počítání od {toEnd, select, true{konce} false{začátku} other{}}",
+  "@semanticSwitchNumberToStartAndToEnd": {
+    "placeholders": {
+      "toEnd": {
+        "type": "String"
+      }
+    }
+  },
+  "colorPicker": "Výběr barvy",
+  "manualMode": "Manuální Režim",
+  "aiMode": "AI Režim",
+  "themeModeLight": "Světlý režim",
+  "themeModeDark": "Tmavý režim",
+  "themeModeSystem": "Sledovat systém",
+  "removeFile": "Odebrat soubor",
+  "addMetadataTag": "Přidat tag metadat",
+  "copyErrorStack": "Kopírovat zásobník chyb"
+}
