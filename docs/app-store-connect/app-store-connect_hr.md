@@ -10,7 +10,7 @@ Alat za preimenovanje s AI
 
 ## 推广文本（最多 170 个字符）
 
-Moćan alat za grupno preimenovanje datoteka s funkcijama umetanja, zamjene, brisanja i inkrementalnog preimenovanja, plus pametno preimenovanje temeljeno na AI za učinkovito upravljanje datotekama.
+Moćan alat za grupno preimenovanje datoteka s funkcijama umetanja, zamjene, brisanja i inkrementalnog preimenovanja, plus AI preimenovanje za upravljanje datotekama.
 
 ## 描述
 
@@ -41,4 +41,4 @@ Preimenovanje Datoteka nudi intuitivno sučelje i jednostavne operacije, čineć
 
 ## 关键词（最多 100 个字符）
 
-preimenovanje datoteke,grupno preimenovanje,alat preimenovanje,AI preimenovanje,organizator datoteka,grupna obrada,asistent datoteka
+preimenovanje datoteke,grupno preimenovanje,alat preimenovanje,AI preimenovanje,grupna obrada
