@@ -182,47 +182,46 @@ class RenamerApp extends StatelessWidget {
                     GlobalWidgetsLocalizations.delegate,
                   ],
                   supportedLocales: const [
-                    Locale("en"),
-                    // place English at the beginning to set it as the default fallback for unsupported languages
-                    Locale("ar"),
-                    Locale("de"),
-                    Locale("es"),
-                    Locale("ca"),
-                    Locale("fr"),
-                    Locale("it"),
-                    Locale("ja"),
-                    Locale("ko"),
-                    Locale("pt"),
-                    Locale("th"),
-                    Locale("tr"),
-                    Locale("zh"),
-                    Locale("zh", "HK"),
-                    Locale("zh", "TW"),
-                    Locale("zh", "MO"),
-                    Locale("ru"),
-                    Locale("hi"),
-                    Locale("id"),
-                    Locale("vi"),
-                    Locale("nl"),
-                    Locale("pl"),
-                    Locale("sv"),
-                    Locale("no"),
-                    Locale("nb"),
-                    Locale("da"),
-                    Locale("fi"),
-                    Locale("cs"),
-                    Locale("sk"),
-                    Locale("el"),
-                    Locale("he"),
-                    Locale("hr"),
-                    Locale("bn"),
-                    Locale("uk"),
-                    Locale("ur"),
-                    Locale("fil"),
-                    Locale("ha"),
-                    Locale("hu"),
-                    Locale("ms"),
-                    Locale("ro"),
+                    Locale("en"), // 英语，放在开头作为不支持语言的默认回退语言
+                    Locale("ar"), // 阿拉伯语
+                    Locale("de"), // 德语
+                    Locale("es"), // 西班牙语
+                    Locale("ca"), // 加泰罗尼亚语
+                    Locale("fr"), // 法语
+                    Locale("it"), // 意大利语
+                    Locale("ja"), // 日语
+                    Locale("ko"), // 韩语
+                    Locale("pt"), // 葡萄牙语
+                    Locale("th"), // 泰语
+                    Locale("tr"), // 土耳其语
+                    Locale("zh"), // 中文
+                    Locale("zh", "HK"), // 中文（香港）
+                    Locale("zh", "TW"), // 中文（台湾）
+                    Locale("zh", "MO"), // 中文（澳门）
+                    Locale("ru"), // 俄语
+                    Locale("hi"), // 印地语
+                    Locale("id"), // 印尼语
+                    Locale("vi"), // 越南语
+                    Locale("nl"), // 荷兰语
+                    Locale("pl"), // 波兰语
+                    Locale("sv"), // 瑞典语
+                    Locale("no"), // 挪威语
+                    Locale("nb"), // 挪威语（书面挪威语）
+                    Locale("da"), // 丹麦语
+                    Locale("fi"), // 芬兰语
+                    Locale("cs"), // 捷克语
+                    Locale("sk"), // 斯洛伐克语
+                    Locale("el"), // 希腊语
+                    Locale("he"), // 希伯来语
+                    Locale("hr"), // 克罗地亚语
+                    Locale("bn"), // 孟加拉语
+                    Locale("uk"), // 乌克兰语
+                    Locale("ur"), // 乌尔都语
+                    Locale("fil"), // 菲律宾语
+                    Locale("ha"), // 豪萨语
+                    Locale("hu"), // 匈牙利语
+                    Locale("ms"), // 马来语
+                    Locale("ro"), // 罗马尼亚语
                   ],
                   theme: ThemeData(
                     // fixed Chinese font rendering error on Windows
