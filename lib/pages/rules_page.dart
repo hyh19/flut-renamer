@@ -95,7 +95,12 @@ class RulesPageState extends State<RulesPage> {
               children: [
                 const Icon(Icons.rule, size: 18),
                 const SizedBox(width: 4),
-                Text(L10n.current.manualMode),
+                Flexible(
+                  child: Text(
+                    L10n.current.manualMode,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
               ],
             ),
           ),
@@ -106,7 +111,12 @@ class RulesPageState extends State<RulesPage> {
               children: [
                 const Icon(Icons.auto_awesome, size: 18),
                 const SizedBox(width: 4),
-                Text(L10n.current.aiMode),
+                Flexible(
+                  child: Text(
+                    L10n.current.aiMode,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
               ],
             ),
           ),
