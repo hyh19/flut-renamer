@@ -100,7 +100,7 @@ class Shared {
     pref.setBool(_doNotRemindAgainKey, value);
   }
 
-  static int _seedColorValue = 0xff9cdce8;
+  static int _seedColorValue = 0xffffbf00;
 
   static Color get seedColor => Color(_seedColorValue);
 
