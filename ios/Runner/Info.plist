@@ -57,5 +57,8 @@
 
     <key>LSSupportsOpeningDocumentsInPlace</key>
     <true/>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to your photo library to select and rename photo files.</string>
 </dict>
 </plist>
