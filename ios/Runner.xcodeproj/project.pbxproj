@@ -85,6 +85,9 @@
 		18422D8A2ECF6B2B000A4C2D /* zh-Hant-MO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-MO"; path = "zh-Hant-MO.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		18422D8B2ECF6B7B000A4C2D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		18422D8C2ECF6B90000A4C2D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		187BFF9C2ED4C03C005FE6E4 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		187BFF9D2ED4C04F005FE6E4 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		187BFF9E2ED4C0F0005FE6E4 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2581B69E8F1CCD428434EC5E /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -315,6 +318,9 @@
 				"zh-Hant-MO",
 				"zh-Hans",
 				"zh-Hant",
+				ca,
+				hr,
+				sk,
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
@@ -539,6 +545,9 @@
 				18422D8A2ECF6B2B000A4C2D /* zh-Hant-MO */,
 				18422D8B2ECF6B7B000A4C2D /* zh-Hans */,
 				18422D8C2ECF6B90000A4C2D /* zh-Hant */,
+				187BFF9C2ED4C03C005FE6E4 /* ca */,
+				187BFF9D2ED4C04F005FE6E4 /* hr */,
+				187BFF9E2ED4C0F0005FE6E4 /* sk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
