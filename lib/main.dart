@@ -207,6 +207,7 @@ class RenamerApp extends StatelessWidget {
                     Locale("pl"),
                     Locale("sv"),
                     Locale("no"),
+                    Locale("nb"),
                     Locale("da"),
                     Locale("fi"),
                     Locale("cs"),
