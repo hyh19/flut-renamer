@@ -215,7 +215,13 @@ class RenamerApp extends StatelessWidget {
                     Locale("he"),
                     Locale("hr"),
                     Locale("bn"),
+                    Locale("uk"),
                     Locale("ur"),
+                    Locale("fil"),
+                    Locale("ha"),
+                    Locale("hu"),
+                    Locale("ms"),
+                    Locale("ro"),
                   ],
                   theme: ThemeData(
                     // fixed Chinese font rendering error on Windows
