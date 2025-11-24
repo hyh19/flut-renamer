@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "ファイル一括リネームアシスタント";
+"NSPhotoLibraryUsageDescription" = "このアプリは、写真ファイルを選択してリネームするために、写真ライブラリへのアクセスが必要です。";

@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Assistente di Rinomina File in Batch";
+"NSPhotoLibraryUsageDescription" = "Questa app necessita di accedere alla tua libreria fotografica per selezionare e rinominare i file fotografici.";

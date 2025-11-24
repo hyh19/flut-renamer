@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Canvi de Nom d'Arxius";
+"NSPhotoLibraryUsageDescription" = "Aquesta aplicació necessita accés a la vostra biblioteca de fotos per seleccionar i canviar el nom dels fitxers de fotos.";

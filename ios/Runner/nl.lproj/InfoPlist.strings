@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Batch Bestandsnaam Wijzigen Assistent";
+"NSPhotoLibraryUsageDescription" = "Deze app heeft toegang tot uw fotobibliotheek nodig om fotobestanden te selecteren en te hernoemen.";

@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Asisten Pengganti Nama File Batch";
+"NSPhotoLibraryUsageDescription" = "Aplikasi ini memerlukan akses ke pustaka foto Anda untuk memilih dan mengganti nama file foto.";

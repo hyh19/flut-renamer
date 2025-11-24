@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Batch Filnavn Omnavngivning Assistent";
+"NSPhotoLibraryUsageDescription" = "Denne app har brug for adgang til dit fotobibliotek for at vælge og omdøbe fotofiler.";

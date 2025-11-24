@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Batch File Rename Assistant";
+"NSPhotoLibraryUsageDescription" = "This app needs access to your photo library to select and rename photo files.";

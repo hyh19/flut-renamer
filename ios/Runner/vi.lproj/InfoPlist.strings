@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Trợ lý Đổi tên File Hàng loạt";
+"NSPhotoLibraryUsageDescription" = "Ứng dụng này cần truy cập vào thư viện ảnh của bạn để chọn và đổi tên các tệp ảnh.";

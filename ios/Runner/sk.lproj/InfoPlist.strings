@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Premenovanie Súborov";
+"NSPhotoLibraryUsageDescription" = "Táto aplikácia potrebuje prístup k vašej knižnici fotografií na výber a premenovanie súborov fotografií.";

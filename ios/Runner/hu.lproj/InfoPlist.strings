@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Batch fájlátnevező asszisztens";
+"NSPhotoLibraryUsageDescription" = "Ez az alkalmazás hozzáférésre van szüksége a fényképtárához a fényképfájlok kiválasztásához és átnevezéséhez.";

@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Tiedostojen Massanimeämisen Avustaja";
+"NSPhotoLibraryUsageDescription" = "Tämä sovellus tarvitsee pääsyn valokuvakirjastoon valitakseen ja nimetäkseen valokuvatiedostoja uudelleen.";

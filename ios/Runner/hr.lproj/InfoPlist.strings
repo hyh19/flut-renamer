@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Preimenovanje Datoteka";
+"NSPhotoLibraryUsageDescription" = "Ova aplikacija treba pristup vašoj biblioteci fotografija kako bi odabrala i preimenovala datoteke fotografija.";

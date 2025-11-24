@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Assistente de Renomeação de Arquivos em Lote";
+"NSPhotoLibraryUsageDescription" = "Este aplicativo precisa acessar sua biblioteca de fotos para selecionar e renomear arquivos de fotos.";

@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Pembantu Menamakan Fail Pukal";
+"NSPhotoLibraryUsageDescription" = "Aplikasi ini memerlukan akses ke perpustakaan foto anda untuk memilih dan menamakan semula fail foto.";

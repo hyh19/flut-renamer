@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Asistent de redenumire în lot";
+"NSPhotoLibraryUsageDescription" = "Această aplicație necesită acces la biblioteca dvs. de fotografii pentru a selecta și redenumi fișierele foto.";

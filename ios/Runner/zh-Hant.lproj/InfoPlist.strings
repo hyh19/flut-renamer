@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "檔案批次重新命名助手";
+"NSPhotoLibraryUsageDescription" = "此應用需要存取您的照片庫以選擇和重新命名照片檔案。";

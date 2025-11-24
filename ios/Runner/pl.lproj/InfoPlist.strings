@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Asystent Masowego Zmieniania Nazw Plików";
+"NSPhotoLibraryUsageDescription" = "Ta aplikacja wymaga dostępu do biblioteki zdjęć, aby wybierać i zmieniać nazwy plików zdjęć.";

@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Batch-Dateiumbenennungsassistent";
+"NSPhotoLibraryUsageDescription" = "Diese App benötigt Zugriff auf Ihre Fotobibliothek, um Fotodateien auszuwählen und umzubenennen.";

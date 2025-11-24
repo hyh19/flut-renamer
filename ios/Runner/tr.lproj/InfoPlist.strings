@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Toplu Dosya Yeniden Adlandırma Asistanı";
+"NSPhotoLibraryUsageDescription" = "Bu uygulama, fotoğraf dosyalarını seçmek ve yeniden adlandırmak için fotoğraf kütüphanenize erişim gerektirir.";

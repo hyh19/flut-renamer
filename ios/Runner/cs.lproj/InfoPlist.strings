@@ -7,3 +7,4 @@
 */
 
 "CFBundleDisplayName" = "Asistent pro Hromadné Přejmenování Souborů";
+"NSPhotoLibraryUsageDescription" = "Tato aplikace potřebuje přístup k vaší fotoknihovně, aby mohla vybírat a přejmenovávat soubory fotografií.";
