@@ -262,7 +262,7 @@ class _AiRenameContentState extends State<AiRenameContent> {
                     onTapOutside: (event) {
                       FocusScope.of(context).unfocus();
                     },
-                    maxLines: 50,
+                    maxLines: 20,
                     textAlignVertical: TextAlignVertical.top,
                     decoration: InputDecoration(
                       labelText: L10n.current.aiRenameRequirementsLabel,
