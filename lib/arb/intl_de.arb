@@ -148,7 +148,7 @@
   "replaceToString": "Ersetzen: \"{targetString}\" durch \"{replacementString}\" ersetzen.",
   "removeToString": "Entfernen: \"{targetString}\"",
   "insertToString": "Einfügen: \"{insert}\" an Position {insertIndex}{toEnd, select, true{ von hinten} false{} other{}}.",
-  "incrementToString": "Inkrementieren: {prefix}-Index",
+  "incrementToString": "Inkrementieren: {prefix}Index",
   "rearrangeToString": "Neu anordnen: Trennzeichen: {delimiter}, Reihenfolge: {order}.",
   "transliterateToString": "Transliteration: {type}.",
   "transliterateToStringCyrillic": "Transliteration: Von {langName} {type}.",

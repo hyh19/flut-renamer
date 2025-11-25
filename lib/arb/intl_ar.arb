@@ -148,7 +148,7 @@
   "replaceToString": "استبدال: استبدال \"{targetString}\" بـ \"{replacementString}\".",
   "removeToString": "إزالة: \"{targetString}\"",
   "insertToString": "إدراج: إدراج \"{insert}\" في الموقع {toEnd, select, true{الآخير} false{الأول} other{}} بموقع الإدراج {insertIndex}.",
-  "incrementToString": "زيادة: {prefix}-الفهرس",
+  "incrementToString": "زيادة: {prefix}الفهرس",
   "rearrangeToString": "إعادة ترتيب: الفاصل: {delimiter}، الترتيب: {order}.",
   "transliterateToString": "تحويل الحروف: {type}.",
   "transliterateToStringCyrillic": "تحويل: {langName}{type}.",

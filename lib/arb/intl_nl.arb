@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Incrementeel hernoemen: {prefix}-index",
+  "incrementToString": "Incrementeel hernoemen: {prefix}index",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

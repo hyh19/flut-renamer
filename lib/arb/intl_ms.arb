@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Penamaan semula bertambah: {prefix}-indeks",
+  "incrementToString": "Penamaan semula bertambah: {prefix}indeks",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

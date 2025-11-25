@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Redenumire incrementală: {prefix}-index",
+  "incrementToString": "Redenumire incrementală: {prefix}index",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Inkrementel omnavngivning: {prefix}-indeks",
+  "incrementToString": "Inkrementel omnavngivning: {prefix}indeks",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

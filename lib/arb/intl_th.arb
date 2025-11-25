@@ -148,7 +148,7 @@
   "replaceToString": "แทนที่: แทนที่ \"{targetString}\" ด้วย \"{replacementString}\"",
   "removeToString": "ลบ: \"{targetString}\"",
   "insertToString": "แทรก: แทรก \"{insert}\" ที่ตำแหน่งที่ {toEnd, select, true{สุดท้าย} false{} other{}} {insertIndex}",
-  "incrementToString": "เพิ่ม: {prefix}-เลขดัชนี",
+  "incrementToString": "เพิ่ม: {prefix}เลขดัชนี",
   "rearrangeToString": "จัดเรียงใหม่: ตัวคั่น: \"{delimiter}\", ลำดับ: {order}",
   "transliterateToString": "การเปลี่ยนตัวอักษร: {type}",
   "transliterateToStringCyrillic": "การเปลี่ยนตัวอักษร: แปลงจาก {langName} {type}",

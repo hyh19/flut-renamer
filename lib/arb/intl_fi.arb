@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Kasvava uudelleennimeäminen: {prefix}-indeksi",
+  "incrementToString": "Kasvava uudelleennimeäminen: {prefix}indeksi",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

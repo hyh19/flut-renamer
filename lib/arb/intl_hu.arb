@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Növekvő átnevezés: {prefix}-index",
+  "incrementToString": "Növekvő átnevezés: {prefix}index",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

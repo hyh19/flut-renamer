@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "ক্রমবর্ধমান নাম পরিবর্তন: {prefix}-সূচক",
+  "incrementToString": "ক্রমবর্ধমান নাম পরিবর্তন: {prefix}সূচক",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

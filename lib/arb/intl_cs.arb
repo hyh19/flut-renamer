@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Přírůstkové přejmenování: {prefix}-index",
+  "incrementToString": "Přírůstkové přejmenování: {prefix}index",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

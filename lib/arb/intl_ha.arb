@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Sake suna mai ƙaruwa: {prefix}-lamba",
+  "incrementToString": "Sake suna mai ƙaruwa: {prefix}lamba",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

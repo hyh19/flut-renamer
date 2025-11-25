@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Incremental renaming: {prefix}-index",
+  "incrementToString": "Incremental renaming: {prefix}index",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

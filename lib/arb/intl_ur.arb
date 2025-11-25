@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "اضافہ نام تبدیل: {prefix}-انڈیکس",
+  "incrementToString": "اضافہ نام تبدیل: {prefix}انڈیکس",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

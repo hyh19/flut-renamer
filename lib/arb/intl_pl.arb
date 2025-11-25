@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Przyrostowa zmiana nazwy: {prefix}-indeks",
+  "incrementToString": "Przyrostowa zmiana nazwy: {prefix}indeks",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

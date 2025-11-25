@@ -148,7 +148,7 @@
   "replaceToString": "替换：将“{targetString}”替换为“{replacementString}”。",
   "removeToString": "删除：“{targetString}”",
   "insertToString": "插入：在{toEnd, select, true{倒数的} false{} other{}}第{insertIndex}个字符处插入“{insert}”。",
-  "incrementToString": "递增：{prefix}-索引",
+  "incrementToString": "递增：{prefix}索引",
   "rearrangeToString": "重排：分隔符：{delimiter}，顺序：{order}。",
   "transliterateToString": "转写：{type}。",
   "transliterateToStringCyrillic": "转写：将{langName}{type}。",

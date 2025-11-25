@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Inkrementellt namnbyte: {prefix}-index",
+  "incrementToString": "Inkrementellt namnbyte: {prefix}index",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

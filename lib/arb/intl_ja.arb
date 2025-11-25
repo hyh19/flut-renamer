@@ -148,7 +148,7 @@
   "replaceToString": "置換：「{targetString}」を「{replacementString}」に置換します。",
   "removeToString": "削除：「{targetString}」",
   "insertToString": "挿入：{toEnd, select, true{末尾から} false{} other{}}第{insertIndex}文字に「{insert}」を挿入します。",
-  "incrementToString": "増分：{prefix}-インデックス",
+  "incrementToString": "増分：{prefix}インデックス",
   "rearrangeToString": "並べ替え：区切り文字：{delimiter}、順序：{order}。",
   "transliterateToString": "転写：{type}。",
   "transliterateToStringCyrillic": "転写：{type}：{langName}。",

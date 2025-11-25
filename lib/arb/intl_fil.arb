@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Sunod-sunod na pag-rename: {prefix}-index",
+  "incrementToString": "Sunod-sunod na pag-rename: {prefix}index",
   "@incrementToString": {
     "placeholders": {
       "prefix": {

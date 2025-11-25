@@ -201,7 +201,7 @@
       }
     }
   },
-  "incrementToString": "Đổi tên tăng dần: {prefix}-chỉ số",
+  "incrementToString": "Đổi tên tăng dần: {prefix}chỉ số",
   "@incrementToString": {
     "placeholders": {
       "prefix": {
