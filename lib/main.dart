@@ -50,8 +50,8 @@ void main([List<String> arguments = const []]) async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  // 初始化 Firebase Remote Config
-  await _initializeRemoteConfig();
+  // 初始化 Firebase Remote Config（在后台异步初始化，不阻塞启动）
+  _initializeRemoteConfig();
 
   final systemLocale = _getLocale();
   Shared.updateSystemLocale(systemLocale);
