@@ -196,7 +196,9 @@ class AiRenameContent extends StatefulWidget {
 
 class _AiRenameContentState extends State<AiRenameContent> {
   late TextEditingController requirementsController;
+  late FocusNode focusNode;
   bool isLoading = false;
+  bool _isFocused = false;
 
   @override
   void initState() {
@@ -207,6 +209,8 @@ class _AiRenameContentState extends State<AiRenameContent> {
         : (widget.rule?.userRequirements ?? '');
     requirementsController = TextEditingController(text: initialValue);
     requirementsController.addListener(_onTextChanged);
+    focusNode = FocusNode();
+    focusNode.addListener(_onFocusChange);
   }
 
   @override
@@ -226,6 +230,8 @@ class _AiRenameContentState extends State<AiRenameContent> {
   void dispose() {
     requirementsController.removeListener(_onTextChanged);
     requirementsController.dispose();
+    focusNode.removeListener(_onFocusChange);
+    focusNode.dispose();
     super.dispose();
   }
 
@@ -233,50 +239,55 @@ class _AiRenameContentState extends State<AiRenameContent> {
     widget.onTextChanged?.call(requirementsController.text);
   }
 
+  void _onFocusChange() {
+    setState(() {
+      _isFocused = focusNode.hasFocus;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        FocusScope.of(context).unfocus();
-      },
-      behavior: HitTestBehavior.opaque,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Column(
-                children: [
-                  Expanded(
-                    child: TextFormField(
-                      controller: requirementsController,
-                      maxLines: null,
-                      expands: true,
-                      textAlignVertical: TextAlignVertical.top,
-                      decoration: InputDecoration(
-                        labelText: L10n.current.aiRenameRequirementsLabel,
-                        border: const OutlineInputBorder(),
-                        alignLabelWithHint: true,
-                      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Column(
+              children: [
+                Expanded(
+                  child: TextField(
+                    controller: requirementsController,
+                    focusNode: focusNode,
+                    onTapOutside: (event) {
+                      FocusScope.of(context).unfocus();
+                    },
+                    maxLines: 50,
+                    textAlignVertical: TextAlignVertical.top,
+                    decoration: InputDecoration(
+                      labelText: L10n.current.aiRenameRequirementsLabel,
+                      border: const OutlineInputBorder(),
+                      alignLabelWithHint: true,
                     ),
                   ),
-                  if (isLoading) ...[
-                    const SizedBox(height: 24),
-                    Center(
-                      child: Column(
-                        children: [
-                          const CircularProgressIndicator(),
-                          const SizedBox(height: 8),
-                          Text(L10n.current.aiRenameLoading),
-                        ],
-                      ),
+                ),
+                if (isLoading) ...[
+                  const SizedBox(height: 24),
+                  Center(
+                    child: Column(
+                      children: [
+                        const CircularProgressIndicator(),
+                        const SizedBox(height: 8),
+                        Text(L10n.current.aiRenameLoading),
+                      ],
                     ),
-                  ],
+                  ),
                 ],
-              ),
+              ],
             ),
           ),
+        ),
+        if (!_isFocused)
           Padding(
             padding: const EdgeInsets.all(16),
             child: Align(
@@ -287,8 +298,7 @@ class _AiRenameContentState extends State<AiRenameContent> {
               ),
             ),
           ),
-        ],
-      ),
+      ],
     );
   }
 
