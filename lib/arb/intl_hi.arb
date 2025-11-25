@@ -44,7 +44,7 @@
   "select": "चुनें",
   "selectAll": "सभी चुनें",
   "currentName": "वर्तमान नाम",
-  "newName": "नया नाम",
+  "newName": "नया नाम पूर्वावलोकन",
   "fileNotExist": "फ़ाइल मौजूद नहीं है",
   "files": "फ़ाइलें",
   "directories": "निर्देशिकाएं",

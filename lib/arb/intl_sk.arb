@@ -44,7 +44,7 @@
   "select": "Vybrat",
   "selectAll": "Vybrat Vše",
   "currentName": "Současný název",
-  "newName": "Nový název",
+  "newName": "Náhľad nového názvu",
   "fileNotExist": "Soubor neexistuje",
   "files": "Soubory",
   "directories": "Adresáře",

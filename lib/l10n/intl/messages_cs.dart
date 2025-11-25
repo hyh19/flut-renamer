@@ -278,7 +278,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("Spisovatel skladby"),
     "musicYear": MessageLookupByLibrary.simpleMessage("Rok vydání skladby"),
-    "newName": MessageLookupByLibrary.simpleMessage("Nový název"),
+    "newName": MessageLookupByLibrary.simpleMessage("Náhled nového názvu"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Nepřejmenovávejte systémový rezervovaný adresář.",
     ),

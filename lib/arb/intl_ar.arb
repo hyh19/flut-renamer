@@ -44,7 +44,7 @@
   "select": "تحديد",
   "selectAll": "تحديد الكل",
   "currentName": "الاسم الحالي",
-  "newName": "الاسم الجديد",
+  "newName": "معاينة الاسم الجديد",
   "files": "الملفات",
   "fileNotExist": "الملف غير موجود",
   "directories": "الدلائل",

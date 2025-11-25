@@ -44,7 +44,7 @@
   "select": "Sélectionner",
   "selectAll": "Tout sélectionner",
   "currentName": "Nom actuel",
-  "newName": "Nouveau nom",
+  "newName": "Aperçu du nouveau nom",
   "fileNotExist": "Fichier inexistant",
   "files": "Fichiers",
   "directories": "Répertoires",

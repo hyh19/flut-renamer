@@ -226,7 +226,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicTrackNumber": MessageLookupByLibrary.simpleMessage("曲のトラック番号"),
     "musicWriter": MessageLookupByLibrary.simpleMessage("曲の作詞者"),
     "musicYear": MessageLookupByLibrary.simpleMessage("曲の発売年"),
-    "newName": MessageLookupByLibrary.simpleMessage("新しいファイル名"),
+    "newName": MessageLookupByLibrary.simpleMessage("新しいファイル名のプレビュー"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "システム予約ディレクトリはリネームしないでください。",
     ),

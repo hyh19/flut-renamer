@@ -44,7 +44,7 @@
   "select": "Seç",
   "selectAll": "Tümünü Seç",
   "currentName": "Mevcut Dosya Adı",
-  "newName": "Yeni Dosya Adı",
+  "newName": "Yeni Dosya Adı Önizlemesi",
   "fileNotExist": "Dosya mevcut değil",
   "files": "Dosyalar",
   "directories": "Klasörler",

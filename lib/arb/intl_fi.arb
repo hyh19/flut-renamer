@@ -44,7 +44,7 @@
   "select": "Valitse",
   "selectAll": "Valitse Kaikki",
   "currentName": "Nykyinen nimi",
-  "newName": "Uusi nimi",
+  "newName": "Uuden nimen esikatselu",
   "fileNotExist": "Tiedostoa ei ole olemassa",
   "files": "Tiedostot",
   "directories": "Hakemistot",

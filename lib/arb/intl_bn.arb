@@ -44,7 +44,7 @@
   "select": "নির্বাচন করুন",
   "selectAll": "সব নির্বাচন করুন",
   "currentName": "বর্তমান নাম",
-  "newName": "নতুন নাম",
+  "newName": "নতুন নামের পূর্বরূপ",
   "fileNotExist": "ফাইল বিদ্যমান নেই",
   "files": "ফাইল",
   "directories": "ডিরেক্টরি",

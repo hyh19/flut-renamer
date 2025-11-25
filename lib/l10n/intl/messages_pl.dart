@@ -282,7 +282,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("Pisarz utworu"),
     "musicYear": MessageLookupByLibrary.simpleMessage("Rok publikacji utworu"),
-    "newName": MessageLookupByLibrary.simpleMessage("Nowa nazwa"),
+    "newName": MessageLookupByLibrary.simpleMessage("Podgląd nowej nazwy"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Nie zmieniaj nazwy zarezerwowanego katalogu systemowego.",
     ),

@@ -300,7 +300,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicYear": MessageLookupByLibrary.simpleMessage(
       "Έτος δημοσίευσης κομματιού",
     ),
-    "newName": MessageLookupByLibrary.simpleMessage("Νέο όνομα"),
+    "newName": MessageLookupByLibrary.simpleMessage(
+      "Προεπισκόπηση νέου ονόματος",
+    ),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Μην μετονομάσετε έναν συστηματικό δεσμευμένο κατάλογο.",
     ),

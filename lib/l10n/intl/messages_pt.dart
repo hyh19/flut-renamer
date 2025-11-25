@@ -286,7 +286,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicYear": MessageLookupByLibrary.simpleMessage(
       "Ano de lançamento da faixa",
     ),
-    "newName": MessageLookupByLibrary.simpleMessage("Novo nome"),
+    "newName": MessageLookupByLibrary.simpleMessage(
+      "Pré-visualização do novo nome",
+    ),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Não renomeie diretórios protegidos pelo sistema.",
     ),

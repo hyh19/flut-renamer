@@ -44,7 +44,7 @@
   "select": "선택",
   "selectAll": "모두 선택",
   "currentName": "현재 파일 이름",
-  "newName": "새 파일 이름",
+  "newName": "새 파일 이름 미리보기",
   "fileNotExist": "파일이 존재하지 않습니다",
   "files": "파일",
   "directories": "디렉터리",

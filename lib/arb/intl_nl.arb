@@ -44,7 +44,7 @@
   "select": "Selecteren",
   "selectAll": "Alles Selecteren",
   "currentName": "Huidige naam",
-  "newName": "Nieuwe naam",
+  "newName": "Voorvertoning nieuwe naam",
   "fileNotExist": "Bestand bestaat niet",
   "files": "Bestanden",
   "directories": "Mappen",

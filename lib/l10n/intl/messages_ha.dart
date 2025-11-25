@@ -272,7 +272,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("Mai rubuta waƙar"),
     "musicYear": MessageLookupByLibrary.simpleMessage("Shekarar fitar waƙa"),
-    "newName": MessageLookupByLibrary.simpleMessage("Sabon suna"),
+    "newName": MessageLookupByLibrary.simpleMessage("Dubawa sabon suna"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Kada a sake suna kundin da tsarin ya tanada.",
     ),

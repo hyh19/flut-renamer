@@ -44,7 +44,7 @@
   "select": "Vælg",
   "selectAll": "Vælg Alt",
   "currentName": "Nuværende navn",
-  "newName": "Nyt navn",
+  "newName": "Forhåndsvisning af nyt navn",
   "fileNotExist": "Filen findes ikke",
   "files": "Filer",
   "directories": "Mapper",

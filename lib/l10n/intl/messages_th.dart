@@ -269,7 +269,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("ผู้แต่งเนื้อเพลง"),
     "musicYear": MessageLookupByLibrary.simpleMessage("ปีที่เพลงออก"),
-    "newName": MessageLookupByLibrary.simpleMessage("ชื่อใหม่"),
+    "newName": MessageLookupByLibrary.simpleMessage("ตัวอย่างชื่อใหม่"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "อย่าเปลี่ยนชื่อโฟลเดอร์ที่ระบบสงวนไว้",
     ),

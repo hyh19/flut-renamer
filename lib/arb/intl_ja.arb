@@ -44,7 +44,7 @@
   "select": "選択",
   "selectAll": "すべて選択",
   "currentName": "現在のファイル名",
-  "newName": "新しいファイル名",
+  "newName": "新しいファイル名のプレビュー",
   "fileNotExist": "ファイルが存在しません",
   "files": "ファイル",
   "directories": "ディレクトリ",

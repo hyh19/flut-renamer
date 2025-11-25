@@ -288,7 +288,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicYear": MessageLookupByLibrary.simpleMessage(
       "Udgivelsesår for nummeret",
     ),
-    "newName": MessageLookupByLibrary.simpleMessage("Nyt navn"),
+    "newName": MessageLookupByLibrary.simpleMessage(
+      "Forhåndsvisning af nyt navn",
+    ),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Omnavngiv ikke en systemreserveret mappe.",
     ),

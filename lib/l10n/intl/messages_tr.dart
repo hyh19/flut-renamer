@@ -281,7 +281,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicTrackNumber": MessageLookupByLibrary.simpleMessage("Şarkı Numarası"),
     "musicWriter": MessageLookupByLibrary.simpleMessage("Yazar"),
     "musicYear": MessageLookupByLibrary.simpleMessage("Şarkının Yayın Yılı"),
-    "newName": MessageLookupByLibrary.simpleMessage("Yeni Dosya Adı"),
+    "newName": MessageLookupByLibrary.simpleMessage(
+      "Yeni Dosya Adı Önizlemesi",
+    ),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Lütfen sistem korumalı klasörleri yeniden adlandırmayın.",
     ),

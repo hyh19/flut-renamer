@@ -271,7 +271,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("كاتب الأغنية"),
     "musicYear": MessageLookupByLibrary.simpleMessage("سنة الإصدار"),
-    "newName": MessageLookupByLibrary.simpleMessage("الاسم الجديد"),
+    "newName": MessageLookupByLibrary.simpleMessage("معاينة الاسم الجديد"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "يرجى عدم إعادة تسمية الدلائل المحجوزة للنظام.",
     ),

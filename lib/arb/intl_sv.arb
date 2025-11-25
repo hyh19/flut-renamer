@@ -44,7 +44,7 @@
   "select": "Välj",
   "selectAll": "Välj Allt",
   "currentName": "Nuvarande namn",
-  "newName": "Nytt namn",
+  "newName": "Förhandsvisning av nytt namn",
   "fileNotExist": "Filen finns inte",
   "files": "Filer",
   "directories": "Kataloger",

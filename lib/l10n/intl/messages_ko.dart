@@ -222,7 +222,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicTrackNumber": MessageLookupByLibrary.simpleMessage("앨범 내 곡 순서"),
     "musicWriter": MessageLookupByLibrary.simpleMessage("곡 작사가"),
     "musicYear": MessageLookupByLibrary.simpleMessage("곡 출시 연도"),
-    "newName": MessageLookupByLibrary.simpleMessage("새 파일 이름"),
+    "newName": MessageLookupByLibrary.simpleMessage("새 파일 이름 미리보기"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "시스템 예약 디렉터리를 이름을 변경하지 마십시오.",
     ),

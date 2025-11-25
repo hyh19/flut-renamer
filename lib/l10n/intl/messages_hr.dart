@@ -281,7 +281,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicYear": MessageLookupByLibrary.simpleMessage(
       "Godina izdavanja pjesme",
     ),
-    "newName": MessageLookupByLibrary.simpleMessage("Novo ime"),
+    "newName": MessageLookupByLibrary.simpleMessage("Pregled novog imena"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Ne preimenuj sistemski rezervirani direktorij.",
     ),

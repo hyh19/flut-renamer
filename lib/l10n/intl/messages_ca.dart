@@ -292,7 +292,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Escriptor de la cançó",
     ),
     "musicYear": MessageLookupByLibrary.simpleMessage("Any de publicació"),
-    "newName": MessageLookupByLibrary.simpleMessage("Nom nou"),
+    "newName": MessageLookupByLibrary.simpleMessage("Vista prèvia del nom nou"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "No canvieu el nom de directoris reservats del sistema.",
     ),

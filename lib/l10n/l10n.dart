@@ -394,9 +394,14 @@ class L10n {
     );
   }
 
-  /// `New name`
+  /// `New name preview`
   String get newName {
-    return Intl.message('New name', name: 'newName', desc: '', args: []);
+    return Intl.message(
+      'New name preview',
+      name: 'newName',
+      desc: '',
+      args: [],
+    );
   }
 
   /// `File not exist`

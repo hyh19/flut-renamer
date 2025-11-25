@@ -44,7 +44,7 @@
   "select": "Seleccionar",
   "selectAll": "Seleccionar tot",
   "currentName": "Nom actual",
-  "newName": "Nom nou",
+  "newName": "Vista prèvia del nom nou",
   "files": "Arxius",
   "fileNotExist": "L'arxiu no existeix",
   "directories": "Directoris",

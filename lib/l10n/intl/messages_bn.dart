@@ -277,7 +277,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("ট্র্যাকের লেখক"),
     "musicYear": MessageLookupByLibrary.simpleMessage("ট্র্যাক প্রকাশের বছর"),
-    "newName": MessageLookupByLibrary.simpleMessage("নতুন নাম"),
+    "newName": MessageLookupByLibrary.simpleMessage("নতুন নামের পূর্বরূপ"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "একটি সিস্টেম সংরক্ষিত ডিরেক্টরির নাম পরিবর্তন করবেন না।",
     ),

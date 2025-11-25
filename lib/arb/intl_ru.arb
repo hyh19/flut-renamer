@@ -44,7 +44,7 @@
   "select": "Выбрать",
   "selectAll": "Выбрать все",
   "currentName": "Текущее имя",
-  "newName": "Новое имя",
+  "newName": "Предпросмотр нового имени",
   "fileNotExist": "Файл не существует",
   "files": "Файлы",
   "directories": "Каталоги",

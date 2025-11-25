@@ -44,7 +44,7 @@
   "select": "Kiválasztás",
   "selectAll": "Összes kijelölése",
   "currentName": "Jelenlegi név",
-  "newName": "Új név",
+  "newName": "Új név előnézete",
   "fileNotExist": "A fájl nem létezik",
   "files": "Fájlok",
   "directories": "Könyvtárak",

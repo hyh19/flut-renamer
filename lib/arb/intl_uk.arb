@@ -44,7 +44,7 @@
   "select": "Вибрати",
   "selectAll": "Вибрати все",
   "currentName": "Поточна назва",
-  "newName": "Нова назва",
+  "newName": "Попередній перегляд нової назви",
   "fileNotExist": "Файл не існує",
   "files": "Файли",
   "directories": "Теки",

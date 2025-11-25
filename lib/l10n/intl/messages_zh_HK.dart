@@ -211,7 +211,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicTrackNumber": MessageLookupByLibrary.simpleMessage("曲目在專輯中的位置"),
     "musicWriter": MessageLookupByLibrary.simpleMessage("曲目的作家（Writer）"),
     "musicYear": MessageLookupByLibrary.simpleMessage("曲目的出版年份"),
-    "newName": MessageLookupByLibrary.simpleMessage("新檔案名稱"),
+    "newName": MessageLookupByLibrary.simpleMessage("新檔案名稱預覽"),
     "noSysDir": MessageLookupByLibrary.simpleMessage("請勿重新命名系統保留目錄。"),
     "ok": MessageLookupByLibrary.simpleMessage("確定"),
     "omitDash": MessageLookupByLibrary.simpleMessage("省略短橫線"),

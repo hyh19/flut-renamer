@@ -44,7 +44,7 @@
   "select": "Odaberi",
   "selectAll": "Odaberi sve",
   "currentName": "Trenutno ime",
-  "newName": "Novo ime",
+  "newName": "Pregled novog imena",
   "fileNotExist": "Datoteka ne postoji",
   "files": "Datoteke",
   "directories": "Direktoriji",

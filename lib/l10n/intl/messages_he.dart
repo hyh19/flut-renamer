@@ -262,7 +262,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("כותב השיר"),
     "musicYear": MessageLookupByLibrary.simpleMessage("שנת פרסום השיר"),
-    "newName": MessageLookupByLibrary.simpleMessage("שם חדש"),
+    "newName": MessageLookupByLibrary.simpleMessage("תצוגה מקדימה של שם חדש"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "אל תשנה את שמה של תיקיית מערכת שמורה.",
     ),

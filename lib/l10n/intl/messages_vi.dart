@@ -274,7 +274,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("Người viết bài hát"),
     "musicYear": MessageLookupByLibrary.simpleMessage("Năm phát hành bài hát"),
-    "newName": MessageLookupByLibrary.simpleMessage("Tên mới"),
+    "newName": MessageLookupByLibrary.simpleMessage("Xem trước tên mới"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Không đổi tên thư mục dành riêng của hệ thống.",
     ),

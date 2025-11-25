@@ -266,7 +266,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("Szövegíró"),
     "musicYear": MessageLookupByLibrary.simpleMessage("Megjelenés éve"),
-    "newName": MessageLookupByLibrary.simpleMessage("Új név"),
+    "newName": MessageLookupByLibrary.simpleMessage("Új név előnézete"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Ne nevezz át rendszer által fenntartott könyvtárat.",
     ),

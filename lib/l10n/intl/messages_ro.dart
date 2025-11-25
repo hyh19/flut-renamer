@@ -272,7 +272,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("Textierul piesei"),
     "musicYear": MessageLookupByLibrary.simpleMessage("Anul lansării piesei"),
-    "newName": MessageLookupByLibrary.simpleMessage("Nume nou"),
+    "newName": MessageLookupByLibrary.simpleMessage("Previzualizare nume nou"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Nu redenumi directoare rezervate sistemului.",
     ),

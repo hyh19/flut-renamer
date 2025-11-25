@@ -292,7 +292,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicYear": MessageLookupByLibrary.simpleMessage(
       "Publicatiejaar van het nummer",
     ),
-    "newName": MessageLookupByLibrary.simpleMessage("Nieuwe naam"),
+    "newName": MessageLookupByLibrary.simpleMessage(
+      "Voorvertoning nieuwe naam",
+    ),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Hernoem geen systeemgereserveerde map.",
     ),

@@ -291,7 +291,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicYear": MessageLookupByLibrary.simpleMessage(
       "Kappaleen julkaisuvuosi",
     ),
-    "newName": MessageLookupByLibrary.simpleMessage("Uusi nimi"),
+    "newName": MessageLookupByLibrary.simpleMessage("Uuden nimen esikatselu"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Älä nimeä järjestelmän varattua hakemistoa uudelleen.",
     ),

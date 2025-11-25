@@ -44,7 +44,7 @@
   "select": "選擇",
   "selectAll": "全選",
   "currentName": "目前檔案名稱",
-  "newName": "新檔案名稱",
+  "newName": "新檔案名稱預覽",
   "fileNotExist": "檔案不存在",
   "files": "檔案",
   "directories": "目錄",

@@ -276,7 +276,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "musicWriter": MessageLookupByLibrary.simpleMessage("ٹریک کا مصنف"),
     "musicYear": MessageLookupByLibrary.simpleMessage("ٹریک کی اشاعت کا سال"),
-    "newName": MessageLookupByLibrary.simpleMessage("نیا نام"),
+    "newName": MessageLookupByLibrary.simpleMessage("نیا نام کا پیش منظر"),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "سسٹم محفوظ ڈائریکٹری کا نام تبدیل نہ کریں۔",
     ),

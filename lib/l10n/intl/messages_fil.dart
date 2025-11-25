@@ -289,7 +289,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "musicYear": MessageLookupByLibrary.simpleMessage(
       "Taon ng paglabas ng track",
     ),
-    "newName": MessageLookupByLibrary.simpleMessage("Bagong pangalan"),
+    "newName": MessageLookupByLibrary.simpleMessage(
+      "Paunang tingin ng bagong pangalan",
+    ),
     "noSysDir": MessageLookupByLibrary.simpleMessage(
       "Huwag mag-rename ng direktoryong nakalaan sa sistema.",
     ),
