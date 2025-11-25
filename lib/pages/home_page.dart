@@ -114,29 +114,16 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       body: SafeArea(
-        child: Responsive(
-          desktop: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Expanded(
-                child: filesPage,
-              ),
-              Expanded(
-                child: rulesPage,
-              ),
-            ],
-          ),
-          mobile: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Expanded(
-                child: filesPage,
-              ),
-              Expanded(
-                child: rulesPage,
-              ),
-            ],
-          ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Expanded(
+              child: filesPage,
+            ),
+            Expanded(
+              child: rulesPage,
+            ),
+          ],
         ),
       ),
       appBar: AppBar(
@@ -299,7 +286,8 @@ class _HomeToolBarState extends State<HomeToolBar> {
                 InkWell(
                   child: Text(
                     'Localized text is generated using machine translation, if you find any errors please help us fix it.',
-                    style: TextStyle(color: Theme.of(context).colorScheme.primary),
+                    style:
+                        TextStyle(color: Theme.of(context).colorScheme.primary),
                   ),
                   onTap: () {
                     launchUrl(Uri.parse(
