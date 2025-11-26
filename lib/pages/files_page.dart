@@ -414,14 +414,27 @@ class FilesPageState extends State<FilesPage> {
   }) async {
     final List<Future> futures = [];
     bool noError = true;
+
     _files.asMap().forEach((index, file) {
       // if file is selected or onlySelected = false (all files should be renamed)
       if (true /* file.selected || !onlySelected */) {
-        futures.add(
-          rename(
-            file,
-            context: context,
-          ).then((value) {
+        futures.add(() async {
+          bool accessGranted = false;
+
+          // iOS 平台：获取权限
+          if (Platform.isIOS) {
+            accessGranted = await PlatformFilePicker.changeScopedAccess(
+              file.parent.path,
+              true,
+            );
+          }
+
+          try {
+            final value = await rename(
+              file,
+              context: context,
+            );
+
             if (value == null) {
               noError = false;
               setState(() {
@@ -434,15 +447,27 @@ class FilesPageState extends State<FilesPage> {
 
               if (Platform.isIOS &&
                   !_files.any((e) => e.parent.path == file.parent.path)) {
-                PlatformFilePicker.changeScopedAccess(file.parent.path, false);
+                await PlatformFilePicker.changeScopedAccess(
+                  file.parent.path,
+                  false,
+                );
               }
             } else {
               setState(() {
                 _files[index] = value;
               });
             }
-          }),
-        );
+          } finally {
+            // iOS 平台：释放权限（如果之前获取了且文件未被移除）
+            // 如果 remove 为 true，权限释放已在上面处理（当目录中没有其他文件时）
+            if (Platform.isIOS && accessGranted && !remove) {
+              await PlatformFilePicker.changeScopedAccess(
+                file.parent.path,
+                false,
+              );
+            }
+          }
+        }());
       }
     });
 
