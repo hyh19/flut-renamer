@@ -430,11 +430,13 @@ class FilesPageState extends State<FilesPage> {
           }
 
           try {
+            if (!mounted) return;
             final value = await rename(
               file,
               context: context,
             );
 
+            if (!mounted) return;
             if (value == null) {
               noError = false;
               setState(() {
