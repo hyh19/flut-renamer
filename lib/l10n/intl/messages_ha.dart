@@ -361,6 +361,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeToString": m6,
     "rename": MessageLookupByLibrary.simpleMessage("Sake suna"),
     "renameFailed": MessageLookupByLibrary.simpleMessage("Sake suna ya gaza"),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage(
+      "Sake suna ya yi nasara",
+    ),
     "replace": MessageLookupByLibrary.simpleMessage("Maye gurbi"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Maye gurbi"),

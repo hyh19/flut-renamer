@@ -361,6 +361,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeToString": m6,
     "rename": MessageLookupByLibrary.simpleMessage("Đổi tên"),
     "renameFailed": MessageLookupByLibrary.simpleMessage("Đổi tên thất bại"),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage("Đổi tên thành công"),
     "replace": MessageLookupByLibrary.simpleMessage("Thay thế"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Thay thế"),

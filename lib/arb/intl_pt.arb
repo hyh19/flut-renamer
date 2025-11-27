@@ -57,6 +57,7 @@
   "dragNotSupported": "Devido a restrições de segurança do sistema, não é suportado arrastar e soltar arquivos desta aplicação.",
   "fileAlreadyExists": "O nome do arquivo já está em uso",
   "renameFailed": "Falha ao renomear",
+  "renameSuccess": "Renomeação bem-sucedida",
   "aiRenameTitle": "Renomeação por IA",
   "aiRenameRequirementsLabel": "Instruções de renomeação",
   "aiRenameRequirementsHint": "Descreva como você quer renomear esses arquivos.",

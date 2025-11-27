@@ -57,6 +57,7 @@
   "dragNotSupported": "سسٹم کی حفاظتی پابندی کی وجہ سے، اس ایپ سے فائلوں کو کھینچنا اور چھوڑنا معاون نہیں ہے۔",
   "fileAlreadyExists": "فائل کا نام پہلے سے ہی دوسری فائل استعمال کر رہی ہے",
   "renameFailed": "نام تبدیل کرنا ناکام",
+  "renameSuccess": "نام تبدیل کرنا کامیاب",
   "aiRenameTitle": "AI نام تبدیل",
   "aiRenameRequirementsLabel": "نام تبدیل کرنے کی ہدایات",
   "aiRenameRequirementsHint": "بیان کریں کہ آپ ان فائلوں کا نام کیسے تبدیل کرنا چاہتے ہیں۔",

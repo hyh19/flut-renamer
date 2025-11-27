@@ -385,6 +385,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Error en canviar el nom",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage(
+      "Canvi de nom exitós",
+    ),
     "replace": MessageLookupByLibrary.simpleMessage("Substituir"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Substitució"),

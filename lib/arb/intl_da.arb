@@ -57,6 +57,7 @@
   "dragNotSupported": "På grund af systemets sikkerhedsbegrænsninger understøttes ikke træk og slip af filer fra denne app.",
   "fileAlreadyExists": "Filnavnet bruges allerede af en anden fil",
   "renameFailed": "Omnavngivning mislykkedes",
+  "renameSuccess": "Omnavngivning lykkedes",
   "aiRenameTitle": "AI Omnavngivning",
   "aiRenameRequirementsLabel": "Omnavngivningsinstruktioner",
   "aiRenameRequirementsHint": "Beskriv, hvordan du vil omnavngive disse filer.",

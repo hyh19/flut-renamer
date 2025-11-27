@@ -57,6 +57,7 @@
   "dragNotSupported": "Через системні обмеження безпеки перетягування з цього застосунку не підтримується.",
   "fileAlreadyExists": "Назву вже використано іншим файлом",
   "renameFailed": "Не вдалося перейменувати",
+  "renameSuccess": "Перейменування успішне",
   "aiRenameTitle": "AI-перейменування",
   "aiRenameRequirementsLabel": "Інструкції для перейменування",
   "aiRenameRequirementsHint": "Опишіть, як потрібно перейменувати файли.",

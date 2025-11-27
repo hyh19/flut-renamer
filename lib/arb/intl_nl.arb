@@ -57,6 +57,7 @@
   "dragNotSupported": "Vanwege systeembeveiligingsbeperkingen wordt het slepen en neerzetten van bestanden vanuit deze app niet ondersteund.",
   "fileAlreadyExists": "Bestandsnaam wordt al gebruikt door een ander bestand",
   "renameFailed": "Hernoemen mislukt",
+  "renameSuccess": "Hernoemen succesvol",
   "aiRenameTitle": "AI Hernoemen",
   "aiRenameRequirementsLabel": "Hernoeminstructies",
   "aiRenameRequirementsHint": "Beschrijf hoe u deze bestanden wilt hernoemen.",

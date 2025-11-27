@@ -57,6 +57,7 @@
   "dragNotSupported": "システムのセキュリティ制限により、このアプリからのファイルのドラッグ＆ドロップはサポートされていません。",
   "fileAlreadyExists": "ファイル名がすでに存在します",
   "renameFailed": "リネームに失敗しました",
+  "renameSuccess": "リネーム成功",
   "aiRenameTitle": "AI リネーム",
   "aiRenameRequirementsLabel": "リネーム手順",
   "aiRenameRequirementsHint": "これらのファイルをどのようにリネームしたいか説明してください。",

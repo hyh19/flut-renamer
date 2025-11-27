@@ -57,6 +57,7 @@
   "dragNotSupported": "เนื่องจากข้อจำกัดด้านความปลอดภัยของระบบ การลากและวางไฟล์จากแอปนี้ไม่ได้รับการสนับสนุน",
   "fileAlreadyExists": "ชื่อไฟล์ถูกใช้แล้ว",
   "renameFailed": "เปลี่ยนชื่อล้มเหลว",
+  "renameSuccess": "เปลี่ยนชื่อสำเร็จ",
   "aiRenameTitle": "การเปลี่ยนชื่อด้วย AI",
   "aiRenameRequirementsLabel": "คำแนะนำการเปลี่ยนชื่อ",
   "aiRenameRequirementsHint": "อธิบายว่าคุณต้องการเปลี่ยนชื่อไฟล์เหล่านี้อย่างไร",

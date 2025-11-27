@@ -399,6 +399,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Η μετονομασία απέτυχε",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage(
+      "Η μετονομασία ολοκληρώθηκε επιτυχώς",
+    ),
     "replace": MessageLookupByLibrary.simpleMessage("Αντικατάσταση"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Αντικατάσταση"),

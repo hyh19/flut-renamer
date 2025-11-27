@@ -57,6 +57,7 @@
   "dragNotSupported": "Karena pembatasan keamanan sistem, menyeret file dari aplikasi ini tidak didukung.",
   "fileAlreadyExists": "Nama file sudah digunakan oleh file lain",
   "renameFailed": "Penggantian nama gagal",
+  "renameSuccess": "Penggantian nama berhasil",
   "aiRenameTitle": "Ganti Nama AI",
   "aiRenameRequirementsLabel": "Instruksi penggantian nama",
   "aiRenameRequirementsHint": "Jelaskan bagaimana Anda ingin mengganti nama file-file ini.",

@@ -375,6 +375,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Zmiana nazwy nie powiodła się",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage(
+      "Zmiana nazwy zakończona sukcesem",
+    ),
     "replace": MessageLookupByLibrary.simpleMessage("Zastąp"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Zastąpienie"),

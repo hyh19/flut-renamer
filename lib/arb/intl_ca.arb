@@ -57,6 +57,7 @@
   "dragNotSupported": "Degut a restriccions de seguretat del sistema, no s'admet arrossegar i deixar anar arxius des d'aquesta aplicació.",
   "fileAlreadyExists": "El nom d'arxiu ja està en ús",
   "renameFailed": "Error en canviar el nom",
+  "renameSuccess": "Canvi de nom exitós",
   "aiRenameTitle": "Canvi de nom amb IA",
   "aiRenameRequirementsLabel": "Instruccions de canvi de nom",
   "aiRenameRequirementsHint": "Descriu com voleu canviar el nom d'aquests arxius.",

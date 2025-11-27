@@ -374,6 +374,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Preimenovanje nije uspjelo",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage(
+      "Preimenovanje uspješno",
+    ),
     "replace": MessageLookupByLibrary.simpleMessage("Zamijeni"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Zamjena"),

@@ -57,6 +57,7 @@
   "dragNotSupported": "Kvůli omezením bezpečnosti systému není podporováno přetahování souborů z této aplikace.",
   "fileAlreadyExists": "Název souboru je již používán jiným souborem",
   "renameFailed": "Přejmenování selhalo",
+  "renameSuccess": "Přejmenování úspešné",
   "aiRenameTitle": "AI Přejmenování",
   "aiRenameRequirementsLabel": "Instrukce pro přejmenování",
   "aiRenameRequirementsHint": "Popište, jak chcete přejmenovat tyto soubory.",

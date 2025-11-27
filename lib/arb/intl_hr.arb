@@ -57,6 +57,7 @@
   "dragNotSupported": "Zbog ograničenja sigurnosti sustava, povlačenje datoteka iz ove aplikacije nije podržano.",
   "fileAlreadyExists": "Ime datoteke već koristi druga datoteka",
   "renameFailed": "Preimenovanje nije uspjelo",
+  "renameSuccess": "Preimenovanje uspješno",
   "aiRenameTitle": "AI preimenovanje",
   "aiRenameRequirementsLabel": "Upute za preimenovanje",
   "aiRenameRequirementsHint": "Opišite kako želite preimenovati ove datoteke.",

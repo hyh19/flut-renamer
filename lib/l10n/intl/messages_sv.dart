@@ -369,6 +369,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Namnbyte misslyckades",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage("Namnbyte lyckades"),
     "replace": MessageLookupByLibrary.simpleMessage("Ersätt"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Ersättning"),

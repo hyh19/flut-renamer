@@ -262,6 +262,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeToString": m6,
     "rename": MessageLookupByLibrary.simpleMessage("重新命名"),
     "renameFailed": MessageLookupByLibrary.simpleMessage("重新命名失敗"),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage("重新命名成功"),
     "replace": MessageLookupByLibrary.simpleMessage("取代"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("取代為"),

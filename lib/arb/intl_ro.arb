@@ -57,6 +57,7 @@
   "dragNotSupported": "Din cauza restricțiilor de securitate ale sistemului, drag & drop din această aplicație nu este permis.",
   "fileAlreadyExists": "Numele este deja folosit",
   "renameFailed": "Redenumirea a eșuat",
+  "renameSuccess": "Redenumirea a reușit",
   "aiRenameTitle": "Redenumire cu AI",
   "aiRenameRequirementsLabel": "Instrucțiuni de redenumire",
   "aiRenameRequirementsHint": "Descrie cum dorești să redenumești fișierele.",

@@ -57,6 +57,7 @@
   "dragNotSupported": "بسبب قيود أمان النظام، لا يُدعم سحب وإسقاط الملفات من هذا التطبيق.",
   "fileAlreadyExists": "اسم الملف موجود بالفعل",
   "renameFailed": "فشلت عملية إعادة التسمية",
+  "renameSuccess": "تمت إعادة التسمية بنجاح",
   "aiRenameTitle": "إعادة التسمية بالذكاء الاصطناعي",
   "aiRenameRequirementsLabel": "تعليمات إعادة التسمية",
   "aiRenameRequirementsHint": "صف كيف تريد إعادة تسمية هذه الملفات.",

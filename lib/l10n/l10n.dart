@@ -494,6 +494,16 @@ class L10n {
     );
   }
 
+  /// `Rename successful`
+  String get renameSuccess {
+    return Intl.message(
+      'Rename successful',
+      name: 'renameSuccess',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `AI Rename`
   String get aiRenameTitle {
     return Intl.message('AI Rename', name: 'aiRenameTitle', desc: '', args: []);

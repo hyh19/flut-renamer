@@ -103,11 +103,20 @@ class _HomePageState extends State<HomePage> {
       //   removeRulesValue: () => Shared.removeRules,
       // ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          filesKey.currentState?.renameFiles(
+        onPressed: () async {
+          final success = await filesKey.currentState?.renameFiles(
             remove: Shared.removeRenamed,
             onlySelected: Shared.onlySelected,
           );
+          if (!mounted) return;
+          if (success == true) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text(L10n.current.renameSuccess),
+                duration: const Duration(seconds: 1),
+              ),
+            );
+          }
         },
         tooltip: L10n.current.rename,
         child: const Icon(Icons.drive_file_rename_outline),

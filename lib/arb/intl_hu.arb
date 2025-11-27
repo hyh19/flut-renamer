@@ -57,6 +57,7 @@
   "dragNotSupported": "Rendszerbiztonsági okokból ebből az alkalmazásból nem támogatott a fájlok húzása.",
   "fileAlreadyExists": "A fájlnevet már használja másik fájl",
   "renameFailed": "Sikertelen átnevezés",
+  "renameSuccess": "Sikeres átnevezés",
   "aiRenameTitle": "AI átnevezés",
   "aiRenameRequirementsLabel": "Átnevezési utasítás",
   "aiRenameRequirementsHint": "Írd le, hogyan szeretnéd átnevezni a fájlokat.",

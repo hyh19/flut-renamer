@@ -57,6 +57,7 @@
   "dragNotSupported": "시스템 보안 제한으로 인해 이 앱에서 파일을 드래그 앤 드롭하는 것은 지원되지 않습니다.",
   "fileAlreadyExists": "파일 이름이 이미 사용 중입니다",
   "renameFailed": "이름 변경 실패",
+  "renameSuccess": "이름 변경 성공",
   "aiRenameTitle": "AI 이름 변경",
   "aiRenameRequirementsLabel": "이름 변경 지침",
   "aiRenameRequirementsHint": "이 파일들을 어떻게 이름 변경하고 싶은지 설명하세요.",

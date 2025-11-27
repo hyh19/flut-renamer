@@ -57,6 +57,7 @@
   "dragNotSupported": "En raison des restrictions de sécurité du système, le glisser-déposer de fichiers depuis cette application n'est pas pris en charge.",
   "fileAlreadyExists": "Le nom de fichier est déjà utilisé",
   "renameFailed": "Échec du renommage",
+  "renameSuccess": "Renommage réussi",
   "aiRenameTitle": "Renommage par IA",
   "aiRenameRequirementsLabel": "Instructions de renommage",
   "aiRenameRequirementsHint": "Décrivez comment vous souhaitez renommer ces fichiers.",

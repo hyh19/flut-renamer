@@ -57,6 +57,7 @@
   "dragNotSupported": "Aufgrund von Systemsicherheitsbeschränkungen wird das Ziehen und Ablegen von Dateien aus dieser App nicht unterstützt.",
   "fileAlreadyExists": "Dateiname wird bereits verwendet",
   "renameFailed": "Umbenennen fehlgeschlagen",
+  "renameSuccess": "Umbenennen erfolgreich",
   "aiRenameTitle": "AI-Umbenennung",
   "aiRenameRequirementsLabel": "Anweisungen zur Umbenennung",
   "aiRenameRequirementsHint": "Beschreiben Sie, wie Sie diese Dateien umbenennen möchten.",

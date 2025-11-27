@@ -361,6 +361,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "removeToString": m6,
     "rename": MessageLookupByLibrary.simpleMessage("Redenumește"),
     "renameFailed": MessageLookupByLibrary.simpleMessage("Redenumirea a eșuat"),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage(
+      "Redenumirea a reușit",
+    ),
     "replace": MessageLookupByLibrary.simpleMessage("Înlocuiește"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Înlocuitor"),

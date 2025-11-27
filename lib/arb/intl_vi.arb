@@ -57,6 +57,7 @@
   "dragNotSupported": "Do hạn chế bảo mật hệ thống, kéo thả file từ ứng dụng này không được hỗ trợ.",
   "fileAlreadyExists": "Tên file đã được sử dụng bởi file khác",
   "renameFailed": "Đổi tên thất bại",
+  "renameSuccess": "Đổi tên thành công",
   "aiRenameTitle": "Đổi tên AI",
   "aiRenameRequirementsLabel": "Hướng dẫn đổi tên",
   "aiRenameRequirementsHint": "Mô tả cách bạn muốn đổi tên các file này.",

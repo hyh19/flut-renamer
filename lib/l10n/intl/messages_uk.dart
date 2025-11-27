@@ -351,6 +351,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Не вдалося перейменувати",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage(
+      "Перейменування успішне",
+    ),
     "replace": MessageLookupByLibrary.simpleMessage("Замінити"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Замінник"),

@@ -57,6 +57,7 @@
   "dragNotSupported": "Ze względu na ograniczenia bezpieczeństwa systemu, przeciąganie plików z tej aplikacji nie jest obsługiwane.",
   "fileAlreadyExists": "Nazwa pliku jest już używana przez inny plik",
   "renameFailed": "Zmiana nazwy nie powiodła się",
+  "renameSuccess": "Zmiana nazwy zakończona sukcesem",
   "aiRenameTitle": "Zmiana nazwy AI",
   "aiRenameRequirementsLabel": "Instrukcje zmiany nazwy",
   "aiRenameRequirementsHint": "Opisz, jak chcesz zmienić nazwy tych plików.",

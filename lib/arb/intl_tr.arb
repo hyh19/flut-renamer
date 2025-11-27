@@ -57,6 +57,7 @@
   "dragNotSupported": "Sistem güvenlik kısıtlamaları nedeniyle, bu uygulamadan dosyaların sürüklenip bırakılması desteklenmemektedir.",
   "fileAlreadyExists": "Dosya Adı Zaten Kullanımda",
   "renameFailed": "Yeniden Adlandırma Başarısız Oldu",
+  "renameSuccess": "Yeniden Adlandırma Başarılı",
   "aiRenameTitle": "Yapay Zekâ ile Yeniden Adlandırma",
   "aiRenameRequirementsLabel": "Yeniden adlandırma talimatları",
   "aiRenameRequirementsHint": "Bu dosyaları nasıl yeniden adlandırmak istediğinizi açıklayın.",

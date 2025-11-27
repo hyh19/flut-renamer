@@ -57,6 +57,7 @@
   "dragNotSupported": "Saboda ƙuntatawar tsaron tsarin, ja-da-jefa daga wannan app ba a tallafa ba.",
   "fileAlreadyExists": "Wani fayil yana amfani da sunan",
   "renameFailed": "Sake suna ya gaza",
+  "renameSuccess": "Sake suna ya yi nasara",
   "aiRenameTitle": "AI Sake suna",
   "aiRenameRequirementsLabel": "Umarni na sake suna",
   "aiRenameRequirementsHint": "Bayyana yadda kuke son sake suna waɗannan fayilolin.",

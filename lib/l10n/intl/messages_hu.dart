@@ -345,6 +345,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Sikertelen átnevezés",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage("Sikeres átnevezés"),
     "replace": MessageLookupByLibrary.simpleMessage("Csere"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Csereérték"),

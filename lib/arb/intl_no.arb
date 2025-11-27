@@ -57,6 +57,7 @@
   "dragNotSupported": "På grunn av systemets sikkerhetsbegrensninger støttes ikke dra og slipp av filer fra denne appen.",
   "fileAlreadyExists": "Filnavnet brukes allerede av en annen fil",
   "renameFailed": "Navnendring mislyktes",
+  "renameSuccess": "Navnendring vellykket",
   "aiRenameTitle": "AI Navnendring",
   "aiRenameRequirementsLabel": "Navnendringsinstruksjoner",
   "aiRenameRequirementsHint": "Beskriv hvordan du vil endre navn på disse filene.",

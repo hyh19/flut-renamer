@@ -380,6 +380,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Rinomina non riuscita",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage("Rinomina riuscita"),
     "replace": MessageLookupByLibrary.simpleMessage("Sostituisci"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Sostituzione"),

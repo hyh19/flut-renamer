@@ -57,6 +57,7 @@
   "dragNotSupported": "בגלל מגבלת אבטחת המערכת, גרירה ושחרור של קבצים מאפליקציה זו אינו נתמך.",
   "fileAlreadyExists": "שם הקובץ כבר בשימוש על ידי קובץ אחר",
   "renameFailed": "שינוי שם נכשל",
+  "renameSuccess": "שינוי שם הצליח",
   "aiRenameTitle": "שינוי שם AI",
   "aiRenameRequirementsLabel": "הוראות שינוי שם",
   "aiRenameRequirementsHint": "תאר כיצד ברצונך לשנות את שמות הקבצים האלה.",

@@ -57,6 +57,7 @@
   "dragNotSupported": "सिस्टम सुरक्षा प्रतिबंध के कारण, इस ऐप से फ़ाइलों को खींचना-छोड़ना समर्थित नहीं है।",
   "fileAlreadyExists": "फ़ाइल नाम पहले से ही किसी अन्य फ़ाइल द्वारा उपयोग किया जा रहा है",
   "renameFailed": "नाम बदलना विफल",
+  "renameSuccess": "नाम बदलना सफल",
   "aiRenameTitle": "AI नाम बदलें",
   "aiRenameRequirementsLabel": "नाम बदलने के निर्देश",
   "aiRenameRequirementsHint": "वर्णन करें कि आप इन फ़ाइलों का नाम कैसे बदलना चाहते हैं।",

@@ -379,6 +379,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "renameFailed": MessageLookupByLibrary.simpleMessage(
       "Omnavngivning mislykkedes",
     ),
+    "renameSuccess": MessageLookupByLibrary.simpleMessage(
+      "Omnavngivning lykkedes",
+    ),
     "replace": MessageLookupByLibrary.simpleMessage("Erstat"),
     "replaceToString": m7,
     "replacement": MessageLookupByLibrary.simpleMessage("Erstatning"),

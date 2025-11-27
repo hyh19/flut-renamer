@@ -437,7 +437,7 @@ class FilesPageState extends State<FilesPage> {
     );
   }
 
-  Future<void> renameFiles({
+  Future<bool> renameFiles({
     bool remove = false,
     bool onlySelected = false,
   }) async {
@@ -507,5 +507,7 @@ class FilesPageState extends State<FilesPage> {
     if (noError) {
       widget.clearRules.call();
     }
+
+    return noError;
   }
 }

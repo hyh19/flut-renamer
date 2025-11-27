@@ -57,6 +57,7 @@
   "dragNotSupported": "由于系统安全限制，不支持从此应用拖放文件。",
   "fileAlreadyExists": "文件名已被占用",
   "renameFailed": "重命名失败",
+  "renameSuccess": "重命名成功",
   "aiRenameTitle": "AI 重命名",
   "aiRenameRequirementsLabel": "重命名需求描述",
   "aiRenameRequirementsHint": "请描述您希望如何重命名这些文件。",

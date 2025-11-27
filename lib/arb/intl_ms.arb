@@ -57,6 +57,7 @@
   "dragNotSupported": "Disebabkan sekatan keselamatan sistem, seret-lepas dari aplikasi ini tidak disokong.",
   "fileAlreadyExists": "Nama fail telah digunakan",
   "renameFailed": "Penamaan semula gagal",
+  "renameSuccess": "Penamaan semula berjaya",
   "aiRenameTitle": "AI Namakan Semula",
   "aiRenameRequirementsLabel": "Arahan penamaan semula",
   "aiRenameRequirementsHint": "Terangkan cara anda mahu menamakan semula fail-fail ini.",

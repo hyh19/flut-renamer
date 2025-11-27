@@ -57,6 +57,7 @@
   "dragNotSupported": "Järjestelmän turvallisuusrajoitusten vuoksi tämän sovelluksen tiedostojen vetäminen ja pudottaminen ei ole tuettu.",
   "fileAlreadyExists": "Tiedostonimi on jo käytössä toisessa tiedostossa",
   "renameFailed": "Uudelleennimeäminen epäonnistui",
+  "renameSuccess": "Uudelleennimeäminen onnistui",
   "aiRenameTitle": "AI Uudelleennimeäminen",
   "aiRenameRequirementsLabel": "Uudelleennimeämisohjeet",
   "aiRenameRequirementsHint": "Kuvaile, miten haluat nimetä nämä tiedostot uudelleen.",

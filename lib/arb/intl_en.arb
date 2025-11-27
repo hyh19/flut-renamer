@@ -57,6 +57,7 @@
   "dragNotSupported": "Due to system security restriction, drag-drop files from this app is not supported.",
   "fileAlreadyExists": "Filename already used by another file",
   "renameFailed": "Rename failed",
+  "renameSuccess": "Rename successful",
   "aiRenameTitle": "AI Rename",
   "aiRenameRequirementsLabel": "Rename instructions",
   "aiRenameRequirementsHint": "Describe how you want to rename these files.",
