@@ -74,7 +74,10 @@ class AiRenameService {
     }
 
     // 第二级：如果 Remote Config 失败或无效，从本地缓存读取
-    if (apiKey == null || model == null || baseUrl == null || maxTokens == null) {
+    if (apiKey == null ||
+        model == null ||
+        baseUrl == null ||
+        maxTokens == null) {
       final cache = AiConfig.loadFromCache();
       if (cache != null) {
         apiKey = cache['apiKey'] as String?;
@@ -84,14 +87,20 @@ class AiRenameService {
         if (cachedMaxTokensValue != null && cachedMaxTokensValue > 0) {
           maxTokens = cachedMaxTokensValue;
         }
-        if (apiKey != null && model != null && baseUrl != null && maxTokens != null) {
+        if (apiKey != null &&
+            model != null &&
+            baseUrl != null &&
+            maxTokens != null) {
           source = '本地缓存';
         }
       }
     }
 
     // 第三级：如果本地缓存也没有，使用硬编码默认值
-    if (apiKey == null || model == null || baseUrl == null || maxTokens == null) {
+    if (apiKey == null ||
+        model == null ||
+        baseUrl == null ||
+        maxTokens == null) {
       apiKey = AiConfig.getDefaultApiKey();
       model = AiConfig.getDefaultModel();
       baseUrl = AiConfig.getDefaultBaseUrl();

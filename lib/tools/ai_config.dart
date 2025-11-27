@@ -87,7 +87,10 @@ class AiConfig {
       final maxTokens = Shared.pref.getInt(_cacheKeyMaxTokens);
 
       // 如果任何一个值为 null，则认为缓存不存在
-      if (apiKey == null || model == null || baseUrl == null || maxTokens == null) {
+      if (apiKey == null ||
+          model == null ||
+          baseUrl == null ||
+          maxTokens == null) {
         return null;
       }
 
