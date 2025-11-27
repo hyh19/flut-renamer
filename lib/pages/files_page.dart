@@ -207,18 +207,49 @@ class FilesPageState extends State<FilesPage> {
   }
 
   Widget getRowText(String text, String? error) {
-    final textWidget = Padding(
-      padding: const EdgeInsets.only(left: 16),
-      child: Text(
+    final errorColor = Theme.of(context).colorScheme.error;
+    final textStyle = TextStyle(
+      fontSize: Platform.isAndroid ? 12 : 16,
+      color: error != null ? errorColor : null,
+    );
+
+    Widget content;
+
+    if (error != null) {
+      // 有错误时：图标 + 文本
+      content = Row(
+        children: [
+          Icon(
+            Icons.error_outline,
+            color: errorColor,
+            size: Platform.isAndroid ? 16 : 20,
+          ),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              text,
+              semanticsLabel: text.toFilenameSemanticLabel(),
+              style: textStyle,
+              maxLines: 3,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ],
+      );
+    } else {
+      // 无错误时：仅文本
+      content = Text(
         text,
         semanticsLabel: text.toFilenameSemanticLabel(),
-        style: TextStyle(
-          fontSize: Platform.isAndroid ? 12 : 16,
-          color: error != null ? Theme.of(context).colorScheme.error : null,
-        ),
+        style: textStyle,
         maxLines: 3,
         overflow: TextOverflow.ellipsis,
-      ),
+      );
+    }
+
+    final textWidget = Padding(
+      padding: const EdgeInsets.only(left: 16),
+      child: content,
     );
 
     if (error == null) {
@@ -227,6 +258,7 @@ class FilesPageState extends State<FilesPage> {
 
     return Tooltip(
       message: error,
+      triggerMode: TooltipTriggerMode.tap,
       child: textWidget,
     );
   }
