@@ -87,7 +87,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "AI analizira vaš zahtjev, molimo pričekajte...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "Opišite kako želite preimenovati ove datoteke.",
+      "Opišite kako želite preimenovati ove datoteke.\nPrimjeri:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "Upute za preimenovanje",

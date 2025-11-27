@@ -60,7 +60,7 @@
   "renameSuccess": "Penggantian nama berhasil",
   "aiRenameTitle": "Ganti Nama AI",
   "aiRenameRequirementsLabel": "Instruksi penggantian nama",
-  "aiRenameRequirementsHint": "Jelaskan bagaimana Anda ingin mengganti nama file-file ini.",
+  "aiRenameRequirementsHint": "Jelaskan bagaimana Anda ingin mengganti nama file-file ini.\nContoh:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Kirim",
   "aiRenameSnackbarEmptyRequirements": "Masukkan instruksi penggantian nama",
   "aiRenameSnackbarNoSelection": "Tidak ada file yang dipilih",

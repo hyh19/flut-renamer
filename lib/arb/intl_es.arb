@@ -60,7 +60,7 @@
   "renameSuccess": "Renombrado exitoso",
   "aiRenameTitle": "Renombrado con IA",
   "aiRenameRequirementsLabel": "Instrucciones de renombrado",
-  "aiRenameRequirementsHint": "Describe cómo quieres renombrar estos archivos.",
+  "aiRenameRequirementsHint": "Describe cómo quieres renombrar estos archivos.\nEjemplos:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Enviar",
   "aiRenameSnackbarEmptyRequirements": "Ingresa las instrucciones de renombrado",
   "aiRenameSnackbarNoSelection": "No hay archivos seleccionados",

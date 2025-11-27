@@ -60,7 +60,7 @@
   "renameSuccess": "Đổi tên thành công",
   "aiRenameTitle": "Đổi tên AI",
   "aiRenameRequirementsLabel": "Hướng dẫn đổi tên",
-  "aiRenameRequirementsHint": "Mô tả cách bạn muốn đổi tên các file này.",
+  "aiRenameRequirementsHint": "Mô tả cách bạn muốn đổi tên các file này.\nVí dụ:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Gửi",
   "aiRenameSnackbarEmptyRequirements": "Nhập hướng dẫn đổi tên",
   "aiRenameSnackbarNoSelection": "Không có file nào được chọn",

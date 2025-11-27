@@ -87,7 +87,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "يقوم الذكاء الاصطناعي بتحليل طلبك، يرجى الانتظار...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "صف كيف تريد إعادة تسمية هذه الملفات.",
+      "صف كيف تريد إعادة تسمية هذه الملفات.\nأمثلة:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "تعليمات إعادة التسمية",

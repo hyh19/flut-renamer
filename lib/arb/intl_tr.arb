@@ -60,7 +60,7 @@
   "renameSuccess": "Yeniden Adlandırma Başarılı",
   "aiRenameTitle": "Yapay Zekâ ile Yeniden Adlandırma",
   "aiRenameRequirementsLabel": "Yeniden adlandırma talimatları",
-  "aiRenameRequirementsHint": "Bu dosyaları nasıl yeniden adlandırmak istediğinizi açıklayın.",
+  "aiRenameRequirementsHint": "Bu dosyaları nasıl yeniden adlandırmak istediğinizi açıklayın.\nÖrnekler:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Gönder",
   "aiRenameSnackbarEmptyRequirements": "Yeniden adlandırma talimatlarını girin",
   "aiRenameSnackbarNoSelection": "Seçili dosya yok",

@@ -60,7 +60,7 @@
   "renameSuccess": "Matagumpay ang pag-rename",
   "aiRenameTitle": "AI na Pag-rename",
   "aiRenameRequirementsLabel": "Mga tagubilin sa pag-rename",
-  "aiRenameRequirementsHint": "Ilarawan kung paano mo gustong palitan ang pangalan ng mga file.",
+  "aiRenameRequirementsHint": "Ilarawan kung paano mo gustong palitan ang pangalan ng mga file.\nMga Halimbawa:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Isumite",
   "aiRenameSnackbarEmptyRequirements": "Ilagay ang mga tagubilin sa pag-rename",
   "aiRenameSnackbarNoSelection": "Walang napiling file",

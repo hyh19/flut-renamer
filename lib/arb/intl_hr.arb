@@ -60,7 +60,7 @@
   "renameSuccess": "Preimenovanje uspješno",
   "aiRenameTitle": "AI preimenovanje",
   "aiRenameRequirementsLabel": "Upute za preimenovanje",
-  "aiRenameRequirementsHint": "Opišite kako želite preimenovati ove datoteke.",
+  "aiRenameRequirementsHint": "Opišite kako želite preimenovati ove datoteke.\nPrimjeri:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Pošalji",
   "aiRenameSnackbarEmptyRequirements": "Unesite upute za preimenovanje",
   "aiRenameSnackbarNoSelection": "Nema odabranih datoteka",

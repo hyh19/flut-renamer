@@ -60,7 +60,7 @@
   "renameSuccess": "リネーム成功",
   "aiRenameTitle": "AI リネーム",
   "aiRenameRequirementsLabel": "リネーム手順",
-  "aiRenameRequirementsHint": "これらのファイルをどのようにリネームしたいか説明してください。",
+  "aiRenameRequirementsHint": "これらのファイルをどのようにリネームしたいか説明してください。\n例：\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "送信",
   "aiRenameSnackbarEmptyRequirements": "リネーム手順を入力してください",
   "aiRenameSnackbarNoSelection": "ファイルが選択されていません",

@@ -60,7 +60,7 @@
   "renameSuccess": "Sake suna ya yi nasara",
   "aiRenameTitle": "AI Sake suna",
   "aiRenameRequirementsLabel": "Umarni na sake suna",
-  "aiRenameRequirementsHint": "Bayyana yadda kuke son sake suna waɗannan fayilolin.",
+  "aiRenameRequirementsHint": "Bayyana yadda kuke son sake suna waɗannan fayilolin.\nMisalai:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Mika",
   "aiRenameSnackbarEmptyRequirements": "Shigar da umarnin sake suna",
   "aiRenameSnackbarNoSelection": "Babu fayil da aka zaɓa",

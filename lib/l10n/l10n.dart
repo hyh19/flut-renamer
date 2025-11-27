@@ -519,10 +519,10 @@ class L10n {
     );
   }
 
-  /// `Describe how you want to rename these files.`
+  /// `Describe how you want to rename these files.\nExamples:\n- Replace "IMG" with "Photo"\n- Remove "copy" from filenames\n- Add "2024-" at the beginning\n- Number files sequentially starting from 1`
   String get aiRenameRequirementsHint {
     return Intl.message(
-      'Describe how you want to rename these files.',
+      'Describe how you want to rename these files.\nExamples:\n- Replace "IMG" with "Photo"\n- Remove "copy" from filenames\n- Add "2024-" at the beginning\n- Number files sequentially starting from 1',
       name: 'aiRenameRequirementsHint',
       desc: '',
       args: [],

@@ -60,7 +60,7 @@
   "renameSuccess": "Canvi de nom exitós",
   "aiRenameTitle": "Canvi de nom amb IA",
   "aiRenameRequirementsLabel": "Instruccions de canvi de nom",
-  "aiRenameRequirementsHint": "Descriu com voleu canviar el nom d'aquests arxius.",
+  "aiRenameRequirementsHint": "Descriu com voleu canviar el nom d'aquests arxius.\nExemples:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Enviar",
   "aiRenameSnackbarEmptyRequirements": "Introduïu les instruccions de canvi de nom",
   "aiRenameSnackbarNoSelection": "No hi ha arxius seleccionats",

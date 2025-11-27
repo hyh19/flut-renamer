@@ -60,7 +60,7 @@
   "renameSuccess": "重新命名成功",
   "aiRenameTitle": "AI 重新命名",
   "aiRenameRequirementsLabel": "重新命名需求描述",
-  "aiRenameRequirementsHint": "請描述您希望如何重新命名這些檔案。",
+  "aiRenameRequirementsHint": "請描述您希望如何重新命名這些檔案。\n範例：\n- 將 \"IMG\" 替換為 \"Photo\"\n- 從檔案名稱中刪除 \"copy\"\n- 在開頭新增 \"2024-\"\n- 依序編號，從 1 開始",
   "aiRenameSubmit": "提交",
   "aiRenameSnackbarEmptyRequirements": "請輸入重新命名需求描述",
   "aiRenameSnackbarNoSelection": "沒有選中的檔案",

@@ -60,7 +60,7 @@
   "renameSuccess": "Navnendring vellykket",
   "aiRenameTitle": "AI Navnendring",
   "aiRenameRequirementsLabel": "Navnendringsinstruksjoner",
-  "aiRenameRequirementsHint": "Beskriv hvordan du vil endre navn på disse filene.",
+  "aiRenameRequirementsHint": "Beskriv hvordan du vil endre navn på disse filene.\nEksempler:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Send",
   "aiRenameSnackbarEmptyRequirements": "Skriv inn navnendringsinstruksjoner",
   "aiRenameSnackbarNoSelection": "Ingen filer valgt",

@@ -254,7 +254,15 @@ class _AiRenameContentState extends State<AiRenameContent> {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                if (!_isFocused) ...[
+                  Text(
+                    L10n.current.aiRenameRequirementsHint,
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                  const SizedBox(height: 8),
+                ],
                 Expanded(
                   child: TextField(
                     controller: requirementsController,

@@ -60,7 +60,7 @@
   "renameSuccess": "Η μετονομασία ολοκληρώθηκε επιτυχώς",
   "aiRenameTitle": "AI Μετονομασία",
   "aiRenameRequirementsLabel": "Οδηγίες μετονομασίας",
-  "aiRenameRequirementsHint": "Περιγράψτε πώς θέλετε να μετονομάσετε αυτά τα αρχεία.",
+  "aiRenameRequirementsHint": "Περιγράψτε πώς θέλετε να μετονομάσετε αυτά τα αρχεία.\nΠαραδείγματα:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Υποβολή",
   "aiRenameSnackbarEmptyRequirements": "Εισαγάγετε οδηγίες μετονομασίας",
   "aiRenameSnackbarNoSelection": "Δεν έχουν επιλεγεί αρχεία",

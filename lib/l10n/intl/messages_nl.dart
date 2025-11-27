@@ -88,7 +88,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "AI analyseert uw verzoek, even geduld...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "Beschrijf hoe u deze bestanden wilt hernoemen.",
+      "Beschrijf hoe u deze bestanden wilt hernoemen.\nVoorbeelden:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "Hernoeminstructies",

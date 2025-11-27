@@ -60,7 +60,7 @@
   "renameSuccess": "שינוי שם הצליח",
   "aiRenameTitle": "שינוי שם AI",
   "aiRenameRequirementsLabel": "הוראות שינוי שם",
-  "aiRenameRequirementsHint": "תאר כיצד ברצונך לשנות את שמות הקבצים האלה.",
+  "aiRenameRequirementsHint": "תאר כיצד ברצונך לשנות את שמות הקבצים האלה.\nדוגמאות:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "שלח",
   "aiRenameSnackbarEmptyRequirements": "הכנס הוראות שינוי שם",
   "aiRenameSnackbarNoSelection": "לא נבחרו קבצים",

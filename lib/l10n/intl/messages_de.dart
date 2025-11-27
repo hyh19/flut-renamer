@@ -90,7 +90,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Die KI analysiert Ihre Anfrage, bitte warten...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "Beschreiben Sie, wie Sie diese Dateien umbenennen möchten.",
+      "Beschreiben Sie, wie Sie diese Dateien umbenennen möchten.\nBeispiele:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "Anweisungen zur Umbenennung",

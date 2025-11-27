@@ -86,7 +86,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Az AI elemzi a kérésed, kérlek várj…",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "Írd le, hogyan szeretnéd átnevezni a fájlokat.",
+      "Írd le, hogyan szeretnéd átnevezni a fájlokat.\nPéldák:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "Átnevezési utasítás",

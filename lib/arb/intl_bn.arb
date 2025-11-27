@@ -60,7 +60,7 @@
   "renameSuccess": "নাম পরিবর্তন সফল",
   "aiRenameTitle": "AI নাম পরিবর্তন",
   "aiRenameRequirementsLabel": "নাম পরিবর্তনের নির্দেশাবলী",
-  "aiRenameRequirementsHint": "বর্ণনা করুন আপনি কীভাবে এই ফাইলগুলির নাম পরিবর্তন করতে চান।",
+  "aiRenameRequirementsHint": "বর্ণনা করুন আপনি কীভাবে এই ফাইলগুলির নাম পরিবর্তন করতে চান।\nউদাহরণ:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "জমা দিন",
   "aiRenameSnackbarEmptyRequirements": "নাম পরিবর্তনের নির্দেশাবলী লিখুন",
   "aiRenameSnackbarNoSelection": "কোন ফাইল নির্বাচিত নেই",

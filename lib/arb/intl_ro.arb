@@ -60,7 +60,7 @@
   "renameSuccess": "Redenumirea a reușit",
   "aiRenameTitle": "Redenumire cu AI",
   "aiRenameRequirementsLabel": "Instrucțiuni de redenumire",
-  "aiRenameRequirementsHint": "Descrie cum dorești să redenumești fișierele.",
+  "aiRenameRequirementsHint": "Descrie cum dorești să redenumești fișierele.\nExemple:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Trimite",
   "aiRenameSnackbarEmptyRequirements": "Introduceți instrucțiunile de redenumire",
   "aiRenameSnackbarNoSelection": "Niciun fișier selectat",

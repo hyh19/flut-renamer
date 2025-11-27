@@ -60,7 +60,7 @@
   "renameSuccess": "Sikeres átnevezés",
   "aiRenameTitle": "AI átnevezés",
   "aiRenameRequirementsLabel": "Átnevezési utasítás",
-  "aiRenameRequirementsHint": "Írd le, hogyan szeretnéd átnevezni a fájlokat.",
+  "aiRenameRequirementsHint": "Írd le, hogyan szeretnéd átnevezni a fájlokat.\nPéldák:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Küldés",
   "aiRenameSnackbarEmptyRequirements": "Adj meg átnevezési utasítást",
   "aiRenameSnackbarNoSelection": "Nincs kijelölt fájl",

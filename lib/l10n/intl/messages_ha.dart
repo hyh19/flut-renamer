@@ -86,7 +86,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "AI na nazarin buƙatarku, da fatan za ku jira...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "Bayyana yadda kuke son sake suna waɗannan fayilolin.",
+      "Bayyana yadda kuke son sake suna waɗannan fayilolin.\nMisalai:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "Umarni na sake suna",

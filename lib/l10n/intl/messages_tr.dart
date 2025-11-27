@@ -91,7 +91,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Yapay zekâ isteğinizi analiz ediyor, lütfen bekleyin...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "Bu dosyaları nasıl yeniden adlandırmak istediğinizi açıklayın.",
+      "Bu dosyaları nasıl yeniden adlandırmak istediğinizi açıklayın.\nÖrnekler:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "Yeniden adlandırma talimatları",

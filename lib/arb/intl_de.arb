@@ -60,7 +60,7 @@
   "renameSuccess": "Umbenennen erfolgreich",
   "aiRenameTitle": "AI-Umbenennung",
   "aiRenameRequirementsLabel": "Anweisungen zur Umbenennung",
-  "aiRenameRequirementsHint": "Beschreiben Sie, wie Sie diese Dateien umbenennen möchten.",
+  "aiRenameRequirementsHint": "Beschreiben Sie, wie Sie diese Dateien umbenennen möchten.\nBeispiele:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Senden",
   "aiRenameSnackbarEmptyRequirements": "Bitte Anweisungen zur Umbenennung eingeben",
   "aiRenameSnackbarNoSelection": "Keine Dateien ausgewählt",

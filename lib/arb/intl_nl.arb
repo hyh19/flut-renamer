@@ -60,7 +60,7 @@
   "renameSuccess": "Hernoemen succesvol",
   "aiRenameTitle": "AI Hernoemen",
   "aiRenameRequirementsLabel": "Hernoeminstructies",
-  "aiRenameRequirementsHint": "Beschrijf hoe u deze bestanden wilt hernoemen.",
+  "aiRenameRequirementsHint": "Beschrijf hoe u deze bestanden wilt hernoemen.\nVoorbeelden:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Verzenden",
   "aiRenameSnackbarEmptyRequirements": "Voer hernoeminstructies in",
   "aiRenameSnackbarNoSelection": "Geen bestanden geselecteerd",

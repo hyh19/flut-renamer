@@ -60,7 +60,7 @@
   "renameSuccess": "Переименование успешно",
   "aiRenameTitle": "ИИ переименование",
   "aiRenameRequirementsLabel": "Инструкции по переименованию",
-  "aiRenameRequirementsHint": "Опишите, как вы хотите переименовать эти файлы.",
+  "aiRenameRequirementsHint": "Опишите, как вы хотите переименовать эти файлы.\nПримеры:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Отправить",
   "aiRenameSnackbarEmptyRequirements": "Введите инструкции по переименованию",
   "aiRenameSnackbarNoSelection": "Файлы не выбраны",

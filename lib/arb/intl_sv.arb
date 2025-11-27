@@ -60,7 +60,7 @@
   "renameSuccess": "Namnbyte lyckades",
   "aiRenameTitle": "AI Namnbyte",
   "aiRenameRequirementsLabel": "Namnbytestruktioner",
-  "aiRenameRequirementsHint": "Beskriv hur du vill byta namn på dessa filer.",
+  "aiRenameRequirementsHint": "Beskriv hur du vill byta namn på dessa filer.\nExempel:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Skicka",
   "aiRenameSnackbarEmptyRequirements": "Ange namnbytestruktioner",
   "aiRenameSnackbarNoSelection": "Inga filer valda",

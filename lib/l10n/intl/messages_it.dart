@@ -89,7 +89,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "L\'IA sta analizzando la tua richiesta, attendi...",
     ),
     "aiRenameRequirementsHint": MessageLookupByLibrary.simpleMessage(
-      "Descrivi come desideri rinominare questi file.",
+      "Descrivi come desideri rinominare questi file.\nEsempi:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
     ),
     "aiRenameRequirementsLabel": MessageLookupByLibrary.simpleMessage(
       "Istruzioni di rinomina",

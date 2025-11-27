@@ -60,7 +60,7 @@
   "renameSuccess": "Penamaan semula berjaya",
   "aiRenameTitle": "AI Namakan Semula",
   "aiRenameRequirementsLabel": "Arahan penamaan semula",
-  "aiRenameRequirementsHint": "Terangkan cara anda mahu menamakan semula fail-fail ini.",
+  "aiRenameRequirementsHint": "Terangkan cara anda mahu menamakan semula fail-fail ini.\nContoh:\n- Replace \"IMG\" with \"Photo\"\n- Remove \"copy\" from filenames\n- Add \"2024-\" at the beginning\n- Number files sequentially starting from 1",
   "aiRenameSubmit": "Hantar",
   "aiRenameSnackbarEmptyRequirements": "Masukkan arahan penamaan semula",
   "aiRenameSnackbarNoSelection": "Tiada fail dipilih",
