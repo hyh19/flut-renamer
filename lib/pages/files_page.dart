@@ -193,13 +193,10 @@ class FilesPageState extends State<FilesPage> {
       child: isNew
           ? FutureBuilder(
               future: getNewName(file, FileMetadata(file)),
-              builder: (context, snap) {
-                if ((snap.connectionState == ConnectionState.active ||
-                        snap.connectionState == ConnectionState.done) &&
-                    (!snap.hasError)) {
-                  return getRowText(file.newName, file.error);
-                }
-                return const LinearProgressIndicator();
+              builder: (context, _) {
+                return file.newName.isNotEmpty
+                    ? getRowText(file.newName, file.error)
+                    : const LinearProgressIndicator();
               },
             )
           : getRowText(file.name, null),
