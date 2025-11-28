@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 匈牙利文版本
+# Google Play Console 内容 - 匈牙利文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Fájlátnevezés
 
-## 副标题（最多 30 个字符）
-
-Átnevező eszköz AI-val
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Hatékony batch fájlátnevező eszköz beszúrás, csere, törlés és növekményes átnevezési funkciókkal, valamint AI-alapú intelligens átnevezéssel a hatékony fájlkezelésért.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Fájlátnevezés egy hatékony és könnyen használható batch fájlátnevező eszköz, amely segít hatékonyan kezelni és átnevezni a fájlokat.
 
@@ -37,8 +33,4 @@ Fájlátnevezés egy hatékony és könnyen használható batch fájlátnevező 
 - Sorszámok vagy dátumok hozzáadása a fájlokhoz
 - Felesleges karakterek eltávolítása a fájlnevekből
 
-A Fájlátnevezés intuitív felületet és egyszerű műveleteket kínál, így a fájlátnevezés könnyű és hatékony.
-
-## 关键词（最多 100 个字符）
-
-fájlátnevezés,batch átnevezés,átnevező eszköz,AI átnevezés,fájlszervező,feldolgozás
+A Fájlátnevezés intuitív felületet és egyszerű műveleteket kínál, így a fájlátnevezés könnyű és hatékony。

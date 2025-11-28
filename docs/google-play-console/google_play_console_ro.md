@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 罗马尼亚文版本
+# Google Play Console 内容 - 罗马尼亚文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Redenumire Fișiere
 
-## 副标题（最多 30 个字符）
-
-Instrument redenumire cu AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Instrument puternic de redenumire în lot cu inserare, înlocuire, ștergere și redenumire incrementală, plus AI pentru gestionare eficientă.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Redenumire Fișiere este un instrument puternic și ușor de utilizat pentru redenumirea în lot a fișierelor, proiectat pentru a vă ajuta să gestionați și să redenumiți fișiere eficient.
 
@@ -37,8 +33,4 @@ Redenumire Fișiere este un instrument puternic și ușor de utilizat pentru red
 - Adăugarea numerelor secvențiale sau datelor la fișiere
 - Curățarea caracterelor inutile din numele fișierelor
 
-Redenumire Fișiere oferă o interfață intuitivă și operațiuni simple, făcând redenumirea fișierelor ușoară și eficientă.
-
-## 关键词（最多 100 个字符）
-
-redenumire fișier,redenumire lot,instrument redenumire,redenumire AI,organizator fișiere
+Redenumire Fișiere oferă o interfață intuitivă și operațiuni simple, făcând redenumirea fișierelor ușoară și eficientă。

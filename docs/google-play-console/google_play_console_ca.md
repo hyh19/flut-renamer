@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 加泰罗尼亚文版本
+# Google Play Console 内容 - 加泰罗尼亚文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Canvi de Nom d'Arxius
 
-## 副标题（最多 30 个字符）
-
-Eina de canvi de nom amb IA
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Eina de canvi de nom d'arxius per lots amb inserció, substitució, eliminació i canvi de nom incremental, a més de canvi de nom intel·ligent basat en IA.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Canvi de Nom d'Arxius és una eina potent i fàcil d'utilitzar per al canvi de nom d'arxius per lots, dissenyada per ajudar-vos a gestionar i canviar el nom dels arxius de manera eficient.
 
@@ -37,8 +33,4 @@ Canvi de Nom d'Arxius és una eina potent i fàcil d'utilitzar per al canvi de n
 - Afegir números seqüencials o dates als arxius
 - Netejar caràcters innecessaris als noms d'arxiu
 
-Canvi de Nom d'Arxius ofereix una interfície intuïtiva i operacions simples, fent que el canvi de nom d'arxius sigui fàcil i eficient.
-
-## 关键词（最多 100 个字符）
-
-canvi nom arxiu,canvi nom lots,eina canvi nom,canvi nom IA,organitzador arxiu,processament lots
+Canvi de Nom d'Arxius ofereix una interfície intuïtiva i operacions simples, fent que el canvi de nom d'arxius sigui fàcil i eficient。

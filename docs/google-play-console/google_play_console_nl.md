@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 荷兰文版本
+# Google Play Console 内容 - 荷兰文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Bestandsnaam Wijzigen
 
-## 副标题（最多 30 个字符）
-
-Hernoemtool met AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Krachtige batch bestandsnaam hernoemtool met invoegen, vervangen, verwijderen en incrementele hernoemfuncties, plus AI-aangedreven slim hernoemen voor efficiënt beheer.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Bestandsnaam Wijzigen is een krachtige en gebruiksvriendelijke batch bestandsnaam hernoemtool, ontworpen om u te helpen bestanden efficiënt te beheren en te hernoemen.
 
@@ -37,8 +33,4 @@ Bestandsnaam Wijzigen is een krachtige en gebruiksvriendelijke batch bestandsnaa
 - Voeg opeenvolgende nummers of datums toe aan bestanden
 - Ruim onnodige tekens op in bestandsnamen
 
-Bestandsnaam Wijzigen biedt een intuïtieve interface en eenvoudige bewerkingen, waardoor bestandsnaam hernoemen eenvoudig en efficiënt wordt.
-
-## 关键词（最多 100 个字符）
-
-bestandsnaam hernoemen,batch hernoemen,hernoemtool,AI hernoemen,bestandsorganisator
+Bestandsnaam Wijzigen biedt een intuïtieve interface en eenvoudige bewerkingen, waardoor bestandsnaam hernoemen eenvoudig en efficiënt wordt。

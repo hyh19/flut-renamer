@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 葡萄牙文版本
+# Google Play Console 内容 - 葡萄牙文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Renomeação de Arquivos
 
-## 副标题（最多 30 个字符）
-
-Renomeação com IA
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Ferramenta poderosa de renomeação em lote com inserção, substituição, exclusão e renomeação incremental, além de renomeação IA para gerenciamento eficiente.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Renomeação de Arquivos é uma ferramenta poderosa e fácil de usar para renomeação de arquivos em lote, projetada para ajudá-lo a gerenciar e renomear arquivos com eficiência.
 
@@ -37,8 +33,4 @@ Renomeação de Arquivos é uma ferramenta poderosa e fácil de usar para renome
 - Adicionar números sequenciais ou datas aos arquivos
 - Limpar caracteres desnecessários nos nomes dos arquivos
 
-Renomeação de Arquivos oferece uma interface intuitiva e operações simples, tornando a renomeação de arquivos fácil e eficiente.
-
-## 关键词（最多 100 个字符）
-
-renomear arquivo,renomear lote,ferramenta renomear,renomear IA,organizador,processamento,assistente
+Renomeação de Arquivos oferece uma interface intuitiva e operações simples, tornando a renomeação de arquivos fácil e eficiente。

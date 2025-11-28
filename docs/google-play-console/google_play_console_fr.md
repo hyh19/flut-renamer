@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 法文版本
+# Google Play Console 内容 - 法文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Renommage de Fichiers
 
-## 副标题（最多 30 个字符）
-
-Outil de renommage avec IA
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Outil de renommage de fichiers par lots avec insertion, remplacement, suppression et renommage incrémental, plus renommage intelligent par IA pour une gestion efficace.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Renommage de Fichiers est un outil puissant et facile à utiliser pour le renommage de fichiers par lots, conçu pour vous aider à gérer et renommer des fichiers efficacement.
 
@@ -38,7 +34,3 @@ Renommage de Fichiers est un outil puissant et facile à utiliser pour le renomm
 - Nettoyer les caractères inutiles dans les noms de fichiers
 
 Renommage de Fichiers offre une interface intuitive et des opérations simples, rendant le renommage de fichiers facile et efficace.
-
-## 关键词（最多 100 个字符）
-
-renommage fichier,renommage lot,outil renommage,renommage IA,organisateur,traitement lot,assistant

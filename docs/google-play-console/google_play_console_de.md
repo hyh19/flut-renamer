@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 德文版本
+# Google Play Console 内容 - 德文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Batch-Umbenennung
 
-## 副标题（最多 30 个字符）
-
-Batch-Umbenennung mit KI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Batch-Dateiumbenennungstool mit Einfügen, Ersetzen, Löschen und inkrementeller Umbenennung sowie KI-gestützter intelligenter Umbenennung.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Batch-Umbenennung ist ein leistungsstarkes und benutzerfreundliches Tool zur Batch-Umbenennung von Dateien, das Ihnen hilft, Dateien effizient zu verwalten und umzubenennen.
 
@@ -38,7 +34,3 @@ Batch-Umbenennung ist ein leistungsstarkes und benutzerfreundliches Tool zur Bat
 - Bereinigen Sie unnötige Zeichen in Dateinamen
 
 Batch-Umbenennung bietet eine intuitive Benutzeroberfläche und einfache Bedienung, die die Dateiumbenennung einfach und effizient macht.
-
-## 关键词（最多 100 个字符）
-
-datei umbenennen,batch umbenennen,umbenennung tool,KI umbenennen,batch verarbeitung,datei assistent

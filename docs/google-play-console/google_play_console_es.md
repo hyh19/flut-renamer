@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 西班牙文版本
+# Google Play Console 内容 - 西班牙文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Renombrado de Archivos
 
-## 副标题（最多 30 个字符）
-
-Renombrado con IA
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Potente herramienta de renombrado por lotes con inserción, reemplazo, eliminación y renombrado incremental, más renombrado inteligente con IA para gestión.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Renombrado de Archivos es una herramienta potente y fácil de usar para el renombrado de archivos por lotes, diseñada para ayudarte a gestionar y renombrar archivos de manera eficiente.
 
@@ -38,7 +34,3 @@ Renombrado de Archivos es una herramienta potente y fácil de usar para el renom
 - Limpiar caracteres innecesarios en los nombres de archivo
 
 Renombrado de Archivos ofrece una interfaz intuitiva y operaciones simples, haciendo que el renombrado de archivos sea fácil y eficiente.
-
-## 关键词（最多 100 个字符）
-
-renombrado archivo,renombrado lote,herramienta,renombrado IA,organizador,procesamiento,asistente

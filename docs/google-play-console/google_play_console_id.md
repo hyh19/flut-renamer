@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 印度尼西亚文版本
+# Google Play Console 内容 - 印度尼西亚文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Pengganti Nama File
 
-## 副标题（最多 30 个字符）
-
-Alat pengganti nama dengan AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Alat pengganti nama file batch dengan fitur sisipkan, ganti, hapus dan penggantian nama bertahap, penggantian nama pintar berbasis AI untuk manajemen file yang efisien.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Pengganti Nama File adalah alat pengganti nama file batch yang kuat dan mudah digunakan, dirancang untuk membantu Anda mengelola dan mengganti nama file secara efisien.
 
@@ -37,8 +33,4 @@ Pengganti Nama File adalah alat pengganti nama file batch yang kuat dan mudah di
 - Tambahkan nomor berurutan atau tanggal ke file
 - Bersihkan karakter yang tidak perlu dalam nama file
 
-Pengganti Nama File menawarkan antarmuka yang intuitif dan operasi sederhana, membuat penggantian nama file mudah dan efisien.
-
-## 关键词（最多 100 个字符）
-
-pengganti nama file,penggantian nama batch,penggantian nama AI,organisator file
+Pengganti Nama File menawarkan antarmuka yang intuitif dan operasi sederhana, membuat penggantian nama file mudah dan efisien。

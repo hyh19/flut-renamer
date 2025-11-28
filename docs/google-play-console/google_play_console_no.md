@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 挪威文版本
+# Google Play Console 内容 - 挪威文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Filnavn Endring
 
-## 副标题（最多 30 个字符）
-
-Endringsverktøy med AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Kraftig batch filnavn endringsverktøy med innsetting, erstatning, sletting og inkrementell endringsfunksjoner, pluss AI-drevet smart endring for effektiv filhåndtering.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Filnavn Endring er et kraftig og enkelt å bruke batch filnavn endringsverktøy, designet for å hjelpe deg med å administrere og endre filnavn effektivt.
 
@@ -37,8 +33,4 @@ Filnavn Endring er et kraftig og enkelt å bruke batch filnavn endringsverktøy,
 - Legg til sekvensielle numre eller datoer til filer
 - Rydd opp i unødvendige tegn i filnavn
 
-Filnavn Endring tilbyr et intuitivt grensesnitt og enkle operasjoner, noe som gjør filnavn endring enkelt og effektivt.
-
-## 关键词（最多 100 个字符）
-
-filnavn endring,batch endring,endringsverktøy,AI endring,filorganisator,batch behandling
+Filnavn Endring tilbyr et intuitivt grensesnitt og enkle operasjoner, noe som gjør filnavn endring enkelt og effektivt。

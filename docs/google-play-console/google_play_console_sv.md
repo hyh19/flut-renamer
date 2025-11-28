@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 瑞典文版本
+# Google Play Console 内容 - 瑞典文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Filnamnbyte
 
-## 副标题（最多 30 个字符）
-
-Omdöpningsverktyg med AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Kraftfullt batch filnamnbyte verktyg med infogning, ersättning, radering och inkrementell omdöpningsfunktioner, plus AI-driven smart omdöpning för effektiv filhantering.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Filnamnbyte är ett kraftfullt och lättanvänt batch filnamnbyte verktyg, designat för att hjälpa dig hantera och byta namn på filer effektivt.
 
@@ -37,8 +33,4 @@ Filnamnbyte är ett kraftfullt och lättanvänt batch filnamnbyte verktyg, desig
 - Lägg till sekventiella nummer eller datum till filer
 - Rensa onödiga tecken i filnamn
 
-Filnamnbyte erbjuder ett intuitivt gränssnitt och enkla operationer, vilket gör filnamnbyte enkelt och effektivt.
-
-## 关键词（最多 100 个字符）
-
-filnamnbyte,batch omdöpning,omdöpningsverktyg,AI omdöpning,filorganisatör,batch bearbetning
+Filnamnbyte erbjuder ett intuitivt gränssnitt och enkla operationer, vilket gör filnamnbyte enkelt och effektivt。

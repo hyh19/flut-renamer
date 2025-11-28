@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 丹麦文版本
+# Google Play Console 内容 - 丹麦文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Filnavn Omnavngivning
 
-## 副标题（最多 30 个字符）
-
-Omnavngivningsværktøj med AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Kraftfuldt batch filnavn omnavngivningsværktøj med indsæt, erstat, slet og inkrementel omnavngivningsfunktioner, plus AI-drevet omnavngivning til effektiv filhåndtering.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Filnavn Omnavngivning er et kraftfuldt og nemt at bruge batch filnavn omnavngivningsværktøj, designet til at hjælpe dig med at administrere og omnavngive filer effektivt.
 
@@ -37,8 +33,4 @@ Filnavn Omnavngivning er et kraftfuldt og nemt at bruge batch filnavn omnavngivn
 - Tilføj sekventielle numre eller datoer til filer
 - Ryd op i unødvendige tegn i filnavne
 
-Filnavn Omnavngivning tilbyder et intuitivt interface og simple operationer, hvilket gør filnavn omnavngivning nemt og effektivt.
-
-## 关键词（最多 100 个字符）
-
-filnavn omnavngivning,batch omnavngivning,omnavngivningsværktøj,AI omnavngivning,batch behandling
+Filnavn Omnavngivning tilbyder et intuitivt interface og simple operationer, hvilket gør filnavn omnavngivning nemt og effektivt。

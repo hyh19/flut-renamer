@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 马来文版本
+# Google Play Console 内容 - 马来文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Menamakan Fail Pukal
 
-## 副标题（最多 30 个字符）
-
-Alat penamaan semula dengan AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Alat penamaan semula fail pukal yang berkuasa dengan ciri masukkan, ganti, padam dan berturutan, ditambah penamaan semula berasaskan AI untuk pengurusan fail yang cekap.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Menamakan Fail Pukal adalah alat penamaan semula fail pukal yang berkuasa dan mudah digunakan, direka untuk membantu anda mengurus dan menamakan semula fail dengan cekap.
 
@@ -37,8 +33,4 @@ Menamakan Fail Pukal adalah alat penamaan semula fail pukal yang berkuasa dan mu
 - Tambah nombor berturutan atau tarikh kepada fail
 - Bersihkan aksara yang tidak perlu dalam nama fail
 
-Menamakan Fail Pukal menawarkan antara muka yang intuitif dan operasi mudah, menjadikan penamaan semula fail mudah dan cekap.
-
-## 关键词（最多 100 个字符）
-
-menamakan semula fail,penamaan semula pukal,alat penamaan semula,penamaan semula AI,pengatur fail
+Menamakan Fail Pukal menawarkan antara muka yang intuitif dan operasi mudah, menjadikan penamaan semula fail mudah dan cekap。

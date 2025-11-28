@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 波兰文版本
+# Google Play Console 内容 - 波兰文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Zmienianie Nazw Plików
 
-## 副标题（最多 30 个字符）
-
-Narzędzie do zmiany nazw z AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Potężne narzędzie do masowej zmiany nazw plików z funkcjami wstawiania, zastępowania, usuwania i przyrostowej zmiany nazw oraz inteligentna zmiana nazw oparta na AI.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Zmienianie Nazw Plików to potężne i łatwe w użyciu narzędzie do masowej zmiany nazw plików, zaprojektowane, aby pomóc Ci efektywnie zarządzać i zmieniać nazwy plików.
 
@@ -37,8 +33,4 @@ Zmienianie Nazw Plików to potężne i łatwe w użyciu narzędzie do masowej zm
 - Dodaj sekwencyjne numery lub daty do plików
 - Wyczyść niepotrzebne znaki w nazwach plików
 
-Zmienianie Nazw Plików oferuje intuicyjny interfejs i proste operacje, czyniąc zmianę nazw plików łatwą i efektywną.
-
-## 关键词（最多 100 个字符）
-
-zmiana nazw,masowa zmiana,narzędzie zmiany,AI zmiana,organizator,przetwarzanie,asystent
+Zmienianie Nazw Plików oferuje intuicyjny interfejs i proste operacje, czyniąc zmianę nazw plików łatwą i efektywną。

@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 克罗地亚文版本
+# Google Play Console 内容 - 克罗地亚文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Preimenovanje Datoteka
 
-## 副标题（最多 30 个字符）
-
-Alat za preimenovanje s AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Moćan alat za grupno preimenovanje datoteka s funkcijama umetanja, zamjene, brisanja i inkrementalnog preimenovanja, plus AI preimenovanje za upravljanje datotekama.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Preimenovanje Datoteka je moćan i jednostavan alat za grupno preimenovanje datoteka, dizajniran da vam pomogne učinkovito upravljati i preimenovati datoteke.
 
@@ -37,8 +33,4 @@ Preimenovanje Datoteka je moćan i jednostavan alat za grupno preimenovanje dato
 - Dodavanje sekvencijalnih brojeva ili datuma datotekama
 - Čišćenje nepotrebnih znakova u imenima datoteka
 
-Preimenovanje Datoteka nudi intuitivno sučelje i jednostavne operacije, čineći preimenovanje datoteka lakim i učinkovitim.
-
-## 关键词（最多 100 个字符）
-
-preimenovanje datoteke,grupno preimenovanje,alat preimenovanje,AI preimenovanje,grupna obrada
+Preimenovanje Datoteka nudi intuitivno sučelje i jednostavne operacije, čineći preimenovanje datoteka lakim i učinkovitim。

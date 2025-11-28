@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 意大利文版本
+# Google Play Console 内容 - 意大利文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Rinomina File in Batch
 
-## 副标题（最多 30 个字符）
-
-Strumento di rinomina con IA
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Potente strumento di rinomina file in batch con funzioni di inserimento, sostituzione, eliminazione e rinomina incrementale, oltre a rinomina intelligente basata sull'IA.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Rinomina File in Batch è uno strumento potente e facile da usare per la rinomina di file in batch, progettato per aiutarti a gestire e rinominare i file in modo efficiente.
 
@@ -37,8 +33,4 @@ Rinomina File in Batch è uno strumento potente e facile da usare per la rinomin
 - Aggiungere numeri sequenziali o date ai file
 - Pulire caratteri non necessari nei nomi dei file
 
-Rinomina File in Batch offre un'interfaccia intuitiva e operazioni semplici, rendendo la rinomina dei file facile ed efficiente.
-
-## 关键词（最多 100 个字符）
-
-rinomina file,rinomina batch,strumento rinomina,rinomina IA,organizzatore file
+Rinomina File in Batch offre un'interfaccia intuitiva e operazioni semplici, rendendo la rinomina dei file facile ed efficiente。

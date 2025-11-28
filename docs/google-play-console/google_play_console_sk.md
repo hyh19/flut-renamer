@@ -1,18 +1,14 @@
-# App Store Connect 内容 - 斯洛伐克文版本
+# Google Play Console 内容 - 斯洛伐克文版本
 
-## 名称（最多 30 个字符）
+## 应用名称（最多 30 个字符）
 
 Premenovanie Súborov
 
-## 副标题（最多 30 个字符）
-
-Nástroj na premenovanie s AI
-
-## 推广文本（最多 170 个字符）
+## 简短说明（最多 80 个字符）
 
 Výkonný nástroj na hromadné premenovanie súborov s funkciami vloženia, nahradenia, zmazania a prírastkového, plus AI premenovanie pre efektívnu správu súborov.
 
-## 描述
+## 完整说明（最多 4000 个字符）
 
 Premenovanie Súborov je výkonný a ľahko použiteľný nástroj na hromadné premenovanie súborov, navrhnutý tak, aby vám pomohol efektívne spravovať a premenovávať súbory.
 
@@ -37,8 +33,4 @@ Premenovanie Súborov je výkonný a ľahko použiteľný nástroj na hromadné 
 - Pridanie sekvenčných čísel alebo dátumov k súborom
 - Vyčistenie zbytočných znakov v názvoch súborov
 
-Premenovanie Súborov ponúka intuitívne rozhranie a jednoduché operácie, čím urobí premenovanie súborov ľahkým a efektívnym.
-
-## 关键词（最多 100 个字符）
-
-premenovanie súboru,hromadné premenovanie,AI premenovanie,nástroj premenovanie
+Premenovanie Súborov ponúka intuitívne rozhranie a jednoduché operácie, čím urobí premenovanie súborov ľahkým a efektívnym。
