@@ -6,7 +6,7 @@ Canvi de Nom d'Arxius
 
 ## 简短说明（最多 80 个字符）
 
-Eina de canvi de nom d'arxius per lots amb inserció, substitució, eliminació i canvi de nom incremental, a més de canvi de nom intel·ligent basat en IA.
+Canvi de nom d'arxius per lots amb inserció, substitució, eliminació i AI.
 
 ## 完整说明（最多 4000 个字符）
 
