@@ -6,7 +6,7 @@ Filnavn Omnavngivning
 
 ## 简短说明（最多 80 个字符）
 
-Kraftfuldt batch filnavn omnavngivningsværktøj med indsæt, erstat, slet og inkrementel omnavngivningsfunktioner, plus AI-drevet omnavngivning til effektiv filhåndtering.
+Batch filnavn omnavngivningsværktøj: indsæt, erstat, slet, inkrementel og AI.
 
 ## 完整说明（最多 4000 个字符）
 
