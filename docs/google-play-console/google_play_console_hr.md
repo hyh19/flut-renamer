@@ -6,7 +6,7 @@ Preimenovanje Datoteka
 
 ## 简短说明（最多 80 个字符）
 
-Moćan alat za grupno preimenovanje datoteka s funkcijama umetanja, zamjene, brisanja i inkrementalnog preimenovanja, plus AI preimenovanje za upravljanje datotekama.
+Grupno preimenovanje datoteka s umetanjem, zamjenom, brisanjem i AI podrškom.
 
 ## 完整说明（最多 4000 个字符）
 
