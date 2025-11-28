@@ -24,10 +24,7 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
@@ -60,4 +57,13 @@ class DefaultFirebaseOptions {
     storageBucket: 'batch-file-rename-assist-d9c8a.firebasestorage.app',
     iosBundleId: 'eth.hyh.batchfilerenameassistant',
   );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyANUv6oXbCD8t_s2ZkcazqRSGr0qzdJM-4',
+    appId: '1:715109880290:android:c7437d899989206bc5e9bb',
+    messagingSenderId: '715109880290',
+    projectId: 'batch-file-rename-assist-d9c8a',
+    storageBucket: 'batch-file-rename-assist-d9c8a.firebasestorage.app',
+  );
+
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "715109880290",
+    "project_id": "batch-file-rename-assist-d9c8a",
+    "storage_bucket": "batch-file-rename-assist-d9c8a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715109880290:android:c7437d899989206bc5e9bb",
+        "android_client_info": {
+          "package_name": "eth.hyh.batchfilerenameassistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANUv6oXbCD8t_s2ZkcazqRSGr0qzdJM-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
