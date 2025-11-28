@@ -6,7 +6,7 @@ Fájlátnevezés
 
 ## 简短说明（最多 80 个字符）
 
-Hatékony batch fájlátnevező eszköz beszúrás, csere, törlés és növekményes átnevezési funkciókkal, valamint AI-alapú intelligens átnevezéssel a hatékony fájlkezelésért.
+Batch fájlátnevező beszúrás, csere, törlés és AI támogatással.
 
 ## 完整说明（最多 4000 个字符）
 
