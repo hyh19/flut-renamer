@@ -6,7 +6,7 @@ Zmienianie Nazw Plików
 
 ## 简短说明（最多 80 个字符）
 
-Potężne narzędzie do masowej zmiany nazw plików z funkcjami wstawiania, zastępowania, usuwania i przyrostowej zmiany nazw oraz inteligentna zmiana nazw oparta na AI.
+Masowa zmiana nazw plików: wstawianie, zastępowanie, usuwanie i AI.
 
 ## 完整说明（最多 4000 个字符）
 

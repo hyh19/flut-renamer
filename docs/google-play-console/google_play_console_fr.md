@@ -6,7 +6,7 @@ Renommage de Fichiers
 
 ## 简短说明（最多 80 个字符）
 
-Outil de renommage de fichiers par lots avec insertion, remplacement, suppression et renommage incrémental, plus renommage intelligent par IA pour une gestion efficace.
+Renommage de fichiers par lots: insertion, remplacement, suppression et IA.
 
 ## 完整说明（最多 4000 个字符）
 

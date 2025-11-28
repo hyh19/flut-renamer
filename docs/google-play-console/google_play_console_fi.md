@@ -6,7 +6,7 @@ Tiedostojen Nimeäminen
 
 ## 简短说明（最多 80 个字符）
 
-Tehokas massanimeämistyökalu tiedostoille, jossa on lisäys-, korvaus-, poisto- ja lisäysnimeäminen, sekä AI-pohjainen älykäs nimeäminen tiedostojen hallintaan.
+Massanimeäminen: lisäys, korvaus, poisto ja AI.
 
 ## 完整说明（最多 4000 个字符）
 

@@ -6,7 +6,7 @@ Renombrado de Archivos
 
 ## 简短说明（最多 80 个字符）
 
-Potente herramienta de renombrado por lotes con inserción, reemplazo, eliminación y renombrado incremental, más renombrado inteligente con IA para gestión.
+Renombrado por lotes: inserción, reemplazo, eliminación y IA.
 
 ## 完整说明（最多 4000 个字符）
 

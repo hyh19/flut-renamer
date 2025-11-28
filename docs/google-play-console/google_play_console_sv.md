@@ -6,7 +6,7 @@ Filnamnbyte
 
 ## 简短说明（最多 80 个字符）
 
-Kraftfullt batch filnamnbyte verktyg med infogning, ersättning, radering och inkrementell omdöpningsfunktioner, plus AI-driven smart omdöpning för effektiv filhantering.
+Batch filnamnbyte: infogning, ersättning, radering och AI.
 
 ## 完整说明（最多 4000 个字符）
 

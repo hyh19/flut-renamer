@@ -6,7 +6,7 @@ Redenumire Fișiere
 
 ## 简短说明（最多 80 个字符）
 
-Instrument puternic de redenumire în lot cu inserare, înlocuire, ștergere și redenumire incrementală, plus AI pentru gestionare eficientă.
+Redenumire în lot: inserare, înlocuire, ștergere și AI.
 
 ## 完整说明（最多 4000 个字符）
 

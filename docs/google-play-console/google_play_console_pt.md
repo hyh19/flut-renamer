@@ -6,7 +6,7 @@ Renomeação de Arquivos
 
 ## 简短说明（最多 80 个字符）
 
-Ferramenta poderosa de renomeação em lote com inserção, substituição, exclusão e renomeação incremental, além de renomeação IA para gerenciamento eficiente.
+Renomeação em lote: inserção, substituição, exclusão e IA.
 
 ## 完整说明（最多 4000 个字符）
 

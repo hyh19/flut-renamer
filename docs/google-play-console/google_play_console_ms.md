@@ -6,7 +6,7 @@ Menamakan Fail Pukal
 
 ## 简短说明（最多 80 个字符）
 
-Alat penamaan semula fail pukal yang berkuasa dengan ciri masukkan, ganti, padam dan berturutan, ditambah penamaan semula berasaskan AI untuk pengurusan fail yang cekap.
+Penamaan semula fail pukal: masukkan, ganti, padam dan AI.
 
 ## 完整说明（最多 4000 个字符）
 

@@ -6,7 +6,7 @@
 
 ## 简短说明（最多 80 个字符）
 
-Công cụ đổi tên file hàng loạt mạnh mẽ với các tính năng chèn, thay thế, xóa và đổi tên tăng dần, cùng với đổi tên thông minh dựa trên AI để quản lý file hiệu quả.
+Đổi tên file hàng loạt: chèn, thay thế, xóa và AI.
 
 ## 完整说明（最多 4000 个字符）
 
