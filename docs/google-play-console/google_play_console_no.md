@@ -6,7 +6,7 @@ Filnavn Endring
 
 ## 简短说明（最多 80 个字符）
 
-Kraftig batch filnavn endringsverktøy med innsetting, erstatning, sletting og inkrementell endringsfunksjoner, pluss AI-drevet smart endring for effektiv filhåndtering.
+Batch filnavn endring: innsetting, erstatning, sletting og AI.
 
 ## 完整说明（最多 4000 个字符）
 

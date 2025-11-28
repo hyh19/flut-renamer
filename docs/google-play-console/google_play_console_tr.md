@@ -6,7 +6,7 @@ Dosya Yeniden Adlandırma
 
 ## 简短说明（最多 80 个字符）
 
-Ekleme, değiştirme, silme ve sıralı yeniden adlandırma özelliklerine sahip toplu dosya yeniden adlandırma aracı, AI destekli akıllı yeniden adlandırma.
+Toplu dosya yeniden adlandırma: ekleme, değiştirme, silme ve AI.
 
 ## 完整说明（最多 4000 个字符）
 

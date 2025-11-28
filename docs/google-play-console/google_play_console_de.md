@@ -6,7 +6,7 @@ Batch-Umbenennung
 
 ## 简短说明（最多 80 个字符）
 
-Batch-Dateiumbenennungstool mit Einfügen, Ersetzen, Löschen und inkrementeller Umbenennung sowie KI-gestützter intelligenter Umbenennung.
+Batch-Dateiumbenennung: Einfügen, Ersetzen, Löschen und KI.
 
 ## 完整说明（最多 4000 个字符）
 

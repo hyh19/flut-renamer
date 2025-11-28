@@ -6,7 +6,7 @@ Pengganti Nama File
 
 ## 简短说明（最多 80 个字符）
 
-Alat pengganti nama file batch dengan fitur sisipkan, ganti, hapus dan penggantian nama bertahap, penggantian nama pintar berbasis AI untuk manajemen file yang efisien.
+Pengganti nama file batch: sisipkan, ganti, hapus dan AI.
 
 ## 完整说明（最多 4000 个字符）
 

@@ -6,7 +6,7 @@ Přejmenování Souborů
 
 ## 简短说明（最多 80 个字符）
 
-Výkonný nástroj pro hromadné přejmenování souborů s funkcemi vložení, nahrazení, smazání a přírůstkového přejmenování, plus AI přejmenování pro efektivní správu.
+Hromadné přejmenování souborů: vložení, nahrazení, smazání a AI.
 
 ## 完整说明（最多 4000 个字符）
 

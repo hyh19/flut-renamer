@@ -6,7 +6,7 @@ Rinomina File in Batch
 
 ## 简短说明（最多 80 个字符）
 
-Potente strumento di rinomina file in batch con funzioni di inserimento, sostituzione, eliminazione e rinomina incrementale, oltre a rinomina intelligente basata sull'IA.
+Rinomina file in batch: inserimento, sostituzione, eliminazione e IA.
 
 ## 完整说明（最多 4000 个字符）
 
