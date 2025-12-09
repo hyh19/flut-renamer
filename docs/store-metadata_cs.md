@@ -1,14 +1,22 @@
-# Google Play Console 内容 - 捷克文版本
+# 应用商店元数据 - 捷克语版本
 
-## 应用名称（最多 30 个字符）
+## 应用名称（共用，最多 30 个字符）
 
 Přejmenování Souborů
 
-## 简短说明（最多 80 个字符）
+## 副标题（iOS 独有，最多 30 个字符）
+
+Nástroj pro přejmenování s AI
+
+## 推广文本（iOS 独有，最多 170 个字符）
+
+Výkonný nástroj pro hromadné přejmenování souborů s funkcemi vložení, nahrazení, smazání a přírůstkového přejmenování, plus AI přejmenování pro efektivní správu.
+
+## 简短说明（Android 独有，最多 80 个字符）
 
 Hromadné přejmenování souborů: vložení, nahrazení, smazání a AI.
 
-## 完整说明（最多 4000 个字符）
+## 完整说明（共用，最多 4000 个字符）
 
 Přejmenování Souborů je výkonný a snadno použitelný nástroj pro hromadné přejmenování souborů, navržený tak, aby vám pomohl efektivně spravovat a přejmenovávat soubory.
 
@@ -33,4 +41,4 @@ Přejmenování Souborů je výkonný a snadno použitelný nástroj pro hromadn
 - Přidání sekvenčních čísel nebo dat k souborům
 - Vyčištění zbytečných znaků v názvech souborů
 
-Přejmenování Souborů nabízí intuitivní rozhraní a jednoduché operace, což činí přejmenování souborů snadným a efektivním。
+Přejmenování Souborů nabízí intuitivní rozhraní a jednoduché operace, což činí přejmenování souborů snadným a efektivním.
